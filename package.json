@@ -1,0 +1,43 @@
+{
+  "name": "@quaestor/policy",
+  "version": "0.1.0",
+  "description": "Local-only policy LLM plugin for quaestor-core. Evaluates mandate redemptions against natural-language intent. Holds zero keys; intent text never leaves the device.",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "exports": {
+    ".": "./dist/src/index.js"
+  },
+  "bin": {
+    "quaestor-policy": "./bin/run.js"
+  },
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "lint": "biome check src test eval examples",
+    "format": "biome format --write src test eval examples",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "tsx eval/run.ts",
+    "demo": "tsx examples/demo-eval.ts",
+    "prepare": "[ -f tsconfig.json ] && tsc -p tsconfig.json || true"
+  },
+  "dependencies": {
+    "node-llama-cpp": "^3.4.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
