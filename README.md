@@ -1,20 +1,18 @@
 # @quaestor/policy
 
+## Demo
+
+<video src="https://github.com/Kabukich0/quaestor-demos/releases/download/v0.2.0/phase-2.0.mp4" controls width="100%"></video>
+
+Phase 2.0 — Local policy LLM (latest). Intent enforcement, locally.
+[Watch](https://github.com/Kabukich0/quaestor-demos/releases/tag/v0.2.0) · [Phase 1.5a](https://github.com/Kabukich0/quaestor-demos/releases/tag/v0.1.5a)
+
 Local-only policy LLM plugin for [quaestor-core](https://github.com/Kabukich0/quaestor-core).
 Evaluates mandate redemptions against a natural-language **intent** the user
 attached at issuance time, returning an approve/reject verdict + confidence
 that quaestor-core's signing pipeline can act on.
 
 The plugin holds **zero keys**. Same trust boundary as the bridge.
-
-## Demo
-
-<video src="https://github.com/Kabukich0/quaestor-demos/releases/download/v0.1.5a/phase-1.5a.mp4" controls width="100%"></video>
-
-Phase 1.5a — First on-chain mandate settlement on Base Sepolia.
-[Watch](https://github.com/Kabukich0/quaestor-demos/releases/tag/v0.1.5a) · [Tx](https://sepolia.basescan.org/tx/0xbaeb93856c4a660e06d0733b53f67c60d1fa59667fd5810e0c82cbf86ba8ac56)
-
-Latest: [v0.2.0 — local policy LLM](https://github.com/Kabukich0/quaestor-demos/releases/tag/v0.2.0) · [eval set](https://github.com/Kabukich0/quaestor-policy/blob/main/eval/cases.json)
 
 ## Why local
 
