@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "633f0ff7-568e-47a4-a83d-843195f758b8",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Abstract Teams \u2014 2.10 USDC \u2014 version control and design asset management for our product design team",
+    "amount": 2.1,
+    "currency": "USDC",
+    "merchant": "Abstract Teams",
+    "merchant_description": "Version control and collaboration for design files",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Abstract provides version control for design files \u2014 a developer-adjacent operational tool for product teams. Policy allows 'developer-tools' and 'operational-tools'; design version control qualifies. 2.10 USDC within the 4 limit."
+  },
+  {
+    "id": "d74f3369-cb75-42e8-b7bc-0a87d57d6236",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Lottiefiles Premium \u2014 1,260 EUR \u2014 animation library and Lottie asset management for our product UI",
+    "amount": 1260.0,
+    "currency": "EUR",
+    "merchant": "Lottiefiles Premium",
+    "merchant_description": "Animation file format and asset platform for apps",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lottiefiles provides animation assets used in app development \u2014 a developer tool for UI design. Category 'developer-tools' is allowed; UI asset platforms qualify. 1,260 EUR within the 1,800 limit."
+  },
+  {
+    "id": "b8b175cb-56ca-47d6-8164-c04ecb198307",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "HubSpot Marketing \u2014 209 USD \u2014 marketing automation, landing pages, and email campaign platform",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "HubSpot Marketing",
+    "merchant_description": "Marketing automation and campaign management by HubSpot",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "HubSpot Marketing is a marketing automation platform \u2014 an operational tool for marketing functions. Policy allows 'operational-tools'; marketing software qualifies. 209 USD within the 995 limit."
+  },
+  {
+    "id": "60eb0713-a82e-4300-a288-acfcb0657b2c",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "ActiveCampaign Plus \u2014 0.52 USDC \u2014 email marketing automation and CRM for customer lifecycle campaigns",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "ActiveCampaign Plus",
+    "merchant_description": "Email marketing and CRM automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ActiveCampaign provides email marketing and lifecycle automation \u2014 an operational tool for marketing and sales. Category 'operational-tools' is allowed; email marketing platforms qualify. 0.52 USDC within the 1 limit."
+  },
+  {
+    "id": "a42f2045-f418-44da-b2b4-0c6b7f66892c",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Beehiiv Scale \u2014 0.52 ETH \u2014 newsletter publishing and subscriber monetization platform for our company blog",
+    "amount": 0.52,
+    "currency": "ETH",
+    "merchant": "Beehiiv Scale",
+    "merchant_description": "Newsletter publishing and growth platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.75,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Beehiiv is a newsletter publishing platform \u2014 an operational tool for content marketing. Policy allows 'operational-tools'; newsletter infrastructure qualifies. 0.52 ETH within the 0.75 limit."
+  },
+  {
+    "id": "2e412f3e-c83a-4633-bd1f-04652132367e",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "ConvertKit Pro \u2014 944 USD \u2014 email list management, sequences, and landing pages for our developer audience",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "ConvertKit Pro",
+    "merchant_description": "Email marketing platform for creators and developers",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ConvertKit is an email marketing and audience management tool \u2014 an operational tool for community and marketing. Policy allows 'operational-tools'; email marketing software qualifies. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "7349c785-0bae-4448-88b0-c0abe0f23515",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Buffer Publish \u2014 21 USD \u2014 social media scheduling and publishing for our product launch campaigns",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "Buffer Publish",
+    "merchant_description": "Social media scheduling and analytics tool",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Buffer is a social media scheduling tool \u2014 an operational tool for marketing and content distribution. Category 'operational-tools' is allowed; social media management software qualifies. 21 USD within the 60 limit."
+  },
+  {
+    "id": "a95c8d80-9726-4f03-b721-c6c2c8c60e5b",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Hootsuite Business \u2014 1.57 USD \u2014 social media management and scheduling platform for our marketing team",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "Hootsuite Business",
+    "merchant_description": "Social media management for business teams",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hootsuite manages social media publishing and scheduling \u2014 an operational tool for marketing operations. Policy allows 'operational-tools'; social media management qualifies. 1.57 USD within the 3 limit."
+  },
+  {
+    "id": "282d2ad0-d6b2-477a-9f87-b9ff7d316e34",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Later Growth \u2014 3,150 USDC \u2014 visual social media scheduling and link-in-bio platform for our brand",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Later Growth",
+    "merchant_description": "Visual social media scheduling and content planning",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Later is a visual social media scheduling tool \u2014 an operational tool for content marketing. Category 'operational-tools' is allowed; social media planning platforms qualify. 3,150 USDC within the 4,500 limit."
+  },
+  {
+    "id": "0d0b5f33-9975-44f2-831c-e6230716b1e7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Sprout Social \u2014 419 USD \u2014 social media management, listening, and analytics for our customer-facing channels",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Sprout Social",
+    "merchant_description": "Social media management and listening platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sprout Social provides social media management and analytics \u2014 an operational tool for marketing teams. Policy allows 'operational-tools'; social media management software qualifies. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "cbeef305-cdee-463d-bbec-e8f883a0f5dc",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Brand24 \u2014 42 USD \u2014 social listening and brand mention monitoring for our product and support teams",
+    "amount": 42.0,
+    "currency": "USD",
+    "merchant": "Brand24",
+    "merchant_description": "Social media monitoring and brand listening tool",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Brand24 provides social listening and brand mention tracking \u2014 an operational tool for marketing and support. Policy allows 'operational-tools'; brand monitoring software qualifies. 42 USD within the 120 limit."
+  },
+  {
+    "id": "b686a773-ec7e-4f52-a59f-0503fe37653f",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Mixpanel Growth \u2014 5.24 USD \u2014 product analytics and user behavior tracking for our web application",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Mixpanel Growth",
+    "merchant_description": "Product analytics and event tracking platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mixpanel provides product analytics and event tracking \u2014 a developer tool for understanding user behavior. Policy allows 'developer-tools'; product analytics qualifies. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "ed183c73-d9a7-42be-8d53-e74f028aba9f",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Amplitude Starter \u2014 5,250 USDC \u2014 product analytics, funnel analysis, and retention tracking for our app",
+    "amount": 5250.0,
+    "currency": "USDC",
+    "merchant": "Amplitude Starter",
+    "merchant_description": "Digital analytics and product intelligence platform",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Amplitude is a product analytics platform \u2014 a developer tool for measuring product usage and user retention. Category 'developer-tools' is allowed; product intelligence platforms qualify. 5,250 USDC within the 7,500 limit."
+  },
+  {
+    "id": "66affcdf-1728-4f68-820f-cdb93fb9e37d",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Segment Teams \u2014 79 USD \u2014 customer data platform and event streaming for our analytics infrastructure",
+    "amount": 79.0,
+    "currency": "USD",
+    "merchant": "Segment Teams",
+    "merchant_description": "Customer data platform and event routing by Twilio",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Segment is a customer data platform routing events to analytics tools \u2014 a developer tool for data infrastructure. Policy allows 'developer-tools'; CDP infrastructure qualifies. 79 USD within the 225 limit."
+  },
+  {
+    "id": "2b95cefc-c15d-44f1-9c84-4221d4cb6619",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "June Analytics \u2014 1.04 USD \u2014 B2B product analytics and company-level retention for our SaaS metrics dashboard",
+    "amount": 1.04,
+    "currency": "USD",
+    "merchant": "June Analytics",
+    "merchant_description": "B2B product analytics built on Segment",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "June provides B2B product analytics and company-level metrics \u2014 a developer tool for SaaS product teams. Category 'developer-tools' is allowed; product analytics qualifies. 1.04 USD within the 2 limit."
+  },
+  {
+    "id": "268ab506-03e8-41d4-9039-62d0cffd487c",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Heap Analytics \u2014 10,500 USDC \u2014 auto-capture analytics platform for retroactive user behavior analysis",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "Heap Analytics",
+    "merchant_description": "Auto-capture digital analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Heap provides auto-capture product analytics \u2014 a developer tool for retroactive behavior analysis. Policy allows 'developer-tools'; digital analytics platforms qualify. 10,500 USDC within the 15,000 limit."
+  },
+  {
+    "id": "f748a42c-e2c8-460d-97a4-165db83658e1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "FullStory Pro \u2014 0.42 ETH \u2014 session replay and digital experience analytics for our product team",
+    "amount": 0.42,
+    "currency": "ETH",
+    "merchant": "FullStory Pro",
+    "merchant_description": "Session replay and digital experience intelligence",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "FullStory provides session replay and experience analytics \u2014 a developer tool for UX debugging and product optimization. Category 'developer-tools' is allowed; experience analytics qualifies. 0.42 ETH within the 2 limit."
+  },
+  {
+    "id": "bc9c3049-19e7-4478-b4a2-7d0f93f634bb",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Hotjar Business \u2014 5.25 USD \u2014 heatmaps, session recordings, and user feedback for our web app",
+    "amount": 5.25,
+    "currency": "USD",
+    "merchant": "Hotjar Business",
+    "merchant_description": "Heatmaps and session recording for UX insights",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hotjar provides heatmaps and session recordings \u2014 a developer tool for UX research and product improvements. Policy allows 'developer-tools'; UX analytics software qualifies. 5.25 USD within the 15 limit."
+  },
+  {
+    "id": "d7630ed6-2ed2-4c3d-8c42-41691d8f9168",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "LogRocket Teams \u2014 2.10 USD \u2014 frontend monitoring, session replay, and error tracking for our React app",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "LogRocket Teams",
+    "merchant_description": "Frontend monitoring and session replay platform",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LogRocket provides frontend monitoring and error tracking \u2014 a developer tool for debugging production web apps. Category 'developer-tools' is allowed; frontend monitoring qualifies. 2.10 USD within the 4 limit."
+  },
+  {
+    "id": "7ae7665c-07d6-4705-a185-2ba4d71f4760",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Smartlook Business \u2014 1,260 USD \u2014 session recordings and event analytics for our mobile and web products",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Smartlook Business",
+    "merchant_description": "Session recording and product analytics for web and mobile",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Smartlook provides session recording and event analytics \u2014 a developer tool for understanding user interactions. Policy allows 'developer-tools'; session analytics platforms qualify. 1,260 USD within the 1,800 limit."
+  },
+  {
+    "id": "2ede3703-736f-4076-9597-14d6741dc217",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Ahrefs Agency \u2014 419 USDC \u2014 SEO analytics, backlink analysis, and keyword research platform for our content team",
+    "amount": 419.0,
+    "currency": "USDC",
+    "merchant": "Ahrefs Agency",
+    "merchant_description": "SEO toolset for backlink analysis and keyword research",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ahrefs is an SEO analytics platform \u2014 an operational tool for content and marketing teams. Policy allows 'operational-tools'; SEO software qualifies. 419 USDC within the 1,995 limit."
+  },
+  {
+    "id": "6697e263-73bf-4c86-b167-93561febbbfe",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Semrush Pro \u2014 15.75 USD \u2014 SEO, content marketing, and competitive intelligence platform",
+    "amount": 15.75,
+    "currency": "USD",
+    "merchant": "Semrush Pro",
+    "merchant_description": "All-in-one SEO and competitive research suite",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Semrush provides SEO and competitive research \u2014 an operational tool for marketing and content strategy. Category 'operational-tools' is allowed; SEO tooling qualifies. 15.75 USD within the 45 limit."
+  },
+  {
+    "id": "3cd8dea5-1419-413a-84eb-c48ee09462b5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Moz Pro \u2014 0.52 USD \u2014 SEO ranking analysis, link building, and keyword tracking subscription",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "Moz Pro",
+    "merchant_description": "SEO analytics and rank tracking by Moz",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Moz Pro is an SEO analytics tool \u2014 an operational tool for organic search and content performance. Policy allows 'operational-tools'; SEO software qualifies. 0.52 USD within the 1 limit."
+  },
+  {
+    "id": "ae31fd55-85ae-42fb-90d6-3867245fc270",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Surfer SEO \u2014 2,100 USD \u2014 content optimization and SERP analysis for our editorial team's articles",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Surfer SEO",
+    "merchant_description": "Content optimization and SEO writing tool",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Surfer SEO optimizes content for search engines \u2014 an operational tool for content marketing. Policy allows 'operational-tools'; content SEO platforms qualify. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "ae1afc89-518a-4510-af55-e62f55e712b8",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Clearscope Pro \u2014 209 USDC \u2014 AI content optimization and keyword targeting for our blog and docs",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "Clearscope Pro",
+    "merchant_description": "AI content optimization and SEO research",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Clearscope provides AI content optimization for SEO \u2014 an operational tool for content teams. Category 'operational-tools' is allowed; content optimization software qualifies. 209 USDC within the 995 limit."
+  },
+  {
+    "id": "c408a6c5-df38-4a6e-a943-c7e25ca27c79",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Frase Pro \u2014 0.0052 ETH \u2014 AI research and content brief generation for our editorial workflow",
+    "amount": 0.0052,
+    "currency": "ETH",
+    "merchant": "Frase Pro",
+    "merchant_description": "AI content research and briefing tool",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Frase provides AI content research and briefing \u2014 an operational tool for content marketing. Policy allows 'operational-tools'; AI writing research tools qualify. 0.0052 ETH within the 0.015 limit."
+  },
+  {
+    "id": "8f6dc9f3-9f69-41b2-813d-39bce1ed6ed8",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Screaming Frog SEO Spider \u2014 1.57 USD \u2014 technical SEO crawling and site audit tool for our web properties",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "Screaming Frog SEO",
+    "merchant_description": "Technical SEO crawling and site audit tool",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Screaming Frog crawls sites for technical SEO issues \u2014 an operational tool for web and SEO teams. Category 'operational-tools' is allowed; technical SEO tools qualify. 1.57 USD within the 3 limit."
+  },
+  {
+    "id": "ff5c7f4b-596e-49aa-96b4-26ee99171003",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "SimilarWeb Pro \u2014 3,150 USD \u2014 competitor traffic intelligence and digital market research platform",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "SimilarWeb Pro",
+    "merchant_description": "Digital intelligence and traffic analytics",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SimilarWeb provides competitive traffic intelligence \u2014 an operational tool for market research and growth. Policy allows 'operational-tools'; digital analytics and competitive research qualifies. 3,150 USD within the 4,500 limit."
+  },
+  {
+    "id": "99a78c2b-14bc-45cc-9000-88d7707e37ca",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "SpyFu Professional \u2014 944 USDC \u2014 competitor keyword and ad intelligence for our paid and organic search strategy",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "SpyFu Professional",
+    "merchant_description": "Competitor keyword and PPC intelligence",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SpyFu provides competitor keyword and advertising intelligence \u2014 an operational tool for search marketing. Policy allows 'operational-tools'; competitive search analytics qualify. 944 USDC within the 4,495 limit."
+  },
+  {
+    "id": "1b1b4879-6279-4e80-b82d-58f6926cf11d",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Mangools Pro \u2014 0.315 ETH \u2014 keyword research and SERP analysis toolset for our SEO team",
+    "amount": 0.315,
+    "currency": "ETH",
+    "merchant": "Mangools Pro",
+    "merchant_description": "Keyword research and SERP analytics suite",
+    "policy_state": {
+      "max_amount_per_tx": 0.9,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mangools provides keyword research and SERP analysis \u2014 an operational tool for SEO and content teams. Category 'operational-tools' is allowed; keyword research tooling qualifies. 0.315 ETH within the 0.9 limit."
+  },
+  {
+    "id": "ed02936e-6ed2-444e-b83b-925436fbd00a",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Jasper Business \u2014 5.24 USD \u2014 AI content generation and brand voice platform for our marketing team",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Jasper Business",
+    "merchant_description": "AI writing assistant for marketing teams",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Jasper is an AI writing and content generation tool \u2014 an operational tool for marketing and content teams. Policy allows 'operational-tools'; AI writing assistants qualify. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "b0fe331b-c02e-4423-bb2e-f60c3bb6ed51",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Copy.ai Teams \u2014 5,250 USD \u2014 AI copywriting and marketing content generation for campaigns and product pages",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "Copy.ai Teams",
+    "merchant_description": "AI copywriting and content generation platform",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Copy.ai provides AI-generated marketing copy \u2014 an operational tool for content and marketing teams. Category 'operational-tools' is allowed; AI copywriting platforms qualify. 5,250 USD within the 7,500 limit."
+  },
+  {
+    "id": "0e6adeb7-ee66-4ef6-bcbc-39cf2d670287",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Gamma Pro \u2014 419 USD \u2014 AI presentation and document creation platform for our team's internal and external decks",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Gamma Pro",
+    "merchant_description": "AI presentation and document builder",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gamma creates AI-powered presentations and documents \u2014 an operational tool for business communications. Policy allows 'operational-tools'; presentation tooling qualifies. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "519fd37f-fb48-40b8-9979-55ade099f4cc",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Writesonic Agency \u2014 104 USDC \u2014 AI content generation and SEO-optimized article writing at scale",
+    "amount": 104.0,
+    "currency": "USDC",
+    "merchant": "Writesonic Agency",
+    "merchant_description": "AI writing and content creation platform",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Writesonic provides AI content generation for marketing \u2014 an operational tool for content teams. Category 'operational-tools' is allowed; AI writing software qualifies. 104 USDC within the 297 limit."
+  },
+  {
+    "id": "f5701bd7-5164-41ed-9094-a8a6ac2271ea",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Tome Pro \u2014 1.04 USD \u2014 AI-native storytelling and presentation tool for pitch decks and product narratives",
+    "amount": 1.04,
+    "currency": "USD",
+    "merchant": "Tome Pro",
+    "merchant_description": "AI-native storytelling and deck creator",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tome creates AI-powered presentations and narratives \u2014 an operational tool for business storytelling. Policy allows 'operational-tools'; AI presentation software qualifies. 1.04 USD within the 2 limit."
+  },
+  {
+    "id": "a1bf65ae-c09c-4ac5-876e-057d8ac39466",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lex Editor \u2014 10,500 USD \u2014 AI writing tool for long-form documents, essays, and technical content",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Lex Editor",
+    "merchant_description": "AI-powered writing editor for long-form content",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lex is an AI writing editor for long-form content \u2014 an operational tool for content and documentation teams. Category 'operational-tools' is allowed; AI writing tools qualify. 10,500 USD within the 15,000 limit."
+  },
+  {
+    "id": "afb57f63-0261-443d-8075-046f4de53949",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Notion AI Teams \u2014 209 USD \u2014 AI-enhanced team wiki, project management, and knowledge base platform",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Notion AI Teams",
+    "merchant_description": "All-in-one workspace with AI by Notion",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Notion AI provides team workspace, wiki, and project management \u2014 an operational tool for team collaboration. Policy allows 'operational-tools'; workspace and knowledge management platforms qualify. 209 USD within the 995 limit."
+  },
+  {
+    "id": "c00fe4b1-b1de-4a71-a19e-99c8f38da9ad",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Coda Teams \u2014 10.50 USDC \u2014 collaborative doc and spreadsheet platform for team workflows and databases",
+    "amount": 10.5,
+    "currency": "USDC",
+    "merchant": "Coda Teams",
+    "merchant_description": "Doc and spreadsheet collaboration with workflow automation",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Coda is a collaborative docs and workflow platform \u2014 an operational tool for team productivity. Policy allows 'operational-tools'; collaboration and workflow software qualifies. 10.50 USDC within the 30 limit."
+  },
+  {
+    "id": "8d0cf67f-fd8d-461e-864a-7ba7be751f4e",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Confluence Standard \u2014 0.00105 ETH \u2014 team documentation and knowledge management for engineering and ops",
+    "amount": 0.00105,
+    "currency": "ETH",
+    "merchant": "Confluence Standard",
+    "merchant_description": "Team wiki and documentation by Atlassian",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Confluence is a team documentation and wiki platform \u2014 an operational tool for knowledge management. Category 'operational-tools' is allowed; documentation software qualifies. 0.00105 ETH within the 0.002 limit."
+  },
+  {
+    "id": "05a81679-a532-4e17-bc2a-32302b79fef1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Slab Teams \u2014 1,260 USD \u2014 modern knowledge base and internal wiki for engineering and product teams",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Slab Teams",
+    "merchant_description": "Internal wiki and knowledge base platform",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Slab is a knowledge base and internal wiki \u2014 an operational tool for documentation and team learning. Policy allows 'operational-tools'; knowledge management platforms qualify. 1,260 USD within the 1,800 limit."
+  },
+  {
+    "id": "dbc26a69-14fd-477b-beeb-01d23e74916e",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Loom Business \u2014 21 USDC \u2014 async video communication and screen recording for remote team collaboration",
+    "amount": 21.0,
+    "currency": "USDC",
+    "merchant": "Loom Business",
+    "merchant_description": "Async video messaging and screen recording",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Loom provides async video messaging for remote teams \u2014 an operational tool for team communication. Category 'operational-tools' is allowed; async communication platforms qualify. 21 USDC within the 60 limit."
+  },
+  {
+    "id": "875b0878-4a84-43d1-9d56-e131c50644ca",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Zoom Pro \u2014 0.52 USDC \u2014 video conferencing and webinar platform for team meetings and customer calls",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Zoom Pro",
+    "merchant_description": "Video conferencing and webinar platform",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Zoom is a video conferencing platform \u2014 an operational tool for team and customer communication. Policy allows 'operational-tools'; video conferencing infrastructure qualifies. 0.52 USDC within the 1 limit."
+  },
+  {
+    "id": "cbad0a61-21d2-4bde-bfc9-beb8c9a54b6a",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Butter App \u2014 2,100 USD \u2014 collaborative workshop and virtual meeting facilitation platform for team offsites",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Butter App",
+    "merchant_description": "Collaborative virtual meeting and workshop platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Butter is a virtual workshop facilitation platform \u2014 an operational tool for team engagement and remote collaboration. Category 'operational-tools' is allowed; virtual meeting tools qualify. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "12d57775-7da3-4fcc-aebf-f7ff8b618ec6",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Miro Teams \u2014 419 USD \u2014 online whiteboard and visual collaboration for product planning and team workshops",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Miro Teams",
+    "merchant_description": "Online whiteboard and visual collaboration platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Miro is a collaborative whiteboard platform \u2014 an operational tool for visual brainstorming and planning. Policy allows 'operational-tools'; visual collaboration platforms qualify. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "7c64f78a-b10c-417b-b519-8c62c4db532f",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Whimsical Teams \u2014 42 USD \u2014 flowcharts, wireframes, and mind maps for product planning and system design",
+    "amount": 42.0,
+    "currency": "USD",
+    "merchant": "Whimsical Teams",
+    "merchant_description": "Visual collaboration with flowcharts and wireframes",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Whimsical provides flowcharts and wireframes for planning \u2014 an operational tool for product and engineering teams. Category 'operational-tools' is allowed; visual planning tools qualify. 42 USD within the 120 limit."
+  },
+  {
+    "id": "6253e1d9-f74e-482a-98e3-a185d92175db",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lucidchart Teams \u2014 1.57 USDC \u2014 diagramming and architecture visualization for engineering and product teams",
+    "amount": 1.57,
+    "currency": "USDC",
+    "merchant": "Lucidchart Teams",
+    "merchant_description": "Diagramming and visual communication suite",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lucidchart is a diagramming and architecture visualization tool \u2014 an operational tool for engineering documentation. Policy allows 'operational-tools'; diagramming software qualifies. 1.57 USDC within the 3 limit."
+  },
+  {
+    "id": "af8e71f9-dd1d-4919-954c-955024a6b43f",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Excalidraw Plus \u2014 3,150 USDT \u2014 collaborative virtual whiteboard and hand-drawn diagram tool for technical planning",
+    "amount": 3150.0,
+    "currency": "USDT",
+    "merchant": "Excalidraw Plus",
+    "merchant_description": "Open-source virtual whiteboard with collaboration",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Excalidraw provides collaborative whiteboarding \u2014 an operational tool for technical planning and design. Category 'operational-tools' is allowed; whiteboard tools qualify. 3,150 USDT within the 4,500 limit."
+  },
+  {
+    "id": "b5a4fa76-f5f1-415b-b679-51adc20abf7a",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Mural Business \u2014 209 USD \u2014 digital workspace and visual collaboration platform for design thinking workshops",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Mural Business",
+    "merchant_description": "Digital workspace for visual collaboration",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mural is a visual collaboration workspace \u2014 an operational tool for design thinking and team workshops. Policy allows 'operational-tools'; visual collaboration platforms qualify. 209 USD within the 995 limit."
+  },
+  {
+    "id": "df75c9f2-c960-4b4f-8af3-59dd1041dd2d",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "FigJam Teams \u2014 79 USD \u2014 collaborative whiteboard and brainstorming tool built into our Figma workspace",
+    "amount": 79.0,
+    "currency": "USD",
+    "merchant": "FigJam Teams",
+    "merchant_description": "Collaborative whiteboard by Figma",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "FigJam is a collaborative whiteboard integrated with Figma \u2014 an operational tool for design and brainstorming. Category 'operational-tools' is allowed; collaborative whiteboard tools qualify. 79 USD within the 225 limit."
+  },
+  {
+    "id": "48d672e3-602f-4954-83ad-72b80c35a53c",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Coursera for Business \u2014 5.24 USDC \u2014 employee learning and professional development platform for team upskilling",
+    "amount": 5.24,
+    "currency": "USDC",
+    "merchant": "Coursera for Business",
+    "merchant_description": "Enterprise learning platform with online courses",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Coursera for Business provides employee professional development \u2014 a learning platform and operational tool for team capability. Policy allows 'education' and 'operational-tools'; employee training platforms qualify. 5.24 USDC within the 10 limit."
+  }
+]

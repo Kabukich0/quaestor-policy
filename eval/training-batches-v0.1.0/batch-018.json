@@ -1,0 +1,902 @@
+[
+  {
+    "id": "c4a1c3e5-c4a1-4c11-c3e5-c4a1c3e5c4a1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "DefiEdge Strategy — 0.1638 ETH for multi-pool USDC LP allocation via automated strategy.",
+    "amount": 0.1638,
+    "currency": "ETH",
+    "merchant": "DefiEdge Strategy",
+    "merchant_description": "Automated multi-pool LP strategy manager for concentrated liquidity AMMs",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["DefiEdge strategies allowed for multi-pool USDC LP allocation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names DefiEdge strategies for multi-pool USDC LP allocation. 0.1638 ETH within the 0.3 limit."
+  },
+  {
+    "id": "d6b3e5f7-d6b3-4d22-e5f7-d6b3e5f7d6b3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Revert Finance — 11073.00 USDC for Uniswap V3 position auto-compounding.",
+    "amount": 11073.00,
+    "currency": "USDC",
+    "merchant": "Revert Finance",
+    "merchant_description": "Auto-compounding tool for Uniswap V3 concentrated LP positions",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Revert Finance allowed for Uniswap V3 position auto-compounding"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Revert Finance covering Uniswap V3 position auto-compounding. 11073.00 USDC within the 15000 cap."
+  },
+  {
+    "id": "e8d5f7a9-e8d5-4e33-f7a9-e8d5f7a9e8d5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sommelier Turbo STETH — 0.54 USDT for leveraged liquid staking yield vault.",
+    "amount": 0.54,
+    "currency": "USDT",
+    "merchant": "Sommelier Turbo STETH",
+    "merchant_description": "Leveraged liquid staking yield strategy vault using Cellar architecture",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Sommelier Turbo STETH allowed for leveraged liquid staking yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Sommelier Turbo STETH authorized for leveraged liquid staking yield. 0.54 USDT within the 2 cap."
+  },
+  {
+    "id": "f0f7a9b1-f0f7-4f44-a9b1-f0f7a9b1f0f7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Origin OETH — 47.30 USDC for yield-generating ETH equivalent holding.",
+    "amount": 47.30,
+    "currency": "USDC",
+    "merchant": "Origin OETH",
+    "merchant_description": "Yield-bearing ETH equivalent token backed by a mix of liquid staking and AMM yield",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Origin OETH allowed for yield-generating ETH equivalent holding"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Origin OETH is listed as a named exception in the policy for yield-generating ETH equivalent holding. 47.30 USDC within the 100 limit."
+  },
+  {
+    "id": "a1a9b1d3-a1a9-4a55-b1d3-a1a9b1d3a1a9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stader MaticX — 0.0091 ETH for Polygon liquid staking yield via MaticX.",
+    "amount": 0.0091,
+    "currency": "ETH",
+    "merchant": "Staderlabs MATICX",
+    "merchant_description": "Polygon liquid staking protocol issuing MaticX for staking yield",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Stader MaticX allowed for Polygon liquid staking yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Stader MaticX authorized for Polygon liquid staking yield. 0.0091 ETH within the 0.015 cap."
+  },
+  {
+    "id": "b3b1d3f5-b3b1-4b66-d3f5-b3b1d3f5b3b1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Perpetual Protocol V2 — 2214.50 USDC for vAMM-based perpetual hedging position.",
+    "amount": 2214.50,
+    "currency": "USDC",
+    "merchant": "Perpetual Protocol V2",
+    "merchant_description": "vAMM-based perpetual DEX for leveraged crypto positions without order books",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Perpetual Protocol V2 allowed for vAMM-based perp hedging"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names Perpetual Protocol V2 as permitted for vAMM-based perp hedging. 2214.50 USDC within the 6000 ceiling."
+  },
+  {
+    "id": "c5d3f5a7-c5d3-4c77-f5a7-c5d3f5a7c5d3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cap Finance — 5.63 USDC for Arbitrum-native leveraged position hedging.",
+    "amount": 5.63,
+    "currency": "USDC",
+    "merchant": "Cap Finance",
+    "merchant_description": "Arbitrum-native leveraged trading protocol for crypto delta hedging",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Cap Finance allowed for Arbitrum-native leveraged position hedging"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cap Finance sits under the mandate's explicit allowance for Arbitrum-native leveraged position hedging. 5.63 USDC within the 10 cap."
+  },
+  {
+    "id": "d7f5a7b9-d7f5-4d88-a7b9-d7f5a7b9d7f5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Pear Protocol — 113.40 USDC for delta-neutral pair trade hedging.",
+    "amount": 113.40,
+    "currency": "USDC",
+    "merchant": "Pear Protocol",
+    "merchant_description": "Pair trade protocol for executing delta-neutral long/short positions on-chain",
+    "policy_state": {
+      "max_amount_per_tx": 149,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Pear Protocol pair trades allowed for delta-neutral hedging"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Pear Protocol pair trades for delta-neutral hedging. 113.40 USDC within the 149 limit."
+  },
+  {
+    "id": "e9a7b9d1-e9a7-4e99-b9d1-e9a7b9d1e9a7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Panoptic Protocol — 0.4387 ETH for perpetual options on concentrated LP positions.",
+    "amount": 0.4387,
+    "currency": "ETH",
+    "merchant": "Panoptic Protocol",
+    "merchant_description": "Perpetual options protocol built on Uniswap V3 LP positions",
+    "policy_state": {
+      "max_amount_per_tx": 1.2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Panoptic Protocol allowed for perpetual options on LP positions"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants Panoptic Protocol use for perpetual options on LP positions. 0.4387 ETH within the 1.2 cap."
+  },
+  {
+    "id": "f1b9d1f3-f1b9-4fa0-d1f3-f1b9d1f3f1b9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stryke (Dopex V2) CLAMM — 5247.00 USDT for LP-collateral option writing yield.",
+    "amount": 5247.00,
+    "currency": "USDT",
+    "merchant": "Stryke (Dopex V2)",
+    "merchant_description": "Concentrated liquidity AMM options protocol for writing LP-backed options",
+    "policy_state": {
+      "max_amount_per_tx": 10000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Stryke CLAMM options allowed for LP-collateral option writing"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Stryke CLAMM options for LP-collateral option writing. 5247.00 USDT within the 10000 ceiling."
+  },
+  {
+    "id": "a2d1f3a5-a2d1-4ab1-f3a5-a2d1f3a5a2d1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "0x Matcha — 2.18 USDC for gas-optimized swap routing via aggregated liquidity.",
+    "amount": 2.18,
+    "currency": "USDC",
+    "merchant": "0x Matcha",
+    "merchant_description": "DEX aggregator using 0x protocol for gas-optimized USDC swap routing",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["0x Matcha aggregator allowed for gas-optimized USDC swap routing"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, 0x Matcha aggregator is authorized for gas-optimized USDC swap routing. 2.18 USDC within the 3 cap."
+  },
+  {
+    "id": "b4f3a5b7-b4f3-4bc2-a5b7-b4f3a5b7b4f3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "ParaSwap V5 — 9.25 USDC for multipath swap execution across DEX liquidity.",
+    "amount": 9.25,
+    "currency": "USDC",
+    "merchant": "ParaSwap V5",
+    "merchant_description": "DEX aggregator routing trades across multiple pools for best USDC execution",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["ParaSwap V5 allowed for multipath USDC swap execution"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ParaSwap V5 is explicitly carved out by the policy for multipath USDC swap execution. 9.25 USDC within the 30 limit."
+  },
+  {
+    "id": "c6a5b7d9-c6a5-4cd3-b7d9-c6a5b7d9c6a5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "OpenOcean V2 — 0.1724 ETH for cross-chain best-price USDC routing.",
+    "amount": 0.1724,
+    "currency": "ETH",
+    "merchant": "OpenOcean V2",
+    "merchant_description": "Cross-chain DEX aggregator finding best-price routes for USDC swaps",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["OpenOcean V2 allowed for cross-chain best-price USDC routing"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists OpenOcean V2 as explicitly allowed for cross-chain best-price USDC routing. 0.1724 ETH within the 0.3 cap."
+  },
+  {
+    "id": "d8b7d9f1-d8b7-4de4-d9f1-d8b7d9f1d8b7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Odos V2 — 1087.60 USDC for gas-efficient CLP swap routing.",
+    "amount": 1087.60,
+    "currency": "USDC",
+    "merchant": "Odos V2",
+    "merchant_description": "Optimal DEX aggregator using CLP algorithm for gas-efficient multi-hop swaps",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Odos V2 CLP routing allowed for gas-efficient USDC swaps"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Odos V2 CLP routing is authorized for gas-efficient USDC swaps. 1087.60 USDC within the 1800 ceiling."
+  },
+  {
+    "id": "e0d9f1a3-e0d9-4ef5-f1a3-e0d9f1a3e0d9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Firebird Finance — 1.64 USDC for BNB Chain optimized swap routing.",
+    "amount": 1.64,
+    "currency": "USDC",
+    "merchant": "Firebird Finance",
+    "merchant_description": "BNB Chain DEX aggregator for optimized swap routes across multiple protocols",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Firebird Finance allowed for BNB Chain USDC optimized swaps"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Firebird Finance holds a specific mandate carve-out for BNB Chain USDC optimized swaps. 1.64 USDC within the 5 limit."
+  },
+  {
+    "id": "f2f1a3b5-f2f1-4f06-a3b5-f2f1a3b5f2f1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "deBridge DLN — 22.70 USDC for intent-based cross-chain USDC transfer.",
+    "amount": 22.70,
+    "currency": "USDC",
+    "merchant": "deBridge DLN",
+    "merchant_description": "Decentralized liquidity network for intent-based cross-chain asset transfers",
+    "policy_state": {
+      "max_amount_per_tx": 40,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["deBridge DLN allowed for intent-based cross-chain transfers"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names deBridge DLN specifically for intent-based cross-chain transfers. 22.70 USDC within the 40 cap."
+  },
+  {
+    "id": "a3a3b5d7-a3a3-4a17-b5d7-a3a3b5d7a3a3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Everclear Clearing — 0.0107 ETH for netting cross-chain settlement via clearing layer.",
+    "amount": 0.0107,
+    "currency": "ETH",
+    "merchant": "Everclear Clearing",
+    "merchant_description": "Cross-chain netting and clearing layer for settling token flows across bridges",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Everclear clearing layer allowed for netting cross-chain settlements"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: Everclear clearing layer authorized for netting cross-chain settlements. 0.0107 ETH within the 0.015 cap."
+  },
+  {
+    "id": "b5b5d7f9-b5b5-4b28-d7f9-b5b5d7f9b5b5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Across V3 intent bridge — 2876.00 USDC for fastest cross-chain USDC transfer.",
+    "amount": 2876.00,
+    "currency": "USDC",
+    "merchant": "Across V3",
+    "merchant_description": "Intent-based cross-chain bridge offering fastest USDC transfers via relayer network",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Across V3 intent bridge allowed for fastest cross-chain USDC moves"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's named carve-out covers Across V3 intent bridge for fastest cross-chain USDC moves. 2876.00 USDC within the 9000 limit."
+  },
+  {
+    "id": "c7d7f9a1-c7d7-4c39-f9a1-c7d7f9a1c7d7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stargate V2 bus mode — 0.86 USDC for batched cross-chain USDC transfer.",
+    "amount": 0.86,
+    "currency": "USDC",
+    "merchant": "Stargate V2 Bus",
+    "merchant_description": "Stargate V2 bus mode for cost-efficient batched cross-chain USDC transfers",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Stargate V2 bus mode allowed for batched USDC cross-chain transfers"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's explicit allowance, Stargate V2 bus mode is authorized for batched USDC cross-chain transfers. 0.86 USDC within the 2 cap."
+  },
+  {
+    "id": "d9f9a1b3-d9f9-4d40-a1b3-d9f9a1b3d9f9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Circle CCTP V2 — 43.70 USDC for native USDC cross-chain burn and mint.",
+    "amount": 43.70,
+    "currency": "USDC",
+    "merchant": "Circle CCTP V2",
+    "merchant_description": "Circle's Cross-Chain Transfer Protocol V2 for native USDC burn and mint across chains",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Circle CCTP V2 allowed for native USDC cross-chain burns"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Circle CCTP V2 for native USDC cross-chain burns. 43.70 USDC within the 60 limit."
+  },
+  {
+    "id": "e1b1b3d5-e1b1-4e51-b3d5-e1b1b3d5e1b1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ethos Reserve — 0.3614 ETH for LST-collateral USDC borrowing on Optimism.",
+    "amount": 0.3614,
+    "currency": "ETH",
+    "merchant": "Ethos Reserve",
+    "merchant_description": "Optimism-native lending protocol for borrowing USDC against liquid staking collateral",
+    "policy_state": {
+      "max_amount_per_tx": 1.2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Ethos Reserve allowed for LST-collateral USDC borrowing on Optimism"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Ethos Reserve covering LST-collateral USDC borrowing on Optimism. 0.3614 ETH within the 1.2 cap."
+  },
+  {
+    "id": "f3d3d5f7-f3d3-4f62-d5f7-f3d3d5f7f3d3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Prisma Finance — 9873.00 USDC for stETH-collateral mkUSD stablecoin minting.",
+    "amount": 9873.00,
+    "currency": "USDC",
+    "merchant": "Prisma Finance",
+    "merchant_description": "Liquid staking collateral protocol for minting mkUSD against stETH and LSD positions",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Prisma Finance allowed for stETH-collateral mkUSD minting"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Prisma Finance authorized for stETH-collateral mkUSD minting. 9873.00 USDC within the 20000 ceiling."
+  },
+  {
+    "id": "a4f5f7a9-a4f5-4a73-f7a9-a4f5f7a9a4f5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Gravita Protocol — 0.58 USDC for LST-backed GRAI stablecoin issuance.",
+    "amount": 0.58,
+    "currency": "USDC",
+    "merchant": "Gravita Protocol",
+    "merchant_description": "LST-backed stablecoin protocol issuing GRAI with 0% interest borrowing",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Gravita Protocol allowed for LST-backed GRAI stablecoin issuance"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gravita Protocol is explicitly listed in the policy for LST-backed GRAI stablecoin issuance. 0.58 USDC within the 1 cap."
+  },
+  {
+    "id": "b6a7a9b1-b6a7-4b84-a9b1-b6a7a9b1b6a7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Lybra Finance V2 — 81.40 USDC for stETH-backed eUSD yield generation.",
+    "amount": 81.40,
+    "currency": "USDC",
+    "merchant": "Lybra Finance V2",
+    "merchant_description": "LSD-backed stablecoin protocol where stETH collateral generates eUSD yield",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Lybra Finance V2 allowed for stETH-backed eUSD yield generation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Lybra Finance V2 authorized for stETH-backed eUSD yield generation. 81.40 USDC within the 225 limit."
+  },
+  {
+    "id": "c8b9b1d3-c8b9-4c95-b1d3-c8b9b1d3c8b9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Angle Protocol — 0.1672 ETH for agEUR stablecoin yield strategy.",
+    "amount": 0.1672,
+    "currency": "ETH",
+    "merchant": "Angle Protocol",
+    "merchant_description": "Decentralized agEUR stablecoin protocol with yield strategies on collateral",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Angle Protocol allowed for agEUR stablecoin yield strategies"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names Angle Protocol as permitted for agEUR stablecoin yield strategies. 0.1672 ETH within the 0.3 cap."
+  },
+  {
+    "id": "d0d1d3f5-d0d1-4d06-d3f5-d0d1d3f5d0d1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Maple Cash Management pool — 2187.00 USDC for T-bill yield on idle USDC.",
+    "amount": 2187.00,
+    "currency": "USDC",
+    "merchant": "Maple Finance Cash Mgmt",
+    "merchant_description": "Maple Cash Management pool offering US Treasury-backed yield on USDC deposits",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Maple Cash Management pool allowed for T-bill yield on USDC"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Maple Cash Management pool for T-bill yield on USDC. 2187.00 USDC within the 3000 ceiling."
+  },
+  {
+    "id": "e2f3f5a7-e2f3-4e17-f5a7-e2f3f5a7e2f3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "TrueFi Cash Pool — 5.76 USDC for short-term institutional USDC yield.",
+    "amount": 5.76,
+    "currency": "USDC",
+    "merchant": "TrueFi Cash Pool",
+    "merchant_description": "Short-duration institutional USDC lending pool with treasury-backed yield",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["TrueFi Cash Pool allowed for short-term USDC institutional yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants TrueFi Cash Pool use for short-term USDC institutional yield. 5.76 USDC within the 15 cap."
+  },
+  {
+    "id": "f4a5a7b9-f4a5-4f28-a7b9-f4a5a7b9f4a5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Clearpool Genesis — 5.43 USDC for KYC institutional credit pool yield.",
+    "amount": 5.43,
+    "currency": "USDC",
+    "merchant": "Clearpool Genesis",
+    "merchant_description": "KYC-gated institutional credit pool for permissioned USDC lending yield",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Clearpool Genesis pools allowed for KYC institutional credit yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Clearpool Genesis pools hold a specific mandate carve-out for KYC institutional credit yield. 5.43 USDC within the 10 limit."
+  },
+  {
+    "id": "a5b7b9d1-a5b7-4a39-b9d1-a5b7b9d1a5b7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Huma V2 receivables pool — 0.0118 ETH for invoice-backed USDC yield.",
+    "amount": 0.0118,
+    "currency": "ETH",
+    "merchant": "Huma V2 Receivables",
+    "merchant_description": "Invoice-backed lending pool providing yield on USDC via receivables financing",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Huma V2 receivables pools allowed for invoice-backed USDC yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Huma V2 receivables pools are authorized for invoice-backed USDC yield. 0.0118 ETH within the 0.015 cap."
+  },
+  {
+    "id": "b7d9d1f3-b7d9-4b40-d1f3-b7d9d1f3b7d9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Credix LATAM — 4738.00 USDC for Latin America trade finance yield pool.",
+    "amount": 4738.00,
+    "currency": "USDC",
+    "merchant": "Credix LATAM",
+    "merchant_description": "Solana-based trade finance protocol offering LATAM credit market yield on USDC",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Credix LATAM pool allowed for Latin America trade finance yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Credix LATAM pool for Latin America trade finance yield. 4738.00 USDC within the 15000 ceiling."
+  },
+  {
+    "id": "c9f1f3a5-c9f1-4c51-f3a5-c9f1f3a5c9f1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Llama DAO Ops — 2.21 USDT for treasury management automation via DAO contracts.",
+    "amount": 2.21,
+    "currency": "USDT",
+    "merchant": "Llama DAO Ops",
+    "merchant_description": "DAO treasury management contracts for automated grant and payment operations",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Llama DAO ops contracts allowed for treasury management automation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Llama DAO ops contracts covering treasury management automation. 2.21 USDT within the 4 cap."
+  },
+  {
+    "id": "d1a3a5b7-d1a3-4d62-a5b7-d1a3a5b7d1a3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Parcel payroll streaming — 13.85 USDC for contributor salary disbursement.",
+    "amount": 13.85,
+    "currency": "USDC",
+    "merchant": "Parcel Payroll",
+    "merchant_description": "DAO payroll platform for streaming USDC contributor salary on-chain",
+    "policy_state": {
+      "max_amount_per_tx": 23,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Parcel payroll streaming allowed for contributor salary disbursement"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Parcel payroll streaming is authorized for contributor salary disbursement. 13.85 USDC within the 23 limit."
+  },
+  {
+    "id": "e3b5b7d9-e3b5-4e73-b7d9-e3b5b7d9e3b5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Superfluid Finance streaming — 0.4129 ETH for real-time USDC salary and grant flows.",
+    "amount": 0.4129,
+    "currency": "ETH",
+    "merchant": "Superfluid Finance",
+    "merchant_description": "Real-time money streaming protocol for continuous USDC salary and grant disbursement",
+    "policy_state": {
+      "max_amount_per_tx": 1.2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Superfluid streaming allowed for real-time USDC salary and grant flows"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Superfluid streaming is explicitly carved out by the policy for real-time USDC salary and grant flows. 0.4129 ETH within the 1.2 ceiling."
+  },
+  {
+    "id": "f5d7d9f1-f5d7-4f84-d9f1-f5d7d9f1f5d7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sablier V2 — 1347.00 USDC for vesting schedule and contributor payroll stream.",
+    "amount": 1347.00,
+    "currency": "USDC",
+    "merchant": "Sablier V2",
+    "merchant_description": "Token streaming protocol for vesting schedules and contributor payroll on-chain",
+    "policy_state": {
+      "max_amount_per_tx": 2400,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Sablier V2 streams allowed for vesting schedule and contributor payroll"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists Sablier V2 streams as explicitly allowed for vesting schedule and contributor payroll. 1347.00 USDC within the 2400 cap."
+  },
+  {
+    "id": "a6f9f1a3-a6f9-4a95-f1a3-a6f9f1a3a6f9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Hedgey Finance — 1.73 USDC for on-chain token vesting lockup creation.",
+    "amount": 1.73,
+    "currency": "USDC",
+    "merchant": "Hedgey Finance",
+    "merchant_description": "On-chain token vesting and lockup protocol for team and investor grants",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Hedgey Finance allowed for on-chain token vesting lockup creation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hedgey Finance holds a specific mandate carve-out for on-chain token vesting lockup creation. 1.73 USDC within the 2 cap."
+  },
+  {
+    "id": "b8a1a3b5-b8a1-4ba6-a3b5-b8a1a3b5b8a1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Biconomy Bundler V2 — 27.10 USDC for batched ERC-4337 user operations.",
+    "amount": 27.10,
+    "currency": "USDC",
+    "merchant": "Biconomy Bundler V2",
+    "merchant_description": "ERC-4337 bundler service for batching and submitting account abstraction user ops",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Biconomy V2 bundler allowed for batched AA user transactions"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names Biconomy V2 bundler specifically for batched AA user transactions. 27.10 USDC within the 75 limit."
+  },
+  {
+    "id": "c0b3b5d7-c0b3-4cb7-b5d7-c0b3b5d7c0b3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Rhinestone modules — 0.1583 ETH for ERC-7579 smart account extensions.",
+    "amount": 0.1583,
+    "currency": "ETH",
+    "merchant": "Rhinestone",
+    "merchant_description": "ERC-7579 module registry and SDK for extending modular smart account functionality",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Rhinestone modules allowed for ERC-7579 smart account extensions"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Rhinestone modules for ERC-7579 smart account extensions. 0.1583 ETH within the 0.3 cap."
+  },
+  {
+    "id": "d2d5d7f9-d2d5-4dc8-d7f9-d2d5d7f9d2d5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "ZeroDev Kernel — 3217.50 USDT for modular account abstraction smart wallet operations.",
+    "amount": 3217.50,
+    "currency": "USDT",
+    "merchant": "Kernel (ZeroDev)",
+    "merchant_description": "Modular ERC-4337 smart account kernel for composable AA wallet operations",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["ZeroDev Kernel accounts allowed for modular AA smart wallet operations"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: ZeroDev Kernel accounts authorized for modular AA smart wallet operations. 3217.50 USDT within the 4500 ceiling."
+  },
+  {
+    "id": "e4f7f9a1-e4f7-4ed9-f9a1-e4f7f9a1e4f7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Safe{Core} AA SDK — 1.08 USDC for programmable multi-sig account abstraction.",
+    "amount": 1.08,
+    "currency": "USDC",
+    "merchant": "Safe{Core} AA",
+    "merchant_description": "Account abstraction SDK extending Safe multi-sig with ERC-4337 capabilities",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Safe Core AA SDK allowed for programmable multi-sig AA operations"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Safe Core AA SDK for programmable multi-sig AA operations. 1.08 USDC within the 3 limit."
+  },
+  {
+    "id": "f6a9a1b3-f6a9-4fe0-a1b3-f6a9a1b3f6a9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Pimlico Alto bundler — 53.80 USDC for ERC-4337 user operation submission.",
+    "amount": 53.80,
+    "currency": "USDC",
+    "merchant": "Pimlico Alto Bundler",
+    "merchant_description": "High-performance ERC-4337 bundler for submitting and managing user operations",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Pimlico bundler allowed for ERC-4337 user operation submission"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants Pimlico bundler use for ERC-4337 user operation submission. 53.80 USDC within the 100 cap."
+  },
+  {
+    "id": "a7b1b3d5-a7b1-4af1-b3d5-a7b1b3d5a7b1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Coinbase Pay — 9437.00 USDC for instant ACH-to-USDC user funding.",
+    "amount": 9437.00,
+    "currency": "USDC",
+    "merchant": "Coinbase Pay",
+    "merchant_description": "Coinbase fiat on-ramp enabling instant ACH-to-ETH and USDC purchases",
+    "policy_state": {
+      "max_amount_per_tx": 30000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Coinbase Pay allowed for instant ACH-to-ETH/USDC user funding"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Coinbase Pay for instant ACH-to-ETH/USDC user funding. 9437.00 USDC within the 30000 cap."
+  },
+  {
+    "id": "b9d3d5f7-b9d3-4bb2-d5f7-b9d3d5f7b9d3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "MetaMask Pay — 0.54 USDC for in-wallet fiat-to-ETH conversion.",
+    "amount": 0.54,
+    "currency": "USDC",
+    "merchant": "MetaMask Pay",
+    "merchant_description": "MetaMask built-in on-ramp for converting fiat to ETH directly in-wallet",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["MetaMask Pay allowed for in-wallet fiat-to-ETH conversion"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, MetaMask Pay is authorized for in-wallet fiat-to-ETH conversion. 0.54 USDC within the 1 cap."
+  },
+  {
+    "id": "c1f5f7a9-c1f5-4cc3-f7a9-c1f5f7a9c1f5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Layerswap — 107.60 USDC for CEX-to-L2 rapid USDC transfer.",
+    "amount": 107.60,
+    "currency": "USDC",
+    "merchant": "Layerswap",
+    "merchant_description": "Bridge enabling fast USDC transfers from centralized exchanges to L2 networks",
+    "policy_state": {
+      "max_amount_per_tx": 149,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Layerswap allowed for CEX-to-L2 USDC rapid transfer"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Layerswap is explicitly listed in the policy for CEX-to-L2 USDC rapid transfer. 107.60 USDC within the 149 limit."
+  },
+  {
+    "id": "d3a7a9b1-d3a7-4dd4-a9b1-d3a7a9b1d3a7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Onramper — 0.3847 ETH for best-rate fiat-to-USDC via aggregated on-ramp.",
+    "amount": 0.3847,
+    "currency": "ETH",
+    "merchant": "Onramper",
+    "merchant_description": "On-ramp aggregator routing to best-rate fiat-to-USDC providers globally",
+    "policy_state": {
+      "max_amount_per_tx": 1.2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Onramper aggregated on-ramp allowed for best-rate fiat-to-USDC"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Onramper aggregated on-ramp covering best-rate fiat-to-USDC. 0.3847 ETH within the 1.2 cap."
+  },
+  {
+    "id": "e5b9b1d3-e5b9-4ee5-b1d3-e5b9b1d3e5b9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Asana Premium — 0.0093 ETH for task management and project tracking across teams.",
+    "amount": 0.0093,
+    "currency": "ETH",
+    "merchant": "Asana Premium",
+    "merchant_description": "Work management platform for task tracking, project timelines, and team workflows",
+    "policy_state": {
+      "max_amount_per_tx": 0.05,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Asana is project management software — a standard operational expense. 0.0093 ETH within the 0.05 cap; policy allows 'operational-expenses'."
+  },
+  {
+    "id": "f7d1d3f5-f7d1-4ff6-d3f5-f7d1d3f5f7d1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Trello Business — 11.40 USD for kanban-style project and task board management.",
+    "amount": 11.40,
+    "currency": "USD",
+    "merchant": "Trello Business",
+    "merchant_description": "Visual kanban board tool for managing tasks, projects, and team workflows",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "11.40 USD for Trello Business — within the 30 cap. Kanban project management is an operational expense; policy covers the category."
+  },
+  {
+    "id": "a8f3f5a7-a8f3-4af7-f5a7-a8f3f5a7a8f3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Wrike Professional — 2.27 USD for work management and cross-team project coordination.",
+    "amount": 2.27,
+    "currency": "USD",
+    "merchant": "Wrike Professional",
+    "merchant_description": "Collaborative work management platform for project planning and team coordination",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wrike is work management software — 'operational-expenses'. 2.27 USD within the 4 cap; policy allows the category without a carve-out."
+  },
+  {
+    "id": "b0a5a7b9-b0a5-4ba8-a7b9-b0a5a7b9b0a5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Smartsheet Business ($1073.00 USD, within $1800 cap) — team project and resource management.",
+    "amount": 1073.00,
+    "currency": "USD",
+    "merchant": "Smartsheet Business",
+    "merchant_description": "Collaborative project and resource management platform with spreadsheet-style interface",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Smartsheet Business ($1073.00 USD within $1800 cap) is project management software — an operational expense. 'Operational-expenses' is explicitly allowed. Approve."
+  },
+  {
+    "id": "c2b7b9d1-c2b7-4cb9-b9d1-c2b7b9d1c2b7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Basecamp Business — 823.60 USDC for team communication and project hub.",
+    "amount": 823.60,
+    "currency": "USDC",
+    "merchant": "Basecamp Business",
+    "merchant_description": "All-in-one project management and team communication platform",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Basecamp is a project management and communication platform — 'operational-expenses'. 823.60 USDC within the 4495 ceiling; policy allows the category."
+  },
+  {
+    "id": "d4d9d1f3-d4d9-4dc0-d1f3-d4d9d1f3d4d9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Mosaic Financial — 22.10 USD for financial planning and business intelligence platform.",
+    "amount": 22.10,
+    "currency": "USD",
+    "merchant": "Mosaic Financial",
+    "merchant_description": "Strategic finance platform for FP&A, business intelligence, and financial planning",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mosaic is a financial planning and BI tool — a routine operational expense for finance teams. Policy allows 'operational-expenses'; 22.10 USD within the 60 cap."
+  }
+]

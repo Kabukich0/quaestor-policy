@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "53fcdc71-e540-4894-a1db-3b2c6962161d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Diva Staking \u2014 0.12 ETH \u2014 DVT liquid staking deposit for protocol-level ETH yield",
+    "amount": 0.12,
+    "currency": "ETH",
+    "merchant": "Diva Staking",
+    "merchant_description": "Distributed validator technology liquid staking protocol on Ethereum",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Diva Staking DVT liquid staking allowed for ETH yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Diva Staking for DVT liquid staking ETH yield. 0.12 ETH within the 0.15 limit. Explicit allowance applied."
+  },
+  {
+    "id": "8972fe21-7e79-454e-9c41-670b48a87a7e",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Routing 2,160 USDC into Sommelier Finance vaults for automated yield optimization on idle treasury capital",
+    "amount": 2160.0,
+    "currency": "USDC",
+    "merchant": "Sommelier Finance",
+    "merchant_description": "Non-custodial automated yield optimization vaults on EVM chains",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Sommelier vaults allowed for automated USDC yield optimization"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Sommelier Finance covering automated USDC yield optimization. 2,160 USDC within the 2,697 limit."
+  },
+  {
+    "id": "298f65a3-c10e-470d-945c-38934bed7a54",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Treasury yield strategy \u2014 depositing 15,800 USDC into Idle Finance V2 for automated USDC compounding",
+    "amount": 15800.0,
+    "currency": "USDC",
+    "merchant": "Idle Finance V2",
+    "merchant_description": "Automated interest rate optimizer routing stablecoins to highest-yield protocols",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Idle Finance yield vaults allowed for automated USDC compounding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Idle Finance yield vaults authorized for automated USDC compounding. 15,800 USDC within the 20,000 limit."
+  },
+  {
+    "id": "7e5a312b-a837-4bda-9016-0472b197604d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Struct Finance \u2014 0.82 USDC \u2014 structured product vault fee for fixed-rate USDC yield tranche",
+    "amount": 0.82,
+    "currency": "USDC",
+    "merchant": "Struct Finance",
+    "merchant_description": "Fixed and variable rate structured DeFi products on Avalanche",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Struct Finance fixed-rate vaults allowed for predictable USDC yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Struct Finance is listed as a named exception in the policy for predictable USDC yield. 0.82 USDC within the 1 USDC limit."
+  },
+  {
+    "id": "bdd32ecb-e187-4131-a75b-79884fe78d3d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sending 0.012 ETH to Rari Capital Vaults for USDC yield generation on idle treasury holdings",
+    "amount": 0.012,
+    "currency": "ETH",
+    "merchant": "Rari Capital Vaults",
+    "merchant_description": "Permissionless lending pools and yield vaults for idle treasury assets",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Rari Capital vaults allowed for USDC yield on idle treasury"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Rari Capital vaults authorized for USDC yield on idle treasury. 0.012 ETH within the 0.015 limit."
+  },
+  {
+    "id": "2136b99a-745f-4cb8-98b3-1cddb9ea48da",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "ACryptoS BNB Chain vault deposit \u2014 638 USDC \u2014 stablecoin autocompounding on idle treasury USDC",
+    "amount": 638.0,
+    "currency": "USDC",
+    "merchant": "ACryptoS",
+    "merchant_description": "BNB Chain yield optimizer with automated stablecoin compounding vaults",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "ACryptoS vaults allowed for stablecoin autocompounding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ACryptoS is a BNB Chain yield optimizer \u2014 depositing 638 USDC into its autocompounding vault is routine stablecoin treasury yield management. Within the defi/crypto-infrastructure category scope. 638 USDC under the 798 USDC ceiling."
+  },
+  {
+    "id": "ae54a03c-0938-480d-9007-5fb6bd809a08",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Harvest Finance USDC vaults \u2014 deploying 2,400 USDC to generate treasury yield on idle stablecoin reserves",
+    "amount": 2400.0,
+    "currency": "USDC",
+    "merchant": "Harvest Finance",
+    "merchant_description": "Automated yield farming protocol aggregating returns from leading DeFi protocols",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Harvest Finance USDC vaults allowed for treasury yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Harvest Finance USDC vaults sit under the mandate's explicit allowance for treasury yield. 2,400 USDC within the 3,000 limit."
+  },
+  {
+    "id": "6a12bf43-78e8-4c57-ac85-96415a1ea85b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "AutoFarm \u2014 11.90 USDC \u2014 automated LP yield compounding on BNB Chain",
+    "amount": 11.9,
+    "currency": "USDC",
+    "merchant": "AutoFarm",
+    "merchant_description": "Multi-chain yield optimizer automating LP compounding across BNB Chain and Polygon",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "AutoFarm allowed for automated LP yield compounding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes AutoFarm for automated LP yield compounding. 11.90 USDC within the 15 limit."
+  },
+  {
+    "id": "1a40d716-f985-4331-91b9-7ef368244af2",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Alpaca Finance stablecoin vault deposit \u2014 0.48 USDC for passive USDC yield strategy on BNB Chain",
+    "amount": 0.48,
+    "currency": "USDC",
+    "merchant": "Alpaca Finance",
+    "merchant_description": "Leading leveraged yield farming protocol on BNB Chain with stablecoin lending vaults",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Alpaca Finance stablecoin vaults allowed for passive USDC yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants Alpaca Finance use for passive USDC yield via stablecoin vaults. 0.48 USDC within the 0.6 limit."
+  },
+  {
+    "id": "1c0178f9-4958-4eb5-8ef8-c8645cf902c7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Need to allocate 239 USDC to Vector Finance for boosted Avalanche yield \u2014 vault deposit on idle treasury USDC",
+    "amount": 239.0,
+    "currency": "USDC",
+    "merchant": "Vector Finance",
+    "merchant_description": "Avalanche yield booster protocol leveraging Platypus Finance and ve-token mechanics",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Vector Finance USDC vaults allowed for boosted Avalanche yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Vector Finance for boosted Avalanche yield. 239 USDC within the 299 limit."
+  },
+  {
+    "id": "aa718bc7-6618-4db0-a746-3c0154f14cd6",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Routing 12,000 USDC to Penrose Finance for Polygon stablecoin yield optimization \u2014 recurring treasury allocation",
+    "amount": 12000.0,
+    "currency": "USDC",
+    "merchant": "Penrose Finance",
+    "merchant_description": "Polygon DeFi protocol optimizing stablecoin yield through Dystopia and Penpie ve-token strategies",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Penrose Finance allowed for Polygon stablecoin yield optimization"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Penrose Finance is authorized for Polygon stablecoin yield optimization. 12,000 USDC within the 15,000 limit."
+  },
+  {
+    "id": "8a1d655a-e76c-4066-a428-9c7572a5fd41",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Opening 3.2 ETH delta-neutral position on Kwenta perpetuals to offset long spot exposure",
+    "amount": 3.2,
+    "currency": "ETH",
+    "merchant": "Kwenta",
+    "merchant_description": "Synthetix-native perpetuals DEX on Optimism for delta-neutral and directional trading",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Kwenta perpetuals allowed for delta-neutral ETH hedging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Kwenta is explicitly carved out by the policy for delta-neutral ETH hedging. 3.2 ETH within the 4 ETH limit."
+  },
+  {
+    "id": "71d336b6-5307-49d0-9030-e2795dd4c5de",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Polynomial Protocol \u2014 0.12 ETH \u2014 options vault deposit for ETH covered-call yield generation",
+    "amount": 0.12,
+    "currency": "ETH",
+    "merchant": "Polynomial Protocol",
+    "merchant_description": "Automated options vaults on Optimism generating yield through covered calls and put selling",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Polynomial Protocol options vaults allowed for ETH covered-call yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists Polynomial Protocol options vaults as explicitly allowed for ETH covered-call yield. 0.12 ETH within the 0.15 limit."
+  },
+  {
+    "id": "e0b6c459-605a-41a5-9d43-32d9196f2c50",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Committing 2,158 USDC to STFX vault for short-term ETH/BTC basis trade position",
+    "amount": 2158.0,
+    "currency": "USDC",
+    "merchant": "STFX",
+    "merchant_description": "Single-trade finance vaults enabling basis trades and directional positions on perpetuals",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "STFX vaults allowed for short-term basis trade positions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, STFX vaults are authorized for short-term basis trade positions. 2,158 USDC within the 2,697 limit."
+  },
+  {
+    "id": "cd69ec7a-4091-4227-a114-cafe1970e6a1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Vela Exchange \u2014 1,920 USDC for ETH/USDC perpetual position to delta-hedge spot ETH holdings",
+    "amount": 1920.0,
+    "currency": "USDC",
+    "merchant": "Vela Exchange",
+    "merchant_description": "Decentralized perpetuals exchange on Arbitrum with multi-asset collateral and low fees",
+    "policy_state": {
+      "max_amount_per_tx": 2400,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Vela Exchange allowed for ETH/USDC perpetual delta hedging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly permits Vela Exchange for ETH/USDC perpetual delta hedging per the named allowance. 1,920 USDC within the 2,400 limit."
+  },
+  {
+    "id": "eef8831e-4f4e-48a8-ae09-738e94a12e3d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Execute 1.6 ETH collateral deposit to Level Finance for BTC perpetual short \u2014 hedging spot BTC exposure",
+    "amount": 1.6,
+    "currency": "ETH",
+    "merchant": "Level Finance",
+    "merchant_description": "BNB Chain perpetuals DEX with multi-tranche liquidity for BTC and ETH hedging",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Level Finance allowed for BTC perpetual hedging of spot exposure"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Level Finance holds a specific mandate carve-out authorizing BTC perpetual hedging of spot exposure. 1.6 ETH within the 2 ETH limit."
+  },
+  {
+    "id": "b83845d3-2d15-4321-ab99-2ffbfff72eea",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Drift Protocol \u2014 0.012 ETH equivalent \u2014 Solana perpetuals margin deposit for delta-neutral hedging",
+    "amount": 0.012,
+    "currency": "ETH",
+    "merchant": "Drift Protocol",
+    "merchant_description": "Solana's largest perpetuals DEX offering cross-margin and delta-neutral strategies",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Drift Protocol allowed for Solana-native delta hedging with USDC"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names Drift Protocol specifically for Solana-native delta hedging with USDC. 0.012 ETH within the 0.015 limit."
+  },
+  {
+    "id": "554a90f6-334c-43fc-930d-13289242e0db",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Mango Markets V4 \u2014 638 USDC \u2014 perpetual basis trade collateral for Solana treasury yield strategy",
+    "amount": 638.0,
+    "currency": "USDC",
+    "merchant": "Mango Markets V4",
+    "merchant_description": "Solana cross-margined trading platform supporting perpetuals and spot basis trades",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Mango Markets allowed for Solana perpetual basis trades"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: Mango Markets authorized for Solana perpetual basis trades. 638 USDC within the 798 limit."
+  },
+  {
+    "id": "7c7a1082-f449-4035-8093-b942689bd04b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Depositing 3,600 USDC into Zeta Markets for SOL covered-call options position \u2014 yield on idle treasury SOL",
+    "amount": 3600.0,
+    "currency": "USDC",
+    "merchant": "Zeta Markets",
+    "merchant_description": "Solana options protocol enabling covered calls, puts, and structured yield strategies",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Zeta Markets options allowed for SOL covered-call yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's named carve-out covers Zeta Markets options for SOL covered-call yield. 3,600 USDC within the 4,500 limit."
+  },
+  {
+    "id": "e522e4ca-5306-4ff7-8513-9f4f4c0fb728",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "01 Exchange \u2014 2.4 ETH \u2014 cross-margin SOL/USDC perpetual hedging position to offset directional risk",
+    "amount": 2.4,
+    "currency": "ETH",
+    "merchant": "01 Exchange",
+    "merchant_description": "Solana cross-margined derivatives DEX supporting SOL/USDC perpetual positions",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "01 Exchange allowed for cross-margin SOL/USDC perp hedging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's explicit allowance, 01 Exchange is authorized for cross-margin SOL/USDC perp hedging. 2.4 ETH within the 3 ETH limit."
+  },
+  {
+    "id": "a70a23c5-0ddd-497b-a3e2-a9b15c6e610b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Vertex Protocol \u2014 spot and perp cross-margin hedge \u2014 0.48 ETH collateral for offsetting long exposure",
+    "amount": 0.48,
+    "currency": "ETH",
+    "merchant": "Vertex Protocol",
+    "merchant_description": "Arbitrum-native DEX combining spot and perpetuals under a unified cross-margin engine",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Vertex Protocol allowed for spot + perp cross-margined hedging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy specifically carves out Vertex Protocol for spot + perp cross-margined hedging. 0.48 ETH within the 0.6 ETH limit."
+  },
+  {
+    "id": "24f864c9-46c3-49a5-8b95-4d3481cf75db",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Velodrome Finance \u2014 239 USDC \u2014 rebalancing USDC/USDT LP position on Optimism",
+    "amount": 239.0,
+    "currency": "USDC",
+    "merchant": "Velodrome Finance",
+    "merchant_description": "Leading ve(3,3) AMM on Optimism for stablecoin and volatile pair liquidity provision",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Velodrome Finance allowed for USDC/USDT LP rebalancing on Optimism"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit mandate entry authorizes Velodrome Finance for USDC/USDT LP rebalancing on Optimism. 239 USDC within the 299 limit."
+  },
+  {
+    "id": "949fbaeb-adf2-4a85-a354-5bc9569372fb",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Executing 24,000 USDC LP rebalance on Aerodrome Finance \u2014 adjusting Base-native USDC pool allocation",
+    "amount": 24000.0,
+    "currency": "USDC",
+    "merchant": "Aerodrome Finance",
+    "merchant_description": "Base chain's leading ve(3,3) AMM for stablecoin and ecosystem token liquidity",
+    "policy_state": {
+      "max_amount_per_tx": 30000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Aerodrome Finance allowed for Base-native USDC LP rebalancing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's explicit carve-out for Aerodrome Finance covers Base-native USDC LP rebalancing. 24,000 USDC within the 30,000 limit."
+  },
+  {
+    "id": "1a090cc4-ccdb-4158-aac9-21c89f8b4f29",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Chronos Exchange \u2014 0.82 USDC \u2014 Arbitrum stablecoin LP management fee",
+    "amount": 0.82,
+    "currency": "USDC",
+    "merchant": "Chronos Exchange",
+    "merchant_description": "ve(3,3) AMM on Arbitrum with focus on stablecoin pool management and yield",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Chronos Exchange allowed for Arbitrum stablecoin LP management"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chronos Exchange sits under the named carve-out for Arbitrum stablecoin LP management; payment approved. 0.82 USDC within the 1 limit."
+  },
+  {
+    "id": "eb0073be-dc70-4209-ad0d-b50a1dca65f0",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Thena Finance BNB Chain LP \u2014 0.12 ETH for USDT pool rebalancing and liquidity management",
+    "amount": 0.12,
+    "currency": "ETH",
+    "merchant": "Thena Finance",
+    "merchant_description": "BNB Chain ve(3,3) AMM supporting USDT and native token liquidity pairs",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Thena Finance allowed for BNB Chain USDT LP rebalancing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Thena Finance authorized for BNB Chain USDT LP rebalancing. 0.12 ETH within the 0.15 limit."
+  },
+  {
+    "id": "507cfe94-a77e-4476-a72a-adc0d0dfb7c8",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Allocating 2,158 USDC to PancakeSwap V3 for tight-range concentrated stablecoin LP position",
+    "amount": 2158.0,
+    "currency": "USDC",
+    "merchant": "PancakeSwap V3",
+    "merchant_description": "Multi-chain CLMM DEX enabling concentrated liquidity positions for stablecoin and volatile pairs",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "PancakeSwap V3 allowed for concentrated stablecoin LP positions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "PancakeSwap V3 is explicitly named in the mandate for concentrated stablecoin LP positions. 2,158 USDC within the 2,697 limit."
+  },
+  {
+    "id": "15369b34-822b-4e67-acf7-f0a1eccd5e60",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "TraderJoe V2 Liquidity Book \u2014 depositing 3,200 USDC into LB pool for USDC concentrated liquidity on Avalanche",
+    "amount": 3200.0,
+    "currency": "USDC",
+    "merchant": "TraderJoe V2",
+    "merchant_description": "Avalanche's leading AMM with Liquidity Book for concentrated liquidity and stablecoin efficiency",
+    "policy_state": {
+      "max_amount_per_tx": 4000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "TraderJoe V2 LB pools allowed for USDC concentrated liquidity"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "TraderJoe V2 LB pools are explicitly named in the mandate for USDC concentrated liquidity. 3,200 USDC within the 4,000 limit."
+  },
+  {
+    "id": "46370ebc-ffd0-4b13-bd3e-281085ba27be",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Beethoven X \u2014 5.6 ETH \u2014 Balancer-style stablecoin pool management and liquidity provision",
+    "amount": 5.6,
+    "currency": "ETH",
+    "merchant": "Beethoven X",
+    "merchant_description": "Balancer fork on Fantom and Optimism specializing in weighted and stablecoin pool management",
+    "policy_state": {
+      "max_amount_per_tx": 7,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Beethoven X allowed for Balancer-style stablecoin pool management"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance specifically names Beethoven X for Balancer-style stablecoin pool management. 5.6 ETH within the 7 ETH limit."
+  },
+  {
+    "id": "b9f00964-ac31-412a-b826-f29d916f5021",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Camelot DEX \u2014 0.012 ETH \u2014 Arbitrum USDC/ETH LP provision using nitro pools",
+    "amount": 0.012,
+    "currency": "ETH",
+    "merchant": "Camelot DEX",
+    "merchant_description": "Arbitrum-native DEX with concentrated nitro pools optimized for USDC/ETH liquidity provision",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Camelot DEX allowed for Arbitrum USDC/ETH LP provision"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Camelot DEX is explicitly listed in the policy for Arbitrum USDC/ETH LP provision. 0.012 ETH within the 0.015 limit."
+  },
+  {
+    "id": "36bde246-d9eb-42de-bce8-2e10f7b8d740",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Providing 638 USDC liquidity in Orca Whirlpool for SOL-native USDC concentrated LP position",
+    "amount": 638.0,
+    "currency": "USDC",
+    "merchant": "Orca DEX",
+    "merchant_description": "Solana's leading concentrated liquidity AMM with Whirlpool pools for stablecoin efficiency",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Orca Whirlpools allowed for SOL-native USDC concentrated LP"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy specifically carves out Orca Whirlpools for SOL-native USDC concentrated LP. 638 USDC within the 798 limit."
+  },
+  {
+    "id": "cd13e5df-f380-48c7-82c7-685e022290ed",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Raydium CLMM \u2014 deploying 6,000 USDC into concentrated liquidity pools for Solana stablecoin farming yield",
+    "amount": 6000.0,
+    "currency": "USDC",
+    "merchant": "Raydium",
+    "merchant_description": "Solana's primary AMM with CLMM concentrated liquidity pools for stablecoin yield farming",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Raydium CLMM pools allowed for Solana USDC stablecoin farming"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Raydium CLMM pools \u2014 this explicit allowance directly covers Solana USDC stablecoin farming. 6,000 USDC within the 7,500 limit."
+  },
+  {
+    "id": "312c07ae-af05-4166-8f0d-dfd322ba5ab9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Chronicle Protocol oracle subscription \u2014 4.8 ETH for on-chain price feed access across our DeFi integrations",
+    "amount": 4.8,
+    "currency": "ETH",
+    "merchant": "Chronicle Protocol",
+    "merchant_description": "MakerDAO-origin oracle network providing high-security on-chain price feeds for DeFi protocols",
+    "policy_state": {
+      "max_amount_per_tx": 6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Chronicle Protocol oracle subscriptions allowed for on-chain price feeds"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate's named exception for on-chain price feeds applies to Chronicle Protocol. 4.8 ETH within the 6 ETH limit."
+  },
+  {
+    "id": "e829ec8f-3041-4839-a4c0-b6bb2ae26bba",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "UMA Protocol \u2014 0.48 ETH \u2014 oracle dispute bond deposit for custom price resolution via optimistic oracle",
+    "amount": 0.48,
+    "currency": "ETH",
+    "merchant": "UMA Protocol",
+    "merchant_description": "Optimistic oracle and KPI options protocol enabling custom price resolution and dispute bonds",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "UMA Protocol oracle bond deposits allowed for custom price resolution"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: UMA Protocol oracle bond deposits authorized for custom price resolution. 0.48 ETH within the 0.6 limit."
+  },
+  {
+    "id": "558c1ab1-7ba8-4b82-b6db-9289ac43bc0b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Paying 239 USDC to Redstone Finance for oracle feed subscriptions \u2014 on-demand price data for our smart contracts",
+    "amount": 239.0,
+    "currency": "USDC",
+    "merchant": "Redstone Finance",
+    "merchant_description": "Modular oracle protocol delivering on-demand price feeds for DeFi applications",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Redstone Finance oracle feeds allowed for DeFi price data"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly permits Redstone Finance for DeFi price data under the named allowance. 239 USDC within the 299 limit."
+  },
+  {
+    "id": "389dc833-e31f-45a0-b573-b2f1968f04b0",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "eOracle \u2014 2,880 USDC \u2014 restaked price feed subscription for high-security oracle data in our protocol",
+    "amount": 2880.0,
+    "currency": "USDC",
+    "merchant": "eOracle",
+    "merchant_description": "EigenLayer-restaked oracle network providing cryptoeconomically secured price feeds",
+    "policy_state": {
+      "max_amount_per_tx": 3600,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "eOracle restaked price feeds allowed for high-security oracle data"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "eOracle restaked price feeds \u2014 this explicit allowance directly covers high-security oracle data subscriptions. 2,880 USDC within the 3,600 limit."
+  },
+  {
+    "id": "e5fb61f0-2433-4e34-b280-49d3233cf670",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Acurast oracle job execution \u2014 2.4 ETH for off-chain computation and price feed provisioning via TEE processors",
+    "amount": 2.4,
+    "currency": "ETH",
+    "merchant": "Acurast",
+    "merchant_description": "Decentralized oracle network using trusted execution environments for off-chain computation",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Acurast oracle jobs allowed for off-chain computation and price feeds"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: Acurast oracle jobs authorized for off-chain computation and price feeds. 2.4 ETH within the 3 ETH limit."
+  },
+  {
+    "id": "97656bc9-7196-461f-8f37-2fdcdc18e859",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "ZeroDev paymaster \u2014 0.12 ETH \u2014 gas subsidy pool top-up for ERC-4337 user transaction sponsorship",
+    "amount": 0.12,
+    "currency": "ETH",
+    "merchant": "ZeroDev",
+    "merchant_description": "Account abstraction kernel and paymaster infrastructure for ERC-4337 gas sponsorship",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "ZeroDev AA paymaster allowed for gas subsidies on user transactions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ZeroDev AA paymaster has a dedicated mandate carve-out for gas subsidies on user transactions. 0.12 ETH within the 0.15 limit."
+  },
+  {
+    "id": "4e8e4979-f31f-4adc-8ce3-0cd155e56c9d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Alchemy Account Kit \u2014 2,158 USDC \u2014 paymaster credit top-up for sponsored user transactions on our dApp",
+    "amount": 2158.0,
+    "currency": "USDC",
+    "merchant": "Alchemy Account Kit",
+    "merchant_description": "ERC-4337 account abstraction SDK with embedded paymaster for sponsored transactions",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Alchemy Account Kit paymaster allowed for sponsored user transactions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists Alchemy Account Kit paymaster as explicitly allowed for sponsored user transactions. 2,158 USDC within the 2,697 limit."
+  },
+  {
+    "id": "b8f178ae-cc16-432b-bfb1-32b41d8b6401",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Depositing 4,800 USDC into Candide paymaster pool for ERC-4337 gas sponsorship on user onboarding flows",
+    "amount": 4800.0,
+    "currency": "USDC",
+    "merchant": "Candide Wallet",
+    "merchant_description": "Open-source ERC-4337 smart wallet with paymaster for gasless user onboarding",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Candide paymaster allowed for ERC-4337 gas sponsorship"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Candide paymaster is authorized for ERC-4337 gas sponsorship. 4,800 USDC within the 6,000 limit."
+  },
+  {
+    "id": "553ccde9-d70b-48e5-ac49-4740047d6480",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stackup \u2014 0.82 USDC \u2014 bundler fee for batching ERC-4337 user operations into single transaction",
+    "amount": 0.82,
+    "currency": "USDC",
+    "merchant": "Stackup",
+    "merchant_description": "ERC-4337 bundler and paymaster service for batching and executing account abstraction operations",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Stackup bundler allowed for batched AA transaction execution"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stackup bundler sits under the mandate's explicit permission for batched AA transaction execution. 0.82 USDC within the 1 limit."
+  },
+  {
+    "id": "a8c7b420-5ede-4c59-a46f-4361f4782a29",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Etherspot Prime paymaster \u2014 0.012 ETH \u2014 gas-free dApp interaction sponsorship for end users",
+    "amount": 0.012,
+    "currency": "ETH",
+    "merchant": "Etherspot",
+    "merchant_description": "Multi-chain account abstraction SDK with Prime paymaster for gasless user experiences",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Etherspot Prime paymaster allowed for gas-free dApp interactions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Etherspot Prime paymaster is explicitly listed in the policy for gas-free dApp interactions. 0.012 ETH within the 0.015 limit."
+  },
+  {
+    "id": "65096ed6-a92d-423c-8a47-c711999d9523",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Particle Network \u2014 638 USDC \u2014 cross-chain gasless transaction paymaster credits for our multi-chain dApp",
+    "amount": 638.0,
+    "currency": "USDC",
+    "merchant": "Particle Network",
+    "merchant_description": "Modular L1 and account abstraction toolkit enabling cross-chain gasless transactions",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Particle Network paymaster allowed for cross-chain gasless transactions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's explicit allowance for cross-chain gasless transactions covers Particle Network paymaster. 638 USDC within the 798 limit."
+  },
+  {
+    "id": "59ecc173-ac22-41b6-ae56-91a519a22bc8",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Openfort gaming paymaster \u2014 depositing 12,000 USDC to fund gas subsidies for our blockchain game's player transactions",
+    "amount": 12000.0,
+    "currency": "USDC",
+    "merchant": "Openfort",
+    "merchant_description": "Gaming-focused account abstraction infrastructure with paymaster for gas-free player transactions",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Openfort paymaster allowed for gaming dApp gas subsidies"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's explicit carve-out for Openfort paymaster covers gaming dApp gas subsidies. 12,000 USDC within the 15,000 limit."
+  },
+  {
+    "id": "2e0472cc-f672-4859-82f1-4c6ea4fefbe2",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Dynamic.xyz \u2014 1.6 ETH \u2014 embedded wallet provisioning and gasless onboarding credits for new user flows",
+    "amount": 1.6,
+    "currency": "ETH",
+    "merchant": "Dynamic.xyz",
+    "merchant_description": "Embedded wallet infrastructure providing gasless onboarding and social login for Web3 apps",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Dynamic.xyz allowed for embedded wallet and gasless onboarding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Dynamic.xyz is specifically named in the mandate for embedded wallet and gasless onboarding. 1.6 ETH within the 2 ETH limit."
+  },
+  {
+    "id": "d7a70802-9589-4f32-a08a-ab59119dbf63",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Privy \u2014 0.48 ETH \u2014 embedded wallet gas sponsorship for user onboarding campaigns",
+    "amount": 0.48,
+    "currency": "ETH",
+    "merchant": "Privy",
+    "merchant_description": "Embedded wallet SDK for consumer apps enabling social-login wallet creation and gas sponsorship",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Privy embedded wallets allowed for user onboarding gas sponsorship"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Privy embedded wallets sit under the mandate's explicit allowance for user onboarding gas sponsorship. 0.48 ETH within the 0.6 limit."
+  },
+  {
+    "id": "3adb6457-fcf6-424f-b0c3-e4ab35e7b80a",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Web3Auth \u2014 239 USDC \u2014 social-login wallet provisioning costs for enterprise tier plan",
+    "amount": 239.0,
+    "currency": "USDC",
+    "merchant": "Web3Auth",
+    "merchant_description": "MPC-based social-login wallet infrastructure enabling Web2-style onboarding for Web3 apps",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Web3Auth allowed for social-login wallet provisioning costs"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Web3Auth is authorized for social-login wallet provisioning costs. 239 USDC within the 299 limit."
+  },
+  {
+    "id": "e4376f4c-ad88-4d12-b5f1-c5898842caa5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sardine \u2014 processing 4,800 USDC for instant ACH-to-crypto conversion \u2014 fiat on-ramp for treasury replenishment",
+    "amount": 4800.0,
+    "currency": "USDC",
+    "merchant": "Sardine",
+    "merchant_description": "Fiat on-ramp API enabling instant ACH-to-stablecoin conversion for B2B treasury and consumer apps",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Sardine fiat on-ramp allowed for instant ACH-to-crypto conversion"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit mandate entry authorizes Sardine fiat on-ramp for instant ACH-to-crypto conversion. 4,800 USDC within the 6,000 limit."
+  },
+  {
+    "id": "9e01649d-3b19-4fca-9d52-9b351d41dbdc",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Unlimit Crypto on-ramp \u2014 8.00 USDC \u2014 fiat-to-stablecoin conversion for small treasury top-up",
+    "amount": 8.0,
+    "currency": "USDC",
+    "merchant": "Unlimit Crypto",
+    "merchant_description": "Global fiat-to-stablecoin on-ramp API supporting multiple fiat currencies and payment rails",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Unlimit Crypto allowed for fiat-to-stablecoin on-ramp"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Unlimit Crypto is explicitly named in the policy's allowances for fiat-to-stablecoin on-ramp. 8.00 USDC within the 10 limit."
+  },
+  {
+    "id": "58b87649-757d-4ce7-8205-f028c8fc0bea",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Kado Money \u2014 0.12 ETH \u2014 direct bank-to-USDC conversion service fee for automated treasury funding",
+    "amount": 0.12,
+    "currency": "ETH",
+    "merchant": "Kado Money",
+    "merchant_description": "Developer-first fiat on-ramp API enabling direct bank-to-USDC and bank-to-crypto conversion",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Kado on-ramp allowed for direct bank-to-USDC conversion"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Kado on-ramp is explicitly listed in the policy for direct bank-to-USDC conversion. 0.12 ETH within the 0.15 limit."
+  },
+  {
+    "id": "5b299c9b-7019-4247-b436-b799431d6f10",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Onmeta \u2014 2,158 USDC \u2014 India-native INR-to-USDC on-ramp for regional treasury funding via UPI",
+    "amount": 2158.0,
+    "currency": "USDC",
+    "merchant": "Onmeta",
+    "merchant_description": "India-native crypto on-ramp supporting UPI and IMPS for INR-to-USDC conversion",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Onmeta allowed for India-native INR-to-USDC ramp"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Onmeta holds a specific policy carve-out for India-native INR-to-USDC ramp via UPI. 2,158 USDC within the 2,697 limit."
+  }
+]

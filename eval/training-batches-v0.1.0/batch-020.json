@@ -1,0 +1,146 @@
+[
+  {
+    "id": "a8e1a3b5-a8e1-4a11-a3b5-a8e1a3b5a8e1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Jumper Exchange — 0.0463 ETH for cross-chain USDC routing via LI.FI protocol.",
+    "amount": 0.0463,
+    "currency": "ETH",
+    "merchant": "Jumper Exchange",
+    "merchant_description": "Cross-chain aggregation UI powered by LI.FI for gas-efficient USDC routing",
+    "policy_state": {
+      "max_amount_per_tx": 0.075,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Jumper Exchange allowed for cross-chain USDC routing via LI.FI"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Jumper Exchange covering cross-chain USDC routing via LI.FI. 0.0463 ETH within the 0.075 cap."
+  },
+  {
+    "id": "b0f3b5d7-b0f3-4b22-b5d7-b0f3b5d7b0f3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Elk Finance — 27.80 USDC for cross-chain USDC LP with impermanent loss protection.",
+    "amount": 27.80,
+    "currency": "USDC",
+    "merchant": "Elk Finance",
+    "merchant_description": "Cross-chain AMM with built-in impermanent loss protection for USDC liquidity providers",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Elk Finance allowed for cross-chain USDC LP with IL protection"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Elk Finance authorized for cross-chain USDC LP with IL protection. 27.80 USDC within the 75 limit."
+  },
+  {
+    "id": "c2a5d7f9-c2a5-4c33-d7f9-c2a5d7f9c2a5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Voltage Finance — 0.1638 ETH for Fuse Network USDC LP management.",
+    "amount": 0.1638,
+    "currency": "ETH",
+    "merchant": "Voltage Finance",
+    "merchant_description": "Fuse Network native DEX and lending protocol for USDC liquidity provisioning",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Voltage Finance allowed for Fuse Network USDC LP management"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Voltage Finance for Fuse Network USDC LP management. 0.1638 ETH within the 0.3 cap."
+  },
+  {
+    "id": "d4b7f9a1-d4b7-4d44-f9a1-d4b7f9a1d4b7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Meridian Finance — 5247.00 USDC for Base chain USDC money market yield.",
+    "amount": 5247.00,
+    "currency": "USDC",
+    "merchant": "Meridian Finance",
+    "merchant_description": "Base chain money market protocol for USDC collateral borrowing and yield",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Meridian Finance allowed for Base chain USDC money market yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Meridian Finance is listed as a named exception in the policy for Base chain USDC money market yield. 5247.00 USDC within the 7500 ceiling."
+  },
+  {
+    "id": "e6d9a1b3-e6d9-4e55-a1b3-e6d9a1b3e6d9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Notion Projects — 1.07 USD for lightweight project planning inside Notion workspace.",
+    "amount": 1.07,
+    "currency": "USD",
+    "merchant": "Notion Projects",
+    "merchant_description": "Project management add-on within Notion for milestone tracking and roadmap planning",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Notion Projects is project management tooling — 'operational-expenses'. 1.07 USD within the 2 cap; policy allows the category."
+  },
+  {
+    "id": "f8f1b3d5-f8f1-4f66-b3d5-f8f1b3d5f8f1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "PagerDuty Operations — 0.0937 ETH for incident alerting and on-call management.",
+    "amount": 0.0937,
+    "currency": "ETH",
+    "merchant": "PagerDuty Operations",
+    "merchant_description": "Incident management and on-call alerting platform for engineering and DevOps teams",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "PagerDuty is an incident management and on-call alerting tool for engineering teams — 'developer-tools'. 0.0937 ETH within the 0.3 cap; policy allows the category."
+  },
+  {
+    "id": "a9a3d5f7-a9a3-4a77-d5f7-a9a3d5f7a9a3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Statuspage Pro — 5.74 USD for public incident status and uptime communication page.",
+    "amount": 5.74,
+    "currency": "USD",
+    "merchant": "Statuspage Pro",
+    "merchant_description": "Incident communication platform for publishing real-time service status to users",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Statuspage is incident communication infrastructure used by DevOps teams — 'developer-tools'. 5.74 USD within the 10 ceiling; policy covers the category."
+  },
+  {
+    "id": "b1b5f7a9-b1b5-4b88-f7a9-b1b5f7a9b1b5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Incident.io Response — 4873.00 USD for incident response automation and postmortem workflows.",
+    "amount": 4873.00,
+    "currency": "USD",
+    "merchant": "Incident.io Response",
+    "merchant_description": "Slack-native incident response platform for automated workflows, escalations, and postmortems",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Incident.io automates engineering incident response and postmortem workflows — 'developer-tools'. 4873.00 USD within the 7500 cap; policy allows the category."
+  }
+]

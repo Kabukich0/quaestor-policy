@@ -1,0 +1,902 @@
+[
+  {
+    "id": "a2c1e3f5-a2c1-4a11-e3f5-a2c1e3f5a2c1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Instana (IBM) — 21.40 USDC for real-time APM with dependency mapping.",
+    "amount": 21.40,
+    "currency": "USDC",
+    "merchant": "Instana (IBM)",
+    "merchant_description": "Real-time APM platform with automated dependency discovery and tracing",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Instana is an APM platform for engineering teams — 'developer-tools'. 21.40 USDC within the 60 cap; policy covers the category."
+  },
+  {
+    "id": "b4d3f5a7-b4d3-4b22-f5a7-b4d3f5a7b4d3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Lightstep (ServiceNow) — 1.67 EUR for distributed tracing and observability workflows.",
+    "amount": 1.67,
+    "currency": "EUR",
+    "merchant": "Lightstep (ServiceNow)",
+    "merchant_description": "Distributed tracing and observability platform for microservice debugging",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "1.67 EUR for Lightstep — within the 3 cap. Lightstep is distributed tracing and observability tooling — 'developer-tools', which the policy allows."
+  },
+  {
+    "id": "c6f5a7b9-c6f5-4c33-a7b9-c6f5a7b9c6f5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Coralogix — 3247.00 USD for log analytics and monitoring pipeline.",
+    "amount": 3247.00,
+    "currency": "USD",
+    "merchant": "Coralogix",
+    "merchant_description": "Log analytics and observability platform with ML-powered anomaly detection",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Coralogix is a log analytics platform — developer tooling for ops teams. 'Developer-tools' is allowed; 3247.00 USD within the 4500 ceiling."
+  },
+  {
+    "id": "d8a7b9d1-d8a7-4d44-b9d1-d8a7b9d1d8a7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Buildkite Enterprise — 0.0531 ETH for self-hosted CI/CD pipeline infrastructure.",
+    "amount": 0.0531,
+    "currency": "ETH",
+    "merchant": "Buildkite Enterprise",
+    "merchant_description": "Hybrid CI/CD platform running pipelines on self-hosted agents with cloud orchestration",
+    "policy_state": {
+      "max_amount_per_tx": 0.1,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Buildkite is a CI/CD platform — 'developer-tools'. Policy allows it; 0.0531 ETH is within the 0.1 cap. Approve."
+  },
+  {
+    "id": "e0b9d1f3-e0b9-4e55-d1f3-e0b9d1f3e0b9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Travis CI — 4618.00 USD for cloud-hosted continuous integration pipelines.",
+    "amount": 4618.00,
+    "currency": "USD",
+    "merchant": "Travis CI",
+    "merchant_description": "Cloud-based CI service for automated test and build pipelines",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Travis CI is a cloud CI service — 'developer-tools'. 4618.00 USD within the 7500 cap; policy permits the category."
+  },
+  {
+    "id": "f2d1f3a5-f2d1-4f66-f3a5-f2d1f3a5f2d1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Semaphore CI — 177.80 USD for fast parallel CI pipelines for the engineering team.",
+    "amount": 177.80,
+    "currency": "USD",
+    "merchant": "Semaphore CI",
+    "merchant_description": "High-performance CI/CD platform with parallel pipeline execution",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Semaphore CI is continuous integration tooling — 'developer-tools'. 177.80 USD within the 995 ceiling. No carve-out needed."
+  },
+  {
+    "id": "a3f3a5b7-a3f3-4a77-a5b7-a3f3a5b7a3f3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Drone CI Cloud — 86.30 USD for container-native CI/CD pipeline runs.",
+    "amount": 86.30,
+    "currency": "USD",
+    "merchant": "Drone CI Cloud",
+    "merchant_description": "Container-native CI/CD platform with declarative pipeline configuration",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Drone CI is a container-native CI/CD tool — 'developer-tools'. Policy allows the category; 86.30 USD within the 225 limit."
+  },
+  {
+    "id": "b5a5b7d9-b5a5-4b88-b7d9-b5a5b7d9b5a5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Woodpecker CI — 1.12 USDC for lightweight self-hosted CI pipeline usage.",
+    "amount": 1.12,
+    "currency": "USDC",
+    "merchant": "Woodpecker CI",
+    "merchant_description": "Lightweight open-source CI/CD system with cloud execution option",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Woodpecker CI is a lightweight continuous integration tool — 'developer-tools'. 1.12 USDC within the 2 cap; policy covers the category."
+  },
+  {
+    "id": "c7b7d9f1-c7b7-4c99-d9f1-c7b7d9f1c7b7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Earthly Satellites — 9871.00 USD for remote build cache and CI acceleration.",
+    "amount": 9871.00,
+    "currency": "USD",
+    "merchant": "Earthly Satellites",
+    "merchant_description": "Remote build execution and cache platform for fast reproducible builds",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "9871.00 USD for Earthly Satellites — within the 15000 cap. Remote build caching is developer tooling; 'developer-tools' is an allowed category."
+  },
+  {
+    "id": "d9d9f1a3-d9d9-4da0-f1a3-d9d9f1a3d9d9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Depot Remote Caching — 1023.60 USD for Docker layer and build artifact caching.",
+    "amount": 1023.60,
+    "currency": "USD",
+    "merchant": "Depot Remote Caching",
+    "merchant_description": "Remote Docker build caching service for faster CI/CD pipeline execution",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Depot provides remote build caching — a developer tool for CI/CD acceleration. Policy allows 'developer-tools'; 1023.60 USD within the 4495 ceiling."
+  },
+  {
+    "id": "e1f1a3b5-e1f1-4eb1-a3b5-e1f1a3b5e1f1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Nx Agents — 5.87 USD for distributed task execution across the monorepo CI.",
+    "amount": 5.87,
+    "currency": "USD",
+    "merchant": "Nx Agents",
+    "merchant_description": "Distributed CI task execution agents for Nx monorepo build and test pipelines",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Nx Agents accelerate monorepo CI/CD via distributed task execution — 'developer-tools'. 5.87 USD within the 15 cap. Approve."
+  },
+  {
+    "id": "f3a3b5d7-f3a3-4fc2-b5d7-f3a3b5d7f3a3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Guru Teams — 2.23 USDC for company wiki and knowledge base platform.",
+    "amount": 2.23,
+    "currency": "USDC",
+    "merchant": "Guru Teams",
+    "merchant_description": "AI-powered company wiki and knowledge management tool for teams",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Guru is a knowledge management wiki — an operational expense. Policy allows 'operational-expenses'; 2.23 USDC within the 4 cap."
+  },
+  {
+    "id": "a4d5d7f9-a4d5-4ad3-d7f9-a4d5d7f9a4d5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Tettra Teams — 1073.50 EUR for internal wiki and process documentation.",
+    "amount": 1073.50,
+    "currency": "EUR",
+    "merchant": "Tettra Teams",
+    "merchant_description": "Team knowledge base and process documentation tool with Slack integration",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tettra is an internal wiki and process documentation tool — operational expenses. 1073.50 EUR within the 1800 ceiling; 'operational-expenses' is allowed."
+  },
+  {
+    "id": "b6f7f9a1-b6f7-4be4-f9a1-b6f7f9a1b6f7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Notion Enterprise — 356.90 USD for team workspace, docs, and project management.",
+    "amount": 356.90,
+    "currency": "USD",
+    "merchant": "Notion Enterprise",
+    "merchant_description": "All-in-one team workspace combining docs, wikis, databases, and project tracking",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Notion is a team workspace and knowledge tool — 'operational-expenses'. No carve-out needed; policy covers the category. 356.90 USD within the 1995 ceiling."
+  },
+  {
+    "id": "c8a9a1b3-c8a9-4cf5-a1b3-c8a9a1b3c8a9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Slite Teams — 16.40 USD for async team documentation and company handbook.",
+    "amount": 16.40,
+    "currency": "USD",
+    "merchant": "Slite Teams",
+    "merchant_description": "Async team documentation tool with AI search for internal knowledge bases",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "16.40 USD for Slite Teams — within the 45 cap. Internal documentation tools are operational expenses; the policy allows the category."
+  },
+  {
+    "id": "d0b1b3d5-d0b1-4d06-b3d5-d0b1b3d5d0b1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Almanac Docs — 0.57 USDC for structured policy and process documentation.",
+    "amount": 0.57,
+    "currency": "USDC",
+    "merchant": "Almanac Docs",
+    "merchant_description": "Structured documentation platform for company processes and policy management",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Almanac Docs is structured process documentation — an operational expense. 0.57 USDC within the 1 cap; 'operational-expenses' is explicitly allowed."
+  },
+  {
+    "id": "e2d3d5f7-e2d3-4e17-d5f7-e2d3d5f7e2d3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Bit.ai Teams — 0.0213 ETH for collaborative document and wiki platform.",
+    "amount": 0.0213,
+    "currency": "ETH",
+    "merchant": "Bit.ai Teams",
+    "merchant_description": "Collaborative document platform with rich embeds for team knowledge sharing",
+    "policy_state": {
+      "max_amount_per_tx": 0.03,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bit.ai is a collaborative documentation tool — 'operational-expenses'. 0.0213 ETH within the 0.03 cap; policy allows the category."
+  },
+  {
+    "id": "f4f5f7a9-f4f5-4f28-f7a9-f4f5f7a9f4f5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Nuclino Teams — 212.30 USD for lightweight team wiki and knowledge management.",
+    "amount": 212.30,
+    "currency": "USD",
+    "merchant": "Nuclino Teams",
+    "merchant_description": "Lightweight collaborative wiki and knowledge base for distributed teams",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Nuclino is a lightweight team wiki — an operational expense. Policy allows 'operational-expenses'; 212.30 USD well within the 995 ceiling."
+  },
+  {
+    "id": "a5a7a9b1-a5a7-4a39-a9b1-a5a7a9b1a5a7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "BookStack — 28.10 USD for self-hosted internal documentation platform.",
+    "amount": 28.10,
+    "currency": "USD",
+    "merchant": "BookStack",
+    "merchant_description": "Organized documentation platform for structured internal knowledge books and chapters",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "BookStack is internal documentation software — 'operational-expenses'. 28.10 USD within the 75 limit; policy covers the category without a carve-out."
+  },
+  {
+    "id": "b7b9b1d3-b7b9-4b40-b1d3-b7b9b1d3b7b9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Plausible Analytics — 1.74 USD for privacy-first website traffic analytics.",
+    "amount": 1.74,
+    "currency": "USD",
+    "merchant": "Plausible Analytics",
+    "merchant_description": "Lightweight privacy-first web analytics with no cookies or GDPR consent needed",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Plausible is a web analytics tool deployed by engineers — 'developer-tools'. 1.74 USD within the 3 cap; policy allows the category."
+  },
+  {
+    "id": "c9d1d3f5-c9d1-4c51-d3f5-c9d1d3f5c9d1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Fathom Analytics — 2847.00 USDC for privacy-respecting web analytics platform.",
+    "amount": 2847.00,
+    "currency": "USDC",
+    "merchant": "Fathom Analytics",
+    "merchant_description": "Privacy-first analytics platform offering GDPR-compliant website traffic insights",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Fathom Analytics ($2847.00 USDC within $4500) is a web analytics tool for engineering and product teams — 'developer-tools'. Policy covers the category. Approve."
+  },
+  {
+    "id": "d1f3f5a7-d1f3-4d62-f5a7-d1f3f5a7d1f3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Matomo Cloud — 784.30 USD for self-hosted-style analytics with full data control.",
+    "amount": 784.30,
+    "currency": "USD",
+    "merchant": "Matomo Cloud",
+    "merchant_description": "Cloud-hosted Matomo analytics with full data ownership and no data sampling",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Matomo is a web analytics platform — developer tooling for product and growth teams. 'Developer-tools' is allowed; 784.30 USD within the 4495 ceiling."
+  },
+  {
+    "id": "e3a5a7b9-e3a5-4e73-a7b9-e3a5a7b9e3a5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Pirsch Analytics — 54.60 USD for simple, cookie-free web traffic analytics.",
+    "amount": 54.60,
+    "currency": "USD",
+    "merchant": "Pirsch Analytics",
+    "merchant_description": "Cookie-free web analytics with real-time dashboards and API access",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pirsch is a web analytics service — 'developer-tools'. 54.60 USD within the 150 cap; no carve-out needed, category is permitted."
+  },
+  {
+    "id": "f5b7b9d1-f5b7-4f84-b9d1-f5b7b9d1f5b7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Counter.dev — 5.73 USD for open-source-style simple web analytics.",
+    "amount": 5.73,
+    "currency": "USD",
+    "merchant": "Counter.dev",
+    "merchant_description": "Minimalist, open-source-inspired web analytics for tracking page views and referrers",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Counter.dev is a lightweight web analytics tool — 'developer-tools'. 5.73 USD within the 10 cap; the policy allows the category."
+  },
+  {
+    "id": "a6d9d1f3-a6d9-4a95-d1f3-a6d9d1f3a6d9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Recurly Platform — 0.1712 ETH for subscription billing and recurring revenue management.",
+    "amount": 0.1712,
+    "currency": "ETH",
+    "merchant": "Recurly Platform",
+    "merchant_description": "Subscription billing platform for managing recurring revenue, dunning, and invoicing",
+    "policy_state": {
+      "max_amount_per_tx": 0.75,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Recurly manages subscription billing — a routine operational expense for SaaS companies. Policy allows 'operational-expenses'; 0.1712 ETH within the 0.75 cap."
+  },
+  {
+    "id": "b8f1f3a5-b8f1-4ba6-f3a5-b8f1f3a5b8f1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Zuora Billing — 107.40 USD for enterprise subscription and usage-based billing.",
+    "amount": 107.40,
+    "currency": "USD",
+    "merchant": "Zuora Billing",
+    "merchant_description": "Enterprise subscription management platform for recurring and usage-based billing",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "107.40 USD for Zuora — within the 297 limit. Billing infrastructure is an operational expense; 'operational-expenses' is explicitly permitted by policy."
+  },
+  {
+    "id": "c0a3a5b7-c0a3-4cb7-a5b7-c0a3a5b7c0a3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Paddle Seller — 1.09 USD for merchant-of-record subscription and tax handling.",
+    "amount": 1.09,
+    "currency": "USD",
+    "merchant": "Paddle Seller",
+    "merchant_description": "Merchant-of-record billing platform handling global tax compliance for SaaS",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Paddle is a merchant-of-record billing service — operational expenses. 1.09 USD within the 2 cap; policy covers the category."
+  },
+  {
+    "id": "d2b5b7d9-d2b5-4dc8-b7d9-d2b5b7d9d2b5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lemon Squeezy Store — 11384.00 USDC for e-commerce and digital product sales infrastructure.",
+    "amount": 11384.00,
+    "currency": "USDC",
+    "merchant": "Lemon Squeezy Store",
+    "merchant_description": "E-commerce platform for digital products with built-in tax and subscription handling",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lemon Squeezy is an e-commerce and billing platform — 'operational-expenses'. 11384.00 USDC within the 15000 ceiling. Policy allows the category."
+  },
+  {
+    "id": "e4d7d9f1-e4d7-4ed9-d9f1-e4d7d9f1e4d7",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Semgrep Cloud Platform — 2183.50 USD for static application security testing at scale.",
+    "amount": 2183.50,
+    "currency": "USD",
+    "merchant": "Semgrep Cloud Platform",
+    "merchant_description": "SAST platform for finding security vulnerabilities in source code at CI speed",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Semgrep is a static analysis security tool — 'security' is an allowed category. 2183.50 USD within the 3000 cap."
+  },
+  {
+    "id": "f6f9f1a3-f6f9-4fe0-f1a3-f6f9f1a3f6f9",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Checkmarx One — 431.60 USDC for enterprise application security testing platform.",
+    "amount": 431.60,
+    "currency": "USDC",
+    "merchant": "Checkmarx One",
+    "merchant_description": "Unified application security platform covering SAST, SCA, and API security",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Checkmarx One is an AppSec testing platform — a 'security' tool. The mandate allows that category; 431.60 USDC fits the 798 limit."
+  },
+  {
+    "id": "a7a1a3b5-a7a1-4af1-a3b5-a7a1a3b5a7a1",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Veracode Platform — 0.00437 ETH for cloud-based code security scanning service.",
+    "amount": 0.00437,
+    "currency": "ETH",
+    "merchant": "Veracode Platform",
+    "merchant_description": "Cloud-native application security scanning covering SAST, DAST, and SCA",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "'Security' is permitted by the mandate; Veracode provides application security scanning — the category matches. 0.00437 ETH within the 0.015 cap."
+  },
+  {
+    "id": "b9b3b5d7-b9b3-4bb2-b5d7-b9b3b5d7b9b3",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Aqua Security — 0.87 USD for cloud-native container and workload security.",
+    "amount": 0.87,
+    "currency": "USD",
+    "merchant": "Aqua Security",
+    "merchant_description": "Cloud-native security platform for container, Kubernetes, and serverless workloads",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Aqua Security is cloud-native workload security — 'security' is an allowed category. 0.87 USD within the 5 cap."
+  },
+  {
+    "id": "c1d5d7f9-c1d5-4cc3-d7f9-c1d5d7f9c1d5",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Prisma Cloud (Palo Alto) — 4873.00 USD for cloud security posture management.",
+    "amount": 4873.00,
+    "currency": "USD",
+    "merchant": "Prisma Cloud (Palo Alto)",
+    "merchant_description": "Comprehensive cloud security platform for CSPM, CWPP, and runtime protection",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["security", "cloud"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Prisma Cloud is cloud security posture management — the mandate permits 'security'. 4873.00 USD is well within the 50000 ceiling."
+  },
+  {
+    "id": "d3f7f9a1-d3f7-4dd4-f9a1-d3f7f9a1d3f7",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Tenable.io — 0.4217 ETH for vulnerability management and asset scanning.",
+    "amount": 0.4217,
+    "currency": "ETH",
+    "merchant": "Tenable.io",
+    "merchant_description": "Cloud vulnerability management platform for continuous asset and CVE scanning",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tenable.io is vulnerability management tooling — 'security' is an allowed category. 0.4217 ETH within the 0.6 limit."
+  },
+  {
+    "id": "e5a9a1b3-e5a9-4ee5-a1b3-e5a9a1b3e5a9",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Qualys VMDR — 112.40 USD for continuous vulnerability and risk assessment.",
+    "amount": 112.40,
+    "currency": "USD",
+    "merchant": "Qualys VMDR",
+    "merchant_description": "Vulnerability management, detection, and response platform for enterprise environments",
+    "policy_state": {
+      "max_amount_per_tx": 198,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Qualys VMDR is a vulnerability detection and response platform — 'security'. The policy allows that category; 112.40 USD fits the 198 cap."
+  },
+  {
+    "id": "f7b1b3d5-f7b1-4ff6-b3d5-f7b1b3d5f7b1",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "SonarCloud — 0.57 USD for continuous code quality and security scanning.",
+    "amount": 0.57,
+    "currency": "USD",
+    "merchant": "SonarCloud",
+    "merchant_description": "Cloud-based code quality and security analysis platform integrated with CI pipelines",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SonarCloud provides code security scanning — a 'security' tool. Allowed by policy; 0.57 USD within the 2 cap."
+  },
+  {
+    "id": "a8d3d5f7-a8d3-4af7-d5f7-a8d3d5f7a8d3",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "DeepSource — 1078.50 USDC for automated code review and static analysis.",
+    "amount": 1078.50,
+    "currency": "USDC",
+    "merchant": "DeepSource",
+    "merchant_description": "Automated code review platform for finding bugs and security issues via static analysis",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["developer-tools", "security"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DeepSource is an automated code review and static analysis tool — 'developer-tools' is an allowed category. 1078.50 USDC within the 6000 ceiling."
+  },
+  {
+    "id": "b0f5f7a9-b0f5-4ba8-f7a9-b0f5f7a9b0f5",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Bearer — 218.70 USD for API security testing and data flow scanning.",
+    "amount": 218.70,
+    "currency": "USD",
+    "merchant": "Bearer",
+    "merchant_description": "API security scanner and data flow analysis tool for detecting sensitive data leaks",
+    "policy_state": {
+      "max_amount_per_tx": 1990,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bearer is an API security and data flow scanning tool — 'security' is permitted. 218.70 USD within the 1990 cap."
+  },
+  {
+    "id": "c2a7a9b1-c2a7-4cb9-a9b1-c2a7a9b1c2a7",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Jit.io — 54.20 USD for DevSecOps orchestration and security controls automation.",
+    "amount": 54.20,
+    "currency": "USD",
+    "merchant": "Jit.io",
+    "merchant_description": "DevSecOps platform orchestrating security tools across CI/CD pipelines",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Jit.io orchestrates DevSecOps controls — a security tool. The mandate allows 'security'; 54.20 USD fits the 75 cap."
+  },
+  {
+    "id": "d4b9b1d3-d4b9-4dc0-b1d3-d4b9b1d3d4b9",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Oxeye Security — 5.41 USDC for cloud-native application security testing.",
+    "amount": 5.41,
+    "currency": "USDC",
+    "merchant": "Oxeye Security",
+    "merchant_description": "Cloud-native application security testing platform for distributed architectures",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Oxeye Security is cloud-native AppSec tooling — 'security'. Policy allows the category; 5.41 USDC within the 10 limit."
+  },
+  {
+    "id": "e6d1d3f5-e6d1-4ed1-d3f5-e6d1d3f5e6d1",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Arnica — 3178.00 USD for code security posture management and developer risk analytics.",
+    "amount": 3178.00,
+    "currency": "USD",
+    "merchant": "Arnica",
+    "merchant_description": "Code security posture management platform for identifying developer risk behaviors",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Arnica provides code security posture management — a 'security' category tool. 3178.00 USD within the 9000 ceiling; policy allows the category."
+  },
+  {
+    "id": "f8f3f5a7-f8f3-4fe2-f5a7-f8f3f5a7f8f3",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "FOSSA — 461.30 USD for open source license compliance and vulnerability scanning.",
+    "amount": 461.30,
+    "currency": "USD",
+    "merchant": "FOSSA",
+    "merchant_description": "Open source license compliance and software composition analysis platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "FOSSA is an OSS compliance and SCA tool — 'security' is an allowed category. 461.30 USD within the 1995 cap."
+  },
+  {
+    "id": "a9a5a7b9-a9a5-4af3-a7b9-a9a5a7b9a9a5",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Mend.io (WhiteSource) — 27.80 USDC for open source software supply chain security.",
+    "amount": 27.80,
+    "currency": "USDC",
+    "merchant": "Mend.io (WhiteSource)",
+    "merchant_description": "Open source security and license compliance platform for software supply chain",
+    "policy_state": {
+      "max_amount_per_tx": 250,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mend.io is open source supply chain security tooling — 'security'. The mandate permits that category; 27.80 USDC within the 250 limit."
+  },
+  {
+    "id": "b1b7b9d1-b1b7-4ba4-b9d1-b1b7b9d1b1b7",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Endor Labs — 2.19 EUR for software supply chain security and dependency risk scoring.",
+    "amount": 2.19,
+    "currency": "EUR",
+    "merchant": "Endor Labs",
+    "merchant_description": "Software supply chain security platform for dependency risk analysis and SBOM",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Endor Labs focuses on software supply chain security — 'security' is an allowed category. 2.19 EUR within the 3 cap."
+  },
+  {
+    "id": "c3d9d1f3-c3d9-4cb5-d1f3-c3d9d1f3c3d9",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Ox Security — 9647.00 USD for application security posture management platform.",
+    "amount": 9647.00,
+    "currency": "USD",
+    "merchant": "Ox Security",
+    "merchant_description": "Application security posture management with end-to-end pipeline visibility",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ox Security is application security posture management — 'security' is permitted. 9647.00 USD within the 20000 ceiling."
+  },
+  {
+    "id": "d5f1f3a5-d5f1-4dc6-f3a5-d5f1f3a5d5f1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Arrakis Finance — 16.40 USDC for automated Uniswap V3 LP rebalancing.",
+    "amount": 16.40,
+    "currency": "USDC",
+    "merchant": "Arrakis Finance",
+    "merchant_description": "Automated Uniswap V3 concentrated LP management and rebalancing protocol",
+    "policy_state": {
+      "max_amount_per_tx": 23,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Arrakis Finance allowed for automated Uniswap V3 LP rebalancing"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Arrakis Finance for automated Uniswap V3 LP rebalancing. 16.40 USDC within the 23 cap."
+  },
+  {
+    "id": "e7a3a5b7-e7a3-4ed7-a5b7-e7a3a5b7e7a3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Gamma Strategies — 0.4253 ETH for concentrated LP management via automated vaults.",
+    "amount": 0.4253,
+    "currency": "ETH",
+    "merchant": "Gamma Strategies",
+    "merchant_description": "Active concentrated liquidity manager for Uniswap V3 and similar AMMs",
+    "policy_state": {
+      "max_amount_per_tx": 1.2,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Gamma Strategies vaults allowed for concentrated LP management"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Gamma Strategies vaults covering concentrated LP management. 0.4253 ETH within the 1.2 limit."
+  },
+  {
+    "id": "f9b5b7d9-f9b5-4fe8-b7d9-f9b5b7d9f9b5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ichi Finance — 3247.00 USDC for single-sided USDC LP via ICHI vault.",
+    "amount": 3247.00,
+    "currency": "USDC",
+    "merchant": "Ichi Finance",
+    "merchant_description": "Single-sided liquidity provisioning protocol for USDC and stablecoin LP",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Ichi Finance allowed for single-sided USDC LP provision"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Ichi Finance authorized for single-sided USDC LP provision. 3247.00 USDC within the 6000 ceiling."
+  },
+  {
+    "id": "a0d7d9f1-a0d7-4af9-d9f1-a0d7d9f1a0d7",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Steer Protocol — 0.93 USDC for automated multi-range LP position management.",
+    "amount": 0.93,
+    "currency": "USDC",
+    "merchant": "Steer Protocol",
+    "merchant_description": "Multi-range automated LP strategy vaults for concentrated liquidity AMMs",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Steer Protocol vaults allowed for automated multi-range LP"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Steer Protocol vaults are listed as a named exception in the policy for automated multi-range LP. 0.93 USDC within the 1 cap."
+  },
+  {
+    "id": "b2f9f1a3-b2f9-4ba0-f1a3-b2f9f1a3b2f9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Charm Finance Alpha Vaults — 27.40 USDC for passive Uniswap V3 LP rebalancing.",
+    "amount": 27.40,
+    "currency": "USDC",
+    "merchant": "Charm Finance Alpha Vaults",
+    "merchant_description": "Passive automated Uniswap V3 LP vaults with periodic rebalancing",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Charm Alpha Vaults allowed for passive Uniswap V3 LP"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Charm Alpha Vaults authorized for passive Uniswap V3 LP. 27.40 USDC within the 75 limit."
+  }
+]

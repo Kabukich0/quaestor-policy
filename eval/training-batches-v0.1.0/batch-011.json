@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "ab71c406-63b4-4c00-a6dd-01425201dc7c",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Doppler Teams \u2014 104 USD \u2014 centralized secrets manager and environment variable sync across our engineering services",
+    "amount": 104.0,
+    "currency": "USD",
+    "merchant": "Doppler Teams",
+    "merchant_description": "Secrets management platform for teams",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "104 USD for Doppler Teams \u2014 within the 297 limit. Doppler manages secrets and environment variables \u2014 a developer tool. The policy allows 'developer-tools'; secrets management qualifies."
+  },
+  {
+    "id": "a6aa1a9c-c2cb-4592-888b-e06a0640ef30",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Infisical Cloud \u2014 1.57 USD \u2014 open-source secrets management platform for developer environment configurations",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "Infisical Cloud",
+    "merchant_description": "Open-source secrets manager and PKI platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy allows 'developer-tools'; Infisical is an open-source secrets management platform that clearly maps to this. 1.57 USD is within the 3 limit."
+  },
+  {
+    "id": "abfa07c7-d3a6-4f4d-a70f-d8df35affec5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "1Password Business \u2014 3,150 USDC \u2014 team password manager and secrets vault for shared credentials and SSH keys",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "1Password Business",
+    "merchant_description": "Password manager and secrets vault for teams",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved. 1Password Business is a password manager and secrets vault \u2014 a developer and operational tool. Policy allows both 'developer-tools' and 'operational-tools'; credential management qualifies. 3,150 USDC within the 4,500 limit."
+  },
+  {
+    "id": "f0313c50-ac87-45bd-8a90-7d94e366b35f",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Bitwarden Enterprise \u2014 209 USD \u2014 open-source password manager and credential sharing for our engineering and ops teams",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Bitwarden Enterprise",
+    "merchant_description": "Open-source enterprise password manager",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bitwarden ($209) provides password management for teams \u2014 a developer and operational tool. Category 'developer-tools' is allowed and the tool qualifies. Within the 995 limit."
+  },
+  {
+    "id": "f0a0aa02-15a2-48c5-b710-69b9a489e6be",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "HashiCorp Vault HCP \u2014 10.50 USD \u2014 managed secrets and encryption-as-a-service for our cloud infrastructure",
+    "amount": 10.5,
+    "currency": "USD",
+    "merchant": "HashiCorp Vault HCP",
+    "merchant_description": "Managed HashiCorp Vault for secrets and PKI",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "HashiCorp Vault HCP provides secrets management and PKI \u2014 a developer tool for infrastructure security. 'developer-tools' is an allowed category; secrets infrastructure qualifies. 10.50 USD within the 30 limit."
+  },
+  {
+    "id": "b4427fdc-cd53-4baa-964d-a2efb66c0b6a",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Zapier Professional \u2014 5.24 USD \u2014 workflow automation and no-code integrations connecting our SaaS tools",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Zapier Professional",
+    "merchant_description": "No-code workflow automation and integrations platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Zapier Professional automates workflows across SaaS tools \u2014 an operational tool for productivity. Policy allows 'operational-tools'; workflow automation software qualifies. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "33177a5d-793e-4fa9-a065-9b0d799fcde0",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Make (Integromat) Pro \u2014 5,250 USDC \u2014 visual automation platform for complex multi-step workflows and data transformations",
+    "amount": 5250.0,
+    "currency": "USDC",
+    "merchant": "Make (Integromat) Pro",
+    "merchant_description": "Visual no-code automation and integration platform",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Make provides visual no-code workflow automation \u2014 an operational tool connecting business systems. Category 'operational-tools' is allowed; automation platforms qualify. 5,250 USDC within the 7,500 limit."
+  },
+  {
+    "id": "a02eeda7-637b-42d2-b21b-4044b11b1336",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "n8n Cloud \u2014 0.42 ETH \u2014 self-hostable workflow automation with code-optional custom nodes for our engineering team",
+    "amount": 0.42,
+    "currency": "ETH",
+    "merchant": "n8n Cloud",
+    "merchant_description": "Open-source workflow automation with code-optional nodes",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "n8n Cloud is a code-optional automation platform \u2014 an operational tool for workflow integration. Policy allows 'operational-tools'; self-hostable automation infrastructure qualifies. 0.42 ETH within the 2 limit."
+  },
+  {
+    "id": "02021e8a-6d67-43b4-ab19-96c4f0056137",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Retool Teams \u2014 21 USD \u2014 low-code internal tool builder for admin dashboards and operations interfaces",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "Retool Teams",
+    "merchant_description": "Low-code platform for building internal tools",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Retool builds internal tools via low-code interfaces \u2014 a developer tool for creating ops dashboards. 'developer-tools' is an allowed category; internal tooling platforms qualify. 21 USD within the 60 limit."
+  },
+  {
+    "id": "abc38f2c-fe3f-4fdd-a51f-d64053d17d8f",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Appsmith Cloud \u2014 1.05 USD \u2014 open-source low-code platform for building internal applications and data viewers",
+    "amount": 1.05,
+    "currency": "USD",
+    "merchant": "Appsmith Cloud",
+    "merchant_description": "Open-source internal app builder",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Appsmith is a low-code internal app builder \u2014 a developer tool for creating admin UIs and dashboards. Policy allows 'developer-tools'; internal application builders qualify. 1.05 USD within the 2 limit."
+  },
+  {
+    "id": "d44db253-e19c-4570-aeea-3d70086cd26f",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Budibase Cloud \u2014 10,500 USDC \u2014 open-source low-code platform for internal portals and workflow applications",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "Budibase Cloud",
+    "merchant_description": "Open-source low-code app builder for internal tools",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Budibase provides low-code internal application development \u2014 a developer tool for building business portals. Category 'developer-tools' is allowed; low-code platforms qualify. 10,500 USDC within the 15,000 limit."
+  },
+  {
+    "id": "8073af67-1515-4ab8-9bf5-5fd92abb34ab",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Airtable Pro \u2014 0.158 ETH \u2014 spreadsheet-database hybrid for tracking projects, campaigns, and operational workflows",
+    "amount": 0.158,
+    "currency": "ETH",
+    "merchant": "Airtable Pro",
+    "merchant_description": "Spreadsheet-database for flexible data organization",
+    "policy_state": {
+      "max_amount_per_tx": 0.75,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved. Airtable Pro is a flexible data management tool used for operational tracking \u2014 an operational tool. Policy allows 'operational-tools'; database-spreadsheet platforms qualify. 0.158 ETH within the 0.75 limit."
+  },
+  {
+    "id": "55851e40-efab-4425-a46d-177655c649fd",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Notion Teams \u2014 42 USD \u2014 all-in-one team workspace for docs, wikis, and project management",
+    "amount": 42.0,
+    "currency": "USD",
+    "merchant": "Notion Teams",
+    "merchant_description": "All-in-one workspace for docs and projects",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Notion Teams provides team documentation and project management \u2014 a standard operational tool. Policy allows 'operational-tools'; workspace platforms for teams qualify. 42 USD within the 120 limit."
+  },
+  {
+    "id": "6a59049d-7359-4778-b565-12b24607008e",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "ClickUp Business \u2014 2.10 USD \u2014 project management and task tracking for our cross-functional operations team",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "ClickUp Business",
+    "merchant_description": "All-in-one project management platform",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ClickUp Business manages projects and tasks \u2014 an operational tool for team coordination. The policy's allowed category 'operational-tools' covers project management software. 2.10 USD within the 4 limit."
+  },
+  {
+    "id": "be015fe4-f79e-4f70-94f0-a755b0b03116",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Monday.com Pro \u2014 1,260 USD \u2014 work management platform for tracking cross-team projects and delivery timelines",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Monday.com Pro",
+    "merchant_description": "Work management and project tracking platform",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Monday.com Pro is a work management and project tracking platform \u2014 an operational tool. Policy allows 'operational-tools'; project management platforms qualify. 1,260 USD within the 1,800 limit."
+  },
+  {
+    "id": "a58d4743-8486-491c-88a5-357ab1a6e028",
+    "cluster": "1",
+    "category": "search",
+    "intent_text": "Typesense Cloud \u2014 944 USD \u2014 open-source typo-tolerant search engine cloud for our product catalog and documentation",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Typesense Cloud",
+    "merchant_description": "Open-source typo-tolerant search engine cloud",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "search",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Typesense Cloud is a hosted search engine \u2014 a search tool in the 'search' category. Policy allows 'search'; this payment maps directly to it. 944 USD within the 2,697 limit."
+  },
+  {
+    "id": "51f6b2f0-1315-4ef5-8a60-98bd99dcead5",
+    "cluster": "1",
+    "category": "search",
+    "intent_text": "Meilisearch Cloud \u2014 104 USDC \u2014 fast, relevance-focused search engine cloud for our product search and autocomplete",
+    "amount": 104.0,
+    "currency": "USDC",
+    "merchant": "Meilisearch Cloud",
+    "merchant_description": "Fast, relevance-focused search engine cloud",
+    "policy_state": {
+      "max_amount_per_tx": 495,
+      "allowed_categories": [
+        "search",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Meilisearch Cloud provides hosted fast search \u2014 a search tool in the allowed 'search' category. 104 USDC within the 495 limit."
+  },
+  {
+    "id": "bcb57a03-2169-4f79-88a2-7af36fbb4d97",
+    "cluster": "1",
+    "category": "search",
+    "intent_text": "Algolia Search \u2014 1.57 USDT \u2014 hosted search API for instant-results autocomplete and product discovery",
+    "amount": 1.57,
+    "currency": "USDT",
+    "merchant": "Algolia Search",
+    "merchant_description": "Hosted search API with instant results",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "search",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Algolia is a leading hosted search API \u2014 directly in the 'search' category which the policy allows. 1.57 USDT within the 15 limit."
+  },
+  {
+    "id": "2b270916-e463-461a-a7fb-2b1c0074dc8f",
+    "cluster": "1",
+    "category": "search",
+    "intent_text": "Elasticsearch Cloud (Elastic) \u2014 2,100 USD \u2014 managed Elasticsearch for our log analytics and full-text product search",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Elasticsearch Cloud (Elastic)",
+    "merchant_description": "Managed Elasticsearch and observability suite",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "search",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Elasticsearch Cloud provides managed full-text search \u2014 a search tool in the allowed 'search' category. Amount 2,100 USD is within the 3,000 limit."
+  },
+  {
+    "id": "38bec641-dae4-4e73-bafa-23ff5207fbdb",
+    "cluster": "1",
+    "category": "search",
+    "intent_text": "OpenSearch Managed (AWS) \u2014 209 USDC \u2014 AWS-managed OpenSearch for our log ingestion and application search layer",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "OpenSearch Managed (AWS)",
+    "merchant_description": "Managed OpenSearch Service on AWS",
+    "policy_state": {
+      "max_amount_per_tx": 398,
+      "allowed_categories": [
+        "search",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "OpenSearch Managed is a search infrastructure service \u2014 'search' is an allowed category and this matches. 209 USDC within the 398 limit."
+  },
+  {
+    "id": "56083304-715e-414e-9026-7c4b6ada968f",
+    "cluster": "1",
+    "category": "data-pipeline",
+    "intent_text": "Airbyte Cloud \u2014 0.315 ETH \u2014 open-source ELT data pipeline for syncing data sources to our warehouse",
+    "amount": 0.315,
+    "currency": "ETH",
+    "merchant": "Airbyte Cloud",
+    "merchant_description": "Open-source ELT data pipeline cloud",
+    "policy_state": {
+      "max_amount_per_tx": 0.9,
+      "allowed_categories": [
+        "data-pipeline",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Airbyte Cloud provides ELT data pipelines \u2014 a data-pipeline tool in the allowed 'data-pipeline' category. 0.315 ETH within the 0.9 limit."
+  },
+  {
+    "id": "aa9e1074-75e7-4f74-83c4-fe1ccf2b428d",
+    "cluster": "1",
+    "category": "data-pipeline",
+    "intent_text": "Stitch Data \u2014 1.04 USD \u2014 simple ETL pipeline service for syncing SaaS data sources to our data warehouse",
+    "amount": 1.04,
+    "currency": "USD",
+    "merchant": "Stitch Data",
+    "merchant_description": "Simple ETL pipeline service by Talend",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "data-pipeline",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stitch Data is an ETL pipeline service \u2014 directly in the 'data-pipeline' category which the policy allows. 1.04 USD within the 5 limit."
+  },
+  {
+    "id": "d5b81664-123c-47b5-b42c-5495ba275636",
+    "cluster": "1",
+    "category": "data-pipeline",
+    "intent_text": "Hevo Data \u2014 5,250 USD \u2014 no-code data pipeline platform for automated data replication and transformation",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "Hevo Data",
+    "merchant_description": "No-code data pipeline platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": [
+        "data-pipeline",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hevo Data provides no-code data pipelines \u2014 a data-pipeline tool in the allowed 'data-pipeline' category. 5,250 USD within the 50,000 limit."
+  },
+  {
+    "id": "188a8cc0-4550-4627-b179-af6f9ce8cf00",
+    "cluster": "1",
+    "category": "data-pipeline",
+    "intent_text": "Rivery \u2014 0.158 ETH \u2014 cloud-native data pipeline and orchestration for our marketing analytics stack",
+    "amount": 0.158,
+    "currency": "ETH",
+    "merchant": "Rivery",
+    "merchant_description": "Cloud-native data pipeline and orchestration",
+    "policy_state": {
+      "max_amount_per_tx": 0.225,
+      "allowed_categories": [
+        "data-pipeline",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Rivery provides cloud-native data pipeline orchestration \u2014 'data-pipeline' is an allowed category and Rivery fits it. 0.158 ETH within the 0.225 limit."
+  },
+  {
+    "id": "19175511-f748-41ce-ac4b-75c8d38938db",
+    "cluster": "1",
+    "category": "data-pipeline",
+    "intent_text": "Portable.io \u2014 26 USD \u2014 data connector platform syncing SaaS sources to our warehouse for analytics",
+    "amount": 26.0,
+    "currency": "USD",
+    "merchant": "Portable.io",
+    "merchant_description": "Data connector platform for SaaS to warehouse",
+    "policy_state": {
+      "max_amount_per_tx": 50,
+      "allowed_categories": [
+        "data-pipeline",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Portable.io is a data connector and pipeline platform \u2014 'data-pipeline' is an allowed category; this matches directly. 26 USD within the 50 limit."
+  },
+  {
+    "id": "78e30eb6-7344-4d3c-9ef1-b7db1074da6f",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Readme.io \u2014 0.52 USD \u2014 developer hub and API documentation for our public-facing API endpoints",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "Readme.io",
+    "merchant_description": "Developer hub and API documentation platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Readme.io provides API documentation infrastructure \u2014 an api-tooling service in the allowed 'api-tooling' category. 0.52 USD within the 2 limit."
+  },
+  {
+    "id": "43d4d191-493e-45e5-bfff-9e54c44648f5",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Scalar API \u2014 1,260 USDC \u2014 open-source API reference documentation and interactive playground for our API consumers",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "Scalar API",
+    "merchant_description": "Open-source API reference documentation tool",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scalar API provides API reference documentation \u2014 'api-tooling' is an allowed category and Scalar fits this directly. 1,260 USDC within the 6,000 limit."
+  },
+  {
+    "id": "c48683f3-7ca2-451f-b9be-aeba4a7733bf",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Bump.sh \u2014 944 USD \u2014 API documentation hosting with CI-integrated change detection for our REST APIs",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Bump.sh",
+    "merchant_description": "API documentation hosting with CI change detection",
+    "policy_state": {
+      "max_amount_per_tx": 8990,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bump.sh is an API documentation platform \u2014 directly in the 'api-tooling' category which the policy allows. 944 USD within the 8,990 limit."
+  },
+  {
+    "id": "1fd22472-103c-4f00-be9a-0d3050f05d59",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Speakeasy \u2014 15.75 USD \u2014 automated SDK generation from our OpenAPI specs for multiple language clients",
+    "amount": 15.75,
+    "currency": "USD",
+    "merchant": "Speakeasy",
+    "merchant_description": "Automated SDK generation from OpenAPI specs",
+    "policy_state": {
+      "max_amount_per_tx": 23,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Speakeasy generates SDKs from OpenAPI specs \u2014 an api-tooling developer tool in the allowed 'api-tooling' category. 15.75 USD within the 23 limit."
+  },
+  {
+    "id": "4f8e4ab4-95ed-4a39-a5b4-5d5ccbc5a1d7",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Stoplight Platform \u2014 5.24 USDC \u2014 API design, documentation, and mocking for our team's API development workflow",
+    "amount": 5.24,
+    "currency": "USDC",
+    "merchant": "Stoplight Platform",
+    "merchant_description": "API design, documentation, and mocking",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stoplight provides API design and documentation tooling \u2014 'api-tooling' is an allowed category and this is a direct match. 5.24 USDC within the 10 limit."
+  },
+  {
+    "id": "7c463cdd-6582-4a3e-b6fe-9590711d8037",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Postman Teams \u2014 3,150 USD \u2014 API testing, design, and collaboration platform for our backend engineering team",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "Postman Teams",
+    "merchant_description": "API platform for design, testing, and docs",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Postman Teams is a leading API development platform \u2014 in the allowed 'api-tooling' category. Amount 3,150 USD within the 9,000 limit."
+  },
+  {
+    "id": "17520b5c-c980-445d-9f78-efc81939279f",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Insomnia Cloud \u2014 209 USD \u2014 API design and testing client for REST, GraphQL, and gRPC development",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Insomnia Cloud",
+    "merchant_description": "API design and testing tool",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Insomnia Cloud is an API design and testing tool \u2014 directly in the allowed 'api-tooling' category. 209 USD within the 995 limit."
+  },
+  {
+    "id": "11f0f3d6-e959-4574-a73e-a478a5d1c62f",
+    "cluster": "1",
+    "category": "api-tooling",
+    "intent_text": "Hoppscotch Teams \u2014 5.25 USDC \u2014 open-source API testing platform for REST, GraphQL, and WebSocket endpoints",
+    "amount": 5.25,
+    "currency": "USDC",
+    "merchant": "Hoppscotch Teams",
+    "merchant_description": "Open-source API testing platform",
+    "policy_state": {
+      "max_amount_per_tx": 50,
+      "allowed_categories": [
+        "api-tooling",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hoppscotch is an open-source API testing platform \u2014 'api-tooling' is allowed and Hoppscotch maps to it directly. 5.25 USDC within the 50 limit."
+  },
+  {
+    "id": "e1d34d06-9468-41fc-8227-09ddc08178a7",
+    "cluster": "1",
+    "category": "load-testing",
+    "intent_text": "k6 Cloud (Grafana) \u2014 2.10 EUR \u2014 performance testing cloud for running load tests against our APIs",
+    "amount": 2.1,
+    "currency": "EUR",
+    "merchant": "k6 Cloud (Grafana)",
+    "merchant_description": "Performance testing cloud using k6 scripts",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "load-testing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "k6 Cloud is a performance and load testing platform \u2014 'load-testing' is an allowed category and this is a direct match. 2.10 EUR within the 3 limit."
+  },
+  {
+    "id": "c15c2950-2675-4069-88b2-3f21d88b774d",
+    "cluster": "1",
+    "category": "load-testing",
+    "intent_text": "Artillery Cloud \u2014 10,500 USD \u2014 scalable load testing platform for stress testing our production API at scale",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Artillery Cloud",
+    "merchant_description": "Scalable load testing platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "load-testing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Artillery Cloud provides scalable load testing \u2014 in the allowed 'load-testing' category. 10,500 USD within the 20,000 limit."
+  },
+  {
+    "id": "0682ff91-0ba6-4509-b767-b7dbf55cdb02",
+    "cluster": "1",
+    "category": "load-testing",
+    "intent_text": "Gatling Enterprise \u2014 419 USD \u2014 continuous load testing platform for validating API performance under realistic traffic",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Gatling Enterprise",
+    "merchant_description": "Continuous load testing platform",
+    "policy_state": {
+      "max_amount_per_tx": 1197,
+      "allowed_categories": [
+        "load-testing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gatling Enterprise is a continuous load testing platform \u2014 'load-testing' is an allowed category; this maps directly. 419 USD within the 1,197 limit."
+  },
+  {
+    "id": "1c8dc8cc-5fa0-4edc-b0c2-711db7c44e4d",
+    "cluster": "1",
+    "category": "load-testing",
+    "intent_text": "Flood.io \u2014 0.00525 ETH \u2014 cloud-scale performance testing for high-concurrency load simulations",
+    "amount": 0.00525,
+    "currency": "ETH",
+    "merchant": "Flood.io",
+    "merchant_description": "Cloud-scale performance testing",
+    "policy_state": {
+      "max_amount_per_tx": 0.025,
+      "allowed_categories": [
+        "load-testing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Flood.io provides cloud-scale performance testing \u2014 in the 'load-testing' category which the policy allows. 0.00525 ETH within the 0.025 limit."
+  },
+  {
+    "id": "3818c6cc-a16e-4515-a1aa-cf65e028e824",
+    "cluster": "1",
+    "category": "load-testing",
+    "intent_text": "LoadNinja \u2014 1.57 USD \u2014 real browser-based load testing for performance validation of our web application",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "LoadNinja",
+    "merchant_description": "Real browser-based load testing platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "load-testing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LoadNinja is a real-browser load testing platform \u2014 'load-testing' is an allowed category and LoadNinja qualifies directly. 1.57 USD within the 15 limit."
+  },
+  {
+    "id": "edd09f70-bd11-493c-9da2-5105d54728e5",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Rollbar \u2014 2,100 USD \u2014 error monitoring with deploy tracking for our production backend services",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Rollbar",
+    "merchant_description": "Error monitoring with deploy tracking",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "observability",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Rollbar provides error monitoring \u2014 an observability tool in the allowed 'observability' category. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "be5f17f1-7fbc-458b-9ee1-78484406d5b6",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Bugsnag \u2014 944 USDC \u2014 app stability monitoring for crashes and errors across our web and mobile platforms",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "Bugsnag",
+    "merchant_description": "App stability monitoring for web and mobile",
+    "policy_state": {
+      "max_amount_per_tx": 1798,
+      "allowed_categories": [
+        "observability",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bugsnag is an app stability and error monitoring tool \u2014 'observability' is an allowed category and Bugsnag fits it directly. 944 USDC within the 1,798 limit."
+  },
+  {
+    "id": "434e465d-5de5-4a9d-98c4-5c5cb5a7c95d",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "AppSignal \u2014 42 USD \u2014 performance and error monitoring for our Ruby/Elixir/JavaScript backend services",
+    "amount": 42.0,
+    "currency": "USD",
+    "merchant": "AppSignal",
+    "merchant_description": "Performance and error monitoring for Ruby/Elixir/JS",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": [
+        "observability",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "AppSignal provides performance and error monitoring \u2014 in the 'observability' category which the policy allows. 42 USD within the 120 limit."
+  },
+  {
+    "id": "957032ae-bc16-4e23-abc9-8c25e614dbbf",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Raygun \u2014 1.04 USD \u2014 error and performance monitoring platform for crash reporting across our services",
+    "amount": 1.04,
+    "currency": "USD",
+    "merchant": "Raygun",
+    "merchant_description": "Error and performance monitoring platform",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "observability",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Raygun is an error and performance monitoring platform \u2014 'observability' is an allowed category and Raygun maps to it. 1.04 USD within the 5 limit."
+  },
+  {
+    "id": "11a01879-2a65-4aea-bef9-e1dde0ee4610",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Atatus \u2014 5,250 USDC \u2014 full-stack APM and application performance monitoring for our production services",
+    "amount": 5250.0,
+    "currency": "USDC",
+    "merchant": "Atatus",
+    "merchant_description": "Full-stack application performance monitoring",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": [
+        "observability",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Atatus provides full-stack application performance monitoring \u2014 in the allowed 'observability' category. 5,250 USDC within the 50,000 limit."
+  },
+  {
+    "id": "0e43a35e-2630-45ec-91b2-219da160d383",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "CloudAMQP \u2014 209 USD \u2014 managed RabbitMQ message broker for our async task processing and event-driven services",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "CloudAMQP",
+    "merchant_description": "Managed RabbitMQ in the cloud",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "CloudAMQP provides managed RabbitMQ \u2014 a messaging infrastructure tool in the allowed 'messaging' category. 209 USD within the 299 limit."
+  },
+  {
+    "id": "34eca17e-b72c-41be-8f73-f8ca54300986",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "CloudKarafka \u2014 21 USD \u2014 managed Apache Kafka for our event streaming and real-time data pipeline",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "CloudKarafka",
+    "merchant_description": "Managed Apache Kafka hosting",
+    "policy_state": {
+      "max_amount_per_tx": 40,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "CloudKarafka is a managed Kafka service \u2014 'messaging' is an allowed category and Kafka infrastructure maps directly. 21 USD within the 40 limit."
+  },
+  {
+    "id": "3b331c4b-f41f-45f2-8bd1-d5f7400a0805",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "Upstash Kafka \u2014 0.52 USDC \u2014 serverless Kafka for event-driven messaging in our microservices architecture",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Upstash Kafka",
+    "merchant_description": "Serverless Kafka by Upstash",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Upstash Kafka provides serverless Kafka messaging \u2014 in the 'messaging' category which the policy allows. 0.52 USDC within the 2 limit."
+  },
+  {
+    "id": "8cb288b4-b469-420a-b6e1-3c9240e4e4ea",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "Ably Realtime \u2014 1,260 USDT \u2014 realtime pub/sub messaging platform for live notifications and presence in our app",
+    "amount": 1260.0,
+    "currency": "USDT",
+    "merchant": "Ably Realtime",
+    "merchant_description": "Realtime pub/sub messaging platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ably Realtime provides pub/sub messaging infrastructure \u2014 'messaging' is an allowed category and Ably fits it directly. 1,260 USDT within the 6,000 limit."
+  },
+  {
+    "id": "05d9f731-9019-478e-aadc-1541547b1ace",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "Pusher Channels \u2014 419 USD \u2014 hosted realtime WebSocket infrastructure for live features in our product",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Pusher Channels",
+    "merchant_description": "Hosted realtime WebSocket infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 3990,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pusher Channels provides hosted WebSocket messaging \u2014 in the allowed 'messaging' category. Amount 419 USD within the 3,990 limit."
+  },
+  {
+    "id": "92da80ac-affe-409c-a387-dd49d618b5b6",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "Soketi Cloud \u2014 10.50 USDC \u2014 Pusher-compatible WebSocket server for realtime chat and live data updates",
+    "amount": 10.5,
+    "currency": "USDC",
+    "merchant": "Soketi Cloud",
+    "merchant_description": "Pusher-compatible WebSocket server cloud",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Soketi Cloud provides Pusher-compatible WebSocket messaging \u2014 a messaging tool in the allowed 'messaging' category. 10.50 USDC within the 15 limit."
+  },
+  {
+    "id": "4d5befd7-ad0e-41fa-84b8-cf5397cb0b81",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "Stream Chat \u2014 0.26 ETH \u2014 in-app chat and activity feed API for real-time messaging in our mobile application",
+    "amount": 0.26,
+    "currency": "ETH",
+    "merchant": "Stream Chat",
+    "merchant_description": "In-app chat and activity feed API",
+    "policy_state": {
+      "max_amount_per_tx": 0.5,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stream Chat provides in-app chat and messaging APIs \u2014 in the 'messaging' category which the policy allows. 0.26 ETH within the 0.5 limit."
+  }
+]

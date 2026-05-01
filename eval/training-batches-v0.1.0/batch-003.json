@@ -1,0 +1,902 @@
+[
+  {
+    "id": "0daa9390-7321-4b3b-a607-b381a15a9eda",
+    "cluster": "1",
+    "category": "email",
+    "intent_text": "Resend — $5.15 — transactional email API for developer-facing notification flows",
+    "amount": 5.15,
+    "currency": "USD",
+    "merchant": "Resend",
+    "merchant_description": "Email delivery and developer API platform",
+    "policy_state": {
+      "max_amount_per_tx": 8,
+      "allowed_categories": ["email", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Resend is a developer-focused email delivery API — email category. $5.15 is within the $8 per-transaction limit."
+  },
+  {
+    "id": "85040053-b507-4cd7-83b9-15d70e2b7314",
+    "cluster": "1",
+    "category": "email",
+    "intent_text": "Mailgun email delivery API — settling 2,940 USDC for bulk transactional and marketing send volume this quarter",
+    "amount": 2940.0,
+    "currency": "USDC",
+    "merchant": "Mailgun",
+    "merchant_description": "Transactional email API and deliverability platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["email", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mailgun is a transactional email API and deliverability platform — email category. 2,940 USDC is within the 9,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "b6409c55-ebb2-42d2-a69b-7c1f0c3d9177",
+    "cluster": "1",
+    "category": "email",
+    "intent_text": "Brevo (Sendinblue) marketing and transactional email platform — $78 for the month's send credits and automation workflows",
+    "amount": 78.0,
+    "currency": "USD",
+    "merchant": "Brevo (Sendinblue)",
+    "merchant_description": "Email marketing and transactional email platform",
+    "policy_state": {
+      "max_amount_per_tx": 750,
+      "allowed_categories": ["email", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Brevo (Sendinblue) is an email marketing and transactional email platform — email category. $78 is within the $750 per-transaction limit."
+  },
+  {
+    "id": "5e2ba903-c489-4b45-8e18-eba5ef46e295",
+    "cluster": "1",
+    "category": "notifications",
+    "intent_text": "Courier multi-channel notification routing — $2.05 for push, email, and in-app notification dispatch calls",
+    "amount": 2.05,
+    "currency": "USD",
+    "merchant": "Courier",
+    "merchant_description": "Multi-channel notification routing API",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["notifications", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Courier is a multi-channel notification routing API — notifications category. $2.05 is within the $3 per-transaction limit."
+  },
+  {
+    "id": "74167556-b797-4466-80f9-7943af2b6012",
+    "cluster": "1",
+    "category": "notifications",
+    "intent_text": "Knock — 0.019 ETH — product notifications infrastructure platform charges",
+    "amount": 0.019,
+    "currency": "ETH",
+    "merchant": "Knock",
+    "merchant_description": "Product notification infrastructure platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.04,
+      "allowed_categories": ["notifications", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Knock provides product notification infrastructure — notifications category. 0.019 ETH is within the 0.04 ETH per-transaction limit."
+  },
+  {
+    "id": "8c59a20f-3eb1-4f42-a049-b973bb2cc4a9",
+    "cluster": "1",
+    "category": "notifications",
+    "intent_text": "Paying $921 to Novu for open-source notification infrastructure — covers team seats and cloud-managed workflow engine",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Novu",
+    "merchant_description": "Open-source notification infrastructure platform",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": ["notifications", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Novu is an open-source notification infrastructure platform — notifications category. $921 is within the $2,697 per-transaction ceiling."
+  },
+  {
+    "id": "ad134076-0570-47a4-a2fe-c8b7afb2a744",
+    "cluster": "1",
+    "category": "communications",
+    "intent_text": "Vonage API subscription — $41.50 for SMS, voice, and video API calls powering our in-app communications",
+    "amount": 41.5,
+    "currency": "USD",
+    "merchant": "Vonage API",
+    "merchant_description": "SMS, voice, and video communications API",
+    "policy_state": {
+      "max_amount_per_tx": 200,
+      "allowed_categories": ["communications", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vonage API provides SMS, voice, and video communications API — communications category. $41.50 is within the $200 per-transaction limit."
+  },
+  {
+    "id": "aa5a6221-8304-46bb-9db5-c831f9d17545",
+    "cluster": "1",
+    "category": "communications",
+    "intent_text": "Plivo — 1.55 USDC — cloud communications API, per-minute voice and SMS charges",
+    "amount": 1.55,
+    "currency": "USDC",
+    "merchant": "Plivo",
+    "merchant_description": "Cloud communications API platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["communications", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Plivo is a cloud communications API platform — communications category. 1.55 USDC is within the 15 USDC per-transaction limit."
+  },
+  {
+    "id": "d1e14b37-a521-4225-ac56-fd7c4c7ae203",
+    "cluster": "1",
+    "category": "billing",
+    "intent_text": "Chargebee subscription management — $1,960 for billing automation, revenue recovery, and dunning workflows",
+    "amount": 1960.0,
+    "currency": "USD",
+    "merchant": "Chargebee",
+    "merchant_description": "Subscription billing and revenue management platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["billing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chargebee is a subscription billing and revenue management platform — billing category. $1,960 is within the $3,000 per-transaction ceiling."
+  },
+  {
+    "id": "25dfd906-709e-4cb3-8046-9426981cae10",
+    "cluster": "1",
+    "category": "billing",
+    "intent_text": "Paddle merchant-of-record billing — $204 for subscription management and tax compliance infrastructure",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "Paddle",
+    "merchant_description": "Merchant-of-record and subscription billing platform",
+    "policy_state": {
+      "max_amount_per_tx": 398,
+      "allowed_categories": ["billing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Paddle is a merchant-of-record and subscription billing platform — billing category. $204 is within the $398 per-transaction limit."
+  },
+  {
+    "id": "b2f05dde-6656-4daf-9a47-5dda9542d14c",
+    "cluster": "1",
+    "category": "billing",
+    "intent_text": "Lemon Squeezy — 21.40 USDC — software billing and digital product checkout platform fees",
+    "amount": 21.4,
+    "currency": "USDC",
+    "merchant": "Lemon Squeezy",
+    "merchant_description": "Software billing and digital product checkout",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["billing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lemon Squeezy is a software billing and digital product checkout platform — billing category. 21.40 USDC is within the 60 USDC per-transaction ceiling."
+  },
+  {
+    "id": "5d5ffcf1-8175-4f14-bfa4-cdad970f186a",
+    "cluster": "1",
+    "category": "billing",
+    "intent_text": "Recurly — $1.05 — recurring subscription billing API charges for this billing period",
+    "amount": 1.05,
+    "currency": "USD",
+    "merchant": "Recurly",
+    "merchant_description": "Recurring subscription billing platform",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["billing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Recurly is a recurring subscription billing platform — billing category. $1.05 is within the $5 per-transaction limit."
+  },
+  {
+    "id": "b4d17d82-41b6-40b5-9b41-16ecd542af36",
+    "cluster": "1",
+    "category": "billing",
+    "intent_text": "Zuora subscription and revenue management platform — $4,950 for enterprise billing automation across all product lines",
+    "amount": 4950.0,
+    "currency": "USD",
+    "merchant": "Zuora",
+    "merchant_description": "Enterprise subscription and revenue management platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["billing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Zuora is an enterprise subscription and revenue management platform — billing category. $4,950 is within the $50,000 per-transaction limit."
+  },
+  {
+    "id": "d216dc55-051d-4bbc-b87c-d2d2147ec65d",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Hex collaborative analytics notebook — 412 USDC for the team's data exploration and SQL query workspace",
+    "amount": 412.0,
+    "currency": "USDC",
+    "merchant": "Hex",
+    "merchant_description": "Collaborative data notebook and analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 599,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hex is a collaborative data notebook and analytics platform — analytics category. 412 USDC is within the 599 USDC per-transaction limit."
+  },
+  {
+    "id": "135cc306-7486-44c9-b292-bc11945819e5",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Observable data notebook platform — 10.50 EUR for team workspace and JavaScript-based analytics publishing",
+    "amount": 10.5,
+    "currency": "EUR",
+    "merchant": "Observable",
+    "merchant_description": "JavaScript data notebook and visualization platform",
+    "policy_state": {
+      "max_amount_per_tx": 20,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Observable is a JavaScript data notebook and visualization platform — analytics category. 10.50 EUR is within the 20 EUR per-transaction limit."
+  },
+  {
+    "id": "e07f7f0f-0e93-40b8-8396-9f606c680941",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Count — $0.53 — collaborative SQL analytics notebook charges",
+    "amount": 0.53,
+    "currency": "USD",
+    "merchant": "Count",
+    "merchant_description": "Collaborative SQL analytics notebook",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Count is a collaborative SQL analytics notebook — analytics category. $0.53 is within the $2 per-transaction limit."
+  },
+  {
+    "id": "f910a8d5-2b76-4329-b3de-3cbac9049ad1",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Preset (Apache Superset) cloud — $1,175 for managed Superset BI dashboards and data exploration for the analytics team",
+    "amount": 1175.0,
+    "currency": "USD",
+    "merchant": "Preset (Apache Superset)",
+    "merchant_description": "Managed Apache Superset BI and analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Preset is a managed Apache Superset BI and analytics platform — analytics category. $1,175 is within the $6,000 per-transaction ceiling."
+  },
+  {
+    "id": "3ee87f30-7f77-43b7-b3b5-2d388449f0ee",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Lightdash open-source BI — 0.41 ETH for cloud-hosted metrics layer and dashboard access across the product team",
+    "amount": 0.41,
+    "currency": "ETH",
+    "merchant": "Lightdash",
+    "merchant_description": "Open-source BI tool built on dbt metrics",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lightdash is an open-source BI tool built on dbt metrics — analytics category. 0.41 ETH is within the 4 ETH per-transaction limit."
+  },
+  {
+    "id": "8bdcf67e-bbff-472e-af39-44d1ea201179",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Cube Cloud semantic layer and analytics API — $102 for production caching and query acceleration",
+    "amount": 102.0,
+    "currency": "USD",
+    "merchant": "Cube Cloud",
+    "merchant_description": "Semantic layer and analytics API platform",
+    "policy_state": {
+      "max_amount_per_tx": 149,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cube Cloud is a semantic layer and analytics API platform — analytics category. $102 is within the $149 per-transaction limit."
+  },
+  {
+    "id": "8111c616-b150-471c-b6ad-b7263c57e695",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Census reverse ETL — $5.10 for syncing warehouse data to CRM and downstream SaaS destinations",
+    "amount": 5.1,
+    "currency": "USD",
+    "merchant": "Census",
+    "merchant_description": "Reverse ETL and data activation platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Census is a reverse ETL and data activation platform — analytics category. $5.10 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "436d4bd6-d405-4864-84b4-75ee4e33a890",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "Hightouch data activation — 2,940 USDC for syncing customer data from the warehouse into our marketing and CRM tools",
+    "amount": 2940.0,
+    "currency": "USDC",
+    "merchant": "Hightouch",
+    "merchant_description": "Data activation and reverse ETL platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hightouch is a data activation and reverse ETL platform — analytics category. 2,940 USDC is within the 9,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "426c4056-06d7-4d98-b6eb-10ae2bda019a",
+    "cluster": "1",
+    "category": "analytics",
+    "intent_text": "dbt Cloud subscription — $204 for data transformation platform, team seats, and scheduled job runs",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "dbt Cloud",
+    "merchant_description": "Data transformation and analytics engineering platform",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["analytics", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "dbt Cloud is a data transformation and analytics engineering platform — analytics category. $204 is within the $995 per-transaction limit."
+  },
+  {
+    "id": "4e468deb-9a9f-4b9c-8d13-adcd23a59011",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Orca Security cloud-native CSPM — 2.05 USDC for this cycle's agentless cloud posture scan charges",
+    "amount": 2.05,
+    "currency": "USDC",
+    "merchant": "Orca Security",
+    "merchant_description": "Agentless cloud security and CSPM platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Orca Security is an agentless cloud security and CSPM platform — security category. 2.05 USDC is within the 3 USDC per-transaction limit."
+  },
+  {
+    "id": "fe6dafd2-acb5-4cdf-abc7-574937784303",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Wiz cloud security platform — $9,850 for enterprise cloud infrastructure risk and vulnerability management",
+    "amount": 9850.0,
+    "currency": "USD",
+    "merchant": "Wiz",
+    "merchant_description": "Cloud security and risk management platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wiz is a cloud security and risk management platform — security category. $9,850 is within the $20,000 per-transaction ceiling."
+  },
+  {
+    "id": "3b3954c8-36c6-45c0-8867-c3fe84b058bb",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Lacework cloud workload security — $412 for threat detection, compliance monitoring, and behavioral analysis",
+    "amount": 412.0,
+    "currency": "USD",
+    "merchant": "Lacework",
+    "merchant_description": "Cloud workload security and compliance platform",
+    "policy_state": {
+      "max_amount_per_tx": 1197,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lacework is a cloud workload security and compliance platform — security category. $412 is within the $1,197 per-transaction limit."
+  },
+  {
+    "id": "8fc15c8d-b367-418e-9af9-ee0aa7dd0194",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Chainguard hardened container images — 26.10 USDC for distroless base image subscriptions used in production builds",
+    "amount": 26.1,
+    "currency": "USDC",
+    "merchant": "Chainguard",
+    "merchant_description": "Hardened container images and supply chain security",
+    "policy_state": {
+      "max_amount_per_tx": 125,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chainguard provides hardened container images and supply chain security — security category. 26.10 USDC is within the 125 USDC per-transaction limit."
+  },
+  {
+    "id": "a07137e7-6403-4a70-996e-156deed8538a",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Sigstore code signing — 1.55 USDT for signing attestations on release artifacts",
+    "amount": 1.55,
+    "currency": "USDT",
+    "merchant": "Sigstore",
+    "merchant_description": "Open-source software supply chain signing",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sigstore provides open-source software supply chain signing — security category. 1.55 USDT is within the 15 USDT per-transaction limit."
+  },
+  {
+    "id": "f0698e26-e3a3-475d-82cf-e2ca66b6959e",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Doppler secrets management platform — $1,960 for enterprise secrets syncing across all environments and CI pipelines",
+    "amount": 1960.0,
+    "currency": "USD",
+    "merchant": "Doppler",
+    "merchant_description": "Secrets management and sync platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Doppler is a secrets management and sync platform — security category. $1,960 is within the $3,000 per-transaction ceiling."
+  },
+  {
+    "id": "153aa328-c78f-4b71-90f2-62687a3c4e39",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Infisical open-source secrets platform — 921 USDC for the cloud-managed tier with access controls and audit logging",
+    "amount": 921.0,
+    "currency": "USDC",
+    "merchant": "Infisical",
+    "merchant_description": "Open-source secrets management platform",
+    "policy_state": {
+      "max_amount_per_tx": 1798,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Infisical is an open-source secrets management platform — security category. 921 USDC is within the 1,798 USDC per-transaction limit."
+  },
+  {
+    "id": "c207fdee-46dd-4448-b7fb-398ebb779530",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "HashiCorp Vault Cloud — 0.095 ETH — managed secrets engine and dynamic credentials for the infrastructure team",
+    "amount": 0.095,
+    "currency": "ETH",
+    "merchant": "HashiCorp Vault Cloud",
+    "merchant_description": "Managed secrets and dynamic credentials platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "HashiCorp Vault Cloud is a managed secrets and dynamic credentials platform — security category. 0.095 ETH is within the 0.3 ETH per-transaction limit."
+  },
+  {
+    "id": "0cecdf77-8776-424e-bc7d-15fc96b948f9",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Akeyless — $1.02 — secrets management API calls for automated credential rotation",
+    "amount": 1.02,
+    "currency": "USD",
+    "merchant": "Akeyless",
+    "merchant_description": "Zero-knowledge secrets management platform",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Akeyless is a zero-knowledge secrets management platform — security category. $1.02 is within the $5 per-transaction limit."
+  },
+  {
+    "id": "508977e1-ee2e-443a-89f4-e94875fd3b38",
+    "cluster": "1",
+    "category": "security",
+    "intent_text": "Cycode application security — $4,875 for software supply chain security, SAST, and secrets scanning at enterprise scale",
+    "amount": 4875.0,
+    "currency": "USD",
+    "merchant": "Cycode",
+    "merchant_description": "Application security and software supply chain platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["security", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cycode is an application security and software supply chain platform — security category. $4,875 is within the $50,000 per-transaction ceiling."
+  },
+  {
+    "id": "63674221-647c-4b33-aa49-cf93803e2051",
+    "cluster": "1",
+    "category": "cdn",
+    "intent_text": "Bunny.net CDN — $5.15 — video delivery and edge storage bandwidth charges",
+    "amount": 5.15,
+    "currency": "USD",
+    "merchant": "Bunny.net",
+    "merchant_description": "Edge CDN with video delivery and object storage",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["cdn", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bunny.net is an edge CDN with video delivery and object storage — cdn category. $5.15 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "6a94eb9a-c4e5-4af3-82b9-e014d4c3826c",
+    "cluster": "1",
+    "category": "cdn",
+    "intent_text": "Gcore CDN — $0.48 — global content delivery bandwidth charges for static assets",
+    "amount": 0.48,
+    "currency": "USD",
+    "merchant": "Gcore CDN",
+    "merchant_description": "Global edge CDN and DDoS protection",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["cdn", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gcore CDN provides global edge CDN and DDoS protection — cdn category. $0.48 is within the $2 per-transaction limit."
+  },
+  {
+    "id": "b27a7d85-1d9d-48d6-a4bb-a38ad43aab0f",
+    "cluster": "1",
+    "category": "cdn",
+    "intent_text": "KeyCDN bandwidth billing — 1,185 USDC for media delivery and HTTP/2 push across global PoPs",
+    "amount": 1185.0,
+    "currency": "USDC",
+    "merchant": "KeyCDN",
+    "merchant_description": "High-performance CDN with HTTP/2 push support",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["cdn", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "KeyCDN is a high-performance CDN — cdn category. 1,185 USDC is within the 6,000 USDC per-transaction limit."
+  },
+  {
+    "id": "0510a36a-7cad-49ec-912c-f57643984dce",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "BrowserStack cross-device testing — $77 for live and automated testing on real iOS and Android devices",
+    "amount": 77.0,
+    "currency": "USD",
+    "merchant": "Browserstack",
+    "merchant_description": "Real device cloud for cross-browser and mobile testing",
+    "policy_state": {
+      "max_amount_per_tx": 113,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Browserstack is a real device cloud for cross-browser and mobile testing — testing category. $77 is within the $113 per-transaction limit."
+  },
+  {
+    "id": "70478c46-f093-42e5-8793-767cec806abd",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "Sauce Labs — 5.05 USDC — cloud-based browser and mobile device testing minutes",
+    "amount": 5.05,
+    "currency": "USDC",
+    "merchant": "Sauce Labs",
+    "merchant_description": "Cloud-based browser and mobile test automation",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sauce Labs provides cloud-based browser and mobile test automation — testing category. 5.05 USDC is within the 10 USDC per-transaction limit."
+  },
+  {
+    "id": "24c3d2d2-ecbc-4952-a985-d3bca818b986",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "Cypress Cloud — $2,940 for parallel CI test runs, flakiness detection, and test analytics across the engineering org",
+    "amount": 2940.0,
+    "currency": "USD",
+    "merchant": "Cypress Cloud",
+    "merchant_description": "Cypress test orchestration and analytics cloud",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cypress Cloud is a test orchestration and analytics cloud — testing category. $2,940 is within the $9,000 per-transaction ceiling."
+  },
+  {
+    "id": "daa6dec1-aa09-4371-b732-62fcd46563cc",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "Microsoft Playwright Testing Service — $921 for scalable parallel browser automation runs in CI",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Playwright Service (Microsoft)",
+    "merchant_description": "Managed Playwright cloud testing service by Microsoft",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Playwright Service by Microsoft is a managed cloud testing service — testing category. $921 is within the $4,495 per-transaction limit."
+  },
+  {
+    "id": "d0c02603-2bd4-4577-b695-096bc60d92fb",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "Currents Cypress test orchestration — 41.50 USDC for parallelization and historical test data",
+    "amount": 41.5,
+    "currency": "USDC",
+    "merchant": "Currents",
+    "merchant_description": "Cypress test orchestration and parallelization",
+    "policy_state": {
+      "max_amount_per_tx": 400,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Currents is a Cypress test orchestration and parallelization platform — testing category. 41.50 USDC is within the 400 USDC per-transaction limit."
+  },
+  {
+    "id": "903c8402-d124-4cf4-8c02-9b6b8f183d53",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "Meticulous UI regression testing — 2.05 EUR for AI-generated visual regression test suite charges",
+    "amount": 2.05,
+    "currency": "EUR",
+    "merchant": "Meticulous",
+    "merchant_description": "AI-generated UI regression testing platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Meticulous is an AI-generated UI regression testing platform — testing category. 2.05 EUR is within the 3 EUR per-transaction limit."
+  },
+  {
+    "id": "870f267c-790b-410c-a6e3-2d6f835fa5ae",
+    "cluster": "1",
+    "category": "testing",
+    "intent_text": "Applitools visual AI testing — $9,850 for intelligent visual validation across the entire UI test suite",
+    "amount": 9850.0,
+    "currency": "USD",
+    "merchant": "Applitools",
+    "merchant_description": "Visual AI testing and monitoring platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["testing", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Applitools is a visual AI testing and monitoring platform — testing category. $9,850 is within the $20,000 per-transaction ceiling."
+  },
+  {
+    "id": "5ad3b7ba-d24b-473d-a29d-7cbb64b49594",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Buildkite CI/CD platform — $204 for build agents, pipelines, and test analytics for the engineering team",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "Buildkite",
+    "merchant_description": "CI/CD pipeline platform with self-hosted agents",
+    "policy_state": {
+      "max_amount_per_tx": 597,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Buildkite is a CI/CD pipeline platform with self-hosted agents — cicd category. $204 is within the $597 per-transaction limit."
+  },
+  {
+    "id": "295c074b-9a0c-4e84-b186-7ca54c3a0e9f",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Depot remote Docker build — 0.31 ETH for accelerated container builds with shared caching across CI jobs",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "Depot",
+    "merchant_description": "Remote Docker build acceleration with shared cache",
+    "policy_state": {
+      "max_amount_per_tx": 1.5,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Depot provides remote Docker build acceleration with shared caching — cicd category. 0.31 ETH is within the 1.5 ETH per-transaction limit."
+  },
+  {
+    "id": "97cd71c3-63e3-46db-ac66-4e3fc2230af8",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Earthly Cloud — $1.55 — reproducible build infrastructure charges for containerized CI jobs",
+    "amount": 1.55,
+    "currency": "USD",
+    "merchant": "Earthly Cloud",
+    "merchant_description": "Reproducible builds and containerized CI platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Earthly Cloud provides reproducible builds and containerized CI — cicd category. $1.55 is within the $15 per-transaction limit."
+  },
+  {
+    "id": "bc7255cb-0b40-45e1-b944-7e2001de93ac",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Nx Cloud monorepo build caching — $1,960 for distributed task execution and remote caching across the monorepo",
+    "amount": 1960.0,
+    "currency": "USD",
+    "merchant": "Nx Cloud",
+    "merchant_description": "Monorepo build caching and distributed task execution",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Nx Cloud provides monorepo build caching and distributed task execution — cicd category. $1,960 is within the $3,000 per-transaction limit."
+  },
+  {
+    "id": "dcd00bd5-8a64-4080-9215-6a8370548a95",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Turborepo Remote Cache — 412 USDC for monorepo build artifact caching and CI acceleration",
+    "amount": 412.0,
+    "currency": "USDC",
+    "merchant": "Turborepo Remote Cache",
+    "merchant_description": "Distributed build caching for Turborepo monorepos",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Turborepo Remote Cache provides distributed build caching for monorepos — cicd category. 412 USDC is within the 798 USDC per-transaction limit."
+  },
+  {
+    "id": "02ad201f-43f8-4184-8443-d7fe4fd2434e",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "trunk.io code quality — $10.25 for merge queue, CI flakiness detection, and code health monitoring",
+    "amount": 10.25,
+    "currency": "USD",
+    "merchant": "trunk.io",
+    "merchant_description": "Code quality and merge queue CI platform",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "trunk.io is a code quality and merge queue CI platform — cicd category. $10.25 is within the $30 per-transaction limit."
+  },
+  {
+    "id": "4a04d41a-a457-448f-8cb7-f13a31f349ba",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Graphite stacked PRs and git workflow — $1.02 for the developer-facing merge queue and PR stacking tool",
+    "amount": 1.02,
+    "currency": "USD",
+    "merchant": "Graphite",
+    "merchant_description": "Stacked PR and git workflow tool for engineers",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Graphite is a stacked PR and git workflow tool — cicd and developer-tools. $1.02 is within the $5 per-transaction limit."
+  },
+  {
+    "id": "ec8197b0-6da2-451b-ba9f-c70dde5aa517",
+    "cluster": "1",
+    "category": "cicd",
+    "intent_text": "Aviator CI platform — 4,875 USDC for automated merge queue, flaky test management, and CI orchestration",
+    "amount": 4875.0,
+    "currency": "USDC",
+    "merchant": "Aviator",
+    "merchant_description": "Automated merge queue and CI orchestration platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["cicd", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Aviator is an automated merge queue and CI orchestration platform — cicd and developer-tools. 4,875 USDC is within the 50,000 USDC per-transaction ceiling."
+  }
+]

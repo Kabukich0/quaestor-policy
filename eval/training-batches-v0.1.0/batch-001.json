@@ -1,0 +1,902 @@
+[
+  {
+    "id": "e23bcb5b-373b-4383-b295-be9e336a8724",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Authorize $0.47 to Groq Cloud for LPU inference credits — this is routine AI tooling spend",
+    "amount": 0.47,
+    "currency": "USD",
+    "merchant": "Groq Cloud",
+    "merchant_description": "Ultra-fast LLM inference via LPU hardware",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Groq Cloud is a well-known ai-inference provider running LLMs on custom LPU hardware. The policy explicitly authorizes ai-inference and developer-tools spend. At $0.47 against a $2.00 per-transaction ceiling, this is comfortably within bounds — a standard inference credit charge."
+  },
+  {
+    "id": "94615b2b-146c-4b56-8edb-6ecc5e8849ff",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Fireworks AI monthly invoice — $1,147.50 for high-volume open-source model serving backing our production API",
+    "amount": 1147.5,
+    "currency": "USD",
+    "merchant": "Fireworks AI",
+    "merchant_description": "Fast open-source LLM inference API",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Fireworks AI is an ai-inference platform for fast open-source LLM serving. The merchant maps directly to the ai-inference category, which is authorized. $1,147.50 is well under the $6,000 per-transaction limit — less than 20% of the ceiling."
+  },
+  {
+    "id": "5af31151-2dc4-4c14-af5b-9382ed6ba544",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "We've been routing EU inference traffic through Mistral for data-residency reasons; settling 863.40 USDC this cycle",
+    "amount": 863.4,
+    "currency": "USDC",
+    "merchant": "Mistral AI",
+    "merchant_description": "European frontier LLM provider",
+    "policy_state": {
+      "max_amount_per_tx": 8990,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mistral AI is a frontier LLM provider — unambiguously ai-inference. The policy's ai-inference category covers this spend. 863.40 USDC is under 10% of the 8,990 USDC per-transaction cap. Clear approve."
+  },
+  {
+    "id": "5ced1cc5-fd02-4764-aff2-ce93d89d712a",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Agent has a pending $43.75 payment to AI21 Labs for Jurassic model API calls this billing period",
+    "amount": 43.75,
+    "currency": "USD",
+    "merchant": "AI21 Labs",
+    "merchant_description": "Jurassic LLM API provider",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "AI21 Labs provides the Jurassic LLM family via API — that is ai-inference spend by definition. The $43.75 charge is under the $60 per-transaction limit. Category match is unambiguous."
+  },
+  {
+    "id": "1567037f-5425-4bb7-af6d-7babe1f7b254",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Pay Perplexity API $5.30 — search-augmented query tokens consumed by the pipeline",
+    "amount": 5.3,
+    "currency": "USD",
+    "merchant": "Perplexity API",
+    "merchant_description": "Search-augmented LLM API",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Perplexity API delivers search-augmented LLM queries — ai-inference category. $5.30 is within the $10 per-transaction limit. Approve."
+  },
+  {
+    "id": "f9bea846-24ae-471f-ad36-cf98fc2cae86",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "OpenRouter — 0.009 ETH — LLM routing API credits",
+    "amount": 0.009,
+    "currency": "ETH",
+    "merchant": "OpenRouter",
+    "merchant_description": "Unified LLM routing API across providers",
+    "policy_state": {
+      "max_amount_per_tx": 0.05,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "OpenRouter provides a unified routing layer across LLM providers — a meta-inference service, squarely in the ai-inference category. 0.009 ETH is well under the 0.05 ETH ceiling."
+  },
+  {
+    "id": "1412d851-49e6-4799-a227-6253a9c8669a",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Need to disburse $21.60 to NovitaAI if the AI inference budget allows — GPU compute for open-source model inference runs",
+    "amount": 21.6,
+    "currency": "USD",
+    "merchant": "NovitaAI",
+    "merchant_description": "GPU cloud for open-source model inference",
+    "policy_state": {
+      "max_amount_per_tx": 200,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "NovitaAI is a GPU cloud specifically for open-source model inference — ai-inference. $21.60 is well under the $200 per-transaction ceiling. Straightforward approval."
+  },
+  {
+    "id": "defc357f-7952-4504-a87c-20d5a19c8471",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Settle this month's DeepInfra bill — $1.87 for serverless inference runs on open-source models",
+    "amount": 1.87,
+    "currency": "USD",
+    "merchant": "DeepInfra",
+    "merchant_description": "Serverless inference for open-source models",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DeepInfra offers serverless inference for open-source models — core ai-inference spend. $1.87 is within the $3.00 per-transaction maximum. No concerns."
+  },
+  {
+    "id": "cabd5e29-dcbe-4f99-9e4f-96d979061ed7",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "We're running fine-tuned models on Lepton's managed cloud; this covers 0.53 ETH in inference and hosting fees for the month",
+    "amount": 0.53,
+    "currency": "ETH",
+    "merchant": "Lepton AI",
+    "merchant_description": "Managed AI inference and fine-tuning cloud",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["ai-inference", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lepton AI manages AI inference and fine-tuning at cloud scale — ai-inference category. 0.53 ETH is within the 1.0 ETH per-transaction limit. The spend is expected and routine."
+  },
+  {
+    "id": "b441a04c-ace4-4122-9e6f-7bccaad00453",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "I need to pay ElevenLabs $412.00 — covers this month's TTS and voice cloning API calls for the production voice pipeline",
+    "amount": 412.0,
+    "currency": "USD",
+    "merchant": "ElevenLabs",
+    "merchant_description": "AI voice synthesis and cloning platform",
+    "policy_state": {
+      "max_amount_per_tx": 1197,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ElevenLabs is the leading AI voice synthesis and cloning platform — clearly ai-audio. The policy allows ai-audio. $412.00 is within the $1,197 per-transaction limit."
+  },
+  {
+    "id": "3c3c8535-694e-4529-b363-3450842928aa",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "Deepgram STT API — $9.45 — real-time transcription charges for the audio processing agent",
+    "amount": 9.45,
+    "currency": "USD",
+    "merchant": "Deepgram",
+    "merchant_description": "Real-time speech-to-text API",
+    "policy_state": {
+      "max_amount_per_tx": 50,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Deepgram provides real-time speech-to-text API services — ai-audio category. $9.45 is well within the $50 per-transaction limit. Routine AI audio infrastructure spend."
+  },
+  {
+    "id": "44701c66-3bbe-407e-a5fb-c3fcda6d51de",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "The agent is submitting 1.65 USDC to AssemblyAI for transcription and sentiment analysis API usage this week",
+    "amount": 1.65,
+    "currency": "USDC",
+    "merchant": "AssemblyAI",
+    "merchant_description": "Audio intelligence API for transcription and analysis",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "AssemblyAI is an audio intelligence API covering transcription, sentiment analysis, and speaker diarization — ai-audio category. 1.65 USDC is well under the 15 USDC ceiling."
+  },
+  {
+    "id": "cf892c19-8fc9-4401-ae2d-432d05b6d3ff",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "Voice cloning API overage from Resemble AI — requesting $1,938.00 under the authorized ai-audio budget",
+    "amount": 1938.0,
+    "currency": "USD",
+    "merchant": "Resemble AI",
+    "merchant_description": "Voice cloning and TTS API",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Resemble AI provides voice cloning and TTS API services — ai-audio spend. The policy allows ai-audio with a $3,000 cap. $1,938 is within that limit."
+  },
+  {
+    "id": "19497a8a-1087-41db-ba37-5d142626c886",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "A payment of $874.50 to PlayHT for streaming text-to-speech services is queued and awaiting approval",
+    "amount": 874.5,
+    "currency": "USD",
+    "merchant": "PlayHT",
+    "merchant_description": "Text-to-speech streaming API",
+    "policy_state": {
+      "max_amount_per_tx": 1798,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "PlayHT provides text-to-speech streaming API — ai-audio. $874.50 is within the $1,798 per-transaction maximum."
+  },
+  {
+    "id": "c89d3bc6-d811-4670-96dc-69dc1a5f1119",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "Cartesia AI invoice — 107.25 USDC for real-time voice inference powering the agent's audio output",
+    "amount": 107.25,
+    "currency": "USDC",
+    "merchant": "Cartesia AI",
+    "merchant_description": "Low-latency voice AI inference",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cartesia AI is a low-latency voice AI inference platform — ai-audio category. 107.25 USDC is under the 297 USDC per-transaction limit."
+  },
+  {
+    "id": "127fe121-e620-41e6-b458-3743619e2e15",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "Speechify API conversion charges — $1.05 for text-to-audio API calls",
+    "amount": 1.05,
+    "currency": "USD",
+    "merchant": "Speechify API",
+    "merchant_description": "Text-to-audio conversion API",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Speechify API converts text to audio — ai-audio category. $1.05 is within the $5.00 per-transaction limit. Minimal spend."
+  },
+  {
+    "id": "3d7c8cb9-c83f-4393-855c-a2228d86f6dc",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "Paying Suno's music generation API $4,750 for the content creation batch pipeline this quarter",
+    "amount": 4750.0,
+    "currency": "USD",
+    "merchant": "Suno API",
+    "merchant_description": "AI music generation API",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Suno API generates music from text prompts — ai-audio category. $4,750 is within the $50,000 per-transaction limit. Approved under the ai-audio mandate."
+  },
+  {
+    "id": "6b31cd79-dd8e-4414-89b0-a2fefe9f7a99",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "System is requesting 213.50 USDC to Udio for AI music and audio generation platform subscription renewal",
+    "amount": 213.5,
+    "currency": "USDC",
+    "merchant": "Udio",
+    "merchant_description": "AI music and audio generation platform",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Udio is an AI music and audio generation platform — ai-audio category. 213.50 USDC is within the 299 USDC per-transaction ceiling."
+  },
+  {
+    "id": "65009121-cdb5-4f74-b3aa-6e4de7fc3195",
+    "cluster": "1",
+    "category": "ai-audio",
+    "intent_text": "Gladia API charges for this sprint — 53.20 EUR for real-time speech recognition and translation serving our European deployment",
+    "amount": 53.2,
+    "currency": "EUR",
+    "merchant": "Gladia",
+    "merchant_description": "Real-time speech recognition and translation API",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": ["ai-audio", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gladia provides real-time speech recognition and translation API — ai-audio. 53.20 EUR is within the 100 EUR per-transaction limit for this category."
+  },
+  {
+    "id": "b872318b-0125-4b6f-a759-aeeca3b5a29a",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Send $0.43 to RunwayML for video generation API credits",
+    "amount": 0.43,
+    "currency": "USD",
+    "merchant": "RunwayML",
+    "merchant_description": "AI video generation and editing platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "RunwayML is a leading AI video generation and editing platform — ai-media category. $0.43 is well within the $2.00 per-transaction limit."
+  },
+  {
+    "id": "a7328a00-88ad-431b-9736-7cd121245fe3",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Stability AI API payment — $1,185.00 for Stable Diffusion API calls within the approved ai-media budget",
+    "amount": 1185.0,
+    "currency": "USD",
+    "merchant": "Stability AI API",
+    "merchant_description": "Stable Diffusion API for image generation",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stability AI provides the Stable Diffusion API for image generation — ai-media. $1,185 is within the $6,000 per-transaction cap."
+  },
+  {
+    "id": "337a60c8-d62d-448d-a67d-aba629a57e4a",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Midjourney — 0.13 ETH — image generation subscription renewal",
+    "amount": 0.13,
+    "currency": "ETH",
+    "merchant": "Midjourney",
+    "merchant_description": "AI image generation subscription",
+    "policy_state": {
+      "max_amount_per_tx": 1.5,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Midjourney is an AI image generation service — ai-media category. 0.13 ETH is under the 1.5 ETH per-transaction limit."
+  },
+  {
+    "id": "af12f22d-ef5c-4fdb-8402-493f643a7d71",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "We've been using Leonardo AI for product asset generation — $27.40 tops up the image generation credit balance",
+    "amount": 27.4,
+    "currency": "USD",
+    "merchant": "Leonardo AI",
+    "merchant_description": "AI image and video generation platform",
+    "policy_state": {
+      "max_amount_per_tx": 38,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Leonardo AI is an AI image and video generation platform — ai-media category. $27.40 is within the $38 per-transaction cap."
+  },
+  {
+    "id": "2cf67619-6831-4dfe-b81e-2f499565222d",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Paying $5.45 to Luma AI for 3D capture and video generation API usage this month",
+    "amount": 5.45,
+    "currency": "USD",
+    "merchant": "Luma AI",
+    "merchant_description": "AI 3D capture and video generation",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Luma AI provides AI 3D capture and video generation — ai-media category. $5.45 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "17f62ea7-909c-4336-afd2-2ae75f2e3e0c",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Batch AI video generation spend with Pika Labs — 2,850 USDC for the Q2 content production campaign",
+    "amount": 2850.0,
+    "currency": "USDC",
+    "merchant": "Pika Labs",
+    "merchant_description": "AI video generation from text and images",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pika Labs generates video from text and images — ai-media category. 2,850 USDC is within the 9,000 USDC per-transaction maximum."
+  },
+  {
+    "id": "dcc52730-2e77-4b68-bea3-9193e3d46894",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Ideogram subscription and API overage combined — $943.00 for AI image generation with embedded text rendering",
+    "amount": 943.0,
+    "currency": "USD",
+    "merchant": "Ideogram",
+    "merchant_description": "AI image generation with text rendering",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ideogram is an AI image generation platform with text rendering capability — ai-media. $943 is within the $4,495 per-transaction cap."
+  },
+  {
+    "id": "b076009d-e21e-4a9b-9d7f-68b907770e57",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "$16.20 to Adobe Firefly API for generative image API calls in this sprint's asset automation pipeline",
+    "amount": 16.2,
+    "currency": "USD",
+    "merchant": "Adobe Firefly API",
+    "merchant_description": "Generative AI image API by Adobe",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Adobe Firefly API is a generative AI image API — ai-media category. $16.20 is well within the $150 per-transaction limit."
+  },
+  {
+    "id": "c8829b96-861a-4825-8c22-2524dd27ad92",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Getimg.ai — 1.85 USDC — image generation and editing API usage",
+    "amount": 1.85,
+    "currency": "USDC",
+    "merchant": "Getimg.ai",
+    "merchant_description": "AI image generation and editing API",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Getimg.ai provides AI image generation and editing via API — ai-media. 1.85 USDC is within the 3 USDC per-transaction limit."
+  },
+  {
+    "id": "d2c98d6a-14d3-4452-8e5a-c21201b4b3ac",
+    "cluster": "1",
+    "category": "ai-media",
+    "intent_text": "Settling $9,850 with Black Forest Labs for production-scale FLUX image generation API consumption across the platform",
+    "amount": 9850.0,
+    "currency": "USD",
+    "merchant": "Flux API (Black Forest Labs)",
+    "merchant_description": "FLUX image generation model API",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["ai-media", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Black Forest Labs' FLUX is an AI image generation model API — ai-media category. $9,850 is within the $20,000 per-transaction maximum."
+  },
+  {
+    "id": "544972bd-430b-402c-8acb-ec04e41f26ea",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Monthly Roboflow charges for computer vision dataset management and model hosting — $211.50",
+    "amount": 211.5,
+    "currency": "USD",
+    "merchant": "Roboflow",
+    "merchant_description": "Computer vision dataset and model platform",
+    "policy_state": {
+      "max_amount_per_tx": 597,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Roboflow is a computer vision dataset and model platform — ml-platform category. $211.50 is within the $597 per-transaction ceiling."
+  },
+  {
+    "id": "2a0aed14-d6d5-4a59-9df4-0cf7c58ee3ed",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "1.70 USDT — Labelbox annotation platform — ML training data pipeline charges",
+    "amount": 1.7,
+    "currency": "USDT",
+    "merchant": "Labelbox",
+    "merchant_description": "ML training data platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Labelbox is an ML training data platform — ml-platform category. 1.70 USDT is well under the 15 USDT per-transaction cap."
+  },
+  {
+    "id": "fa1faf1b-a2e6-4f1a-9623-dea9d4fb6545",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Under the ML infrastructure policy, authorizing $2,145 to Encord for data-centric computer vision annotation platform access",
+    "amount": 2145.0,
+    "currency": "USD",
+    "merchant": "Encord",
+    "merchant_description": "Data-centric CV annotation platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Encord provides data-centric computer vision annotation tooling — ml-platform. $2,145 is within the $3,000 per-transaction limit."
+  },
+  {
+    "id": "e5209a94-b8e1-4dbb-b23d-32898f476171",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Paying 367.50 USDC to Voxel51 for FiftyOne enterprise dataset storage and the CV platform subscription",
+    "amount": 367.5,
+    "currency": "USDC",
+    "merchant": "Voxel51",
+    "merchant_description": "Open-source computer vision dataset platform",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Voxel51 is an open-source computer vision dataset and curation platform — ml-platform. 367.50 USDC is within the 798 USDC per-transaction limit."
+  },
+  {
+    "id": "87a8483c-ccf3-4488-94f4-a3e55249d74c",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Tabnine team plan renewal — $1.12",
+    "amount": 1.12,
+    "currency": "USD",
+    "merchant": "Tabnine",
+    "merchant_description": "AI code completion for all IDEs",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tabnine provides AI code completion across IDEs — developer-tools and ai-coding. $1.12 is well within the $5 per-transaction limit."
+  },
+  {
+    "id": "2181c2ef-cc21-43a8-82c7-bcde19d0656d",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Sourcegraph Cody enterprise seats for the engineering org — $5,280 for AI coding assistant with codebase-aware context at scale",
+    "amount": 5280.0,
+    "currency": "USD",
+    "merchant": "Sourcegraph Cody",
+    "merchant_description": "AI coding assistant with codebase context",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sourcegraph Cody is an AI coding assistant with codebase context — developer-tools and ai-coding. $5,280 is well within the $50,000 per-transaction ceiling."
+  },
+  {
+    "id": "d1d15ed3-3c80-4e9a-8750-4c816b503ba3",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Process 0.41 ETH to Codeium Enterprise for enterprise AI code completion and semantic code search",
+    "amount": 0.41,
+    "currency": "ETH",
+    "merchant": "Codeium Enterprise",
+    "merchant_description": "AI code completion and search enterprise plan",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Codeium Enterprise provides AI code completion and code search — developer-tools and ai-coding. 0.41 ETH is within the 0.6 ETH per-transaction limit."
+  },
+  {
+    "id": "54414948-8c1e-48ab-a310-8e8fe1ea1e55",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "I'm authorizing $38.75 for Continue.dev Cloud — the open-source AI coding assistant our engineers use for context-aware completions",
+    "amount": 38.75,
+    "currency": "USD",
+    "merchant": "Continue.dev Cloud",
+    "merchant_description": "Open-source AI code assistant with cloud sync",
+    "policy_state": {
+      "max_amount_per_tx": 80,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Continue.dev Cloud is an open-source AI coding assistant — developer-tools. $38.75 is under the $80 per-transaction cap."
+  },
+  {
+    "id": "25e7904d-a891-4fc0-ae16-33f26f033f24",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Supermaven — $0.55 — large-context AI code completion subscription",
+    "amount": 0.55,
+    "currency": "USD",
+    "merchant": "Supermaven",
+    "merchant_description": "AI code completion with large context window",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Supermaven provides AI code completion with a large context window — developer-tools and ai-coding. $0.55 is within the $2.00 per-transaction limit."
+  },
+  {
+    "id": "d93a6cf5-3ab0-4adb-ac59-0cef30c5fa25",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "A payment of 1,310 USDC to Zed AI for the collaborative AI-powered code editor is awaiting authorization",
+    "amount": 1310.0,
+    "currency": "USDC",
+    "merchant": "Zed AI",
+    "merchant_description": "AI-powered collaborative code editor",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Zed AI is an AI-powered collaborative code editor — developer-tools. 1,310 USDC is within the 6,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "7658e655-548f-46df-b374-70460ae84193",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Agent queuing a $188.00 payment to Pieces for Developers for AI context memory and developer workflow tooling",
+    "amount": 188.0,
+    "currency": "USD",
+    "merchant": "Pieces for Developers",
+    "merchant_description": "AI context memory for developer workflows",
+    "policy_state": {
+      "max_amount_per_tx": 1990,
+      "allowed_categories": ["developer-tools", "ai-coding"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pieces for Developers provides AI context memory for developer workflows — developer-tools. $188 is within the $1,990 per-transaction cap."
+  },
+  {
+    "id": "381b7887-4609-4234-9cf6-ffc3e3c62885",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Our codebase documentation stays synced to source via Swimm — $22.40 for the AI documentation platform subscription",
+    "amount": 22.4,
+    "currency": "USD",
+    "merchant": "Swimm",
+    "merchant_description": "AI-powered code documentation platform",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["developer-tools", "documentation"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Swimm is an AI-powered code documentation platform — developer-tools and documentation. $22.40 is within the $30 per-transaction limit."
+  },
+  {
+    "id": "1a4fa956-4bba-4371-bb3c-014c9c20ece2",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "4.65 USDC to Mintlify for hosting and AI-powered generation of our developer documentation",
+    "amount": 4.65,
+    "currency": "USDC",
+    "merchant": "Mintlify",
+    "merchant_description": "AI-powered developer documentation platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["developer-tools", "documentation"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mintlify builds AI-powered developer documentation — developer-tools and documentation. 4.65 USDC is within the 10 USDC per-transaction limit."
+  },
+  {
+    "id": "877091b5-10cf-446d-809b-43e657f1b0fa",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Team Gitpod environments — $3,245 for ephemeral cloud dev workspaces that spin up on every git push",
+    "amount": 3245.0,
+    "currency": "USD",
+    "merchant": "Gitpod",
+    "merchant_description": "Cloud development environments on git push",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["developer-tools", "cloud-dev"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gitpod provides cloud development environments that spin up on git push — developer-tools and cloud-dev. $3,245 is within the $9,000 per-transaction cap."
+  },
+  {
+    "id": "41eabc0f-35df-43dd-89c3-49fab28d2540",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Authorizing $421 to CodeSandbox for the engineering team's instant cloud development environments",
+    "amount": 421.0,
+    "currency": "USD",
+    "merchant": "CodeSandbox",
+    "merchant_description": "Instant cloud development environments",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["developer-tools", "cloud-dev"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "CodeSandbox offers instant cloud development environments — developer-tools and cloud-dev. $421 is within the $1,995 per-transaction limit."
+  },
+  {
+    "id": "3cb2a9a7-b2f9-46f7-95bf-927915869aa7",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Pay 10.75 USDC to Stackblitz for browser-based Node.js dev environments used by our contractor team",
+    "amount": 10.75,
+    "currency": "USDC",
+    "merchant": "Stackblitz",
+    "merchant_description": "Browser-based Node.js dev environment",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": ["developer-tools", "cloud-dev"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stackblitz provides browser-based Node.js development environments — developer-tools and cloud-dev. 10.75 USDC is within the 100 USDC per-transaction ceiling."
+  },
+  {
+    "id": "b428519e-06f3-4610-892b-7100d330876f",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Coder self-hosted environment — 1.95 EUR",
+    "amount": 1.95,
+    "currency": "EUR",
+    "merchant": "Coder",
+    "merchant_description": "Self-hosted cloud development environments",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["developer-tools", "cloud-dev"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Coder provides self-hosted cloud development environments — developer-tools and cloud-dev. 1.95 EUR is within the 3 EUR per-transaction limit."
+  },
+  {
+    "id": "5ba8329e-2daa-4b42-8ce7-39027b10e054",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "DevZero enterprise contract renewal — $10,750 for cloud development environment infrastructure serving the entire engineering org",
+    "amount": 10750.0,
+    "currency": "USD",
+    "merchant": "DevZero",
+    "merchant_description": "Cloud development environment platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["developer-tools", "cloud-dev"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DevZero is a cloud development environment platform — developer-tools and cloud-dev. $10,750 is within the $20,000 per-transaction maximum."
+  },
+  {
+    "id": "171ed73f-742a-4bef-a6b5-065fc8d61ba1",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Paying Turso $872 for distributed SQLite at the edge — production traffic on our libSQL cluster",
+    "amount": 872.0,
+    "currency": "USD",
+    "merchant": "Turso",
+    "merchant_description": "Distributed SQLite at the edge via libSQL",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Turso provides distributed SQLite at the edge via libSQL — database category. $872 is within the $2,697 per-transaction limit."
+  },
+  {
+    "id": "74398704-7488-49b0-b4f3-46448afd0682",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "A pending 0.09 ETH payment to MongoDB Atlas for managed cloud database hosting is awaiting approval",
+    "amount": 0.09,
+    "currency": "ETH",
+    "merchant": "MongoDB Atlas",
+    "merchant_description": "Managed MongoDB cloud database",
+    "policy_state": {
+      "max_amount_per_tx": 0.5,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "MongoDB Atlas is managed MongoDB cloud database — database category. 0.09 ETH is within the 0.5 ETH per-transaction cap."
+  },
+  {
+    "id": "fd7f44fa-bc8d-4cca-a56b-4c53035fd089",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Fauna — $1.65 — serverless document-relational DB charges",
+    "amount": 1.65,
+    "currency": "USD",
+    "merchant": "Fauna",
+    "merchant_description": "Serverless document-relational database",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Fauna is a serverless document-relational database — database category. $1.65 is well within the $15 per-transaction limit."
+  }
+]

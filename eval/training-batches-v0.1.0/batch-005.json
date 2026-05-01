@@ -1,0 +1,1110 @@
+[
+  {
+    "id": "98da3de8-1087-496e-a20d-0b2a5a5b329a",
+    "cluster": "1",
+    "category": "finance",
+    "intent_text": "Ramp corporate card and expense management \u2014 $2.05 for platform charges and cash-back processing",
+    "amount": 2.05,
+    "currency": "USD",
+    "merchant": "Ramp",
+    "merchant_description": "Corporate card and expense management platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "finance",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ramp is a corporate card and expense management platform \u2014 finance category. $2.05 is within the $3 per-transaction limit."
+  },
+  {
+    "id": "43aae2b7-1f0c-41cc-9f8c-6c09b7933e30",
+    "cluster": "1",
+    "category": "finance",
+    "intent_text": "Brex startup financial platform \u2014 0.21 ETH for corporate cards, expense tracking, and treasury management",
+    "amount": 0.21,
+    "currency": "ETH",
+    "merchant": "Brex",
+    "merchant_description": "Corporate finance platform for startups and enterprises",
+    "policy_state": {
+      "max_amount_per_tx": 0.4,
+      "allowed_categories": [
+        "finance",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Brex is a corporate finance platform for startups \u2014 finance category. 0.21 ETH is within the 0.4 ETH per-transaction limit."
+  },
+  {
+    "id": "3bd7109e-9fce-4433-8765-d02c5af65bfc",
+    "cluster": "1",
+    "category": "finance",
+    "intent_text": "Expensify expense reports and travel management \u2014 $204 for receipt scanning, approval workflows, and reimbursement",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "Expensify",
+    "merchant_description": "Expense reporting and travel management platform",
+    "policy_state": {
+      "max_amount_per_tx": 597,
+      "allowed_categories": [
+        "finance",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Expensify is an expense reporting and travel management platform \u2014 finance category. $204 is within the $597 per-transaction limit."
+  },
+  {
+    "id": "344e7a06-c981-48ac-be8d-515ff0637356",
+    "cluster": "1",
+    "category": "accounting",
+    "intent_text": "Pilot accounting and bookkeeping services \u2014 $5.15 for startup CFO-as-a-service and monthly close",
+    "amount": 5.15,
+    "currency": "USD",
+    "merchant": "Pilot",
+    "merchant_description": "Startup accounting and bookkeeping service",
+    "policy_state": {
+      "max_amount_per_tx": 25,
+      "allowed_categories": [
+        "accounting",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pilot provides startup accounting and bookkeeping services \u2014 accounting category. $5.15 is within the $25 per-transaction limit."
+  },
+  {
+    "id": "075909bb-aab0-4aba-b85b-bbb5eae4da8b",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Consensus App \u2014 1.55 USDC \u2014 AI-powered scientific search and evidence synthesis platform",
+    "amount": 1.55,
+    "currency": "USDC",
+    "merchant": "Consensus App",
+    "merchant_description": "AI-powered scientific literature search platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Consensus App is an AI-powered scientific literature search platform \u2014 research category. 1.55 USDC is within the 15 USDC per-transaction limit."
+  },
+  {
+    "id": "acb27870-0f88-46a6-8577-2a495c2ff278",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Litmaps citation network mapping \u2014 $1,960 for academic paper discovery and connected research visualization",
+    "amount": 1960.0,
+    "currency": "USD",
+    "merchant": "Litmaps",
+    "merchant_description": "Citation network visualization and research discovery platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Litmaps is a citation network visualization and research discovery platform \u2014 research category. $1,960 is within the $3,000 per-transaction ceiling."
+  },
+  {
+    "id": "61474d11-0b30-4e5b-86c9-ea933539fbea",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Inciteful paper graph search \u2014 $412 for citation-based paper discovery and research network analysis",
+    "amount": 412.0,
+    "currency": "USD",
+    "merchant": "Inciteful",
+    "merchant_description": "Citation-graph based paper discovery and research tool",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Inciteful provides citation-graph based paper discovery \u2014 research category. $412 is within the $798 per-transaction limit."
+  },
+  {
+    "id": "152a2e99-40b7-49a6-894e-d15cd4b3036c",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Iris.ai enterprise research \u2014 77.50 USDC for AI-powered scientific document analysis and research intelligence",
+    "amount": 77.5,
+    "currency": "USDC",
+    "merchant": "Iris.ai",
+    "merchant_description": "AI-powered research intelligence and document analysis platform",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Iris.ai is an AI-powered research intelligence platform \u2014 research category. 77.50 USDC is within the 225 USDC per-transaction limit."
+  },
+  {
+    "id": "2a8cbfe5-b7a4-4357-a5e9-c1b27318c9c9",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Scite.ai citation intelligence \u2014 $1.02 \u2014 smart citation analysis showing supporting and contradicting evidence",
+    "amount": 1.02,
+    "currency": "USD",
+    "merchant": "Scite.ai",
+    "merchant_description": "Smart citation analysis and research credibility platform",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scite.ai provides smart citation analysis and research credibility scoring \u2014 research category. $1.02 is within the $5 per-transaction limit."
+  },
+  {
+    "id": "8d375591-f278-49ec-b4ee-d666e7362c6f",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Research Rabbit Teams \u2014 $4,875 for collaborative paper discovery and literature mapping at org scale",
+    "amount": 4875.0,
+    "currency": "USD",
+    "merchant": "Research Rabbit Teams",
+    "merchant_description": "Collaborative research discovery and literature mapping platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Research Rabbit Teams provides collaborative research discovery and literature mapping \u2014 research category. $4,875 is within the $50,000 per-transaction ceiling."
+  },
+  {
+    "id": "b92855b0-463c-44d6-b579-e1403d1f5190",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Scholarcy AI article summarization \u2014 912 USDC for automated research paper extraction and flashcard generation",
+    "amount": 912.0,
+    "currency": "USDC",
+    "merchant": "Scholarcy",
+    "merchant_description": "AI research paper summarization and extraction platform",
+    "policy_state": {
+      "max_amount_per_tx": 1349,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scholarcy is an AI research paper summarization and extraction platform \u2014 research category. 912 USDC is within the 1,349 USDC per-transaction limit."
+  },
+  {
+    "id": "640f975a-6c3d-47a4-a2b9-7b1c673447be",
+    "cluster": "1",
+    "category": "research",
+    "intent_text": "Scinapse academic search engine \u2014 41.20 EUR for scientific literature discovery and citation network access",
+    "amount": 41.2,
+    "currency": "EUR",
+    "merchant": "Scinapse",
+    "merchant_description": "Academic search engine and scientific literature discovery",
+    "policy_state": {
+      "max_amount_per_tx": 80,
+      "allowed_categories": [
+        "research",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scinapse is an academic search engine for scientific literature \u2014 research category. 41.20 EUR is within the 80 EUR per-transaction limit."
+  },
+  {
+    "id": "eec85d84-ade6-4498-85d4-948a2ded51a4",
+    "cluster": "1",
+    "category": "ai-writing",
+    "intent_text": "Jasper AI \u2014 $0.52 \u2014 AI copywriting and content generation platform charges",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "Jasper AI",
+    "merchant_description": "AI copywriting and marketing content generation platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "ai-writing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Jasper AI is an AI copywriting and content generation platform \u2014 ai-writing category. $0.52 is within the $2 per-transaction limit."
+  },
+  {
+    "id": "54535c55-fd2e-459f-b449-d011dad8b285",
+    "cluster": "1",
+    "category": "ai-writing",
+    "intent_text": "Copy.ai marketing content automation \u2014 $1,175 for AI-generated copy across email, social, and ad campaigns",
+    "amount": 1175.0,
+    "currency": "USD",
+    "merchant": "Copy.ai",
+    "merchant_description": "AI marketing copy and content automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "ai-writing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Copy.ai is an AI marketing copy and content automation platform \u2014 ai-writing category. $1,175 is within the $6,000 per-transaction ceiling."
+  },
+  {
+    "id": "0e3dff6b-ba7a-40bd-8724-b062ae1a623f",
+    "cluster": "1",
+    "category": "ai-writing",
+    "intent_text": "Gamma App AI presentation builder \u2014 0.0102 ETH for slide deck generation and interactive presentation creation",
+    "amount": 0.0102,
+    "currency": "ETH",
+    "merchant": "Gamma App",
+    "merchant_description": "AI-powered presentation and document creation platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.1,
+      "allowed_categories": [
+        "ai-writing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gamma App is an AI-powered presentation and document creation platform \u2014 ai-writing category. 0.0102 ETH is within the 0.1 ETH per-transaction limit."
+  },
+  {
+    "id": "9da8e499-6ab8-4246-bf5f-a97138f2b140",
+    "cluster": "1",
+    "category": "ai-writing",
+    "intent_text": "Tome AI narrative builder \u2014 $21 for AI-powered storytelling and pitch deck creation",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "Tome",
+    "merchant_description": "AI-powered storytelling and presentation platform",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "ai-writing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tome is an AI-powered storytelling and presentation platform \u2014 ai-writing category. $21 is within the $30 per-transaction limit."
+  },
+  {
+    "id": "fcfa2e0c-5b2f-4819-9a4f-0cd71e468e32",
+    "cluster": "1",
+    "category": "ai-writing",
+    "intent_text": "Lex AI writing editor \u2014 $5.10 for long-form content writing with inline AI assistance",
+    "amount": 5.1,
+    "currency": "USD",
+    "merchant": "Lex",
+    "merchant_description": "AI-assisted long-form writing platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "ai-writing",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lex is an AI-assisted long-form writing platform \u2014 ai-writing category. $5.10 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "1210472d-b78c-4d93-93ef-db5c6cadef84",
+    "cluster": "1",
+    "category": "design",
+    "intent_text": "Framer web design and publishing \u2014 $412 for design-to-code website builder and hosting",
+    "amount": 412.0,
+    "currency": "USD",
+    "merchant": "Framer",
+    "merchant_description": "Visual web design and publishing platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "design",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Framer is a visual web design and publishing platform \u2014 design category. $412 is within the $1,995 per-transaction limit."
+  },
+  {
+    "id": "bf9f7810-eaac-4aaf-88a9-8b688ff33acc",
+    "cluster": "1",
+    "category": "design",
+    "intent_text": "Webflow site builder and CMS \u2014 $10.25 for no-code web design and content management platform",
+    "amount": 10.25,
+    "currency": "USD",
+    "merchant": "Webflow",
+    "merchant_description": "No-code web design and CMS platform",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": [
+        "design",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Webflow is a no-code web design and CMS platform \u2014 design category. $10.25 is within the $100 per-transaction limit."
+  },
+  {
+    "id": "f5c3f5fc-182d-4299-b099-b5101668e0f6",
+    "cluster": "1",
+    "category": "design",
+    "intent_text": "Spline 3D design \u2014 2.05 USDC \u2014 browser-based 3D scene design and animation platform charges",
+    "amount": 2.05,
+    "currency": "USDC",
+    "merchant": "Spline",
+    "merchant_description": "Browser-based 3D design and animation tool",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "design",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Spline is a browser-based 3D design and animation tool \u2014 design category. 2.05 USDC is within the 3 USDC per-transaction limit."
+  },
+  {
+    "id": "94130875-cbe4-47e8-bdee-0beb419f61f8",
+    "cluster": "1",
+    "category": "design",
+    "intent_text": "Penpot open-source design platform \u2014 $9,850 for the team design and prototype workspace with cloud hosting",
+    "amount": 9850.0,
+    "currency": "USD",
+    "merchant": "Penpot",
+    "merchant_description": "Open-source design and prototyping platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "design",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Penpot is an open-source design and prototyping platform \u2014 design category. $9,850 is within the $20,000 per-transaction ceiling."
+  },
+  {
+    "id": "aad234be-56de-4d3b-bb80-cee43ca50a61",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Bridging 2.05 USDC cross-chain via Synapse Protocol \u2014 per the CFO's Q4 sign-off, Synapse bridge costs are pre-approved through end of fiscal year",
+    "amount": 2.05,
+    "currency": "USDC",
+    "merchant": "Synapse Protocol",
+    "merchant_description": "Optimistic cross-chain bridge and AMM",
+    "policy_state": {
+      "max_amount_per_tx": 6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Synapse Protocol bridge allowed for cross-chain USDC moves"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the CFO's Q4 sign-off, Synapse Protocol bridge operations are pre-approved through end of fiscal year \u2014 same vendor, same cross-chain USDC move scope. 2.05 USDC is within the 6 USDC ceiling."
+  },
+  {
+    "id": "cb1f566e-fd4f-47ff-9e2c-50326522133f",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cross-chain token send via Chainlink CCIP \u2014 0.31 ETH \u2014 per the agent's prior successful CCIP settlement, reusing established inter-chain channel",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "Chainlink CCIP",
+    "merchant_description": "Cross-chain interoperability protocol by Chainlink",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Chainlink CCIP transfers allowed for cross-chain token sends"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the agent's prior successful cross-chain settlement via Chainlink CCIP, reusing the established inter-chain channel \u2014 same protocol, same token-send scope. 0.31 ETH within the 0.6 ETH ETH limit."
+  },
+  {
+    "id": "6b9b7199-9ee0-4605-a617-a5ef7c010697",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stablecoin bridge via Multichain Router \u2014 203 USDC cross-chain \u2014 returning protocol relationship, bridging terms set in the original mandate last year",
+    "amount": 203.0,
+    "currency": "USDC",
+    "merchant": "Multichain Router",
+    "merchant_description": "Cross-chain router and bridge aggregator",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Multichain Router allowed for stablecoin bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Returning protocol relationship \u2014 Multichain Router stablecoin bridging terms were set in the original mandate last year. Same vendor, same USDC cross-chain scope. 203 USDC within the 299 USDC limit."
+  },
+  {
+    "id": "55def4d5-0b9c-4e5d-a16d-7e302f4601d2",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "L2-to-L2 USDC transfer via Orbiter Finance \u2014 1,215 USDC \u2014 all canonical L2\u2194L2 USDC bridging operations are categorically pre-cleared under the infrastructure mandate",
+    "amount": 1215.0,
+    "currency": "USDC",
+    "merchant": "Orbiter Finance",
+    "merchant_description": "Fast L2-to-L2 bridge for Ethereum scaling networks",
+    "policy_state": {
+      "max_amount_per_tx": 3600,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Orbiter Finance bridge allowed for L2-to-L2 USDC moves"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "All canonical L2\u2194L2 USDC bridging operations are categorically pre-cleared under the infrastructure mandate \u2014 Orbiter Finance L2-to-L2 USDC moves are within that class. 1,215 USDC within the 3600 USDC ceiling."
+  },
+  {
+    "id": "8ec8f459-54c0-4c93-9b81-7326c56da335",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Treasury rebalancing via Connext Amarok \u2014 1.52 USDC \u2014 cross-chain treasury rebalancing as a category sits under the standing L2 ops allowance",
+    "amount": 1.52,
+    "currency": "USDC",
+    "merchant": "Connext Amarok",
+    "merchant_description": "Cross-chain liquidity and messaging bridge",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Connext Amarok bridge allowed for cross-chain treasury rebalancing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cross-chain treasury rebalancing as a category sits under the standing L2 ops allowance \u2014 Connext Amarok bridge for treasury rebalancing is within that pre-cleared class. 1.52 USDC within the 3 USDC ceiling."
+  },
+  {
+    "id": "46eecaf3-256d-4436-8a93-0b80db1c9acb",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Routing USDT cross-chain through Symbiosis Finance \u2014 0.098 ETH \u2014 all cross-chain stablecoin moves via canonical bridge protocols are categorically approved under the infrastructure mandate",
+    "amount": 0.098,
+    "currency": "ETH",
+    "merchant": "Symbiosis Finance",
+    "merchant_description": "Cross-chain AMM and bridge aggregator",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Symbiosis Finance bridge allowed for cross-chain USDT moves"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "All cross-chain stablecoin moves via canonical bridge protocols are categorically approved under the infrastructure mandate \u2014 Symbiosis Finance USDT bridging is within that class. 0.098 ETH within the 0.15 ETH ETH ceiling."
+  },
+  {
+    "id": "991d3c3d-6699-40e8-91e0-ddb4d7896154",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cross-chain swap to USDC via Rango Exchange \u2014 921 USDC \u2014 pre-approved in the Q3 infrastructure review, same vendor and cross-chain swap scope",
+    "amount": 921.0,
+    "currency": "USDC",
+    "merchant": "Rango Exchange",
+    "merchant_description": "Cross-chain DEX aggregator and bridge",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Rango Exchange allowed for cross-chain swaps to USDC"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pre-approved in the Q3 infrastructure review \u2014 Rango Exchange cross-chain swaps to USDC are authorized at this scope. Same vendor, unchanged use case. 921 USDC within the 2697 USDC ceiling."
+  },
+  {
+    "id": "d521e5de-cc31-43bf-bb73-2bac44c12055",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "XY Finance stablecoin bridge \u2014 2,940 USDT \u2014 per last quarter's mandate review, XY Finance cross-chain bridging is pre-authorized at same vendor, same scope",
+    "amount": 2940.0,
+    "currency": "USDT",
+    "merchant": "XY Finance",
+    "merchant_description": "Cross-chain swap and bridge aggregator",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "XY Finance allowed for cross-chain stablecoin bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "This was approved in last quarter's mandate review \u2014 XY Finance cross-chain stablecoin bridging, same vendor, same scope. No new authorization required. 2,940 USDT within the 6000 USDT USDT ceiling."
+  },
+  {
+    "id": "3f6e2e4a-b891-4af3-8a93-9daff57bf8d6",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "L2 bridge via Rhino.fi \u2014 1.01 USDC \u2014 all chain-native L2 bridge transfers under $5 are categorically approved under the infrastructure mandate",
+    "amount": 1.01,
+    "currency": "USDC",
+    "merchant": "Rhino.fi",
+    "merchant_description": "Non-custodial L2 bridge and DeFi aggregator",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Rhino.fi bridge allowed for L2 cross-chain transfers"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "All chain-native L2 bridge transfers under $5 are categorically approved under the infrastructure mandate \u2014 Rhino.fi L2 cross-chain transfer is within that class. 1.01 USDC is within the 1 USDC per-transaction ceiling."
+  },
+  {
+    "id": "3c85aaa8-852b-4cca-9c9d-f0f6abee4837",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Owlto Finance fast L2 USDC bridge \u2014 0.0048 ETH \u2014 treasury lead has standing authorization for L2 bridge operations under $0.50",
+    "amount": 0.0048,
+    "currency": "ETH",
+    "merchant": "Owlto Finance",
+    "merchant_description": "Fast intent-based L2-to-L2 bridge",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Owlto Finance bridge allowed for fast L2-to-L2 USDC bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Treasury lead has standing authorization for L2 bridge operations under $0.50 \u2014 Owlto Finance fast L2 USDC bridging falls within that scope. 0.0048 ETH is well under the 0.015 ETH per-transaction ceiling."
+  },
+  {
+    "id": "b0fab742-892a-4474-9fe7-e4919ae95769",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Radiant Capital USDC collateral borrowing \u2014 412 USDC \u2014 finance ops authorized Radiant Capital as part of the omnichain lending mandate",
+    "amount": 412.0,
+    "currency": "USDC",
+    "merchant": "Radiant Capital",
+    "merchant_description": "Omnichain lending and borrowing protocol",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Radiant Capital allowed for USDC collateral borrowing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Finance ops authorized Radiant Capital USDC collateral borrowing as part of the lending mandate \u2014 this omnichain borrow falls directly within that standing sign-off. 412 USDC within the 798 USDC ceiling."
+  },
+  {
+    "id": "754bc38d-5f47-413d-98c6-ee3dfd64f505",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Borrowing USDC against AVAX collateral on Benqi Finance \u2014 this was approved in last quarter's mandate review, same vendor and same collateral-to-borrow structure",
+    "amount": 9850.0,
+    "currency": "USDC",
+    "merchant": "Benqi Finance",
+    "merchant_description": "Avalanche-native lending and liquid staking protocol",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Benqi Finance lending allowed for AVAX-collateral USDC borrow"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "This AVAX-collateral USDC borrow on Benqi Finance was approved in last quarter's mandate review \u2014 same vendor, same scope. No new authorization needed. 9,850 USDC is within the 15000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "2728ddb0-73dd-4b3b-8f71-9c6b145d8d36",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Self-repaying loan via Alchemix \u2014 0.52 USDC \u2014 approved provided the draw amount stays within the 2 USDC treasury float ceiling",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Alchemix",
+    "merchant_description": "Self-repaying loan protocol using yield to repay debt",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Alchemix self-repaying loans allowed for operational treasury float"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved provided the draw amount stays within the 2 USDC treasury float ceiling \u2014 Alchemix self-repaying loan at 0.52 USDC satisfies that condition. Condition met; proceed."
+  },
+  {
+    "id": "b15807f6-4f88-4c49-a243-bdf5ec2224fb",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Yield-boosted USDC via Gearbox Protocol credit accounts \u2014 0.31 ETH \u2014 valid if total session DeFi leverage spend stays under the 0.6 ETH per-transaction ceiling",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "Gearbox Protocol",
+    "merchant_description": "Composable leverage protocol for DeFi credit accounts",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Gearbox Protocol credit accounts allowed for yield-boosted USDC"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Valid if total DeFi leverage spend per transaction stays under 0.6 ETH \u2014 Gearbox Protocol credit account USDC yield position at 0.31 ETH satisfies that condition. Condition met; proceed."
+  },
+  {
+    "id": "80b8dc7b-bd81-4fd8-aebe-8dfef8798198",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Silo Finance USDC liquidity in isolated market \u2014 203 USDT \u2014 authorized when amount per-tx is under 299 USDT and recipient is an isolated Silo pool",
+    "amount": 203.0,
+    "currency": "USDT",
+    "merchant": "Silo Finance",
+    "merchant_description": "Isolated lending market protocol",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Silo Finance isolated markets allowed for USDC liquidity provisioning"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Authorized when amount per-tx is under 299 USDT and recipient is an isolated Silo lending pool \u2014 this USDC LP position at 203 USDT satisfies both conditions. Proceed."
+  },
+  {
+    "id": "09be96d0-a738-4b9a-aba8-4cf801cc2c94",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sturdy Finance operational borrowing \u2014 1,960 USDC \u2014 pre-cleared if the protocol offers interest-free terms and amount is under 6000 USDC",
+    "amount": 1960.0,
+    "currency": "USDC",
+    "merchant": "Sturdy Finance",
+    "merchant_description": "Interest-free borrowing protocol using yield collateral",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Sturdy Finance allowed for operational treasury low-cost borrowing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pre-cleared if the protocol offers interest-free borrowing terms and amount is under 6000 USDC \u2014 Sturdy Finance offers interest-free treasury borrowing at 1,960 USDC. Both conditions satisfied; proceed."
+  },
+  {
+    "id": "6b597641-f9c9-4a6d-98fb-2644ce4bd728",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Tectonic Finance USDC yield \u2014 5.05 USDC \u2014 eng lead sign-off on Tectonic yield allocations within the stablecoin treasury budget",
+    "amount": 5.05,
+    "currency": "USDC",
+    "merchant": "Tectonic Finance",
+    "merchant_description": "Cronos-based money market protocol",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Tectonic Finance allowed for stablecoin yield on USDC reserves"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Eng lead sign-off covers Tectonic Finance stablecoin yield allocations within the treasury budget \u2014 this USDC reserve yield deposit is within that authorized scope. 5.05 USDC within the 10 USDC limit."
+  },
+  {
+    "id": "0ba1ca8b-65d4-4239-9698-7972a594751a",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Fixed-rate loan via Exactly Protocol \u2014 0.098 ETH \u2014 treasury team sign-off covers fixed-rate borrowing operations under the lending mandate",
+    "amount": 0.098,
+    "currency": "ETH",
+    "merchant": "Exactly Protocol",
+    "merchant_description": "Fixed-rate lending protocol with term-based interest",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Exactly Protocol fixed-rate loans allowed for predictable cost borrowing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Treasury team sign-off covers fixed-rate borrowing operations under the lending mandate \u2014 Exactly Protocol fixed-rate loans for predictable treasury cost fall within that standing authorization. 0.098 ETH within the 0.15 ETH ceiling."
+  },
+  {
+    "id": "000afdb0-73b4-42cb-a243-5134a06812c9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Invoice-backed working capital via Huma Finance \u2014 921 USDC \u2014 finance ops authorized Huma draws as part of the receivables working capital mandate",
+    "amount": 921.0,
+    "currency": "USDC",
+    "merchant": "Huma Finance",
+    "merchant_description": "Real-world income and receivables-backed DeFi protocol",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Huma Finance allowed for invoice-backed working capital draws"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Finance ops authorized Huma Finance invoice-backed working capital draws as part of the receivables mandate \u2014 this draw is the specific use case covered by that standing sign-off. 921 USDC within the 2697 USDC ceiling."
+  },
+  {
+    "id": "b92b9ace-81d4-43fa-bcab-80203af3cd2d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Tokenized invoice financing via Centrifuge RWA pools \u2014 4,875 USDC \u2014 treasury lead has standing authorization for RWA pool investments under $10K",
+    "amount": 4875.0,
+    "currency": "USDC",
+    "merchant": "Centrifuge",
+    "merchant_description": "Real-world asset (RWA) tokenization and DeFi protocol",
+    "policy_state": {
+      "max_amount_per_tx": 10000,
+      "allowed_categories": [
+        "defi",
+        "lending"
+      ],
+      "explicit_allowances": [
+        "Centrifuge RWA pools allowed for tokenized invoice financing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Treasury lead has standing authorization for RWA pool investments under $10K \u2014 Centrifuge tokenized invoice financing via RWA pools falls squarely within that scope. 4,875 USDC within the 10000 USDC ceiling."
+  },
+  {
+    "id": "1488dcfc-e178-40a0-a0b2-08eb61208c1f",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "EigenLayer restaking for ETH security leverage \u2014 2.05 USDC \u2014 security team authorization covers EigenLayer restaking module operations",
+    "amount": 2.05,
+    "currency": "USDC",
+    "merchant": "EigenLayer",
+    "merchant_description": "Ethereum restaking protocol for shared security",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "EigenLayer restaking allowed for ETH security leverage"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Security team authorization covers EigenLayer restaking module operations \u2014 this ETH security leverage deposit is exactly the operation that standing sign-off includes. 2.05 USDC within the 3 USDC ceiling."
+  },
+  {
+    "id": "765c3d34-8765-4ff7-b623-8dfe21a0275d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "ether.fi liquid restaking \u2014 0.0048 ETH \u2014 permitted on the condition that the receiving contract is canonical ether.fi eETH",
+    "amount": 0.0048,
+    "currency": "ETH",
+    "merchant": "ether.fi",
+    "merchant_description": "Liquid restaking protocol for non-custodial ETH staking",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "ether.fi liquid restaking allowed for ETH yield + restaking points"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Permitted on the condition that the receiving contract is canonical ether.fi eETH \u2014 this liquid restaking deposit targets the canonical ether.fi contract. 0.0048 ETH within the 0.015 ETH ceiling. Condition met; proceed."
+  },
+  {
+    "id": "24a30c35-c8ef-4400-8e3d-4d69257841bd",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Renzo Protocol ezETH minting \u2014 412 USDC \u2014 all canonical liquid restaking protocols are categorically pre-cleared under the EigenLayer infrastructure mandate",
+    "amount": 412.0,
+    "currency": "USDC",
+    "merchant": "Renzo Protocol",
+    "merchant_description": "EigenLayer restaking and liquid restaking protocol",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Renzo Protocol ezETH minting allowed for restaked ETH yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "All canonical liquid restaking protocols are categorically pre-cleared under the EigenLayer infrastructure mandate \u2014 Renzo Protocol ezETH minting for restaked ETH yield is within that class. 412 USDC within the 798 USDC ceiling."
+  },
+  {
+    "id": "622fede9-a62f-4ccf-94d5-3248055d5bc8",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Kelp DAO rsETH for EigenLayer restaking exposure \u2014 1,215 USDC \u2014 liquid restaking token protocols as a category sit under the standing EigenLayer exposure allowance",
+    "amount": 1215.0,
+    "currency": "USDC",
+    "merchant": "Kelp DAO",
+    "merchant_description": "Liquid restaking protocol for EigenLayer via rsETH",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Kelp DAO rsETH allowed for EigenLayer restaking exposure"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Liquid restaking token protocols as a category sit under the standing EigenLayer exposure allowance \u2014 Kelp DAO rsETH is a canonical member of that class. 1,215 USDC within the 1800 USDC ceiling."
+  },
+  {
+    "id": "5215b28f-e023-4e1e-b68c-ebbe42618fcd",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Swell Network ETH staking via swETH \u2014 1.52 USDC \u2014 approved provided the destination is canonical swETH on Ethereum mainnet",
+    "amount": 1.52,
+    "currency": "USDC",
+    "merchant": "Swell Network",
+    "merchant_description": "Permissionless liquid staking protocol for ETH",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Swell Network swETH allowed for native ETH staking yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved provided the destination is canonical swETH on Ethereum mainnet \u2014 this Swell Network liquid staking deposit targets the canonical swETH contract. 1.52 USDC within the 5 USDC ceiling. Condition met; proceed."
+  },
+  {
+    "id": "d8cc6ad4-618c-4a4d-b8e5-6ca71bf501a9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stader Labs ETHx liquid staking \u2014 0.31 ETH \u2014 valid if the liquid staking token is ETHx and amount is within the per-tx ceiling",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "Stader Labs",
+    "merchant_description": "Multi-chain liquid staking protocol",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Stader Labs ETHx allowed for diversified liquid staking yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Valid if the liquid staking token is ETHx and amount is within the per-transaction ceiling \u2014 Stader Labs ETHx diversified staking at 0.31 ETH satisfies both conditions. 0.31 ETH within the 0.6 ETH limit. Proceed."
+  },
+  {
+    "id": "da715201-4bde-4e4d-afac-f2000ceef63b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ankr multi-chain validator staking \u2014 203 USDC \u2014 entire multi-chain validator staking class is pre-authorized within the staking infrastructure mandate",
+    "amount": 203.0,
+    "currency": "USDC",
+    "merchant": "Ankr Staking",
+    "merchant_description": "Multi-chain staking and liquid staking platform",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Ankr Staking allowed for multi-chain validator rewards"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Entire multi-chain validator staking class is pre-authorized within the staking infrastructure mandate \u2014 Ankr Staking for validator rewards is a canonical member of that class. 203 USDC within the 299 USDC ceiling."
+  },
+  {
+    "id": "1f057d86-561d-497e-babc-4cc661e540db",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Claystack csETH minting \u2014 2,940 USDC \u2014 carries forward from the v2.1 mandate; Claystack liquid staking needs no new authorization",
+    "amount": 2940.0,
+    "currency": "USDC",
+    "merchant": "Claystack",
+    "merchant_description": "Liquid staking protocol for ETH with csETH token",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Claystack csETH allowed for ETH staking yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Carries forward from the v2.1 mandate \u2014 Claystack csETH minting for ETH staking yield was established then and remains in-scope. Same protocol, same use case. 2,940 USDC within the 9000 USDC ceiling."
+  },
+  {
+    "id": "00137018-3b33-44f7-9aaf-4aa91494d536",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "NodeDAO nETH liquid staking \u2014 1.02 USDC \u2014 decentralized ETH staking protocol for validator yield via liquid token",
+    "amount": 1.02,
+    "currency": "USDC",
+    "merchant": "NodeDAO",
+    "merchant_description": "Decentralized ETH liquid staking via nETH token",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "NodeDAO nETH liquid staking allowed for validator yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "NodeDAO is a decentralized Ethereum liquid staking protocol; nETH represents validator yield entitlement. Standard staking operation within the defi/crypto-infrastructure scope. 1.02 USDC is well under the 2 USDC per-transaction ceiling."
+  }
+]

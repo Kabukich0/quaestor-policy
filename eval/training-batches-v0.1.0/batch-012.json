@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "8cbeda9e-6a1e-41cf-ac49-3761675a2a8d",
+    "cluster": "1",
+    "category": "messaging",
+    "intent_text": "Sendbird Chat \u2014 3,150 USD \u2014 in-app messaging and chat API powering our community and support channels",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "Sendbird Chat",
+    "merchant_description": "In-app messaging and chat API platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "messaging",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sendbird Chat is an in-app messaging API \u2014 'messaging' is an allowed category and Sendbird fits it directly. 3,150 USD within the 9,000 limit."
+  },
+  {
+    "id": "3d3d95bd-3ff9-4ae8-8868-282547043803",
+    "cluster": "1",
+    "category": "ai-orchestration",
+    "intent_text": "LangChain Hub \u2014 944 USD \u2014 prompt registry and chain management for our LLM-powered product features",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "LangChain Hub",
+    "merchant_description": "Prompt and chain registry by LangChain",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "ai-orchestration",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LangChain Hub provides AI orchestration and prompt management \u2014 in the 'ai-orchestration' category which the policy allows. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "8a015873-a50a-4662-a3bd-8ae1d244f029",
+    "cluster": "1",
+    "category": "ai-orchestration",
+    "intent_text": "LlamaIndex Cloud \u2014 104 USDC \u2014 managed RAG pipeline and data indexing for our AI knowledge retrieval system",
+    "amount": 104.0,
+    "currency": "USDC",
+    "merchant": "LlamaIndex Cloud",
+    "merchant_description": "Managed RAG and data indexing platform",
+    "policy_state": {
+      "max_amount_per_tx": 990,
+      "allowed_categories": [
+        "ai-orchestration",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LlamaIndex Cloud provides managed RAG infrastructure \u2014 an ai-orchestration tool in the allowed 'ai-orchestration' category. 104 USDC within the 990 limit."
+  },
+  {
+    "id": "becb0d20-9ec1-4366-8735-05ad1fcc671f",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Cohere Platform \u2014 2.10 USD \u2014 enterprise NLP and embedding API for semantic search and text classification",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "Cohere Platform",
+    "merchant_description": "Enterprise NLP and embedding API",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "ai-inference",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cohere is an enterprise NLP and embedding API \u2014 'ai-inference' is an allowed category; Cohere maps to it directly. 2.10 USD within the 3 limit."
+  },
+  {
+    "id": "1dfcd21f-0c6e-48ff-809e-92d7d42c2348",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Voyage AI Embeddings \u2014 10,500 USD \u2014 high-quality embedding model API for semantic retrieval and vector search",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Voyage AI Embeddings",
+    "merchant_description": "High-quality embedding model API",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "ai-inference",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Voyage AI provides embedding model inference \u2014 in the 'ai-inference' category which the policy allows. 10,500 USD within the 20,000 limit."
+  },
+  {
+    "id": "c7ac1cc0-b4cf-4ea1-b8c5-925c0f151781",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Jina AI Embeddings \u2014 209 USDC \u2014 multimodal embedding API for our text and image semantic search pipeline",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "Jina AI Embeddings",
+    "merchant_description": "Multimodal embedding and search API",
+    "policy_state": {
+      "max_amount_per_tx": 597,
+      "allowed_categories": [
+        "ai-inference",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Jina AI is a multimodal embedding and inference API \u2014 'ai-inference' is an allowed category and this maps directly. 209 USDC within the 597 limit."
+  },
+  {
+    "id": "c8eb1618-a064-44be-948c-61607c748238",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Writer AI Platform \u2014 52 USD \u2014 enterprise LLM platform for AI-assisted business writing and content workflows",
+    "amount": 52.0,
+    "currency": "USD",
+    "merchant": "Writer AI Platform",
+    "merchant_description": "Enterprise LLM for business writing",
+    "policy_state": {
+      "max_amount_per_tx": 250,
+      "allowed_categories": [
+        "ai-inference",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Writer AI provides enterprise LLM inference \u2014 in the 'ai-inference' category which the policy allows. 52 USD within the 250 limit."
+  },
+  {
+    "id": "d00d98ca-aa68-4813-ae52-5096ad0ffa66",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Cohere Rerank \u2014 1.57 USD \u2014 document reranking API for improving RAG retrieval quality in our AI pipeline",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "Cohere Rerank",
+    "merchant_description": "Document reranking API for RAG pipelines",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "ai-inference",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cohere Rerank is an AI inference API for document reranking \u2014 'ai-inference' is an allowed category; this fits directly. 1.57 USD within the 15 limit."
+  },
+  {
+    "id": "c25b2136-95cf-46c5-ae9e-b3a68b5552b2",
+    "cluster": "1",
+    "category": "ai-inference",
+    "intent_text": "Microsoft Azure AI \u2014 2,100 USDC \u2014 Azure-hosted OpenAI and cognitive services for our LLM-powered features",
+    "amount": 2100.0,
+    "currency": "USDC",
+    "merchant": "Microsoft Azure AI",
+    "merchant_description": "Azure-hosted OpenAI and cognitive services",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "ai-inference",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Azure AI provides hosted LLM inference \u2014 in the 'ai-inference' category which the policy allows. 2,100 USDC within the 3,000 limit."
+  },
+  {
+    "id": "87e5a28f-99c8-4c76-93b6-4c1ea1aca6f4",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Lens Protocol \u2014 1.04 USDC \u2014 decentralized social graph API for building composable social features on Polygon",
+    "amount": 1.04,
+    "currency": "USDC",
+    "merchant": "Lens Protocol",
+    "merchant_description": "Decentralized social graph on Polygon",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lens Protocol is a decentralized social graph \u2014 a web3 infrastructure tool in the allowed 'web3-infra' category. 1.04 USDC within the 5 limit."
+  },
+  {
+    "id": "f87011a9-9171-42b4-a868-71bdd6b81a05",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "XMTP Network \u2014 0.021 ETH \u2014 decentralized messaging protocol for wallet-to-wallet communication in our dApp",
+    "amount": 0.021,
+    "currency": "ETH",
+    "merchant": "XMTP Network",
+    "merchant_description": "Decentralized messaging protocol for web3",
+    "policy_state": {
+      "max_amount_per_tx": 0.2,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "XMTP provides decentralized messaging infrastructure \u2014 'web3-infra' is an allowed category and XMTP maps to it. 0.021 ETH within the 0.2 limit."
+  },
+  {
+    "id": "d22940b7-b234-4745-9971-28e2b8722079",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Push Protocol \u2014 944 USD \u2014 web3 notification and messaging layer for on-chain event alerts in our protocol",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Push Protocol",
+    "merchant_description": "Web3 notifications and messaging layer",
+    "policy_state": {
+      "max_amount_per_tx": 1349,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Push Protocol provides web3 notifications and messaging \u2014 in the 'web3-infra' category which the policy allows. 944 USD within the 1,349 limit."
+  },
+  {
+    "id": "e71071eb-db16-46ce-882b-969a8048e053",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Lit Protocol \u2014 15.75 USD \u2014 decentralized access control and threshold encryption for gated content in our dApp",
+    "amount": 15.75,
+    "currency": "USD",
+    "merchant": "Lit Protocol",
+    "merchant_description": "Decentralized access control and encryption",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lit Protocol provides decentralized access control \u2014 a web3-infra tool in the allowed 'web3-infra' category. 15.75 USD within the 30 limit."
+  },
+  {
+    "id": "9d926fe2-592d-4f18-b28c-30a13c8d621f",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Livepeer \u2014 0.00105 ETH \u2014 decentralized video transcoding network for our on-chain video streaming feature",
+    "amount": 0.00105,
+    "currency": "ETH",
+    "merchant": "Livepeer",
+    "merchant_description": "Decentralized video transcoding network",
+    "policy_state": {
+      "max_amount_per_tx": 0.003,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Livepeer is a decentralized video transcoding network \u2014 'web3-infra' is an allowed category and Livepeer fits it directly. 0.00105 ETH within the 0.003 limit."
+  },
+  {
+    "id": "bb21a961-a46f-4a00-9796-9cec159fe6fd",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Ceramic Network \u2014 1,260 USD \u2014 decentralized data streaming and storage for user profiles and app state",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Ceramic Network",
+    "merchant_description": "Decentralized data storage and streaming",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ceramic Network provides decentralized data storage \u2014 in the 'web3-infra' category which the policy allows. 1,260 USD within the 6,000 limit."
+  },
+  {
+    "id": "4e1168e8-0a1a-418a-ad37-c09920822014",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Tableland Network \u2014 209 USD \u2014 permissioned SQL database on EVM chains for structured on-chain data in our dApp",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Tableland Network",
+    "merchant_description": "Permissioned relational data on SQL+EVM",
+    "policy_state": {
+      "max_amount_per_tx": 1990,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tableland provides SQL-EVM relational data infrastructure \u2014 a web3-infra tool in the allowed 'web3-infra' category. 209 USD within the 1,990 limit."
+  },
+  {
+    "id": "099e0d41-ee99-45b6-85b9-8bc4b00bf595",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Polybase \u2014 5.25 USDC \u2014 decentralized database using ZK proofs for private application data in our protocol",
+    "amount": 5.25,
+    "currency": "USDC",
+    "merchant": "Polybase",
+    "merchant_description": "Decentralized database using ZK proofs",
+    "policy_state": {
+      "max_amount_per_tx": 8,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Polybase is a decentralized ZK-proof database \u2014 'web3-infra' is an allowed category; this is a direct match. 5.25 USDC within the 8 limit."
+  },
+  {
+    "id": "2ff52784-d6cb-4958-92cd-d5461fd669ee",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Spruce Systems \u2014 5.24 USD \u2014 decentralized identity and Sign-In with Ethereum for our user authentication layer",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Spruce Systems",
+    "merchant_description": "Decentralized identity and sign-in with Ethereum",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "web3-infra",
+        "security"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Spruce Systems provides decentralized identity \u2014 in the 'web3-infra' category which the policy allows. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "3c845c97-4257-4ab3-a78a-fccb181fe228",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "SpruceID Rebase \u2014 3,150 USD \u2014 credential verification protocol for decentralized identity attestations",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "SpruceID Rebase",
+    "merchant_description": "Rebase credential verification protocol",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SpruceID Rebase provides credential verification for web3 identity \u2014 'web3-infra' is an allowed category. 3,150 USD within the 9,000 limit."
+  },
+  {
+    "id": "6295aab9-7548-4810-9634-ef5543c6ad22",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "Tigris Data \u2014 79 USD \u2014 globally distributed S3-compatible object storage for our application assets",
+    "amount": 79.0,
+    "currency": "USD",
+    "merchant": "Tigris Data",
+    "merchant_description": "Globally distributed S3-compatible object storage",
+    "policy_state": {
+      "max_amount_per_tx": 750,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tigris Data provides globally distributed S3-compatible object storage \u2014 in the 'storage' category which the policy allows. 79 USD within the 750 limit."
+  },
+  {
+    "id": "762ed7f8-70c1-494f-8680-b357f4e4e39e",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "Filebase \u2014 2.10 USD \u2014 IPFS-pinned and S3-compatible decentralized storage for on-chain assets",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "Filebase",
+    "merchant_description": "IPFS and S3-compatible decentralized storage",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Filebase provides decentralized IPFS storage \u2014 'storage' is an allowed category and Filebase maps to it directly. 2.10 USD within the 3 limit."
+  },
+  {
+    "id": "46849818-0ec9-4f87-9275-25846274a8ee",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "web3.storage \u2014 10,500 USDC \u2014 IPFS/Filecoin decentralized storage for our dApp's NFT metadata and content",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "web3.storage",
+    "merchant_description": "IPFS/Filecoin storage for decentralized apps",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "web3.storage provides decentralized IPFS/Filecoin storage \u2014 in the 'storage' category which the policy allows. 10,500 USDC within the 20,000 limit."
+  },
+  {
+    "id": "c85499c3-9638-4179-9b96-8631ffa6e1f4",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "Storj DCS \u2014 944 EUR \u2014 decentralized cloud storage with S3 gateway for distributed data backup and hosting",
+    "amount": 944.0,
+    "currency": "EUR",
+    "merchant": "Storj DCS",
+    "merchant_description": "Decentralized cloud storage with S3 gateway",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Storj DCS provides decentralized S3-compatible storage \u2014 'storage' is an allowed category; Storj maps to it directly. 944 EUR within the 2,697 limit."
+  },
+  {
+    "id": "87373471-4d35-4816-b55a-3e234ed3464f",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "ImageKit.io \u2014 1.57 USD \u2014 real-time image and video optimization CDN for our product's media delivery",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "ImageKit.io",
+    "merchant_description": "Real-time image and video optimization CDN",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ImageKit.io provides image and video storage with CDN optimization \u2014 in the 'storage' category which the policy allows. 1.57 USD within the 15 limit."
+  },
+  {
+    "id": "38a8c00d-445f-4533-acb6-3d885d1d5641",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "Uploadcare \u2014 0.21 ETH \u2014 file upload and delivery infrastructure for handling user content in our application",
+    "amount": 0.21,
+    "currency": "ETH",
+    "merchant": "Uploadcare",
+    "merchant_description": "File upload and delivery infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Uploadcare provides file upload and delivery infrastructure \u2014 'storage' is an allowed category and this is a direct match. 0.21 ETH within the 0.3 limit."
+  },
+  {
+    "id": "68376276-04a3-46f4-99d8-a2e5d076d4e2",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "Transloadit \u2014 209 USD \u2014 file upload, encoding, and media transformation pipeline for user-uploaded content",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Transloadit",
+    "merchant_description": "File upload, encoding, and media transformation",
+    "policy_state": {
+      "max_amount_per_tx": 398,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Transloadit provides file upload and media processing infrastructure \u2014 in the 'storage' category which the policy allows. 209 USD within the 398 limit."
+  },
+  {
+    "id": "9b050091-3f69-4386-a256-4312c896e0e5",
+    "cluster": "1",
+    "category": "storage",
+    "intent_text": "Bytescale \u2014 21 USD \u2014 file upload API and media processing for developer applications and content pipelines",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "Bytescale",
+    "merchant_description": "File upload API and media processing",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "storage",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bytescale is a file upload and media processing API \u2014 'storage' is an allowed category; this maps to it directly. 21 USD within the 60 limit."
+  },
+  {
+    "id": "1d4a86aa-7833-4eba-96a6-2f606633e967",
+    "cluster": "1",
+    "category": "mobile",
+    "intent_text": "Expo Application Services \u2014 1.04 USDC \u2014 managed React Native build and OTA delivery for our mobile app",
+    "amount": 1.04,
+    "currency": "USDC",
+    "merchant": "Expo Application Services",
+    "merchant_description": "Managed React Native build and delivery platform",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "mobile",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Expo Application Services provides managed React Native builds \u2014 a mobile developer tool in the allowed 'mobile' category. 1.04 USDC within the 5 limit."
+  },
+  {
+    "id": "396a1de5-2b3d-4ea7-839d-e2618d1dbd4d",
+    "cluster": "1",
+    "category": "mobile",
+    "intent_text": "AppCenter (Microsoft) \u2014 5,250 USD \u2014 mobile DevOps platform for CI/CD, distribution, and crash analytics on iOS and Android",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "AppCenter (Microsoft)",
+    "merchant_description": "Mobile DevOps and CI/CD platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": [
+        "mobile",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "AppCenter provides mobile DevOps and CI/CD \u2014 in the 'mobile' category which the policy allows. 5,250 USD within the 50,000 limit."
+  },
+  {
+    "id": "6d24f3ec-feca-4a5e-ad8b-43128f8d7cff",
+    "cluster": "1",
+    "category": "mobile",
+    "intent_text": "Runway ML CI \u2014 419 USD \u2014 mobile release management platform for coordinating iOS and Android deployments",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Runway ML CI",
+    "merchant_description": "Mobile release management platform",
+    "policy_state": {
+      "max_amount_per_tx": 599,
+      "allowed_categories": [
+        "mobile",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Runway ML CI is a mobile release management tool \u2014 'mobile' is an allowed category; Runway fits this directly. 419 USD within the 599 limit."
+  },
+  {
+    "id": "83f5beb4-df50-4a8d-9182-e6e73cd028e4",
+    "cluster": "1",
+    "category": "mobile",
+    "intent_text": "Fastlane Cloud (Match) \u2014 10.50 USDC \u2014 iOS code signing automation and mobile CI pipeline management",
+    "amount": 10.5,
+    "currency": "USDC",
+    "merchant": "Fastlane Cloud (Match)",
+    "merchant_description": "iOS code signing and mobile CI automation",
+    "policy_state": {
+      "max_amount_per_tx": 20,
+      "allowed_categories": [
+        "mobile",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Fastlane Cloud provides iOS code signing and mobile CI automation \u2014 in the 'mobile' category which the policy allows. 10.50 USDC within the 20 limit."
+  },
+  {
+    "id": "ae11420d-4c33-45e5-85eb-8ae83c040270",
+    "cluster": "1",
+    "category": "mobile",
+    "intent_text": "Appcircle \u2014 0.52 USD \u2014 mobile CI/CD platform for automated builds, tests, and distribution of iOS and Android apps",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "Appcircle",
+    "merchant_description": "Mobile CI/CD platform for iOS and Android",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "mobile",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Appcircle is a mobile CI/CD platform \u2014 'mobile' is an allowed category and Appcircle maps to it directly. 0.52 USD within the 2 limit."
+  },
+  {
+    "id": "343b4c56-6e39-4a75-b379-6d78b9984e2e",
+    "cluster": "1",
+    "category": "mobile",
+    "intent_text": "Bitrise \u2014 1,260 USD \u2014 mobile-first CI/CD platform for building, testing, and deploying our React Native apps",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Bitrise",
+    "merchant_description": "Mobile-first CI/CD platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "mobile",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bitrise is a mobile-first CI/CD platform \u2014 in the 'mobile' category which the policy allows. 1,260 USD within the 6,000 limit."
+  },
+  {
+    "id": "e069a5d9-0551-43eb-84d1-e2fe7d8361b8",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "DeepL Pro \u2014 944 USDC \u2014 professional AI translation API for localizing our product UI and documentation",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "DeepL Pro",
+    "merchant_description": "Professional AI translation API",
+    "policy_state": {
+      "max_amount_per_tx": 8990,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DeepL Pro is a professional AI translation API \u2014 'localization' is an allowed category; DeepL fits it directly. 944 USDC within the 8,990 limit."
+  },
+  {
+    "id": "13da59e3-2512-4109-8220-72486f9ea3fb",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "Phrase Strings \u2014 104 USD \u2014 localization management platform for managing translation strings across our app",
+    "amount": 104.0,
+    "currency": "USD",
+    "merchant": "Phrase Strings",
+    "merchant_description": "Localization management platform for developers",
+    "policy_state": {
+      "max_amount_per_tx": 149,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Phrase Strings provides localization management \u2014 in the 'localization' category which the policy allows. 104 USD within the 149 limit."
+  },
+  {
+    "id": "ae2e7270-50c1-4320-8b8a-9f999facadb9",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "Lokalise \u2014 5.24 USD \u2014 translation management for our mobile app strings and web UI localization",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Lokalise",
+    "merchant_description": "Translation management for apps and software",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lokalise is a translation and localization management platform \u2014 'localization' is an allowed category; Lokalise maps directly. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "bac7dfb0-ed14-4529-90f6-b57b31112b32",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "Crowdin Enterprise \u2014 3,150 USDC \u2014 continuous localization platform for managing translations across all our product surfaces",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Crowdin Enterprise",
+    "merchant_description": "Continuous localization platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Crowdin Enterprise provides continuous localization \u2014 in the 'localization' category which the policy allows. 3,150 USDC within the 9,000 limit."
+  },
+  {
+    "id": "33ad8591-8290-4e6b-bc44-9aea603b91fa",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "Weblate Hosted \u2014 0.0105 ETH \u2014 open-source web-based translation platform for our community-driven localization",
+    "amount": 0.0105,
+    "currency": "ETH",
+    "merchant": "Weblate Hosted",
+    "merchant_description": "Open-source web-based translation platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.05,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Weblate Hosted is an open-source translation and localization platform \u2014 'localization' is allowed; this is a direct match. 0.0105 ETH within the 0.05 limit."
+  },
+  {
+    "id": "f7aaacaa-2e9a-441c-a3ed-b6e1056c7225",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "Transifex \u2014 52 USD \u2014 software localization platform for continuous translation of our SaaS product strings",
+    "amount": 52.0,
+    "currency": "USD",
+    "merchant": "Transifex",
+    "merchant_description": "Software localization platform",
+    "policy_state": {
+      "max_amount_per_tx": 500,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Transifex provides software localization \u2014 in the 'localization' category which the policy allows. 52 USD within the 500 limit."
+  },
+  {
+    "id": "c6d93e37-6138-42f7-ae38-582e38e05286",
+    "cluster": "1",
+    "category": "localization",
+    "intent_text": "Loco Translation \u2014 2.10 USD \u2014 developer-focused translation management for our mobile app and web localization",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "Loco Translation",
+    "merchant_description": "Translation management tool for developers",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "localization",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Loco is a developer translation management tool \u2014 'localization' is an allowed category and Loco maps to it. 2.10 USD within the 3 limit."
+  },
+  {
+    "id": "aff2f081-d0c7-4b4b-97a6-a1ce3d4858cd",
+    "cluster": "1",
+    "category": "video",
+    "intent_text": "Wistia Pro \u2014 0.52 ETH \u2014 video hosting and marketing analytics for business videos and customer showcases",
+    "amount": 0.52,
+    "currency": "ETH",
+    "merchant": "Wistia Pro",
+    "merchant_description": "Video hosting and marketing analytics for business",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "video",
+        "content"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wistia Pro is a business video hosting platform \u2014 'video' is an allowed category; Wistia maps to it directly. 0.52 ETH within the 1 limit."
+  },
+  {
+    "id": "7046f246-92cc-496f-88df-8ebe8634fc6c",
+    "cluster": "1",
+    "category": "video",
+    "intent_text": "Vimeo Business \u2014 419 USD \u2014 professional video hosting and team collaboration for product demos and marketing videos",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Vimeo Business",
+    "merchant_description": "Professional video hosting and collaboration",
+    "policy_state": {
+      "max_amount_per_tx": 1197,
+      "allowed_categories": [
+        "video",
+        "content"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vimeo Business provides professional video hosting \u2014 in the 'video' category which the policy allows. 419 USD within the 1,197 limit."
+  },
+  {
+    "id": "bc0a72b7-cb1b-41b1-a746-ad6e1d478607",
+    "cluster": "1",
+    "category": "video",
+    "intent_text": "Vidyard Teams \u2014 26 USD \u2014 video messaging and analytics for sales demos and customer onboarding videos",
+    "amount": 26.0,
+    "currency": "USD",
+    "merchant": "Vidyard Teams",
+    "merchant_description": "Video messaging and analytics for sales",
+    "policy_state": {
+      "max_amount_per_tx": 125,
+      "allowed_categories": [
+        "video",
+        "content"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vidyard Teams is a video messaging and analytics platform \u2014 'video' is an allowed category; Vidyard fits directly. 26 USD within the 125 limit."
+  },
+  {
+    "id": "0512fa03-2601-44d5-92f4-4c93d746f0d4",
+    "cluster": "1",
+    "category": "video",
+    "intent_text": "Loom Enterprise \u2014 1.57 USDC \u2014 async video messaging at enterprise scale for distributed team communication",
+    "amount": 1.57,
+    "currency": "USDC",
+    "merchant": "Loom Enterprise",
+    "merchant_description": "Async video messaging for enterprise teams",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "video",
+        "content"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Loom Enterprise provides async video messaging \u2014 in the 'video' category which the policy allows. 1.57 USDC within the 15 limit."
+  },
+  {
+    "id": "9ef41ad8-bbaa-437b-a932-975e59baeb38",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Nansen Pro \u2014 2,100 USD \u2014 on-chain analytics and wallet intelligence platform for DeFi research and monitoring",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Nansen Pro",
+    "merchant_description": "On-chain analytics and wallet intelligence platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "crypto-analytics",
+        "research"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Nansen Pro is an on-chain analytics platform \u2014 'crypto-analytics' is an allowed category and Nansen maps to it directly. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "eea168b5-3198-4ba9-993e-3b8d31074cc3",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Dune Analytics \u2014 944 USD \u2014 blockchain data analytics and SQL dashboards for our on-chain protocol monitoring",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Dune Analytics",
+    "merchant_description": "Blockchain data analytics and SQL dashboards",
+    "policy_state": {
+      "max_amount_per_tx": 1798,
+      "allowed_categories": [
+        "crypto-analytics",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Dune Analytics provides blockchain data analytics \u2014 in the 'crypto-analytics' category which the policy allows. 944 USD within the 1,798 limit."
+  },
+  {
+    "id": "57629901-fd06-40ad-995f-c3aca8ca7c6d",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Flipside Crypto \u2014 15.75 USDC \u2014 blockchain data and analytics platform for protocol metrics and ecosystem research",
+    "amount": 15.75,
+    "currency": "USDC",
+    "merchant": "Flipside Crypto",
+    "merchant_description": "Blockchain data and analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": [
+        "crypto-analytics",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Flipside Crypto provides blockchain analytics \u2014 'crypto-analytics' is an allowed category; Flipside maps to it. 15.75 USDC within the 45 limit."
+  },
+  {
+    "id": "3ca3abf5-034e-48d1-930b-c7e0927c15cd",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Token Terminal \u2014 1.04 USD \u2014 fundamental financial data and protocol revenue metrics for our crypto research",
+    "amount": 1.04,
+    "currency": "USD",
+    "merchant": "Token Terminal",
+    "merchant_description": "Fundamental financial data for crypto protocols",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "crypto-analytics",
+        "research"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Token Terminal provides fundamental crypto financial data \u2014 in the 'crypto-analytics' category which the policy allows. 1.04 USD within the 5 limit."
+  },
+  {
+    "id": "a4a7ad66-9a65-48ba-aa99-14a4b5271cf9",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "DefiLlama API \u2014 5,250 USD \u2014 DeFi TVL and yield data API for integrating protocol metrics into our analytics dashboard",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "DefiLlama API",
+    "merchant_description": "DeFi TVL and yield data API",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": [
+        "crypto-analytics",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DefiLlama API provides DeFi TVL and analytics data \u2014 'crypto-analytics' is allowed; this is a direct match. 5,250 USD within the 50,000 limit."
+  },
+  {
+    "id": "62e41989-f64b-4c38-8ead-035b9b2cc79d",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Messari Pro \u2014 209 USDC \u2014 crypto market data and research platform for protocol analysis and investment due diligence",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "Messari Pro",
+    "merchant_description": "Crypto market data and research platform",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "crypto-analytics",
+        "research"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Messari Pro is a crypto research and market data platform \u2014 'crypto-analytics' is an allowed category; Messari maps directly. 209 USDC within the 299 limit."
+  }
+]

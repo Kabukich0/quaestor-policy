@@ -1,0 +1,902 @@
+[
+  {
+    "id": "7f2898c4-2c28-40a8-aa5a-f0f95481cdc9",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Xata platform invoice — $1,935.00 for serverless Postgres-compatible database with branching and full-text search",
+    "amount": 1935.0,
+    "currency": "USD",
+    "merchant": "Xata",
+    "merchant_description": "Serverless Postgres-compatible database with branching",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Xata is a serverless Postgres-compatible database platform — database category. $1,935 is within the $3,000 per-transaction limit."
+  },
+  {
+    "id": "8a2821dd-81dd-4de4-96b3-2d613527e2d8",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Upstash Redis and Kafka charges — 213.50 USDC for edge caching and message queue usage this cycle",
+    "amount": 213.5,
+    "currency": "USDC",
+    "merchant": "Upstash",
+    "merchant_description": "Serverless Redis and Kafka at the edge",
+    "policy_state": {
+      "max_amount_per_tx": 398,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Upstash provides serverless Redis and Kafka at the edge — database category. 213.50 USDC is within the 398 USDC per-transaction limit."
+  },
+  {
+    "id": "2660fedd-a708-4728-a78a-aa1cdb1739a1",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Pay SingleStore $54.50 for real-time analytical SQL database — OLAP workloads for the product analytics layer",
+    "amount": 54.5,
+    "currency": "USD",
+    "merchant": "SingleStore",
+    "merchant_description": "Real-time analytical SQL database",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SingleStore is a real-time analytical SQL database — database category. $54.50 is within the $150 per-transaction ceiling."
+  },
+  {
+    "id": "1aef8783-9af2-4221-82f7-f427156fdf7e",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Timescale Cloud — $1.10 — time-series Postgres DB, dev environment hourly billing",
+    "amount": 1.1,
+    "currency": "USD",
+    "merchant": "Timescale Cloud",
+    "merchant_description": "Managed time-series Postgres database",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Timescale Cloud is a managed time-series Postgres database — database category. $1.10 is within the $5.00 per-transaction limit."
+  },
+  {
+    "id": "915fa482-203d-4d5c-a542-f322f5989176",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Settling 4,875 USDC with ClickHouse Cloud for the columnar OLAP workload underpinning our analytics dashboards",
+    "amount": 4875.0,
+    "currency": "USDC",
+    "merchant": "ClickHouse Cloud",
+    "merchant_description": "Managed columnar OLAP database",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ClickHouse Cloud is a managed columnar OLAP database — database category. 4,875 USDC is within the 50,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "dd160b13-e0c0-4c90-95bf-b6c0335fff12",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "StarRocks Cloud real-time analytics billing — $421.00 for the production OLAP cluster",
+    "amount": 421.0,
+    "currency": "USD",
+    "merchant": "StarRocks Cloud",
+    "merchant_description": "Real-time analytics database cloud service",
+    "policy_state": {
+      "max_amount_per_tx": 599,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "StarRocks Cloud is a real-time analytics database cloud service — database category. $421.00 is within the $599 per-transaction limit."
+  },
+  {
+    "id": "7d1067aa-ba17-407a-8666-328a2bbc62f2",
+    "cluster": "1",
+    "category": "database",
+    "intent_text": "Aiven for Kafka — $27.40 — managed Apache Kafka for the event streaming pipeline",
+    "amount": 27.4,
+    "currency": "USD",
+    "merchant": "Aiven for Kafka",
+    "merchant_description": "Managed Apache Kafka cloud service",
+    "policy_state": {
+      "max_amount_per_tx": 50,
+      "allowed_categories": ["database", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Aiven for Kafka is a managed Apache Kafka cloud service — database category. $27.40 is within the $50 per-transaction limit."
+  },
+  {
+    "id": "96258206-7ec1-4cdc-9fc7-2962ff95fb56",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Axiom — 0.58 USDC — serverless log ingestion and analytics charges",
+    "amount": 0.58,
+    "currency": "USDC",
+    "merchant": "Axiom",
+    "merchant_description": "Serverless log analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Axiom is a serverless log analytics platform — observability category. 0.58 USDC is within the 2 USDC per-transaction limit."
+  },
+  {
+    "id": "9f322ebe-edd6-4143-8a20-ead7cedbba9a",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Highlight.run monthly bill — 1,147 USDT for full-stack monitoring with session replay across our web applications",
+    "amount": 1147.0,
+    "currency": "USDT",
+    "merchant": "Highlight.run",
+    "merchant_description": "Full-stack monitoring with session replay",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Highlight.run provides full-stack monitoring with session replay — observability category. 1,147 USDT is within the 6,000 USDT per-transaction ceiling."
+  },
+  {
+    "id": "e79d16fd-6d7f-462a-8ae8-2fb612f569b3",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Authorizing $874 to Baselime for serverless application observability — Lambda and edge function tracing",
+    "amount": 874.0,
+    "currency": "USD",
+    "merchant": "Baselime",
+    "merchant_description": "Observability platform for serverless apps",
+    "policy_state": {
+      "max_amount_per_tx": 8990,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Baselime is an observability platform for serverless apps — observability category. $874 is well within the $8,990 per-transaction cap."
+  },
+  {
+    "id": "78aa2808-1ae9-4841-837c-f090a0d33480",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Dash0 invoice — 16.50 USDC for OpenTelemetry-native observability platform charges",
+    "amount": 16.5,
+    "currency": "USDC",
+    "merchant": "Dash0",
+    "merchant_description": "OpenTelemetry-native observability platform",
+    "policy_state": {
+      "max_amount_per_tx": 23,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Dash0 is an OpenTelemetry-native observability platform — observability category. 16.50 USDC is within the 23 USDC per-transaction limit."
+  },
+  {
+    "id": "4e9368b6-a6bc-4cde-b4f4-11298848c9d9",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Better Stack uptime and log monitoring — 0.0009 ETH for this week's checks",
+    "amount": 0.0009,
+    "currency": "ETH",
+    "merchant": "Better Stack",
+    "merchant_description": "Log management, uptime monitoring, on-call",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Better Stack provides log management, uptime monitoring, and on-call tooling — observability category. 0.0009 ETH is within the 0.002 ETH per-transaction limit."
+  },
+  {
+    "id": "92dfafae-fa65-4c93-a997-0704b4a16f6c",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "We run OpenObserve as our self-hosted observability stack with a cloud tier add-on — paying $2,870 for the managed cloud component",
+    "amount": 2870.0,
+    "currency": "USD",
+    "merchant": "OpenObserve",
+    "merchant_description": "Open-source observability with cloud tier",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "OpenObserve is an open-source observability platform with a cloud tier — observability category. $2,870 is within the $9,000 per-transaction ceiling."
+  },
+  {
+    "id": "9e6cdd56-6d57-482b-ad68-612aa1096f3e",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Mezmo log pipeline and analytics — $211 for this month's log routing, transformation, and storage charges",
+    "amount": 211.0,
+    "currency": "USD",
+    "merchant": "Mezmo",
+    "merchant_description": "Log pipeline and analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mezmo is a log pipeline and analytics platform — observability category. $211 is within the $995 per-transaction limit."
+  },
+  {
+    "id": "688da2e9-3554-4df7-8485-1c197594fdea",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Last9 — 5.60 USDC — high-cardinality observability platform, per-metric billing",
+    "amount": 5.6,
+    "currency": "USDC",
+    "merchant": "Last9",
+    "merchant_description": "High-cardinality observability platform",
+    "policy_state": {
+      "max_amount_per_tx": 50,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Last9 is a high-cardinality observability platform — observability category. 5.60 USDC is well within the 50 USDC per-transaction cap."
+  },
+  {
+    "id": "45ec8501-67fe-4103-b5cf-869ee77bb02d",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Signoz Cloud APM charges — $2.15 for open-source traces, metrics, and logs ingestion this billing cycle",
+    "amount": 2.15,
+    "currency": "USD",
+    "merchant": "Signoz Cloud",
+    "merchant_description": "Open-source APM and observability cloud",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Signoz Cloud is an open-source APM and observability platform — observability category. $2.15 is within the $3.00 per-transaction limit."
+  },
+  {
+    "id": "1198ca67-2795-4537-846f-f308de7848e7",
+    "cluster": "1",
+    "category": "observability",
+    "intent_text": "Checkly enterprise contract — $9,750 for monitoring-as-code covering all API and browser check suites",
+    "amount": 9750.0,
+    "currency": "USD",
+    "merchant": "Checkly",
+    "merchant_description": "Monitoring as code for APIs and browsers",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["observability", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Checkly provides monitoring-as-code for APIs and browsers — observability and developer-tools. $9,750 is within the $20,000 per-transaction ceiling."
+  },
+  {
+    "id": "3667231a-b228-458d-81c6-e6dafe265e85",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Alchemy Web3 platform charges — 412 USDC for RPC API calls, webhook infrastructure, and node services",
+    "amount": 412.0,
+    "currency": "USDC",
+    "merchant": "Alchemy",
+    "merchant_description": "Web3 development platform and RPC provider",
+    "policy_state": {
+      "max_amount_per_tx": 1197,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Alchemy is a Web3 development platform and RPC provider — web3-infra category. 412 USDC is within the 1,197 USDC per-transaction limit."
+  },
+  {
+    "id": "f591a77c-7b6c-4271-93c7-412086b0c6c5",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Pay $79 to Infura for Ethereum and IPFS API gateway access this month",
+    "amount": 79.0,
+    "currency": "USD",
+    "merchant": "Infura",
+    "merchant_description": "Ethereum and IPFS API gateway by ConsenSys",
+    "policy_state": {
+      "max_amount_per_tx": 375,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Infura is an Ethereum and IPFS API gateway by ConsenSys — web3-infra category. $79 is within the $375 per-transaction limit."
+  },
+  {
+    "id": "ab01fb7e-8732-47a9-9fb0-ac4ce311931d",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "QuickNode RPC API — $1.65 — high-performance multi-chain node access charges",
+    "amount": 1.65,
+    "currency": "USD",
+    "merchant": "QuickNode",
+    "merchant_description": "High-performance multi-chain RPC provider",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "QuickNode is a high-performance multi-chain RPC provider — web3-infra category. $1.65 is well within the $15 per-transaction limit."
+  },
+  {
+    "id": "077b0fb9-1596-48f6-acdc-c5a575b8e042",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "The Graph Protocol indexing fees — 1,985 USDC for subgraph queries supporting our on-chain analytics dashboard",
+    "amount": 1985.0,
+    "currency": "USDC",
+    "merchant": "The Graph Protocol",
+    "merchant_description": "Decentralized indexing protocol for blockchain data",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The Graph Protocol is a decentralized indexing protocol for blockchain data — web3-infra. 1,985 USDC is within the 3,000 USDC per-transaction limit."
+  },
+  {
+    "id": "ac1e501c-514d-4dac-9385-5053929167b7",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Tenderly Web3 dev platform — $921 — transaction simulations, monitoring, and alerting for our smart contract operations",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Tenderly",
+    "merchant_description": "Web3 dev platform with simulations and monitoring",
+    "policy_state": {
+      "max_amount_per_tx": 1798,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tenderly is a Web3 development platform with transaction simulation and monitoring — web3-infra. $921 is within the $1,798 per-transaction limit."
+  },
+  {
+    "id": "adeae8f7-d006-4849-b346-5b57c174c85b",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "OpenZeppelin Defender subscription — $43.50 for smart contract security ops, upgrade management, and access control",
+    "amount": 43.5,
+    "currency": "USD",
+    "merchant": "OpenZeppelin Defender",
+    "merchant_description": "Smart contract security ops platform",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": ["web3-infra", "security"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "OpenZeppelin Defender is a smart contract security ops platform — web3-infra and security. $43.50 is within the $120 per-transaction ceiling."
+  },
+  {
+    "id": "fece95d0-d5ee-4e5f-8bbd-c67bfbe1d8a1",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Moralis — 1.05 USDC — Web3 data API calls for wallet and NFT lookup features",
+    "amount": 1.05,
+    "currency": "USDC",
+    "merchant": "Moralis",
+    "merchant_description": "Web3 data API and backend infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Moralis provides Web3 data API and backend infrastructure — web3-infra category. 1.05 USDC is within the 5 USDC per-transaction limit."
+  },
+  {
+    "id": "12319448-657e-4a14-b475-93daa93b84e1",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Sending 0.22 ETH to Thirdweb for Web3 SDK access and smart contract deployment platform usage",
+    "amount": 0.22,
+    "currency": "ETH",
+    "merchant": "Thirdweb",
+    "merchant_description": "Web3 SDKs and smart contract deployment platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Thirdweb provides Web3 SDKs and smart contract deployment tooling — web3-infra. 0.22 ETH is within the 2 ETH per-transaction limit."
+  },
+  {
+    "id": "6e6dd034-0c33-4854-bbc9-1f8e5b20c456",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Blocknative mempool monitoring and gas estimation API — $211 for real-time transaction tracking infrastructure",
+    "amount": 211.0,
+    "currency": "USD",
+    "merchant": "Blocknative",
+    "merchant_description": "Web3 mempool monitoring and gas estimation API",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Blocknative provides Web3 mempool monitoring and gas estimation API — web3-infra. $211 is within the $299 per-transaction ceiling."
+  },
+  {
+    "id": "32533d2e-c6c6-44d7-89f0-3a1f723f452b",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "dRPC decentralized RPC billing — $21.60 for blockchain node access via the distributed RPC network",
+    "amount": 21.6,
+    "currency": "USD",
+    "merchant": "dRPC",
+    "merchant_description": "Decentralized RPC network for blockchain access",
+    "policy_state": {
+      "max_amount_per_tx": 40,
+      "allowed_categories": ["web3-infra", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "dRPC is a decentralized RPC network for blockchain access — web3-infra. $21.60 is within the $40 per-transaction limit."
+  },
+  {
+    "id": "da432392-34e9-4bd9-9aab-0f1e4c516a70",
+    "cluster": "1",
+    "category": "dao-tooling",
+    "intent_text": "0.047 ETH to Snapshot for off-chain gasless governance voting on the Q2 protocol parameter proposals",
+    "amount": 0.047,
+    "currency": "ETH",
+    "merchant": "Snapshot",
+    "merchant_description": "Off-chain gasless governance voting platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": ["dao-tooling", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Snapshot is an off-chain gasless governance voting platform — dao-tooling category. 0.047 ETH is within the 0.15 ETH per-transaction limit."
+  },
+  {
+    "id": "ea220dec-7b71-4fbc-b718-89b4a80399d5",
+    "cluster": "1",
+    "category": "dao-tooling",
+    "intent_text": "Tally on-chain governance platform — $1,175 for DAO management tools covering proposal creation, delegation, and vote tracking",
+    "amount": 1175.0,
+    "currency": "USD",
+    "merchant": "Tally",
+    "merchant_description": "On-chain governance and DAO management platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["dao-tooling", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tally is an on-chain governance and DAO management platform — dao-tooling. $1,175 is within the $6,000 per-transaction ceiling."
+  },
+  {
+    "id": "64c3c66b-8424-404c-b8c0-7a9e8985e841",
+    "cluster": "1",
+    "category": "dao-tooling",
+    "intent_text": "Aragon OSx modular DAO framework — $421 for app platform access and governance module licensing",
+    "amount": 421.0,
+    "currency": "USD",
+    "merchant": "Aragon OSx",
+    "merchant_description": "Modular DAO framework and app platform",
+    "policy_state": {
+      "max_amount_per_tx": 3990,
+      "allowed_categories": ["dao-tooling", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Aragon OSx is a modular DAO framework and app platform — dao-tooling. $421 is within the $3,990 per-transaction limit."
+  },
+  {
+    "id": "f3ba82d8-cd1c-4fed-a72f-9626a03c9523",
+    "cluster": "1",
+    "category": "dao-tooling",
+    "intent_text": "Commonwealth community governance platform — 10.75 USDC for forum hosting and governance discussion tooling",
+    "amount": 10.75,
+    "currency": "USDC",
+    "merchant": "Commonwealth",
+    "merchant_description": "Community governance and discussion platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["dao-tooling", "community"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Commonwealth is a community governance and discussion platform — dao-tooling and community. 10.75 USDC is within the 15 USDC per-transaction limit."
+  },
+  {
+    "id": "90e60cc3-a462-4a10-a2e0-3cb698cf66ad",
+    "cluster": "1",
+    "category": "dao-tooling",
+    "intent_text": "Boardroom governance dashboard — $5.30 for aggregated voting interface and governance analytics",
+    "amount": 5.3,
+    "currency": "USD",
+    "merchant": "Boardroom",
+    "merchant_description": "Governance aggregator and voting dashboard",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["dao-tooling", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Boardroom is a governance aggregator and voting dashboard — dao-tooling. $5.30 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "056b452a-2c71-4b7b-9e6f-fd9c60aea57c",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Auth0 enterprise identity platform — $2,945 for OAuth/OIDC, MFA, and enterprise SSO covering all production tenants",
+    "amount": 2945.0,
+    "currency": "USD",
+    "merchant": "Auth0 (Okta)",
+    "merchant_description": "Enterprise identity platform with OAuth/OIDC",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Auth0 (Okta) is an enterprise identity platform — auth category. $2,945 is within the $9,000 per-transaction ceiling."
+  },
+  {
+    "id": "dd654f5a-ae50-4106-a3c4-5304fe4f9603",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "WorkOS enterprise SSO and directory sync — 921 USDC for SAML, SCIM, and audit log API for B2B customers",
+    "amount": 921.0,
+    "currency": "USDC",
+    "merchant": "WorkOS",
+    "merchant_description": "Enterprise SSO and directory sync API",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "WorkOS provides enterprise SSO and directory sync API — auth category. 921 USDC is within the 4,495 USDC per-transaction limit."
+  },
+  {
+    "id": "56dc8022-936b-4600-b492-e13d18e9ed79",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Paying $105 to Clerk for drop-in auth and user management — covers our B2C product's monthly active users",
+    "amount": 105.0,
+    "currency": "USD",
+    "merchant": "Clerk",
+    "merchant_description": "Drop-in auth and user management for web apps",
+    "policy_state": {
+      "max_amount_per_tx": 990,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Clerk provides drop-in auth and user management for web apps — auth category. $105 is within the $990 per-transaction cap."
+  },
+  {
+    "id": "bce4277c-2eb5-4797-9745-7c143298270c",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Stytch — $2.15 — passwordless auth API calls and fraud prevention checks",
+    "amount": 2.15,
+    "currency": "USD",
+    "merchant": "Stytch",
+    "merchant_description": "Passwordless auth and fraud prevention API",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Stytch is a passwordless auth and fraud prevention API — auth category. $2.15 is within the $3.00 per-transaction limit."
+  },
+  {
+    "id": "c6fd00b7-3abe-4a5d-be82-58a5c4a232bf",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Ory identity infrastructure — settling 10,250 USDC for the open-source cloud managed tier running our production auth stack",
+    "amount": 10250.0,
+    "currency": "USDC",
+    "merchant": "Ory",
+    "merchant_description": "Open-source identity infrastructure cloud",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ory is an open-source identity infrastructure cloud platform — auth category. 10,250 USDC is within the 20,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "3bd8b71c-2038-4a53-a50a-4a6037770230",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "FusionAuth developer auth platform — 213 EUR for self-hosted cloud plan covering all app tenants",
+    "amount": 213.0,
+    "currency": "EUR",
+    "merchant": "FusionAuth",
+    "merchant_description": "Developer-focused auth platform",
+    "policy_state": {
+      "max_amount_per_tx": 597,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "FusionAuth is a developer-focused auth platform — auth category. 213 EUR is within the 597 EUR per-transaction limit."
+  },
+  {
+    "id": "b1d029ea-2b4c-4979-b708-965ff2506ac6",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Kinde B2B auth platform — $52.40 for multi-tenant user management and organization features across our SaaS product",
+    "amount": 52.4,
+    "currency": "USD",
+    "merchant": "Kinde",
+    "merchant_description": "Auth and user management SaaS for B2B apps",
+    "policy_state": {
+      "max_amount_per_tx": 250,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Kinde is an auth and user management SaaS for B2B apps — auth category. $52.40 is within the $250 per-transaction cap."
+  },
+  {
+    "id": "b197e099-630b-4078-897f-f46ea7cb372d",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Descope — $1.65 — no-code auth flow API calls for user onboarding journeys",
+    "amount": 1.65,
+    "currency": "USD",
+    "merchant": "Descope",
+    "merchant_description": "No-code auth flows and user journeys platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Descope provides no-code auth flows and user journey tooling — auth category. $1.65 is within the $15 per-transaction limit."
+  },
+  {
+    "id": "0edc91c4-9912-4f14-9f24-fabe140cefe7",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "PropelAuth B2B auth platform — 0.53 ETH for multi-tenancy, organization management, and enterprise SSO API",
+    "amount": 0.53,
+    "currency": "ETH",
+    "merchant": "PropelAuth",
+    "merchant_description": "B2B auth with multi-tenancy and organizations",
+    "policy_state": {
+      "max_amount_per_tx": 0.75,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "PropelAuth provides B2B auth with multi-tenancy and organization management — auth category. 0.53 ETH is within the 0.75 ETH per-transaction limit."
+  },
+  {
+    "id": "1eb792df-3b3f-45f0-be3a-868ad60fab9c",
+    "cluster": "1",
+    "category": "auth",
+    "intent_text": "Supertokens managed cloud tier — $421 for open-source auth with cloud-managed infrastructure and recipe support",
+    "amount": 421.0,
+    "currency": "USD",
+    "merchant": "Supertokens",
+    "merchant_description": "Open-source auth solution with cloud managed tier",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["auth", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Supertokens is an open-source auth solution with a cloud managed tier — auth category. $421 is within the $798 per-transaction ceiling."
+  },
+  {
+    "id": "416ce93c-379a-4e47-b62f-8a7dc74eda84",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "LaunchDarkly feature flag subscription — $26.50 for flag management and targeting rules across our backend services",
+    "amount": 26.5,
+    "currency": "USD",
+    "merchant": "LaunchDarkly",
+    "merchant_description": "Feature flags and experimentation platform",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LaunchDarkly is a feature flags and experimentation platform — developer-tools and feature-management. $26.50 is within the $75 per-transaction limit."
+  },
+  {
+    "id": "b0940356-6480-4a86-b3c5-859ba9a27ab7",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Statsig — 1.05 USDC — feature gates and A/B testing API calls for the product experimentation layer",
+    "amount": 1.05,
+    "currency": "USDC",
+    "merchant": "Statsig",
+    "merchant_description": "Feature gates, A/B testing, and analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Statsig provides feature gates, A/B testing, and analytics — developer-tools and feature-management. 1.05 USDC is within the 5 USDC per-transaction cap."
+  },
+  {
+    "id": "d5860e51-0b4b-40b9-bbcb-163055f89753",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Unleash Cloud enterprise seats — $5,280 for the open-source feature toggle platform running our gradual rollouts",
+    "amount": 5280.0,
+    "currency": "USD",
+    "merchant": "Unleash Cloud",
+    "merchant_description": "Open-source feature toggle platform cloud tier",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Unleash Cloud is an open-source feature toggle platform — developer-tools and feature-management. $5,280 is well within the $50,000 per-transaction ceiling."
+  },
+  {
+    "id": "53d44e46-2644-4f62-8bf0-6c3ca019248b",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Flagsmith open-source feature flags and remote config — $921 for cloud-hosted plan with advanced targeting",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Flagsmith",
+    "merchant_description": "Open-source feature flags and remote config",
+    "policy_state": {
+      "max_amount_per_tx": 1349,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Flagsmith provides open-source feature flags and remote config — developer-tools and feature-management. $921 is within the $1,349 per-transaction limit."
+  },
+  {
+    "id": "89a79aae-fd06-44c4-8fe7-dfec82c37280",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "DevCycle feature flags — 16.20 USDC for Git-flow-integrated flag management and deployment controls",
+    "amount": 16.2,
+    "currency": "USDC",
+    "merchant": "DevCycle",
+    "merchant_description": "Feature flags tied to Git flow",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DevCycle provides feature flags integrated with Git workflow — developer-tools and feature-management. 16.20 USDC is within the 30 USDC per-transaction limit."
+  },
+  {
+    "id": "0d8c094b-d31f-4072-bbba-012a35534edd",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Growthbook — $0.52 — open-source A/B testing and feature flag cloud plan",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "Growthbook",
+    "merchant_description": "Open-source A/B testing and feature flags",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Growthbook is an open-source A/B testing and feature flags platform — developer-tools and feature-management. $0.52 is within the $2.00 per-transaction limit."
+  },
+  {
+    "id": "bd797bb7-9188-4404-944c-2db57883fc44",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Eppo warehouse-native experimentation platform — $1,245 for A/B test analysis integrated with the data warehouse",
+    "amount": 1245.0,
+    "currency": "USD",
+    "merchant": "Eppo",
+    "merchant_description": "Warehouse-native A/B testing platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["developer-tools", "experimentation"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Eppo is a warehouse-native A/B testing platform — developer-tools and experimentation. $1,245 is within the $6,000 per-transaction ceiling."
+  },
+  {
+    "id": "2d4f44cc-ee2a-485c-86ad-f32174235baa",
+    "cluster": "1",
+    "category": "developer-tools",
+    "intent_text": "Split.io feature delivery and experimentation — 213 USDC for feature flag evaluation and impact analytics",
+    "amount": 213.0,
+    "currency": "USDC",
+    "merchant": "Split.io",
+    "merchant_description": "Feature delivery and experimentation platform",
+    "policy_state": {
+      "max_amount_per_tx": 1990,
+      "allowed_categories": ["developer-tools", "feature-management"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Split.io is a feature delivery and experimentation platform — developer-tools and feature-management. 213 USDC is within the 1,990 USDC per-transaction limit."
+  }
+]
