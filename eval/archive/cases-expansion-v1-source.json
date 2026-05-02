@@ -1,1145 +1,5 @@
 [
   {
-    "id": "approve-001",
-    "category": "obvious_approve",
-    "intent": "pay for SaaS hosting and cloud infrastructure only",
-    "mandate_summary": {
-      "spend_cap_remaining": "75.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 8
-    },
-    "redemption": {
-      "recipient_address": "0x4f6c2a7b9d3e5f1a2b3c4d5e6f7a8b9c0d1e2f3a",
-      "recipient_domain": "render.com",
-      "amount_usdc": "12.00",
-      "resource_description": "render web service starter plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "render.com is cloud hosting; matches infra intent."
-  },
-  {
-    "id": "approve-002",
-    "category": "obvious_approve",
-    "intent": "domain registration for the agent's own project",
-    "mandate_summary": {
-      "spend_cap_remaining": "30.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-06-30T00:00:00Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0xa1b2c3d4e5f6789012345678901234567890abcd",
-      "recipient_domain": "namecheap.com",
-      "amount_usdc": "9.99",
-      "resource_description": ".com domain, 1 year"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "namecheap registers domains; direct match for intent."
-  },
-  {
-    "id": "approve-003",
-    "category": "obvious_approve",
-    "intent": "github copilot subscription for the dev team",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 12
-    },
-    "redemption": {
-      "recipient_address": "0x9876543210fedcba9876543210fedcba98765432",
-      "recipient_domain": "github.com",
-      "amount_usdc": "10.00",
-      "resource_description": "github copilot individual"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "github copilot is the named subscription."
-  },
-  {
-    "id": "approve-004",
-    "category": "obvious_approve",
-    "intent": "openai api credits for the support bot",
-    "mandate_summary": {
-      "spend_cap_remaining": "200.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-09-30T00:00:00Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x1111222233334444555566667777888899990000",
-      "recipient_domain": "openai.com",
-      "amount_usdc": "50.00",
-      "resource_description": "openai prepaid api credits"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "openai api credits match support-bot intent."
-  },
-  {
-    "id": "approve-005",
-    "category": "obvious_approve",
-    "intent": "anthropic claude api usage for document processing",
-    "mandate_summary": {
-      "spend_cap_remaining": "150.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-15T00:00:00Z",
-      "use_counter_remaining": 6
-    },
-    "redemption": {
-      "recipient_address": "0xaaaa1111bbbb2222cccc3333dddd4444eeee5555",
-      "recipient_domain": "anthropic.com",
-      "amount_usdc": "20.00",
-      "resource_description": "claude api credits"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "anthropic claude credits match document-processing intent."
-  },
-  {
-    "id": "approve-006",
-    "category": "obvious_approve",
-    "intent": "cloud storage costs for backups",
-    "mandate_summary": {
-      "spend_cap_remaining": "40.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-05-31T00:00:00Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xb2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2",
-      "recipient_domain": "backblaze.com",
-      "amount_usdc": "6.00",
-      "resource_description": "b2 cloud storage"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "backblaze b2 is cloud storage; backups match intent."
-  },
-  {
-    "id": "approve-007",
-    "category": "obvious_approve",
-    "intent": "vercel hosting for the production frontend",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0xc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3",
-      "recipient_domain": "vercel.com",
-      "amount_usdc": "20.00",
-      "resource_description": "vercel pro plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "vercel pro is the named hosting target."
-  },
-  {
-    "id": "approve-008",
-    "category": "obvious_approve",
-    "intent": "buy a digital book on distributed systems",
-    "mandate_summary": {
-      "spend_cap_remaining": "80.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-07-01T00:00:00Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0xd4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4",
-      "recipient_domain": "leanpub.com",
-      "amount_usdc": "29.99",
-      "resource_description": "ebook: designing data-intensive applications"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "leanpub ebook on distributed systems matches the topic."
-  },
-  {
-    "id": "approve-009",
-    "category": "obvious_approve",
-    "intent": "stripe payment processor fees for the agent's micro-payments",
-    "mandate_summary": {
-      "spend_cap_remaining": "25.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-06-01T00:00:00Z",
-      "use_counter_remaining": 10
-    },
-    "redemption": {
-      "recipient_address": "0xe5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5",
-      "recipient_domain": "stripe.com",
-      "amount_usdc": "2.50",
-      "resource_description": "stripe transaction fees"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "stripe fees are the named expense."
-  },
-  {
-    "id": "approve-010",
-    "category": "obvious_approve",
-    "intent": "monitoring + alerting saas",
-    "mandate_summary": {
-      "spend_cap_remaining": "50.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0xf6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6",
-      "recipient_domain": "datadoghq.com",
-      "amount_usdc": "15.00",
-      "resource_description": "datadog standard monitoring"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "datadog is the canonical monitoring saas."
-  },
-  {
-    "id": "approve-011",
-    "category": "obvious_approve",
-    "intent": "twilio sms credits for 2fa flow",
-    "mandate_summary": {
-      "spend_cap_remaining": "20.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-04-30T00:00:00Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x1212121212121212121212121212121212121212",
-      "recipient_domain": "twilio.com",
-      "amount_usdc": "5.00",
-      "resource_description": "sms message credits"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "twilio sms credits power 2fa flow."
-  },
-  {
-    "id": "approve-012",
-    "category": "obvious_approve",
-    "intent": "linode cloud servers for the staging cluster",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-10-15T00:00:00Z",
-      "use_counter_remaining": 6
-    },
-    "redemption": {
-      "recipient_address": "0x3434343434343434343434343434343434343434",
-      "recipient_domain": "linode.com",
-      "amount_usdc": "20.00",
-      "resource_description": "linode 4gb instance, 1 month"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "linode 4gb is the named cloud server class."
-  },
-  {
-    "id": "approve-013",
-    "category": "obvious_approve",
-    "intent": "ssl certificate for the production domain",
-    "mandate_summary": {
-      "spend_cap_remaining": "150.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0x5656565656565656565656565656565656565656",
-      "recipient_domain": "digicert.com",
-      "amount_usdc": "60.00",
-      "resource_description": "digicert ssl certificate, 1 year"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "digicert ssl matches certificate intent."
-  },
-  {
-    "id": "approve-014",
-    "category": "obvious_approve",
-    "intent": "buy a stock photo for the launch blog post",
-    "mandate_summary": {
-      "spend_cap_remaining": "30.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-06-15T00:00:00Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0x7878787878787878787878787878787878787878",
-      "recipient_domain": "shutterstock.com",
-      "amount_usdc": "12.00",
-      "resource_description": "single photo license"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "shutterstock photo license matches blog-post intent."
-  },
-  {
-    "id": "approve-015",
-    "category": "obvious_approve",
-    "intent": "supabase postgres for production database",
-    "mandate_summary": {
-      "spend_cap_remaining": "40.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-09-30T00:00:00Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x9090909090909090909090909090909090909090",
-      "recipient_domain": "supabase.com",
-      "amount_usdc": "25.00",
-      "resource_description": "supabase pro plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "supabase pro is the named postgres tier."
-  },
-  {
-    "id": "approve-016",
-    "category": "obvious_approve",
-    "intent": "fastly cdn for the marketing site",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 6
-    },
-    "redemption": {
-      "recipient_address": "0xabababababababababababababababababababab",
-      "recipient_domain": "fastly.com",
-      "amount_usdc": "18.00",
-      "resource_description": "fastly cdn essentials"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "fastly cdn matches the marketing-site intent."
-  },
-  {
-    "id": "approve-017",
-    "category": "obvious_approve",
-    "intent": "ci minutes overage for the build pipeline",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-31T00:00:00Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
-      "recipient_domain": "circleci.com",
-      "amount_usdc": "8.00",
-      "resource_description": "circleci compute credits"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "circleci credits are ci minutes overage."
-  },
-  {
-    "id": "approve-018",
-    "category": "obvious_approve",
-    "intent": "image transformation api usage",
-    "mandate_summary": {
-      "spend_cap_remaining": "30.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-07-31T00:00:00Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0xefefefefefefefefefefefefefefefefefefefef",
-      "recipient_domain": "cloudinary.com",
-      "amount_usdc": "9.00",
-      "resource_description": "cloudinary api credits"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "cloudinary is image-transformation api."
-  },
-  {
-    "id": "approve-019",
-    "category": "obvious_approve",
-    "intent": "transactional email for password resets",
-    "mandate_summary": {
-      "spend_cap_remaining": "25.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-05-31T00:00:00Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x2323232323232323232323232323232323232323",
-      "recipient_domain": "postmarkapp.com",
-      "amount_usdc": "10.00",
-      "resource_description": "postmark transactional email"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "postmark is transactional email."
-  },
-  {
-    "id": "approve-020",
-    "category": "obvious_approve",
-    "intent": "sentry error tracking for the production app",
-    "mandate_summary": {
-      "spend_cap_remaining": "45.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x4545454545454545454545454545454545454545",
-      "recipient_domain": "sentry.io",
-      "amount_usdc": "26.00",
-      "resource_description": "sentry team plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "sentry team plan matches error-tracking intent."
-  },
-  {
-    "id": "reject-001",
-    "category": "obvious_reject",
-    "intent": "no marketing tools",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x6767676767676767676767676767676767676767",
-      "recipient_domain": "mailchimp.com",
-      "amount_usdc": "29.00",
-      "resource_description": "mailchimp essentials plan"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "mailchimp is a marketing tool; intent forbids marketing."
-  },
-  {
-    "id": "reject-002",
-    "category": "obvious_reject",
-    "intent": "infrastructure spend only — never advertising",
-    "mandate_summary": {
-      "spend_cap_remaining": "200.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 10
-    },
-    "redemption": {
-      "recipient_address": "0x8989898989898989898989898989898989898989",
-      "recipient_domain": "ads.google.com",
-      "amount_usdc": "150.00",
-      "resource_description": "google ads campaign"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "google ads is advertising; intent explicitly forbids it."
-  },
-  {
-    "id": "reject-003",
-    "category": "obvious_reject",
-    "intent": "developer tools and SaaS subscriptions only",
-    "mandate_summary": {
-      "spend_cap_remaining": "50.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-31T00:00:00Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
-      "recipient_domain": "doordash.com",
-      "amount_usdc": "35.00",
-      "resource_description": "food delivery order"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "doordash is food delivery, not developer tools."
-  },
-  {
-    "id": "reject-004",
-    "category": "obvious_reject",
-    "intent": "code hosting and CI",
-    "mandate_summary": {
-      "spend_cap_remaining": "75.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-09-30T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0xdedededededededededededededededededededede",
-      "recipient_domain": "casino-online-bet.tk",
-      "amount_usdc": "70.00",
-      "resource_description": "online gaming credits"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "casino domain is gambling and looks like a scam tld; violates code-hosting intent."
-  },
-  {
-    "id": "reject-005",
-    "category": "obvious_reject",
-    "intent": "purely educational — books and courses",
-    "mandate_summary": {
-      "spend_cap_remaining": "40.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-07-31T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
-      "recipient_domain": "uber.com",
-      "amount_usdc": "25.00",
-      "resource_description": "uber ride"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "uber ride is transportation, not educational."
-  },
-  {
-    "id": "reject-006",
-    "category": "obvious_reject",
-    "intent": "open source maintainer tip jar contributions",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x2121212121212121212121212121212121212121",
-      "recipient_domain": "robinhood.com",
-      "amount_usdc": "100.00",
-      "resource_description": "stock purchase"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "robinhood stock purchase is not an open-source maintainer tip."
-  },
-  {
-    "id": "reject-007",
-    "category": "obvious_reject",
-    "intent": "saas subscriptions for the engineering team only",
-    "mandate_summary": {
-      "spend_cap_remaining": "200.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 8
-    },
-    "redemption": {
-      "recipient_address": "0x4343434343434343434343434343434343434343",
-      "recipient_domain": "stockx.com",
-      "amount_usdc": "180.00",
-      "resource_description": "sneaker resale purchase"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "stockx sneaker resale is not a saas subscription."
-  },
-  {
-    "id": "reject-008",
-    "category": "obvious_reject",
-    "intent": "cloud compute and storage",
-    "mandate_summary": {
-      "spend_cap_remaining": "300.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 6
-    },
-    "redemption": {
-      "recipient_address": "0x6565656565656565656565656565656565656565",
-      "recipient_domain": "patreon.com",
-      "amount_usdc": "20.00",
-      "resource_description": "creator subscription, gaming streamer"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "patreon creator support is not cloud compute or storage."
-  },
-  {
-    "id": "reject-009",
-    "category": "obvious_reject",
-    "intent": "professional development tools",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-10-31T00:00:00Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x8787878787878787878787878787878787878787",
-      "recipient_domain": "tinder.com",
-      "amount_usdc": "30.00",
-      "resource_description": "tinder premium subscription"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "tinder is dating, not professional development."
-  },
-  {
-    "id": "reject-010",
-    "category": "obvious_reject",
-    "intent": "pay for hosting only — no transfers to wallets",
-    "mandate_summary": {
-      "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xa9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9",
-      "recipient_domain": "",
-      "amount_usdc": "490.00",
-      "resource_description": "p2p transfer to unknown wallet"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "p2p transfer to unknown wallet violates explicit no-transfers rule."
-  },
-  {
-    "id": "reject-011",
-    "category": "obvious_reject",
-    "intent": "operations spend — never gambling, betting, or speculation",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0xcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
-      "recipient_domain": "draftkings.com",
-      "amount_usdc": "50.00",
-      "resource_description": "sports betting deposit"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "draftkings is sports betting; intent explicitly forbids gambling."
-  },
-  {
-    "id": "reject-012",
-    "category": "obvious_reject",
-    "intent": "monitoring + observability tools",
-    "mandate_summary": {
-      "spend_cap_remaining": "80.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-09-30T00:00:00Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xededededededededededededededededededededed",
-      "recipient_domain": "hellofresh.com",
-      "amount_usdc": "60.00",
-      "resource_description": "meal kit subscription"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "hellofresh meal kit is not monitoring."
-  },
-  {
-    "id": "reject-013",
-    "category": "obvious_reject",
-    "intent": "developer documentation services only",
-    "mandate_summary": {
-      "spend_cap_remaining": "30.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-31T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f",
-      "recipient_domain": "spotify.com",
-      "amount_usdc": "10.00",
-      "resource_description": "spotify premium subscription"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "spotify is music streaming, not developer documentation."
-  },
-  {
-    "id": "reject-014",
-    "category": "obvious_reject",
-    "intent": "back-office accounting software",
-    "mandate_summary": {
-      "spend_cap_remaining": "70.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-11-30T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x3232323232323232323232323232323232323232",
-      "recipient_domain": "etsy.com",
-      "amount_usdc": "45.00",
-      "resource_description": "decorative item, household"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "etsy decorative item is not accounting software."
-  },
-  {
-    "id": "reject-015",
-    "category": "obvious_reject",
-    "intent": "renew the team's kanban tool subscription",
-    "mandate_summary": {
-      "spend_cap_remaining": "30.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-06-30T00:00:00Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0x5454545454545454545454545454545454545454",
-      "recipient_domain": "binance.com",
-      "amount_usdc": "30.00",
-      "resource_description": "crypto trading deposit"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "binance crypto trading is not a kanban subscription."
-  },
-  {
-    "id": "reject-016",
-    "category": "obvious_reject",
-    "intent": "pay only known engineering vendors — github, vercel, supabase",
-    "mandate_summary": {
-      "spend_cap_remaining": "50.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x7676767676767676767676767676767676767676",
-      "recipient_domain": "amazon.com",
-      "amount_usdc": "40.00",
-      "resource_description": "amazon retail purchase, electronics accessory"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "amazon is not on the github/vercel/supabase allowlist."
-  },
-  {
-    "id": "reject-017",
-    "category": "obvious_reject",
-    "intent": "infra-only spend; never social or entertainment",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x9898989898989898989898989898989898989898",
-      "recipient_domain": "netflix.com",
-      "amount_usdc": "15.00",
-      "resource_description": "netflix monthly subscription"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "netflix is entertainment; intent explicitly forbids it."
-  },
-  {
-    "id": "reject-018",
-    "category": "obvious_reject",
-    "intent": "subscriptions for build, deploy, and observability tools only",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xbababababababababababababababababababababa",
-      "recipient_domain": "instacart.com",
-      "amount_usdc": "55.00",
-      "resource_description": "grocery delivery"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "instacart groceries are not build/deploy/observability tools."
-  },
-  {
-    "id": "reject-019",
-    "category": "obvious_reject",
-    "intent": "no recipients on suspicious unknown domains",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0xdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdc",
-      "recipient_domain": "free-iphone-prize-claim.xyz",
-      "amount_usdc": "1.00",
-      "resource_description": "claim a free iphone (verification fee)"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "free-iphone-prize-claim.xyz is a scam-pattern domain."
-  },
-  {
-    "id": "reject-020",
-    "category": "obvious_reject",
-    "intent": "infrastructure only; never personal purchases",
-    "mandate_summary": {
-      "spend_cap_remaining": "80.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0xfefefefefefefefefefefefefefefefefefefefe",
-      "recipient_domain": "shein.com",
-      "amount_usdc": "60.00",
-      "resource_description": "clothing purchase"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "shein clothing is a personal purchase, not infrastructure."
-  },
-  {
-    "id": "edge-001",
-    "category": "edge",
-    "intent": "developer tooling and analytics",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0x1010101010101010101010101010101010101010",
-      "recipient_domain": "posthog.com",
-      "amount_usdc": "25.00",
-      "resource_description": "posthog scale plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "posthog is product analytics for developers; matches intent."
-  },
-  {
-    "id": "edge-002",
-    "category": "edge",
-    "intent": "infrastructure spend",
-    "mandate_summary": {
-      "spend_cap_remaining": "75.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x3030303030303030303030303030303030303030",
-      "recipient_domain": "tier4-cloud.io",
-      "amount_usdc": "30.00",
-      "resource_description": "compute instance, novel provider"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "novel provider but description is a compute instance; broad infra intent permits."
-  },
-  {
-    "id": "edge-003",
-    "category": "edge",
-    "intent": "training data + ML tooling",
-    "mandate_summary": {
-      "spend_cap_remaining": "200.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x5050505050505050505050505050505050505050",
-      "recipient_domain": "scale.com",
-      "amount_usdc": "100.00",
-      "resource_description": "human-labeled training data"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "scale.com is the canonical training data labeling provider."
-  },
-  {
-    "id": "edge-004",
-    "category": "edge",
-    "intent": "communication tools for engineering",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-31T00:00:00Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0x7070707070707070707070707070707070707070",
-      "recipient_domain": "slack.com",
-      "amount_usdc": "20.00",
-      "resource_description": "slack pro plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "slack pro is engineering communication."
-  },
-  {
-    "id": "edge-005",
-    "category": "edge",
-    "intent": "design and product tools",
-    "mandate_summary": {
-      "spend_cap_remaining": "70.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-09-30T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x9191919191919191919191919191919191919191",
-      "recipient_domain": "figma.com",
-      "amount_usdc": "15.00",
-      "resource_description": "figma professional plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "figma professional is the canonical design tool."
-  },
-  {
-    "id": "edge-006",
-    "category": "edge",
-    "intent": "agent operations within a $5 micro-payment budget",
-    "mandate_summary": {
-      "spend_cap_remaining": "5.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-05-31T00:00:00Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0xb1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1",
-      "recipient_domain": "an-unknown-merchant.shop",
-      "amount_usdc": "4.50",
-      "resource_description": "small purchase, novel merchant"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "user explicitly authorized any merchant within $5; $4.50 is within budget."
-  },
-  {
-    "id": "edge-007",
-    "category": "edge",
-    "intent": "dev resources",
-    "mandate_summary": {
-      "spend_cap_remaining": "40.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0xd3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3",
-      "recipient_domain": "udemy.com",
-      "amount_usdc": "12.99",
-      "resource_description": "online course on rust programming"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "udemy rust course is a dev resource."
-  },
-  {
-    "id": "edge-008",
-    "category": "edge",
-    "intent": "ops + customer support stack",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0xf5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5",
-      "recipient_domain": "intercom.com",
-      "amount_usdc": "39.00",
-      "resource_description": "intercom starter"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "intercom is the canonical customer support stack."
-  },
-  {
-    "id": "edge-009",
-    "category": "edge",
-    "intent": "data transformation and warehouse tooling",
-    "mandate_summary": {
-      "spend_cap_remaining": "120.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0x1717171717171717171717171717171717171717",
-      "recipient_domain": "fivetran.com",
-      "amount_usdc": "75.00",
-      "resource_description": "fivetran data sync"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "fivetran is canonical data warehouse sync."
-  },
-  {
-    "id": "edge-010",
-    "category": "edge",
-    "intent": "core engineering subscriptions, low-cost only",
-    "mandate_summary": {
-      "spend_cap_remaining": "80.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x3939393939393939393939393939393939393939",
-      "recipient_domain": "jetbrains.com",
-      "amount_usdc": "16.90",
-      "resource_description": "jetbrains all products pack monthly"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "jetbrains all-products at $16.90 is core engineering, low-cost."
-  },
-  {
-    "id": "edge-011",
-    "category": "edge",
-    "intent": "infra and dev cost. small purchases under $50 ok",
-    "mandate_summary": {
-      "spend_cap_remaining": "50.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-31T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b",
-      "recipient_domain": "newcompany-saas.dev",
-      "amount_usdc": "47.00",
-      "resource_description": "novel saas, claims to provide log aggregation"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "user authorized small purchases under $50; description claims log aggregation (legit infra category)."
-  },
-  {
-    "id": "edge-012",
-    "category": "edge",
-    "intent": "pay for the agent's research subscriptions",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d",
-      "recipient_domain": "arxiv.org",
-      "amount_usdc": "10.00",
-      "resource_description": "arxiv supporter membership"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "arxiv supporter membership funds research access."
-  },
-  {
-    "id": "edge-013",
-    "category": "edge",
-    "intent": "engineering support tools",
-    "mandate_summary": {
-      "spend_cap_remaining": "100.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f",
-      "recipient_domain": "linear.app",
-      "amount_usdc": "10.00",
-      "resource_description": "linear standard plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "linear is the engineering project management tool."
-  },
-  {
-    "id": "edge-014",
-    "category": "edge",
-    "intent": "operational backup and DR services",
-    "mandate_summary": {
-      "spend_cap_remaining": "90.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-10-31T00:00:00Z",
-      "use_counter_remaining": 3
-    },
-    "redemption": {
-      "recipient_address": "0xc1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1",
-      "recipient_domain": "aws.amazon.com",
-      "amount_usdc": "65.00",
-      "resource_description": "aws s3 + glacier"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "aws s3 + glacier is canonical backup/DR."
-  },
-  {
-    "id": "edge-015",
-    "category": "edge",
-    "intent": "sponsor an upstream open source dep we depend on",
-    "mandate_summary": {
-      "spend_cap_remaining": "150.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0xe3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3",
-      "recipient_domain": "github.com",
-      "amount_usdc": "100.00",
-      "resource_description": "github sponsors monthly contribution"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "github sponsors is the canonical mechanism for upstream dep sponsorship."
-  },
-  {
-    "id": "edge-016",
-    "category": "edge",
-    "intent": "pay for engineering coffee subscriptions",
-    "mandate_summary": {
-      "spend_cap_remaining": "60.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-08-31T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0xfafafafafafafafafafafafafafafafafafafafa",
-      "recipient_domain": "trade.com",
-      "amount_usdc": "40.00",
-      "resource_description": "specialty coffee subscription"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "trade is a specialty coffee subscription; matches user-authorized engineering coffee perk."
-  },
-  {
-    "id": "edge-017",
-    "category": "edge",
-    "intent": "experimental dev tools, cap each spend at $25",
-    "mandate_summary": {
-      "spend_cap_remaining": "25.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-07-31T00:00:00Z",
-      "use_counter_remaining": 1
-    },
-    "redemption": {
-      "recipient_address": "0x1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c",
-      "recipient_domain": "raycast.com",
-      "amount_usdc": "8.00",
-      "resource_description": "raycast pro"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "raycast pro is a dev tool at $8, well under the $25 cap."
-  },
-  {
-    "id": "edge-018",
-    "category": "edge",
-    "intent": "general engineering operations spend",
-    "mandate_summary": {
-      "spend_cap_remaining": "200.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 6
-    },
-    "redemption": {
-      "recipient_address": "0x3838383838383838383838383838383838383838",
-      "recipient_domain": "google.com",
-      "amount_usdc": "12.00",
-      "resource_description": "google workspace business starter"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "google workspace business starter is engineering ops (email, calendar, docs)."
-  },
-  {
-    "id": "edge-019",
-    "category": "edge",
-    "intent": "media generation api, image only",
-    "mandate_summary": {
-      "spend_cap_remaining": "50.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-09-30T00:00:00Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x5454545454545454545454545454545454545454",
-      "recipient_domain": "fal.ai",
-      "amount_usdc": "20.00",
-      "resource_description": "fal.ai inference credits"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "fal.ai is media generation api with image as primary use; matches intent."
-  },
-  {
-    "id": "edge-020",
-    "category": "edge",
-    "intent": "DNS and registration for new product",
-    "mandate_summary": {
-      "spend_cap_remaining": "40.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-06-30T00:00:00Z",
-      "use_counter_remaining": 2
-    },
-    "redemption": {
-      "recipient_address": "0x7171717171717171717171717171717171717171",
-      "recipient_domain": "cloudflare.com",
-      "amount_usdc": "9.00",
-      "resource_description": "cloudflare registrar + dns"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "cloudflare registrar + dns matches DNS and registration intent."
-  },
-  {
     "id": "approve-021",
     "category": "obvious_approve",
     "intent": "project management and team coordination software for the ops team",
@@ -1153,7 +13,7 @@
       "recipient_address": "0xa1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
       "recipient_domain": "monday.com",
       "amount_usdc": "24.00",
-      "resource_description": "Monday.com Pro plan — 5-seat team workspace subscription"
+      "resource_description": "Monday.com Pro plan \u2014 5-seat team workspace subscription"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Monday.com is a project management platform; matches team coordination software intent."
@@ -1172,7 +32,7 @@
       "recipient_address": "0xb3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2",
       "recipient_domain": "temporal.io",
       "amount_usdc": "29.00",
-      "resource_description": "Temporal Cloud — namespace usage fee for durable workflow execution"
+      "resource_description": "Temporal Cloud \u2014 namespace usage fee for durable workflow execution"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Temporal is workflow orchestration infrastructure; matches background task processing intent."
@@ -1191,7 +51,7 @@
       "recipient_address": "0xc4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3",
       "recipient_domain": "convex.dev",
       "amount_usdc": "25.00",
-      "resource_description": "Convex — backend-as-a-service plan for real-time reactive data sync"
+      "resource_description": "Convex \u2014 backend-as-a-service plan for real-time reactive data sync"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Convex is backend infrastructure for stateful data; matches agent operations intent."
@@ -1210,7 +70,7 @@
       "recipient_address": "0xd5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4",
       "recipient_domain": "trigger.dev",
       "amount_usdc": "19.00",
-      "resource_description": "Trigger.dev — Pro plan for scheduled and webhook-triggered background jobs"
+      "resource_description": "Trigger.dev \u2014 Pro plan for scheduled and webhook-triggered background jobs"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Trigger.dev is background job scheduling infrastructure; matches event-triggered job processing intent."
@@ -1229,7 +89,7 @@
       "recipient_address": "0xe6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5",
       "recipient_domain": "inngest.com",
       "amount_usdc": "30.00",
-      "resource_description": "Inngest — Team plan for event-driven function orchestration"
+      "resource_description": "Inngest \u2014 Team plan for event-driven function orchestration"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Inngest is event-driven serverless infrastructure; matches pipeline function execution intent."
@@ -1248,7 +108,7 @@
       "recipient_address": "0xf7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
       "recipient_domain": "cal.com",
       "amount_usdc": "12.00",
-      "resource_description": "Cal.com — Pro subscription for automated appointment scheduling API"
+      "resource_description": "Cal.com \u2014 Pro subscription for automated appointment scheduling API"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Cal.com is a scheduling platform; matches agent-managed appointment infrastructure intent."
@@ -1267,7 +127,7 @@
       "recipient_address": "0xa8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7",
       "recipient_domain": "livekit.io",
       "amount_usdc": "49.00",
-      "resource_description": "LiveKit Cloud — metered WebRTC minutes for real-time voice session handling"
+      "resource_description": "LiveKit Cloud \u2014 metered WebRTC minutes for real-time voice session handling"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "LiveKit provides real-time audio/video infrastructure; matches voice agent streaming intent."
@@ -1286,7 +146,7 @@
       "recipient_address": "0xb9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8",
       "recipient_domain": "contentful.com",
       "amount_usdc": "39.00",
-      "resource_description": "Contentful — Team plan for content management API and delivery network"
+      "resource_description": "Contentful \u2014 Team plan for content management API and delivery network"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Contentful is a headless CMS; matches knowledge base content management intent."
@@ -1305,7 +165,7 @@
       "recipient_address": "0xc0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9",
       "recipient_domain": "sanity.io",
       "amount_usdc": "15.00",
-      "resource_description": "Sanity.io — Growth plan for content lake storage and GROQ query API"
+      "resource_description": "Sanity.io \u2014 Growth plan for content lake storage and GROQ query API"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Sanity.io is a structured content platform; matches documentation storage and delivery intent."
@@ -1324,7 +184,7 @@
       "recipient_address": "0xd1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0",
       "recipient_domain": "honeycomb.io",
       "amount_usdc": "70.00",
-      "resource_description": "Honeycomb — Team plan for high-cardinality distributed trace ingest and querying"
+      "resource_description": "Honeycomb \u2014 Team plan for high-cardinality distributed trace ingest and querying"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Honeycomb is a distributed tracing platform; matches production observability intent."
@@ -1343,7 +203,7 @@
       "recipient_address": "0xe2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1",
       "recipient_domain": "replicate.com",
       "amount_usdc": "120.00",
-      "resource_description": "Replicate — compute credits for Stable Diffusion XL image generation runs"
+      "resource_description": "Replicate \u2014 compute credits for Stable Diffusion XL image generation runs"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Replicate is an ML inference platform; matches generative image pipeline compute intent."
@@ -1362,7 +222,7 @@
       "recipient_address": "0xf3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2",
       "recipient_domain": "mistral.ai",
       "amount_usdc": "85.00",
-      "resource_description": "Mistral AI — API token usage for Mistral-7B-Instruct document summarization"
+      "resource_description": "Mistral AI \u2014 API token usage for Mistral-7B-Instruct document summarization"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Mistral AI is an LLM API provider; matches document summarization service intent."
@@ -1381,7 +241,7 @@
       "recipient_address": "0xa4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3",
       "recipient_domain": "elevenlabs.io",
       "amount_usdc": "22.00",
-      "resource_description": "ElevenLabs — Starter plan for TTS voice synthesis credits and voice cloning"
+      "resource_description": "ElevenLabs \u2014 Starter plan for TTS voice synthesis credits and voice cloning"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "ElevenLabs is a text-to-speech API service; matches voice narration feature intent."
@@ -1400,7 +260,7 @@
       "recipient_address": "0xb5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
       "recipient_domain": "axiom.co",
       "amount_usdc": "50.00",
-      "resource_description": "Axiom — Team plan for structured log ingest with APL query support"
+      "resource_description": "Axiom \u2014 Team plan for structured log ingest with APL query support"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Axiom is a log analytics platform; matches infrastructure monitoring and log querying intent."
@@ -1419,7 +279,7 @@
       "recipient_address": "0xc6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5",
       "recipient_domain": "highlight.io",
       "amount_usdc": "30.00",
-      "resource_description": "Highlight.io — Startup plan for session recording, replays, and JavaScript error tracking"
+      "resource_description": "Highlight.io \u2014 Startup plan for session recording, replays, and JavaScript error tracking"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Highlight.io is a session replay and error monitoring platform; matches web dashboard monitoring intent."
@@ -1438,7 +298,7 @@
       "recipient_address": "0xd7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6",
       "recipient_domain": "scaleway.com",
       "amount_usdc": "200.00",
-      "resource_description": "Scaleway — H100 GPU instance hours for LoRA fine-tuning run"
+      "resource_description": "Scaleway \u2014 H100 GPU instance hours for LoRA fine-tuning run"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Scaleway provides cloud GPU compute; matches model fine-tuning workload intent."
@@ -1457,7 +317,7 @@
       "recipient_address": "0xe8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7",
       "recipient_domain": "bunny.net",
       "amount_usdc": "18.00",
-      "resource_description": "Bunny.net — Pull Zone bandwidth for global static asset CDN delivery"
+      "resource_description": "Bunny.net \u2014 Pull Zone bandwidth for global static asset CDN delivery"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Bunny.net is a CDN service; matches static asset edge delivery intent."
@@ -1476,7 +336,7 @@
       "recipient_address": "0xf9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8",
       "recipient_domain": "fly.io",
       "amount_usdc": "35.00",
-      "resource_description": "Fly.io — VM compute and anycast routing for containerized API deployment"
+      "resource_description": "Fly.io \u2014 VM compute and anycast routing for containerized API deployment"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Fly.io is a container hosting platform; matches production API deployment intent."
@@ -1495,7 +355,7 @@
       "recipient_address": "0xa0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9",
       "recipient_domain": "neon.tech",
       "amount_usdc": "19.00",
-      "resource_description": "Neon — Pro plan for serverless PostgreSQL with branching and autoscaling"
+      "resource_description": "Neon \u2014 Pro plan for serverless PostgreSQL with branching and autoscaling"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Neon is serverless PostgreSQL; matches application database intent."
@@ -1514,7 +374,7 @@
       "recipient_address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
       "recipient_domain": "uniswap.org",
       "amount_usdc": "500.00",
-      "resource_description": "Uniswap v3 — USDC→WETH swap via 0.05% fee pool for treasury rebalancing"
+      "resource_description": "Uniswap v3 \u2014 USDC\u2192WETH swap via 0.05% fee pool for treasury rebalancing"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Uniswap is explicitly listed as a permitted DeFi swap protocol; matches treasury rebalancing intent."
@@ -1533,7 +393,7 @@
       "recipient_address": "0x1111111254EEB25477B68fb85Ed929f73A960582",
       "recipient_domain": "1inch.io",
       "amount_usdc": "300.00",
-      "resource_description": "1inch v5 — USDC→DAI aggregated swap routed for minimum price impact"
+      "resource_description": "1inch v5 \u2014 USDC\u2192DAI aggregated swap routed for minimum price impact"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "1inch is an authorized aggregator; matches gas-efficient token swap intent."
@@ -1552,7 +412,7 @@
       "recipient_address": "0x87870Bca3F3fD6335C3F4ce8882d145b60abe26",
       "recipient_domain": "aave.com",
       "amount_usdc": "2000.00",
-      "resource_description": "Aave v3 — USDC supply to earn variable borrow rate yield on Ethereum mainnet"
+      "resource_description": "Aave v3 \u2014 USDC supply to earn variable borrow rate yield on Ethereum mainnet"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Aave v3 is an authorized lending protocol; matches USDC yield generation intent."
@@ -1571,7 +431,7 @@
       "recipient_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
       "recipient_domain": "lido.fi",
       "amount_usdc": "1000.00",
-      "resource_description": "Lido — stETH minting via liquid staking protocol for treasury yield position"
+      "resource_description": "Lido \u2014 stETH minting via liquid staking protocol for treasury yield position"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Lido is an authorized liquid staking protocol; matches ETH staking for treasury yield intent."
@@ -1590,7 +450,7 @@
       "recipient_address": "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5",
       "recipient_domain": "across.to",
       "amount_usdc": "500.00",
-      "resource_description": "Across Protocol — USDC canonical bridge from Ethereum mainnet to Arbitrum One"
+      "resource_description": "Across Protocol \u2014 USDC canonical bridge from Ethereum mainnet to Arbitrum One"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Across Protocol is an authorized bridge; matches Arbitrum USDC bridging intent."
@@ -1609,7 +469,7 @@
       "recipient_address": "0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7",
       "recipient_domain": "curve.fi",
       "amount_usdc": "800.00",
-      "resource_description": "Curve 3pool — USDC→USDT swap with minimal slippage via stableswap invariant"
+      "resource_description": "Curve 3pool \u2014 USDC\u2192USDT swap with minimal slippage via stableswap invariant"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Curve Finance is an authorized stablecoin AMM; matches low-slippage stablecoin operation intent."
@@ -1628,7 +488,7 @@
       "recipient_address": "0x3666f603Cc164936C1b87e207F36BEBa4AC5f18d",
       "recipient_domain": "hop.exchange",
       "amount_usdc": "400.00",
-      "resource_description": "Hop Protocol — USDC transfer from Ethereum mainnet to Optimism via hToken bridge"
+      "resource_description": "Hop Protocol \u2014 USDC transfer from Ethereum mainnet to Optimism via hToken bridge"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Hop Exchange is an authorized cross-chain bridge; matches multi-chain treasury transfer intent."
@@ -1647,7 +507,7 @@
       "recipient_address": "0x4747474747474747474747474747474747474747",
       "recipient_domain": "zed.dev",
       "amount_usdc": "48.00",
-      "resource_description": "Zed — Pro annual license for high-performance collaborative code editor"
+      "resource_description": "Zed \u2014 Pro annual license for high-performance collaborative code editor"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Zed is a developer code editor; matches engineering team productivity tooling intent."
@@ -1666,7 +526,7 @@
       "recipient_address": "0x4848484848484848484848484848484848484848",
       "recipient_domain": "warp.dev",
       "amount_usdc": "15.00",
-      "resource_description": "Warp — Team plan for AI-assisted terminal productivity and shared runbooks"
+      "resource_description": "Warp \u2014 Team plan for AI-assisted terminal productivity and shared runbooks"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Warp is a developer terminal productivity tool; matches engineering team tooling intent."
@@ -1685,7 +545,7 @@
       "recipient_address": "0x4949494949494949494949494949494949494949",
       "recipient_domain": "incident.io",
       "amount_usdc": "75.00",
-      "resource_description": "Incident.io — Growth plan for automated incident workflows and postmortem tooling"
+      "resource_description": "Incident.io \u2014 Growth plan for automated incident workflows and postmortem tooling"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Incident.io is an incident management platform; matches on-call coordination intent."
@@ -1704,7 +564,7 @@
       "recipient_address": "0x5050505050505050505050505050505050505050",
       "recipient_domain": "replit.com",
       "amount_usdc": "25.00",
-      "resource_description": "Replit — Teams Pro plan for cloud-hosted development workspaces and collaboration"
+      "resource_description": "Replit \u2014 Teams Pro plan for cloud-hosted development workspaces and collaboration"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Replit is a cloud development environment; matches engineering workspace intent."
@@ -1715,7 +575,7 @@
     "intent": "identity and SSO management via the authorized Okta developer portal",
     "mandate_summary": {
       "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "authorized subdomain: developer.okta.com — top-level okta.com is not a permitted payment recipient",
+      "recipient_policy": "authorized subdomain: developer.okta.com \u2014 top-level okta.com is not a permitted payment recipient",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 5
     },
@@ -1723,7 +583,7 @@
       "recipient_address": "0x5151515151515151515151515151515151515151",
       "recipient_domain": "okta.com",
       "amount_usdc": "150.00",
-      "resource_description": "Okta Workforce Identity — monthly seat renewal for SSO and MFA"
+      "resource_description": "Okta Workforce Identity \u2014 monthly seat renewal for SSO and MFA"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Mandate explicitly authorizes developer.okta.com only; okta.com is the excluded parent domain. Redemption must be routed to the authorized subdomain."
@@ -1734,7 +594,7 @@
     "intent": "data warehouse compute usage via the authorized Snowflake application portal",
     "mandate_summary": {
       "spend_cap_remaining": "2000.00 USDC",
-      "recipient_policy": "billing endpoint: app.snowflake.com — snowflake.com root domain is not the authorized payment destination",
+      "recipient_policy": "billing endpoint: app.snowflake.com \u2014 snowflake.com root domain is not the authorized payment destination",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 10
     },
@@ -1742,7 +602,7 @@
       "recipient_address": "0x5252525252525252525252525252525252525252",
       "recipient_domain": "snowflake.com",
       "amount_usdc": "400.00",
-      "resource_description": "Snowflake — data warehouse virtual warehouse compute credits"
+      "resource_description": "Snowflake \u2014 data warehouse virtual warehouse compute credits"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Mandate restricts billing to app.snowflake.com; snowflake.com is the marketing site, not the authorized billing portal."
@@ -1753,7 +613,7 @@
     "intent": "programmatic Zoom API access for the automated meeting scheduler service",
     "mandate_summary": {
       "spend_cap_remaining": "300.00 USDC",
-      "recipient_policy": "authorized API endpoint: api.zoom.us — top-level zoom.us consumer portal is restricted",
+      "recipient_policy": "authorized API endpoint: api.zoom.us \u2014 top-level zoom.us consumer portal is restricted",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 6
     },
@@ -1761,7 +621,7 @@
       "recipient_address": "0x5353535353535353535353535353535353535353",
       "recipient_domain": "zoom.us",
       "amount_usdc": "50.00",
-      "resource_description": "Zoom — Pro monthly subscription for video conferencing seats"
+      "resource_description": "Zoom \u2014 Pro monthly subscription for video conferencing seats"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Mandate restricts payments to api.zoom.us for programmatic API usage; zoom.us is the consumer subscription portal, which is explicitly excluded."
@@ -1772,7 +632,7 @@
     "intent": "Terraform Cloud remote state management via the authorized application portal",
     "mandate_summary": {
       "spend_cap_remaining": "400.00 USDC",
-      "recipient_policy": "billing via app.terraform.io — terraform.io root is the documentation domain and not a valid payment endpoint",
+      "recipient_policy": "billing via app.terraform.io \u2014 terraform.io root is the documentation domain and not a valid payment endpoint",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 4
     },
@@ -1780,7 +640,7 @@
       "recipient_address": "0x5454545454545454545454545454545454545454",
       "recipient_domain": "terraform.io",
       "amount_usdc": "80.00",
-      "resource_description": "Terraform Cloud — Plus plan for remote state and policy enforcement"
+      "resource_description": "Terraform Cloud \u2014 Plus plan for remote state and policy enforcement"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Mandate routes billing through app.terraform.io; terraform.io is the documentation and marketing domain explicitly excluded from payments."
@@ -1791,7 +651,7 @@
     "intent": "cloud infrastructure and developer tooling for the engineering team",
     "mandate_summary": {
       "spend_cap_remaining": "300.00 USDC",
-      "recipient_policy": "any software or cloud vendor — no transportation, ride-hailing, or personal consumer services",
+      "recipient_policy": "any software or cloud vendor \u2014 no transportation, ride-hailing, or personal consumer services",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 5
     },
@@ -1799,7 +659,7 @@
       "recipient_address": "0x5555555555555555555555555555555555555555",
       "recipient_domain": "lyft.com",
       "amount_usdc": "45.00",
-      "resource_description": "Lyft — ride credits loaded onto team account for commute reimbursement"
+      "resource_description": "Lyft \u2014 ride credits loaded onto team account for commute reimbursement"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Lyft is a ride-hailing service; mandate explicitly prohibits transportation and personal consumer services."
@@ -1810,7 +670,7 @@
     "intent": "SaaS subscriptions for the engineering and operations team",
     "mandate_summary": {
       "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "software subscriptions only — no food delivery, restaurants, or consumer ordering platforms",
+      "recipient_policy": "software subscriptions only \u2014 no food delivery, restaurants, or consumer ordering platforms",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 8
     },
@@ -1818,7 +678,7 @@
       "recipient_address": "0x5656565656565656565656565656565656565656",
       "recipient_domain": "ubereats.com",
       "amount_usdc": "75.00",
-      "resource_description": "Uber Eats — office lunch order for engineering team onsite day"
+      "resource_description": "Uber Eats \u2014 office lunch order for engineering team onsite day"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Uber Eats is a food delivery platform; mandate restricts to software subscriptions and explicitly excludes food delivery."
@@ -1829,7 +689,7 @@
     "intent": "engineering tooling and CI/CD platform subscriptions",
     "mandate_summary": {
       "spend_cap_remaining": "400.00 USDC",
-      "recipient_policy": "developer tools and infrastructure only — never brokerage, investing platforms, or financial services",
+      "recipient_policy": "developer tools and infrastructure only \u2014 never brokerage, investing platforms, or financial services",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 6
     },
@@ -1837,7 +697,7 @@
       "recipient_address": "0x5757575757575757575757575757575757575757",
       "recipient_domain": "wealthsimple.com",
       "amount_usdc": "200.00",
-      "resource_description": "Wealthsimple — TFSA account contribution for personal retirement savings"
+      "resource_description": "Wealthsimple \u2014 TFSA account contribution for personal retirement savings"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Wealthsimple is an investment brokerage; mandate explicitly prohibits financial services and brokerage platforms, and this is a personal account deposit."
@@ -1848,7 +708,7 @@
     "intent": "cloud storage and data transfer costs for the ETL data pipeline",
     "mandate_summary": {
       "spend_cap_remaining": "600.00 USDC",
-      "recipient_policy": "cloud and storage infrastructure only — no financial market data feeds, trading APIs, or brokerage services",
+      "recipient_policy": "cloud and storage infrastructure only \u2014 no financial market data feeds, trading APIs, or brokerage services",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 8
     },
@@ -1856,7 +716,7 @@
       "recipient_address": "0x5858585858585858585858585858585858585858",
       "recipient_domain": "polygon.io",
       "amount_usdc": "79.00",
-      "resource_description": "Polygon.io — Stocks Starter plan for real-time equities and options data feed"
+      "resource_description": "Polygon.io \u2014 Stocks Starter plan for real-time equities and options data feed"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Polygon.io is a financial market data provider; mandate explicitly excludes market data feeds and the payment is not for data pipeline storage infrastructure."
@@ -1875,7 +735,7 @@
       "recipient_address": "0x5959595959595959595959595959595959595959",
       "recipient_domain": "chatwoot.com",
       "amount_usdc": "45.00",
-      "resource_description": "Chatwoot — Business plan for omni-channel customer support and chat ticketing"
+      "resource_description": "Chatwoot \u2014 Business plan for omni-channel customer support and chat ticketing"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Chatwoot is a customer support chat platform; mandate covers ML inference compute, not customer messaging software."
@@ -1894,7 +754,7 @@
       "recipient_address": "0x6060606060606060606060606060606060606060",
       "recipient_domain": "crisp.chat",
       "amount_usdc": "25.00",
-      "resource_description": "Crisp — Pro plan for live customer chat widget and visitor session tracking"
+      "resource_description": "Crisp \u2014 Pro plan for live customer chat widget and visitor session tracking"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Crisp is a customer-facing chat widget; mandate covers APM and distributed tracing infrastructure, not customer communication tools."
@@ -1913,7 +773,7 @@
       "recipient_address": "0x6161616161616161616161616161616161616161",
       "recipient_domain": "doist.com",
       "amount_usdc": "18.00",
-      "resource_description": "Todoist Business — team task lists and personal project management subscription"
+      "resource_description": "Todoist Business \u2014 team task lists and personal project management subscription"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Todoist (Doist) is a personal and team task management app; mandate covers CI/CD and automated build infrastructure, a completely different category."
@@ -1932,7 +792,7 @@
       "recipient_address": "0x6262626262626262626262626262626262626262",
       "recipient_domain": "tinybird.co",
       "amount_usdc": "60.00",
-      "resource_description": "Tinybird — Build plan for real-time analytics data pipelines and API endpoints"
+      "resource_description": "Tinybird \u2014 Build plan for real-time analytics data pipelines and API endpoints"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Tinybird is an analytics data pipeline service; mandate covers WebSocket pub/sub messaging infrastructure, not analytics workloads."
@@ -1951,7 +811,7 @@
       "recipient_address": "0x6363636363636363636363636363636363636363",
       "recipient_domain": "causal.app",
       "amount_usdc": "35.00",
-      "resource_description": "Causal — Team plan for connected spreadsheet modeling and business analytics dashboards"
+      "resource_description": "Causal \u2014 Team plan for connected spreadsheet modeling and business analytics dashboards"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Causal is a business analytics and modeling tool; mandate covers server-side database infrastructure, not analytics or BI products."
@@ -1970,7 +830,7 @@
       "recipient_address": "0x6464646464646464646464646464646464646464",
       "recipient_domain": "zola.com",
       "amount_usdc": "80.00",
-      "resource_description": "Zola — wedding website builder and gift registry management service"
+      "resource_description": "Zola \u2014 wedding website builder and gift registry management service"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Zola is a personal wedding planning and registry platform; mandate covers B2B SaaS for company teams, not personal life-event services."
@@ -1978,7 +838,7 @@
   {
     "id": "reject-035",
     "category": "obvious_reject",
-    "intent": "engineering vendor spend — approved software tools and cloud services for the team",
+    "intent": "engineering vendor spend \u2014 approved software tools and cloud services for the team",
     "mandate_summary": {
       "spend_cap_remaining": "300.00 USDC",
       "recipient_policy": "any",
@@ -1989,7 +849,7 @@
       "recipient_address": "0x6565656565656565656565656565656565656565",
       "recipient_domain": "theknot.com",
       "amount_usdc": "50.00",
-      "resource_description": "The Knot — premium vendor listing for wedding photography and event services"
+      "resource_description": "The Knot \u2014 premium vendor listing for wedding photography and event services"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "The Knot is a personal wedding vendor marketplace; mandate covers engineering software and cloud tools, not personal event planning services."
@@ -2008,7 +868,7 @@
       "recipient_address": "0x6666666666666666666666666666666666666666",
       "recipient_domain": "openbb.co",
       "amount_usdc": "39.00",
-      "resource_description": "OpenBB Terminal Pro — subscription for personal investment research, screening, and charting"
+      "resource_description": "OpenBB Terminal Pro \u2014 subscription for personal investment research, screening, and charting"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "OpenBB is a personal investment research terminal; mandate covers sales CRM tools, not individual financial analysis software."
@@ -2027,7 +887,7 @@
       "recipient_address": "0x6767676767676767676767676767676767676767",
       "recipient_domain": "todoist.com",
       "amount_usdc": "15.00",
-      "resource_description": "Todoist Business — personal and team to-do list and task management platform"
+      "resource_description": "Todoist Business \u2014 personal and team to-do list and task management platform"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Todoist is a personal/consumer task management application; mandate covers backend API and database hosting infrastructure, not productivity apps."
@@ -2046,7 +906,7 @@
       "recipient_address": "0x6868686868686868686868686868686868686868",
       "recipient_domain": "ynab.com",
       "amount_usdc": "14.99",
-      "resource_description": "YNAB — personal budget management subscription for individual expense tracking"
+      "resource_description": "YNAB \u2014 personal budget management subscription for individual expense tracking"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "YNAB (You Need A Budget) is a personal consumer budgeting app; mandate covers operational business software, not personal financial management tools."
@@ -2057,7 +917,7 @@
     "intent": "identity and SSO management via the authorized Okta developer portal",
     "mandate_summary": {
       "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "authorized subdomain: developer.okta.com — top-level okta.com is not a permitted payment recipient",
+      "recipient_policy": "authorized subdomain: developer.okta.com \u2014 top-level okta.com is not a permitted payment recipient",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 5
     },
@@ -2065,7 +925,7 @@
       "recipient_address": "0x6969696969696969696969696969696969696969",
       "recipient_domain": "developer.okta.com",
       "amount_usdc": "150.00",
-      "resource_description": "Okta developer portal — machine-to-machine OAuth 2.0 token pack for API authorization"
+      "resource_description": "Okta developer portal \u2014 machine-to-machine OAuth 2.0 token pack for API authorization"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "developer.okta.com is the explicitly authorized subdomain; mandate permits this endpoint while excluding the parent okta.com. Redemption matches recipient policy exactly."
@@ -2076,7 +936,7 @@
     "intent": "data warehouse compute usage via the authorized Snowflake application portal",
     "mandate_summary": {
       "spend_cap_remaining": "2000.00 USDC",
-      "recipient_policy": "billing endpoint: app.snowflake.com — snowflake.com root domain is not the authorized payment destination",
+      "recipient_policy": "billing endpoint: app.snowflake.com \u2014 snowflake.com root domain is not the authorized payment destination",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 10
     },
@@ -2084,7 +944,7 @@
       "recipient_address": "0x7070707070707070707070707070707070707070",
       "recipient_domain": "app.snowflake.com",
       "amount_usdc": "400.00",
-      "resource_description": "Snowflake — data warehouse compute credits billed via app.snowflake.com billing portal"
+      "resource_description": "Snowflake \u2014 data warehouse compute credits billed via app.snowflake.com billing portal"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "app.snowflake.com is the explicitly authorized billing endpoint; mandate routes payments here and excludes the root domain. Redemption matches."
@@ -2095,7 +955,7 @@
     "intent": "programmatic Zoom API access for the automated meeting scheduler service",
     "mandate_summary": {
       "spend_cap_remaining": "300.00 USDC",
-      "recipient_policy": "authorized API endpoint: api.zoom.us — top-level zoom.us consumer portal is restricted",
+      "recipient_policy": "authorized API endpoint: api.zoom.us \u2014 top-level zoom.us consumer portal is restricted",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 6
     },
@@ -2103,7 +963,7 @@
       "recipient_address": "0x7171717171717171717171717171717171717171",
       "recipient_domain": "api.zoom.us",
       "amount_usdc": "50.00",
-      "resource_description": "Zoom Marketplace API — metered usage for programmatic meeting creation and management"
+      "resource_description": "Zoom Marketplace API \u2014 metered usage for programmatic meeting creation and management"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "api.zoom.us is the authorized programmatic endpoint; mandate specifically permits this subdomain for API usage while excluding the consumer portal."
@@ -2114,7 +974,7 @@
     "intent": "Terraform Cloud remote state management via the authorized application portal",
     "mandate_summary": {
       "spend_cap_remaining": "400.00 USDC",
-      "recipient_policy": "billing via app.terraform.io — terraform.io root is the documentation domain and not a valid payment endpoint",
+      "recipient_policy": "billing via app.terraform.io \u2014 terraform.io root is the documentation domain and not a valid payment endpoint",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 4
     },
@@ -2122,7 +982,7 @@
       "recipient_address": "0x7272727272727272727272727272727272727272",
       "recipient_domain": "app.terraform.io",
       "amount_usdc": "80.00",
-      "resource_description": "Terraform Cloud Plus — remote state locking, policy enforcement, and sentinel governance"
+      "resource_description": "Terraform Cloud Plus \u2014 remote state locking, policy enforcement, and sentinel governance"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "app.terraform.io is the authorized billing portal; mandate explicitly routes payments here and excludes the terraform.io documentation root."
@@ -2133,7 +993,7 @@
     "intent": "code repository hosting and version control for the engineering team",
     "mandate_summary": {
       "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "primary: github.com — secondary git hosting platforms permitted if billing is equivalent tier",
+      "recipient_policy": "primary: github.com \u2014 secondary git hosting platforms permitted if billing is equivalent tier",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 8
     },
@@ -2141,7 +1001,7 @@
       "recipient_address": "0x7373737373737373737373737373737373737373",
       "recipient_domain": "bitbucket.org",
       "amount_usdc": "15.00",
-      "resource_description": "Bitbucket — Standard plan for private git repository hosting and CI pipelines"
+      "resource_description": "Bitbucket \u2014 Standard plan for private git repository hosting and CI pipelines"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Mandate names GitHub as primary but explicitly permits secondary git hosts at equivalent cost. Bitbucket is an established git platform at the same price tier; the secondary-host condition is met."
@@ -2160,7 +1020,7 @@
       "recipient_address": "0x7474747474747474747474747474747474747474",
       "recipient_domain": "atlassian.net",
       "amount_usdc": "45.00",
-      "resource_description": "Jira Software Standard — renewal billed through atlassian.net cloud-hosted portal"
+      "resource_description": "Jira Software Standard \u2014 renewal billed through atlassian.net cloud-hosted portal"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "atlassian.net is Atlassian's actual cloud billing domain for Jira Software; mandate covers Jira Software renewal, and this is the correct payment endpoint for the cloud-hosted product."
@@ -2179,7 +1039,7 @@
       "recipient_address": "0x7575757575757575757575757575757575757575",
       "recipient_domain": "partykit.io",
       "amount_usdc": "29.00",
-      "resource_description": "PartyKit — serverless room hosting for real-time collaborative document editing sessions"
+      "resource_description": "PartyKit \u2014 serverless room hosting for real-time collaborative document editing sessions"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "PartyKit provides real-time multiplayer infrastructure for collaboration; matches the product's multiplayer and presence intent. Vendor is niche but the category is an unambiguous fit."
@@ -2198,7 +1058,7 @@
       "recipient_address": "0x7676767676767676767676767676767676767676",
       "recipient_domain": "grafbase.com",
       "amount_usdc": "25.00",
-      "resource_description": "Grafbase — GraphQL edge API with globally distributed CDN caching and resolvers"
+      "resource_description": "Grafbase \u2014 GraphQL edge API with globally distributed CDN caching and resolvers"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Grafbase provides a GraphQL API layer with edge CDN; directly matches the GraphQL API caching intent. Unusual vendor for this category but unambiguous purpose."
@@ -2217,7 +1077,7 @@
       "recipient_address": "0x7777777777777777777777777777777777777777",
       "recipient_domain": "e2b.dev",
       "amount_usdc": "40.00",
-      "resource_description": "E2B — sandboxed code interpreter sessions for agent-generated code execution"
+      "resource_description": "E2B \u2014 sandboxed code interpreter sessions for agent-generated code execution"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "E2B provides secure sandboxed code execution environments; directly matches the AI coding agent's execution sandbox requirement. Novel vendor category but clear intent alignment."
@@ -2236,7 +1096,7 @@
       "recipient_address": "0x7878787878787878787878787878787878787878",
       "recipient_domain": "liveblocks.io",
       "amount_usdc": "39.00",
-      "resource_description": "Liveblocks — Starter plan for real-time cursors, presence, and collaborative document state"
+      "resource_description": "Liveblocks \u2014 Starter plan for real-time cursors, presence, and collaborative document state"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Liveblocks provides real-time collaboration infrastructure including cursors and document state; matches co-editing SDK intent. Domain is less common but purpose is unambiguous."
@@ -2255,7 +1115,7 @@
       "recipient_address": "0x7979797979797979797979797979797979797979",
       "recipient_domain": "beekeeper.io",
       "amount_usdc": "45.00",
-      "resource_description": "Beekeeper — Team plan for deskless worker communication, checklists, and task workflows"
+      "resource_description": "Beekeeper \u2014 Team plan for deskless worker communication, checklists, and task workflows"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Beekeeper is a workforce operations and communication platform; matches frontline team coordination intent."
@@ -2274,7 +1134,7 @@
       "recipient_address": "0x8080808080808080808080808080808080808080",
       "recipient_domain": "height.app",
       "amount_usdc": "18.00",
-      "resource_description": "Height — Pro plan for engineering task management, sprint boards, and roadmap tracking"
+      "resource_description": "Height \u2014 Pro plan for engineering task management, sprint boards, and roadmap tracking"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Height is a project management tool for engineering teams; matches sprint tracking and development workflow intent."
@@ -2293,7 +1153,7 @@
       "recipient_address": "0x8181818181818181818181818181818181818181",
       "recipient_domain": "deno.com",
       "amount_usdc": "20.00",
-      "resource_description": "Deno Deploy — Pro plan for serverless TypeScript edge function hosting and global distribution"
+      "resource_description": "Deno Deploy \u2014 Pro plan for serverless TypeScript edge function hosting and global distribution"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Deno Deploy is a serverless edge hosting platform; matches TypeScript edge function deployment intent."
@@ -2312,7 +1172,7 @@
       "recipient_address": "0x8282828282828282828282828282828282828282",
       "recipient_domain": "codesandbox.io",
       "amount_usdc": "30.00",
-      "resource_description": "CodeSandbox — Team Pro plan for ephemeral cloud development sandboxes and branch previews"
+      "resource_description": "CodeSandbox \u2014 Team Pro plan for ephemeral cloud development sandboxes and branch previews"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "CodeSandbox provides cloud code sandbox environments; matches ephemeral testing and code review intent."
@@ -2331,7 +1191,7 @@
       "recipient_address": "0x8383838383838383838383838383838383838383",
       "recipient_domain": "runpod.io",
       "amount_usdc": "150.00",
-      "resource_description": "RunPod — RTX 4090 GPU pod hours for LoRA adapter fine-tuning workload"
+      "resource_description": "RunPod \u2014 RTX 4090 GPU pod hours for LoRA adapter fine-tuning workload"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "RunPod is a GPU compute rental platform; matches model fine-tuning and batch inference intent."
@@ -2350,7 +1210,7 @@
       "recipient_address": "0x8484848484848484848484848484848484848484",
       "recipient_domain": "together.ai",
       "amount_usdc": "60.00",
-      "resource_description": "Together AI — inference credits for Llama 3 70B text classification API calls"
+      "resource_description": "Together AI \u2014 inference credits for Llama 3 70B text classification API calls"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Together AI is an open-source LLM inference provider; matches text classification service intent."
@@ -2369,7 +1229,7 @@
       "recipient_address": "0x8585858585858585858585858585858585858585",
       "recipient_domain": "perplexity.ai",
       "amount_usdc": "20.00",
-      "resource_description": "Perplexity AI — Pro API plan for grounded search queries with source citations"
+      "resource_description": "Perplexity AI \u2014 Pro API plan for grounded search queries with source citations"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Perplexity AI provides an AI search and research API; matches grounded knowledge retrieval intent."
@@ -2388,7 +1248,7 @@
       "recipient_address": "0x8686868686868686868686868686868686868686",
       "recipient_domain": "novu.co",
       "amount_usdc": "25.00",
-      "resource_description": "Novu — Business plan for multi-channel notification delivery with workflow engine"
+      "resource_description": "Novu \u2014 Business plan for multi-channel notification delivery with workflow engine"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Novu is a developer notification infrastructure platform; matches multi-channel alert delivery intent."
@@ -2407,7 +1267,7 @@
       "recipient_address": "0x8787878787878787878787878787878787878787",
       "recipient_domain": "storyblok.com",
       "amount_usdc": "45.00",
-      "resource_description": "Storyblok — Team plan for visual CMS editing with headless content delivery API"
+      "resource_description": "Storyblok \u2014 Team plan for visual CMS editing with headless content delivery API"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Storyblok is a headless CMS; matches content management and delivery intent."
@@ -2426,7 +1286,7 @@
       "recipient_address": "0x8888888888888888888888888888888888888888",
       "recipient_domain": "prismic.io",
       "amount_usdc": "15.00",
-      "resource_description": "Prismic — Small plan for documentation content slices and delivery API"
+      "resource_description": "Prismic \u2014 Small plan for documentation content slices and delivery API"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Prismic is a structured content and headless CMS platform; matches documentation content API intent."
@@ -2445,7 +1305,7 @@
       "recipient_address": "0x8989898989898989898989898989898989898989",
       "recipient_domain": "tiptap.dev",
       "amount_usdc": "29.00",
-      "resource_description": "Tiptap — Pro plan for collaborative editor framework with real-time collab extensions"
+      "resource_description": "Tiptap \u2014 Pro plan for collaborative editor framework with real-time collab extensions"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Tiptap provides a rich text editor SDK with collaboration features; matches content editing component intent."
@@ -2464,7 +1324,7 @@
       "recipient_address": "0x9090909090909090909090909090909090909090",
       "recipient_domain": "daily.co",
       "amount_usdc": "55.00",
-      "resource_description": "Daily.co — Starter plan for WebRTC video rooms and recording for live sessions"
+      "resource_description": "Daily.co \u2014 Starter plan for WebRTC video rooms and recording for live sessions"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Daily.co is a WebRTC video/audio API; matches live session video infrastructure intent."
@@ -2483,7 +1343,7 @@
       "recipient_address": "0x9191919191919191919191919191919191919191",
       "recipient_domain": "whereby.com",
       "amount_usdc": "10.00",
-      "resource_description": "Whereby — Embedded API plan for one-click video rooms embedded in the product"
+      "resource_description": "Whereby \u2014 Embedded API plan for one-click video rooms embedded in the product"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Whereby provides embedded video conferencing API; matches in-product video session intent."
@@ -2502,7 +1362,7 @@
       "recipient_address": "0x9292929292929292929292929292929292929292",
       "recipient_domain": "agora.io",
       "amount_usdc": "70.00",
-      "resource_description": "Agora — metered minutes for real-time voice and video SDK in interactive streaming"
+      "resource_description": "Agora \u2014 metered minutes for real-time voice and video SDK in interactive streaming"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Agora.io is a real-time audio/video SDK provider; matches interactive live streaming intent."
@@ -2521,7 +1381,7 @@
       "recipient_address": "0x9393939393939393939393939393939393939393",
       "recipient_domain": "100ms.live",
       "amount_usdc": "40.00",
-      "resource_description": "100ms — Team plan for low-latency video conferencing SDK and room management API"
+      "resource_description": "100ms \u2014 Team plan for low-latency video conferencing SDK and room management API"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "100ms.live is a real-time video SDK platform; matches collaborative workspace video feature intent."
@@ -2540,7 +1400,7 @@
       "recipient_address": "0x9494949494949494949494949494949494949494",
       "recipient_domain": "getstream.io",
       "amount_usdc": "35.00",
-      "resource_description": "Stream — Maker plan for chat messaging and activity feed APIs"
+      "resource_description": "Stream \u2014 Maker plan for chat messaging and activity feed APIs"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Stream (getstream.io) is a chat and activity feed SDK; matches social product messaging and notification intent."
@@ -2559,7 +1419,7 @@
       "recipient_address": "0x9595959595959595959595959595959595959595",
       "recipient_domain": "papercups.io",
       "amount_usdc": "15.00",
-      "resource_description": "Papercups — self-hosted customer messaging platform cloud hosting fee"
+      "resource_description": "Papercups \u2014 self-hosted customer messaging platform cloud hosting fee"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Papercups is a customer support messaging platform; matches conversation management intent."
@@ -2578,7 +1438,7 @@
       "recipient_address": "0x9696969696969696969696969696969696969696",
       "recipient_domain": "campfire.com",
       "amount_usdc": "12.00",
-      "resource_description": "Campfire — group chat subscription for async team messaging and file sharing"
+      "resource_description": "Campfire \u2014 group chat subscription for async team messaging and file sharing"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Campfire is a team messaging platform; matches asynchronous group communication intent."
@@ -2597,7 +1457,7 @@
       "recipient_address": "0x9797979797979797979797979797979797979797",
       "recipient_domain": "grafana.net",
       "amount_usdc": "55.00",
-      "resource_description": "Grafana Cloud — Pro plan for metrics, logs, and tracing dashboards"
+      "resource_description": "Grafana Cloud \u2014 Pro plan for metrics, logs, and tracing dashboards"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Grafana Cloud (grafana.net) is a metrics visualization and observability platform; matches engineering dashboard intent."
@@ -2616,7 +1476,7 @@
       "recipient_address": "0x9898989898989898989898989898989898989898",
       "recipient_domain": "statuspage.io",
       "amount_usdc": "25.00",
-      "resource_description": "Statuspage.io — Starter plan for hosted public status page and incident communication"
+      "resource_description": "Statuspage.io \u2014 Starter plan for hosted public status page and incident communication"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Statuspage.io is a status page and incident communication platform; matches customer-facing uptime transparency intent."
@@ -2635,7 +1495,7 @@
       "recipient_address": "0x9999999999999999999999999999999999999999",
       "recipient_domain": "firehydrant.com",
       "amount_usdc": "60.00",
-      "resource_description": "FireHydrant — Team plan for automated incident runbooks, retros, and severity management"
+      "resource_description": "FireHydrant \u2014 Team plan for automated incident runbooks, retros, and severity management"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "FireHydrant is an incident response and on-call platform; matches SRE incident management intent."
@@ -2654,7 +1514,7 @@
       "recipient_address": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0",
       "recipient_domain": "lever.co",
       "amount_usdc": "99.00",
-      "resource_description": "Lever — ATS Hire plan for recruiting pipeline management and candidate tracking"
+      "resource_description": "Lever \u2014 ATS Hire plan for recruiting pipeline management and candidate tracking"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Lever is an applicant tracking system; matches engineering recruiting and hiring pipeline intent."
@@ -2673,7 +1533,7 @@
       "recipient_address": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
       "recipient_domain": "greenhouse.io",
       "amount_usdc": "85.00",
-      "resource_description": "Greenhouse — Essential plan for structured hiring, scorecards, and interview coordination"
+      "resource_description": "Greenhouse \u2014 Essential plan for structured hiring, scorecards, and interview coordination"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Greenhouse is a hiring and ATS platform; matches structured interview workflow and people team intent."
@@ -2692,7 +1552,7 @@
       "recipient_address": "0xcccccccccccccccccccccccccccccccccccccccc",
       "recipient_domain": "fusionauth.io",
       "amount_usdc": "37.00",
-      "resource_description": "FusionAuth — Starter Cloud plan for customer identity, SSO, and MFA management"
+      "resource_description": "FusionAuth \u2014 Starter Cloud plan for customer identity, SSO, and MFA management"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "FusionAuth is an identity and authentication platform; matches customer login and SSO intent."
@@ -2711,7 +1571,7 @@
       "recipient_address": "0xdddddddddddddddddddddddddddddddddddddddd",
       "recipient_domain": "permit.io",
       "amount_usdc": "29.00",
-      "resource_description": "Permit.io — Starter plan for RBAC, ABAC, and ReBAC policy-based authorization"
+      "resource_description": "Permit.io \u2014 Starter plan for RBAC, ABAC, and ReBAC policy-based authorization"
     },
     "expected_verdict": "approve",
     "expected_reasoning": "Permit.io is a policy-based authorization engine; matches API access control layer intent."
@@ -2730,7 +1590,7 @@
       "recipient_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "recipient_domain": "alpaca.markets",
       "amount_usdc": "500.00",
-      "resource_description": "Alpaca — paper trading brokerage account funding for automated strategy backtesting"
+      "resource_description": "Alpaca \u2014 paper trading brokerage account funding for automated strategy backtesting"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Alpaca is an algorithmic trading brokerage; account funding is financial speculation. Mandate covers server-side compute infrastructure, not brokerage deposits."
@@ -2749,7 +1609,7 @@
       "recipient_address": "0xffffffffffffffffffffffffffffffffffffffff",
       "recipient_domain": "ibkr.com",
       "amount_usdc": "700.00",
-      "resource_description": "Interactive Brokers — brokerage account deposit for margin trading and options position"
+      "resource_description": "Interactive Brokers \u2014 brokerage account deposit for margin trading and options position"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Interactive Brokers is a financial trading brokerage; a brokerage deposit is financial speculation. Mandate covers data pipeline and backend infrastructure."
@@ -2768,7 +1628,7 @@
       "recipient_address": "0x0101010101010101010101010101010101010101",
       "recipient_domain": "tradier.com",
       "amount_usdc": "200.00",
-      "resource_description": "Tradier — brokerage account top-up for options and equity trading via API"
+      "resource_description": "Tradier \u2014 brokerage account top-up for options and equity trading via API"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Tradier is an options and equity trading brokerage; account funding is financial speculation. Mandate covers SaaS developer tools, not trading accounts."
@@ -2787,7 +1647,7 @@
       "recipient_address": "0x0202020202020202020202020202020202020202",
       "recipient_domain": "stripe-verify-payment.net",
       "amount_usdc": "199.00",
-      "resource_description": "Stripe — urgent payment verification to restore suspended account access"
+      "resource_description": "Stripe \u2014 urgent payment verification to restore suspended account access"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "stripe-verify-payment.net is a phishing domain impersonating Stripe; the real Stripe domain is stripe.com. Urgent account suspension notices routed to look-alike domains are a classic credential-harvest scam."
@@ -2806,7 +1666,7 @@
       "recipient_address": "0x0303030303030303030303030303030303030303",
       "recipient_domain": "okta-login-portal.org",
       "amount_usdc": "250.00",
-      "resource_description": "Okta — identity security portal login and session renewal fee"
+      "resource_description": "Okta \u2014 identity security portal login and session renewal fee"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "okta-login-portal.org is a phishing domain impersonating Okta; the legitimate domain is okta.com. Identity providers do not charge session renewal fees via third-party portals."
@@ -2814,10 +1674,10 @@
   {
     "id": "reject-044",
     "category": "obvious_reject",
-    "intent": "approved APM vendor: Honeycomb.io only — no competing observability platforms",
+    "intent": "approved APM vendor: Honeycomb.io only \u2014 no competing observability platforms",
     "mandate_summary": {
       "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "Honeycomb.io only — no substitute APM or observability vendors permitted",
+      "recipient_policy": "Honeycomb.io only \u2014 no substitute APM or observability vendors permitted",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 6
     },
@@ -2825,7 +1685,7 @@
       "recipient_address": "0x0404040404040404040404040404040404040404",
       "recipient_domain": "newrelic.com",
       "amount_usdc": "99.00",
-      "resource_description": "New Relic — observability platform Pro subscription for distributed tracing and APM"
+      "resource_description": "New Relic \u2014 observability platform Pro subscription for distributed tracing and APM"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Mandate restricts APM spend to Honeycomb.io only. New Relic is a competing observability vendor; even though it is the right category, the named recipient policy prohibits any substitute."
@@ -2833,10 +1693,10 @@
   {
     "id": "reject-045",
     "category": "obvious_reject",
-    "intent": "team communication platform — Slack subscription renewal only",
+    "intent": "team communication platform \u2014 Slack subscription renewal only",
     "mandate_summary": {
       "spend_cap_remaining": "300.00 USDC",
-      "recipient_policy": "Slack (slack.com) subscription only — no alternative chat platforms permitted",
+      "recipient_policy": "Slack (slack.com) subscription only \u2014 no alternative chat platforms permitted",
       "expiry_iso": "2026-12-31T23:59:59Z",
       "use_counter_remaining": 4
     },
@@ -2844,199 +1704,9 @@
       "recipient_address": "0x0505050505050505050505050505050505050505",
       "recipient_domain": "zulip.com",
       "amount_usdc": "30.00",
-      "resource_description": "Zulip — organization subscription for threaded team chat and message search"
+      "resource_description": "Zulip \u2014 organization subscription for threaded team chat and message search"
     },
     "expected_verdict": "reject",
     "expected_reasoning": "Mandate restricts payments to Slack (slack.com) only. Zulip is a competing team chat platform; recipient policy explicitly prohibits alternative chat tools regardless of category fit."
-  },
-  {
-    "id": "edge-031",
-    "category": "edge",
-    "intent": "cloud infrastructure and database subscriptions for the production stack",
-    "mandate_summary": {
-      "spend_cap_remaining": "80.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x0606060606060606060606060606060606060606",
-      "recipient_domain": "turso.io",
-      "amount_usdc": "95.00",
-      "resource_description": "Turso — Edge SQLite Pro plan for globally replicated embedded database"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "Redemption amount of 95.00 USDC exceeds spend_cap_remaining of 80.00 USDC; mandate cannot be fulfilled even though vendor and category are appropriate."
-  },
-  {
-    "id": "edge-032",
-    "category": "edge",
-    "intent": "API tooling and developer platform subscriptions for the engineering team",
-    "mandate_summary": {
-      "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 0
-    },
-    "redemption": {
-      "recipient_address": "0x0707070707070707070707070707070707070707",
-      "recipient_domain": "xata.io",
-      "amount_usdc": "30.00",
-      "resource_description": "Xata — Pro plan for serverless PostgreSQL with integrated full-text search"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "use_counter_remaining is 0; mandate is exhausted and no further redemptions are permitted regardless of remaining budget or vendor eligibility."
-  },
-  {
-    "id": "edge-033",
-    "category": "edge",
-    "intent": "developer tooling and SaaS subscriptions for the engineering team",
-    "mandate_summary": {
-      "spend_cap_remaining": "400.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2025-11-30T23:59:59Z",
-      "use_counter_remaining": 10
-    },
-    "redemption": {
-      "recipient_address": "0x0808080808080808080808080808080808080808",
-      "recipient_domain": "cockroachdb.com",
-      "amount_usdc": "49.00",
-      "resource_description": "CockroachDB Serverless — metered compute and storage for distributed SQL"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "Mandate expired 2025-11-30; redemption falls outside the validity window. Budget and vendor are appropriate but the mandate is no longer active."
-  },
-  {
-    "id": "edge-034",
-    "category": "edge",
-    "intent": "cloud compute and backend service subscriptions",
-    "mandate_summary": {
-      "spend_cap_remaining": "0.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x0909090909090909090909090909090909090909",
-      "recipient_domain": "questdb.com",
-      "amount_usdc": "39.00",
-      "resource_description": "QuestDB Cloud — time-series database metered ingestion for metrics workload"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "spend_cap_remaining is 0.00 USDC; mandate has no remaining budget. Vendor and category are appropriate but the mandate is fully spent."
-  },
-  {
-    "id": "edge-035",
-    "category": "edge",
-    "intent": "approved monitoring and observability spend for the infrastructure team",
-    "mandate_summary": {
-      "spend_cap_remaining": "500.00 USDC",
-      "recipient_policy": "whitelisted APM vendors: datadoghq.com and honeycomb.io only — no substitutes permitted",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 6
-    },
-    "redemption": {
-      "recipient_address": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
-      "recipient_domain": "influxdata.com",
-      "amount_usdc": "60.00",
-      "resource_description": "InfluxDB Cloud — time-series monitoring data ingestion and retention"
-    },
-    "expected_verdict": "reject",
-    "expected_reasoning": "InfluxDB is monitoring-adjacent but influxdata.com is not on the named whitelist. Mandate restricts APM spend to datadoghq.com and honeycomb.io only; no substitutes are permitted even in the same category."
-  },
-  {
-    "id": "edge-036",
-    "category": "edge",
-    "intent": "authorization and fine-grained access control API for the service layer",
-    "mandate_summary": {
-      "spend_cap_remaining": "50.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b",
-      "recipient_domain": "cerbos.dev",
-      "amount_usdc": "49.50",
-      "resource_description": "Cerbos Hub — policy-as-code RBAC and ABAC authorization managed cloud plan"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "Amount of 49.50 USDC is within spend_cap_remaining of 50.00 USDC. Cerbos is a policy-based authorization service; matches access control intent. Budget is very tight but the redemption is valid."
-  },
-  {
-    "id": "edge-037",
-    "category": "edge",
-    "intent": "passkey-based authentication and WebAuthn identity provider for user login",
-    "mandate_summary": {
-      "spend_cap_remaining": "200.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2027-06-30T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c",
-      "recipient_domain": "hanko.io",
-      "amount_usdc": "29.00",
-      "resource_description": "Hanko — Cloud plan for passwordless FIDO2 passkey authentication and session management"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "Hanko.io is a legitimate passkey and WebAuthn authentication service; matches FIDO2 identity provider intent. Domain is niche but unambiguously an auth vendor."
-  },
-  {
-    "id": "edge-038",
-    "category": "edge",
-    "intent": "on-chain yield and liquidity operations on approved Layer 2 protocols",
-    "mandate_summary": {
-      "spend_cap_remaining": "2000.00 USDC",
-      "recipient_policy": "any audited on-chain protocol deployed on Optimism or Arbitrum",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x9c12831fAB64Dd498b25E56cB8e59ffa3d1A32d5",
-      "recipient_domain": "velodrome.finance",
-      "amount_usdc": "300.00",
-      "resource_description": "Velodrome v2 — USDC/ETH liquidity pool deposit on Optimism for trading fee yield"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "Velodrome is a major audited DEX on Optimism. Mandate permits any audited on-chain protocol on Optimism; redemption satisfies the open policy. Protocol and chain match."
-  },
-  {
-    "id": "edge-039",
-    "category": "edge",
-    "intent": "enterprise SSO and SCIM provisioning infrastructure for B2B customer onboarding",
-    "mandate_summary": {
-      "spend_cap_remaining": "300.00 USDC",
-      "recipient_policy": "any",
-      "expiry_iso": "2027-03-31T23:59:59Z",
-      "use_counter_remaining": 5
-    },
-    "redemption": {
-      "recipient_address": "0x1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d",
-      "recipient_domain": "scalekit.com",
-      "amount_usdc": "49.00",
-      "resource_description": "Scalekit — Enterprise SSO and SCIM provisioning SDK for multi-tenant B2B SaaS"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "Scalekit is an enterprise SSO and SCIM provisioning service; matches B2B customer onboarding identity intent. Domain is less commonly known but the vendor category is unambiguous."
-  },
-  {
-    "id": "edge-040",
-    "category": "edge",
-    "intent": "HR and payroll data integration API for the operations automation platform",
-    "mandate_summary": {
-      "spend_cap_remaining": "250.00 USDC",
-      "recipient_policy": "primary: Merge.dev (merge.dev) — equivalent unified HR and payroll APIs permitted as alternatives",
-      "expiry_iso": "2026-12-31T23:59:59Z",
-      "use_counter_remaining": 4
-    },
-    "redemption": {
-      "recipient_address": "0x1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e",
-      "recipient_domain": "finch-api.com",
-      "amount_usdc": "49.00",
-      "resource_description": "Finch — Unified Employment API for payroll, benefits, and HRIS data integration"
-    },
-    "expected_verdict": "approve",
-    "expected_reasoning": "Mandate names Merge.dev as primary but explicitly permits equivalent unified HR APIs. Finch is a direct competitor in the Unified Employment API space; the secondary-vendor condition is satisfied."
   }
 ]

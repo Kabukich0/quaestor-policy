@@ -1,0 +1,192 @@
+[
+  {
+    "id": "edge-031",
+    "category": "edge",
+    "intent": "cloud infrastructure and database subscriptions for the production stack",
+    "mandate_summary": {
+      "spend_cap_remaining": "80.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0606060606060606060606060606060606060606",
+      "recipient_domain": "turso.io",
+      "amount_usdc": "95.00",
+      "resource_description": "Turso — Edge SQLite Pro plan for globally replicated embedded database"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Redemption amount of 95.00 USDC exceeds spend_cap_remaining of 80.00 USDC; mandate cannot be fulfilled even though vendor and category are appropriate."
+  },
+  {
+    "id": "edge-032",
+    "category": "edge",
+    "intent": "API tooling and developer platform subscriptions for the engineering team",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 0
+    },
+    "redemption": {
+      "recipient_address": "0x0707070707070707070707070707070707070707",
+      "recipient_domain": "xata.io",
+      "amount_usdc": "30.00",
+      "resource_description": "Xata — Pro plan for serverless PostgreSQL with integrated full-text search"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "use_counter_remaining is 0; mandate is exhausted and no further redemptions are permitted regardless of remaining budget or vendor eligibility."
+  },
+  {
+    "id": "edge-033",
+    "category": "edge",
+    "intent": "developer tooling and SaaS subscriptions for the engineering team",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2025-11-30T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x0808080808080808080808080808080808080808",
+      "recipient_domain": "cockroachdb.com",
+      "amount_usdc": "49.00",
+      "resource_description": "CockroachDB Serverless — metered compute and storage for distributed SQL"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Mandate expired 2025-11-30; redemption falls outside the validity window. Budget and vendor are appropriate but the mandate is no longer active."
+  },
+  {
+    "id": "edge-034",
+    "category": "edge",
+    "intent": "cloud compute and backend service subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "0.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0909090909090909090909090909090909090909",
+      "recipient_domain": "questdb.com",
+      "amount_usdc": "39.00",
+      "resource_description": "QuestDB Cloud — time-series database metered ingestion for metrics workload"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "spend_cap_remaining is 0.00 USDC; mandate has no remaining budget. Vendor and category are appropriate but the mandate is fully spent."
+  },
+  {
+    "id": "edge-035",
+    "category": "edge",
+    "intent": "approved monitoring and observability spend for the infrastructure team",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "whitelisted APM vendors: datadoghq.com and honeycomb.io only — no substitutes permitted",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+      "recipient_domain": "influxdata.com",
+      "amount_usdc": "60.00",
+      "resource_description": "InfluxDB Cloud — time-series monitoring data ingestion and retention"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "InfluxDB is monitoring-adjacent but influxdata.com is not on the named whitelist. Mandate restricts APM spend to datadoghq.com and honeycomb.io only; no substitutes are permitted even in the same category."
+  },
+  {
+    "id": "edge-036",
+    "category": "edge",
+    "intent": "authorization and fine-grained access control API for the service layer",
+    "mandate_summary": {
+      "spend_cap_remaining": "50.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b",
+      "recipient_domain": "cerbos.dev",
+      "amount_usdc": "49.50",
+      "resource_description": "Cerbos Hub — policy-as-code RBAC and ABAC authorization managed cloud plan"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "Amount of 49.50 USDC is within spend_cap_remaining of 50.00 USDC. Cerbos is a policy-based authorization service; matches access control intent. Budget is very tight but the redemption is valid."
+  },
+  {
+    "id": "edge-037",
+    "category": "edge",
+    "intent": "passkey-based authentication and WebAuthn identity provider for user login",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2027-06-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c",
+      "recipient_domain": "hanko.io",
+      "amount_usdc": "29.00",
+      "resource_description": "Hanko — Cloud plan for passwordless FIDO2 passkey authentication and session management"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "Hanko.io is a legitimate passkey and WebAuthn authentication service; matches FIDO2 identity provider intent. Domain is niche but unambiguously an auth vendor."
+  },
+  {
+    "id": "edge-038",
+    "category": "edge",
+    "intent": "on-chain yield and liquidity operations on approved Layer 2 protocols",
+    "mandate_summary": {
+      "spend_cap_remaining": "2000.00 USDC",
+      "recipient_policy": "any audited on-chain protocol deployed on Optimism or Arbitrum",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x9c12831fAB64Dd498b25E56cB8e59ffa3d1A32d5",
+      "recipient_domain": "velodrome.finance",
+      "amount_usdc": "300.00",
+      "resource_description": "Velodrome v2 — USDC/ETH liquidity pool deposit on Optimism for trading fee yield"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "Velodrome is a major audited DEX on Optimism. Mandate permits any audited on-chain protocol on Optimism; redemption satisfies the open policy. Protocol and chain match."
+  },
+  {
+    "id": "edge-039",
+    "category": "edge",
+    "intent": "enterprise SSO and SCIM provisioning infrastructure for B2B customer onboarding",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2027-03-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d",
+      "recipient_domain": "scalekit.com",
+      "amount_usdc": "49.00",
+      "resource_description": "Scalekit — Enterprise SSO and SCIM provisioning SDK for multi-tenant B2B SaaS"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "Scalekit is an enterprise SSO and SCIM provisioning service; matches B2B customer onboarding identity intent. Domain is less commonly known but the vendor category is unambiguous."
+  },
+  {
+    "id": "edge-040",
+    "category": "edge",
+    "intent": "HR and payroll data integration API for the operations automation platform",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "primary: Merge.dev (merge.dev) — equivalent unified HR and payroll APIs permitted as alternatives",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e",
+      "recipient_domain": "finch-api.com",
+      "amount_usdc": "49.00",
+      "resource_description": "Finch — Unified Employment API for payroll, benefits, and HRIS data integration"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "Mandate names Merge.dev as primary but explicitly permits equivalent unified HR APIs. Finch is a direct competitor in the Unified Employment API space; the secondary-vendor condition is satisfied."
+  }
+]
