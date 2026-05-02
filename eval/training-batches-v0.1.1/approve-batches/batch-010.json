@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "cebcaf9f-74cf-4145-8bc5-257ebe755a9a",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Pluralsight Skills \u2014 944 USD \u2014 engineering team annual skills assessment and learning platform access",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Pluralsight Skills",
+    "merchant_description": "Technology skills platform for software teams",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pluralsight provides technology skills training and assessment \u2014 an education platform for engineering teams. Policy allows 'education' and 'operational-tools'; team learning platforms qualify. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "4570f520-11dc-46f3-99e2-8f38eddd67db",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "LinkedIn Learning \u2014 5.25 USD \u2014 online professional development and course library for our team members",
+    "amount": 5.25,
+    "currency": "USD",
+    "merchant": "LinkedIn Learning",
+    "merchant_description": "Professional development courses by LinkedIn",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LinkedIn Learning provides professional development courses \u2014 an education platform for employee growth. Category 'education' is allowed; online learning platforms qualify. 5.25 USD within the 15 limit."
+  },
+  {
+    "id": "d03e4fb2-edb4-4fb6-9df2-96aefd5c97b5",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Codecademy Teams \u2014 1.05 USDC \u2014 interactive coding education platform for upskilling our non-technical team members",
+    "amount": 1.05,
+    "currency": "USDC",
+    "merchant": "Codecademy Teams",
+    "merchant_description": "Interactive coding education for teams",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Codecademy provides coding education for team members \u2014 a learning platform covered by the 'education' category. Policy allows 'education'; coding courses for team upskilling qualify. 1.05 USDC within the 2 limit."
+  },
+  {
+    "id": "fa7ccfa5-8960-479c-b52e-cb7383607f8f",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "O'Reilly Learning \u2014 10,500 USDC \u2014 technical book, video, and course library for our engineering and product teams",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "O'Reilly Learning",
+    "merchant_description": "Technical learning and content platform",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "O'Reilly provides technical books, courses, and learning content \u2014 an education platform for engineering teams. Policy allows 'education'; technical learning libraries qualify. 10,500 USDC within the 15,000 limit."
+  },
+  {
+    "id": "9afbe79e-64d7-4588-8440-156488bb8d3d",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Educative.io Teams \u2014 419 USD \u2014 browser-based technical course platform for software engineering skill development",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Educative.io Teams",
+    "merchant_description": "Interactive software engineering courses",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Educative.io provides interactive software engineering courses \u2014 an education platform for developer upskilling. Category 'education' is allowed; technical course platforms qualify. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "ade708b8-096f-4ab6-a3d7-fb2621c36cc4",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Brilliant.org Business \u2014 15.75 USD \u2014 STEM and logic problem-solving platform for engineering team learning",
+    "amount": 15.75,
+    "currency": "USD",
+    "merchant": "Brilliant.org Business",
+    "merchant_description": "STEM and problem-solving learning platform",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Brilliant.org provides STEM-focused problem-solving education \u2014 a learning platform for engineering teams. Policy allows 'education'; STEM learning platforms qualify. 15.75 USD within the 45 limit."
+  },
+  {
+    "id": "b925930a-b806-495f-8a79-ffb8c4a87769",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "DataCamp Business \u2014 2.10 USD \u2014 data science and machine learning course platform for our data team",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "DataCamp Business",
+    "merchant_description": "Data science and ML training platform",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DataCamp provides data science and ML education \u2014 a learning platform for data and analytics teams. Category 'education' is allowed; data science training platforms qualify. 2.10 USD within the 4 limit."
+  },
+  {
+    "id": "31232204-2ca8-4bea-afdc-6dc75713eb5c",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "A Cloud Guru Teams \u2014 1,260 USDC \u2014 cloud certification training and hands-on lab platform for our devops team",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "A Cloud Guru Teams",
+    "merchant_description": "Cloud and DevOps certification training",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "education",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "A Cloud Guru provides cloud and DevOps certification training \u2014 an education platform for infrastructure teams. Policy allows 'education'; cloud certification platforms qualify. 1,260 USDC within the 1,800 limit."
+  },
+  {
+    "id": "b8639555-f7f5-4901-b052-7e084a8f9d1f",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Hetzner Dedicated \u2014 209 USDT \u2014 European bare-metal dedicated server hosting for our production infrastructure",
+    "amount": 209.0,
+    "currency": "USDT",
+    "merchant": "Hetzner Dedicated",
+    "merchant_description": "European dedicated and cloud server hosting",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hetzner provides dedicated server infrastructure \u2014 a cloud infrastructure tool for production deployments. Policy allows 'cloud-infrastructure'; server hosting is clearly within that category. 209 USDT within the 995 limit."
+  },
+  {
+    "id": "9049ae56-faad-4d60-936f-aebade10520c",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "OVHcloud VPS \u2014 26 USD \u2014 European VPS hosting for development environments and staging servers",
+    "amount": 26.0,
+    "currency": "USD",
+    "merchant": "OVHcloud VPS",
+    "merchant_description": "European cloud and VPS hosting by OVH",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "OVHcloud provides VPS and cloud hosting \u2014 a cloud infrastructure service for development and staging. Category 'cloud-infrastructure' is allowed; VPS hosting qualifies. 26 USD within the 75 limit."
+  },
+  {
+    "id": "24dfc7c5-d57c-4964-980f-cecbab9b6073",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "DigitalOcean Droplets \u2014 2,100 USDC \u2014 cloud compute and managed database hosting for our backend services",
+    "amount": 2100.0,
+    "currency": "USDC",
+    "merchant": "DigitalOcean Droplets",
+    "merchant_description": "Cloud compute, storage, and managed databases",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DigitalOcean provides cloud compute and managed databases \u2014 a cloud infrastructure platform. Policy allows 'cloud-infrastructure'; cloud hosting services qualify. 2,100 USDC within the 3,000 limit."
+  },
+  {
+    "id": "2e3aabdc-853d-4caa-92cb-f4334cd94f12",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Vultr Cloud \u2014 0.42 ETH \u2014 high-performance cloud compute instances for our distributed backend workloads",
+    "amount": 0.42,
+    "currency": "ETH",
+    "merchant": "Vultr Cloud",
+    "merchant_description": "High-performance cloud compute provider",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vultr provides cloud compute instances \u2014 cloud infrastructure for running distributed services. Category 'cloud-infrastructure' is allowed; cloud hosting clearly qualifies. 0.42 ETH within the 2 limit."
+  },
+  {
+    "id": "eb169698-d60c-4198-a7fc-92c1bacb73a9",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Civo Kubernetes \u2014 52 USD \u2014 managed Kubernetes cluster hosting for our containerized workloads",
+    "amount": 52.0,
+    "currency": "USD",
+    "merchant": "Civo Kubernetes",
+    "merchant_description": "Managed Kubernetes cloud platform",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Civo provides managed Kubernetes infrastructure \u2014 a cloud infrastructure service for containerized deployments. Policy allows 'cloud-infrastructure'; managed Kubernetes qualifies. 52 USD within the 150 limit."
+  },
+  {
+    "id": "cbf03c22-955d-4610-a481-3c7aca7c29a9",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Fly.io Scale \u2014 1.57 USD \u2014 edge compute platform for running our containerized API close to users globally",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "Fly.io Scale",
+    "merchant_description": "Global edge compute and app deployment platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Fly.io provides edge compute infrastructure \u2014 a cloud infrastructure platform for global deployments. Category 'cloud-infrastructure' is allowed; edge hosting qualifies. 1.57 USD within the 3 limit."
+  },
+  {
+    "id": "118a8cec-ac9f-43df-83f0-4aed73e2b11a",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Railway Pro \u2014 3,150 USD \u2014 managed deployment platform for our backend services and database infrastructure",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "Railway Pro",
+    "merchant_description": "Managed cloud deployment and hosting platform",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Railway provides managed hosting and deployment infrastructure \u2014 a cloud infrastructure service. Policy allows 'cloud-infrastructure'; managed deployment platforms qualify. 3,150 USD within the 4,500 limit."
+  },
+  {
+    "id": "a43eda7c-5742-4daa-af83-6d7e9f619936",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Porter Cloud \u2014 104 USD \u2014 Heroku-alternative managed Kubernetes deployment platform for our team",
+    "amount": 104.0,
+    "currency": "USD",
+    "merchant": "Porter Cloud",
+    "merchant_description": "Managed cloud deployment on Kubernetes",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": [
+        "cloud-infrastructure",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Porter provides managed Kubernetes deployments \u2014 cloud infrastructure for containerized applications. Category 'cloud-infrastructure' is allowed; managed deployment infrastructure qualifies. 104 USD within the 297 limit."
+  },
+  {
+    "id": "14ff99d5-0212-4864-b416-459a0313288f",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Navan Business \u2014 5.24 USD \u2014 corporate travel and expense management platform for team travel bookings",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Navan Business",
+    "merchant_description": "Corporate travel and expense management platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Navan provides corporate travel booking and expense management \u2014 an operational tool for managing team travel. Policy allows 'operational-tools' and 'operational-expenses'; travel management software qualifies. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "9d898ee6-058e-4e18-9404-3748c03ab467",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "TripActions Liquid \u2014 5,250 USD \u2014 corporate travel booking and spend management for our sales team road trips",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "TripActions Liquid",
+    "merchant_description": "Corporate travel and liquid expense platform",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "TripActions provides corporate travel and spend management \u2014 an operational tool and expense for business travel. Category 'operational-expenses' is allowed; corporate travel platforms qualify. 5,250 USD within the 7,500 limit."
+  },
+  {
+    "id": "994e0c2d-116e-4bb3-ab12-784228a897a6",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Booking.com Business \u2014 209 USDC \u2014 team accommodation booking for our engineering offsite",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "Booking.com Business",
+    "merchant_description": "Corporate accommodation and travel booking",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Booking.com for Business handles team accommodation \u2014 an operational expense for company travel. Policy allows 'operational-expenses'; business travel and accommodation costs qualify. 209 USDC within the 995 limit."
+  },
+  {
+    "id": "76484a34-c322-4b66-aa8c-3fa7e7e938ca",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Airbnb for Work \u2014 10.50 EUR \u2014 team accommodation for our quarterly offsite retreat",
+    "amount": 10.5,
+    "currency": "EUR",
+    "merchant": "Airbnb for Work",
+    "merchant_description": "Business travel accommodation via Airbnb",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Airbnb for Work provides team accommodation for offsites \u2014 an operational expense for company retreats. Category 'operational-expenses' is allowed; business accommodation qualifies. 10.50 EUR within the 30 limit."
+  },
+  {
+    "id": "b1cedfd3-7808-4c5b-aa7b-a164c596e0d6",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Luma Events Pro \u2014 1.05 USD \u2014 event hosting and registration management for our community meetups",
+    "amount": 1.05,
+    "currency": "USD",
+    "merchant": "Luma Events Pro",
+    "merchant_description": "Modern event hosting and registration platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Luma provides event hosting and registration management \u2014 an operational tool for community and marketing events. Policy allows 'operational-tools'; event management software qualifies. 1.05 USD within the 2 limit."
+  },
+  {
+    "id": "c64cf1ab-9c55-43ae-9b2f-5e0cbc04e2ac",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Eventbrite Organizer \u2014 10,500 USD \u2014 ticketing and event management platform for our annual developer conference",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Eventbrite Organizer",
+    "merchant_description": "Ticketing and event management platform",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Eventbrite provides ticketing and event management \u2014 an operational tool and expense for company conferences. Category 'operational-expenses' is allowed; conference management costs qualify. 10,500 USD within the 15,000 limit."
+  },
+  {
+    "id": "eadfcc92-d8dd-4e94-b770-36c4da330819",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Hopin Connect \u2014 944 USDC \u2014 virtual and hybrid event platform for our quarterly team all-hands",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "Hopin Connect",
+    "merchant_description": "Virtual and hybrid events platform",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hopin provides virtual event hosting infrastructure \u2014 an operational tool for team and community events. Policy allows 'operational-tools'; virtual event platforms qualify. 944 USDC within the 4,495 limit."
+  },
+  {
+    "id": "c8f0b820-4072-43cf-94ad-30dd05461b66",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Run The World \u2014 0.315 ETH \u2014 interactive virtual event and networking platform for our developer community",
+    "amount": 0.315,
+    "currency": "ETH",
+    "merchant": "Run The World",
+    "merchant_description": "Virtual event and networking platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.9,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Run The World provides virtual event and networking infrastructure \u2014 an operational tool for community events. Category 'operational-tools' is allowed; virtual event platforms qualify. 0.315 ETH within the 0.9 limit."
+  },
+  {
+    "id": "0085256a-e4b3-4541-bbbc-305310e55bf3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Splash Events \u2014 2.10 USD \u2014 event marketing and registration management for our enterprise customer events",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "Splash Events",
+    "merchant_description": "Event marketing and management platform",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Splash provides event marketing and registration management \u2014 an operational tool for enterprise events. Policy allows 'operational-tools'; event management software qualifies. 2.10 USD within the 4 limit."
+  },
+  {
+    "id": "ded9340e-257a-4337-a798-9643c36ae351",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Accelevents \u2014 1,260 USD \u2014 virtual conference and event ticketing platform for our partner summit",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Accelevents",
+    "merchant_description": "Virtual conference and ticketing platform",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Accelevents provides virtual conference and ticketing infrastructure \u2014 an operational tool for event management. Category 'operational-tools' is allowed; conference platforms qualify. 1,260 USD within the 1,800 limit."
+  },
+  {
+    "id": "ce68d016-b876-4e75-96d1-245dcac2b857",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Tailscale Teams \u2014 419 USD \u2014 zero-config VPN mesh network for secure developer access to production infrastructure",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Tailscale Teams",
+    "merchant_description": "Zero-config VPN and mesh network for teams",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tailscale provides secure mesh networking for teams \u2014 a developer tool for infrastructure access management. Policy allows 'developer-tools'; VPN and network access tools qualify. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "45b75d90-8c61-4ac2-bea0-d19fdf212ec2",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "ngrok Pro \u2014 0.52 USD \u2014 secure tunneling and webhook inspection for local development and API testing",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "ngrok Pro",
+    "merchant_description": "Secure tunnels and webhook testing for developers",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ngrok provides secure tunneling for local development \u2014 a developer tool for API testing and debugging. Category 'developer-tools' is allowed; tunneling and webhook tools qualify. 0.52 USD within the 1 limit."
+  },
+  {
+    "id": "982200c6-917d-4bfe-b9b8-8524e461b648",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Netbird Teams \u2014 2,100 USD \u2014 open-source zero-trust network for secure remote access to development environments",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Netbird Teams",
+    "merchant_description": "Open-source zero-trust network for teams",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Netbird provides zero-trust networking for secure remote access \u2014 a developer tool for infrastructure security. Policy allows 'developer-tools'; zero-trust network tools qualify. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "a6969826-7bc7-4bda-abe3-811d13712ca6",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Twingate Teams \u2014 209 USD \u2014 zero-trust remote access platform for secure developer connectivity to cloud infrastructure",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Twingate Teams",
+    "merchant_description": "Zero-trust remote access for distributed teams",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Twingate provides zero-trust remote access \u2014 a developer tool for secure cloud infrastructure access. Category 'developer-tools' is allowed; secure remote access platforms qualify. 209 USD within the 995 limit."
+  },
+  {
+    "id": "f74edd12-96ac-4826-8fb2-30696b3ee86e",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Teleport Teams \u2014 79 USDC \u2014 infrastructure access platform for securing SSH, databases, and Kubernetes across our fleet",
+    "amount": 79.0,
+    "currency": "USDC",
+    "merchant": "Teleport Teams",
+    "merchant_description": "Infrastructure access management for developers",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Teleport provides infrastructure access management for SSH and Kubernetes \u2014 a developer tool for secure access. Policy allows 'developer-tools'; infrastructure access platforms qualify. 79 USDC within the 225 limit."
+  },
+  {
+    "id": "477b099d-3521-46bd-bf45-a579b3920168",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "HashiCorp Boundary \u2014 1.57 EUR \u2014 identity-based infrastructure access for securing developer connections to cloud resources",
+    "amount": 1.57,
+    "currency": "EUR",
+    "merchant": "Boundary (HashiCorp)",
+    "merchant_description": "Identity-based infrastructure access by HashiCorp",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "HashiCorp Boundary provides identity-based infrastructure access \u2014 a developer tool for secure resource access. Category 'developer-tools' is allowed; infrastructure access management qualifies. 1.57 EUR within the 3 limit."
+  },
+  {
+    "id": "a6eb379a-ea4b-49c3-b63b-8738eb6322af",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Pritunl VPN \u2014 3,150 USD \u2014 enterprise VPN server for secure developer access to cloud and on-premises resources",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "Pritunl VPN",
+    "merchant_description": "Open-source enterprise VPN solution",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pritunl provides enterprise VPN infrastructure for developer access \u2014 a developer tool for secure connectivity. Policy allows 'developer-tools'; enterprise VPN solutions qualify. 3,150 USD within the 4,500 limit."
+  },
+  {
+    "id": "6d8f7d8d-9fa9-458c-bf90-f44b8ef6bd82",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "StrongDM \u2014 944 USD \u2014 infrastructure access management and audit platform for secure database and server access",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "StrongDM",
+    "merchant_description": "Infrastructure access management and audit logging",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "StrongDM manages secure access to infrastructure and databases \u2014 a developer tool for access control and auditing. Category 'developer-tools' is allowed; infrastructure access management qualifies. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "14054de6-3583-463d-9b27-fdc39b33e4c4",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Doppler Secrets \u2014 5.25 USDC \u2014 secrets management and environment variable sync platform across all our services",
+    "amount": 5.25,
+    "currency": "USDC",
+    "merchant": "Doppler Secrets",
+    "merchant_description": "Secrets manager and environment variable platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Doppler provides secrets management and environment variable sync \u2014 a developer tool for configuration security. Policy allows 'developer-tools'; secrets management infrastructure qualifies. 5.25 USDC within the 15 limit."
+  },
+  {
+    "id": "2ebb56ef-b00f-4c75-adb6-6bf443fec58b",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Consensus Research \u2014 0.26 ETH \u2014 AI-powered scientific paper search and evidence synthesis for our R&D team",
+    "amount": 0.26,
+    "currency": "ETH",
+    "merchant": "Consensus Research",
+    "merchant_description": "AI-powered scientific search and evidence synthesis",
+    "policy_state": {
+      "max_amount_per_tx": 0.5,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Consensus provides AI-powered scientific research synthesis \u2014 a research tool for evidence-based R&D. Policy allows 'research-tools'; scientific research platforms qualify. 0.26 ETH within the 0.5 limit."
+  },
+  {
+    "id": "9141daf8-de84-4074-b36a-a58be1b378e2",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Scite.ai Teams \u2014 5,250 USD \u2014 citation analysis and research credibility platform for our scientific team",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "Scite.ai Teams",
+    "merchant_description": "Smart citation and research credibility platform",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scite.ai provides citation analysis for assessing research credibility \u2014 a research tool for scientific teams. Category 'research-tools' is allowed; citation intelligence platforms qualify. 5,250 USD within the 7,500 limit."
+  },
+  {
+    "id": "507c09bb-f4e6-4e6e-a401-729e9a13f761",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Iris.ai Pro \u2014 419 USD \u2014 AI research assistant for systematic literature review and scientific document analysis",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Iris.ai Pro",
+    "merchant_description": "AI research assistant for literature review",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Iris.ai provides AI-powered literature review \u2014 a research tool for scientific document analysis. Policy allows 'research-tools'; AI research assistants qualify. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "efa02566-7877-47c6-bf2d-aafdcf512ecf",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Scholarcy Teams \u2014 15.75 USD \u2014 AI paper summarization and research flashcard generation for our science team",
+    "amount": 15.75,
+    "currency": "USD",
+    "merchant": "Scholarcy Teams",
+    "merchant_description": "AI research paper summarization tool",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scholarcy provides AI research paper summarization \u2014 a research tool for literature synthesis. Category 'research-tools' is allowed; AI paper analysis tools qualify. 15.75 USD within the 45 limit."
+  },
+  {
+    "id": "65d37629-5870-428f-868c-03686870b4f5",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Elicit Pro \u2014 1.04 USDC \u2014 AI research assistant for extracting insights from scientific papers",
+    "amount": 1.04,
+    "currency": "USDC",
+    "merchant": "Elicit Pro",
+    "merchant_description": "AI research assistant for scientific literature",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Elicit is an AI research assistant for scientific literature \u2014 a research tool for evidence extraction. Policy allows 'research-tools'; AI literature research tools qualify. 1.04 USDC within the 2 limit."
+  },
+  {
+    "id": "1f3b8757-bff3-433b-89b7-b1d3f225fcf3",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Litmaps Premium \u2014 10,500 USD \u2014 citation mapping and literature discovery visualization for our research team",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Litmaps Premium",
+    "merchant_description": "Citation graph and research discovery platform",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Litmaps provides citation mapping and research discovery \u2014 a research tool for literature visualization. Category 'research-tools' is allowed; citation graph platforms qualify. 10,500 USD within the 15,000 limit."
+  },
+  {
+    "id": "82b804de-02d1-49aa-9099-c4f6892b1d27",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Inciteful Pro \u2014 209 USD \u2014 paper graph network and research literature analysis for finding related work",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Inciteful Pro",
+    "merchant_description": "Research paper graph and literature network tool",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Inciteful provides paper graph analysis for research discovery \u2014 a research tool for literature exploration. Policy allows 'research-tools'; research graph platforms qualify. 209 USD within the 995 limit."
+  },
+  {
+    "id": "f21640a6-666e-4aad-9ddc-f3696bbeeb3a",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "SciSpace Pro \u2014 26 USD \u2014 AI paper reader and scientific literature Q&A platform for our research team",
+    "amount": 26.0,
+    "currency": "USD",
+    "merchant": "SciSpace Pro",
+    "merchant_description": "AI scientific paper reader and research assistant",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SciSpace provides AI-powered scientific paper reading and Q&A \u2014 a research tool for literature comprehension. Category 'research-tools' is allowed; AI paper analysis tools qualify. 26 USD within the 75 limit."
+  },
+  {
+    "id": "44569d69-d446-4b4e-a857-0bd3d88cd7a5",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Semantic Scholar API \u2014 2.10 USDC \u2014 academic literature search API for integrating research discovery into our internal tools",
+    "amount": 2.1,
+    "currency": "USDC",
+    "merchant": "Semantic Scholar API",
+    "merchant_description": "Academic paper search API by Allen Institute for AI",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Semantic Scholar API provides programmatic access to academic literature \u2014 a research tool for scientific discovery. Policy allows 'research-tools'; academic search APIs qualify. 2.10 USDC within the 4 limit."
+  },
+  {
+    "id": "8903a169-2591-4c76-95f0-50a7585e51f7",
+    "cluster": "3",
+    "category": "research-tools",
+    "intent_text": "Scinapse Pro \u2014 1,260 EUR \u2014 academic paper search and research workflow platform for our science team",
+    "amount": 1260.0,
+    "currency": "EUR",
+    "merchant": "Scinapse Pro",
+    "merchant_description": "Academic search engine for scientific literature",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "research-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scinapse provides academic paper search and research discovery \u2014 a research tool for scientific workflows. Category 'research-tools' is allowed; academic search platforms qualify. 1,260 EUR within the 1,800 limit."
+  },
+  {
+    "id": "113f61dc-b227-4198-9e93-d2b322b56189",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Snyk Business \u2014 944 USD \u2014 developer-first security scanning for vulnerabilities in code, containers, and dependencies",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Snyk Business",
+    "merchant_description": "Developer security platform for code and containers",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Snyk provides developer-first security scanning \u2014 a developer tool for vulnerability management. Policy allows 'developer-tools'; security scanning platforms qualify. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "6fbb5a5d-b0ae-4f4a-811c-1959fdf43cc9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Socket Security Teams \u2014 52 USD \u2014 supply chain security for npm and PyPI dependencies across our codebase",
+    "amount": 52.0,
+    "currency": "USD",
+    "merchant": "Socket Security Teams",
+    "merchant_description": "Software supply chain security for npm and Python",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Socket provides supply chain security analysis for dependencies \u2014 a developer tool for package security. Category 'developer-tools' is allowed; dependency security tools qualify. 52 USD within the 150 limit."
+  },
+  {
+    "id": "80ccaeb1-912c-4d86-9433-c51b7d7881a0",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Semgrep Pro \u2014 0.52 USDC \u2014 static analysis and code security scanning for our CI/CD pipelines",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Semgrep Pro",
+    "merchant_description": "Static analysis and code security scanning",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Semgrep provides static analysis and security scanning \u2014 a developer tool for code quality and security. Policy allows 'developer-tools'; static analysis tools qualify. 0.52 USDC within the 1 limit."
+  },
+  {
+    "id": "64188b7a-e760-4d03-ba35-88ff14db1950",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Aikido Security Pro \u2014 0.21 ETH \u2014 unified cloud security and vulnerability management for our development infrastructure",
+    "amount": 0.21,
+    "currency": "ETH",
+    "merchant": "Aikido Security Pro",
+    "merchant_description": "Developer-first cloud and code security platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Aikido Security provides cloud and code security management \u2014 a developer tool for unified security. Category 'developer-tools' is allowed; cloud security scanning platforms qualify. 0.21 ETH within the 0.3 limit."
+  },
+  {
+    "id": "7adc11d5-0357-4533-95d2-2211a44125dc",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Cycode Teams \u2014 419 USD \u2014 application security posture management and SAST/SCA scanning for our engineering team",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Cycode Teams",
+    "merchant_description": "Application security posture management platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "developer-tools",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cycode provides application security posture management and scanning \u2014 a developer tool for code security. Policy allows 'developer-tools'; AppSec platforms qualify. 419 USD within the 1,995 limit."
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "r008-a001",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "developer tooling and SaaS infrastructure — no entertainment or gaming vendors",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000001",
+      "recipient_domain": "nintendo.com",
+      "amount_usdc": "70.00",
+      "resource_description": "Nintendo Switch Online family membership, 12-month subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Nintendo is a consumer gaming company. The mandate covers developer tooling and SaaS infrastructure and explicitly prohibits entertainment and gaming vendors. A Nintendo Online subscription is a personal entertainment purchase. Reject."
+  },
+  {
+    "id": "r008-a002",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud and engineering platform spend — authorized categories: compute, storage, and monitoring",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000002",
+      "recipient_domain": "steampowered.com",
+      "amount_usdc": "60.00",
+      "resource_description": "Steam Wallet credit — games and DLC purchases"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Steam is a PC gaming distribution platform. The mandate restricts spend to compute, storage, and monitoring platforms. Gaming purchases are consumer entertainment, not cloud infrastructure. Reject."
+  },
+  {
+    "id": "r008-a003",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "B2B SaaS subscriptions — business productivity and engineering tools only",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000003",
+      "recipient_domain": "ubisoft.com",
+      "amount_usdc": "80.00",
+      "resource_description": "Ubisoft+ subscription, 3-month access to full game library"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Ubisoft is a video game publisher. The mandate covers business productivity and engineering tools only. A game subscription is consumer entertainment with no engineering or productivity function. Reject."
+  },
+  {
+    "id": "r008-a004",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "software licensing — infrastructure and DevOps tools for engineering teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000004",
+      "recipient_domain": "bandainamco.com",
+      "amount_usdc": "65.00",
+      "resource_description": "Bandai Namco game title purchase — collector's edition"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bandai Namco is a video game developer and publisher. The mandate is for infrastructure and DevOps software licensing. A video game purchase is personal entertainment with no relevance to engineering tooling. Reject."
+  },
+  {
+    "id": "r008-a005",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "SaaS platform subscriptions — technical and professional services only, no consumer media",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000005",
+      "recipient_domain": "2k.com",
+      "amount_usdc": "70.00",
+      "resource_description": "2K game purchase — NBA 2K25 standard edition"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "2K is a video game studio and publisher. The mandate restricts spend to technical and professional SaaS and explicitly excludes consumer media. A sports simulation game has no professional service function. Reject."
+  },
+  {
+    "id": "r008-a006",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering tools and cloud platform licensing — no gaming or consumer software",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000006",
+      "recipient_domain": "bethesda.net",
+      "amount_usdc": "60.00",
+      "resource_description": "Bethesda.net game purchase — The Elder Scrolls VI pre-order"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bethesda is a major video game studio. The mandate licenses engineering tools and cloud platforms and explicitly excludes gaming and consumer software. A game pre-order is disqualified on both counts. Reject."
+  },
+  {
+    "id": "r008-a007",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "infrastructure-as-a-service and developer tools — authorized vendors are cloud and software providers",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000007",
+      "recipient_domain": "blizzard.com",
+      "amount_usdc": "45.00",
+      "resource_description": "Battle.net balance — World of Warcraft game time, 3 months"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Blizzard Entertainment is a video game developer. The mandate covers IaaS and developer tools from cloud and software vendors. WoW game time is a personal entertainment subscription, not a developer tool. Reject."
+  },
+  {
+    "id": "r008-a008",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "technical SaaS procurement — platforms supporting software development lifecycle",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000008",
+      "recipient_domain": "riotgames.com",
+      "amount_usdc": "25.00",
+      "resource_description": "Riot Points — League of Legends in-game currency purchase"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Riot Games is a video game studio. The mandate covers SaaS platforms supporting software development lifecycle. In-game currency is a consumer entertainment microtransaction with no development or operations function. Reject."
+  },
+  {
+    "id": "r008-a009",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud platform and developer tooling — B2B vendors only, gaming and media excluded",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x08aa000000000000000000000000000000000009",
+      "recipient_domain": "valvesoftware.com",
+      "amount_usdc": "55.00",
+      "resource_description": "Valve game purchase — Half-Life series collection"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Valve Software is a game developer and the company behind Steam. The mandate restricts spend to B2B cloud and developer tooling and explicitly excludes gaming and media. A game purchase is a consumer transaction. Reject."
+  },
+  {
+    "id": "r008-a010",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering platform subscriptions — tools for build, deploy, and monitor workflows",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08aa00000000000000000000000000000000000a",
+      "recipient_domain": "squareenix.com",
+      "amount_usdc": "50.00",
+      "resource_description": "Square Enix Membership — Final Fantasy XIV Online subscription, 3 months"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Square Enix is a video game publisher. The mandate covers build, deploy, and monitor workflow tooling. A Final Fantasy Online subscription is a consumer gaming service unrelated to any engineering workflow. Reject."
+  },
+  {
+    "id": "r008-b001",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud-native application platform — container hosting and orchestration services",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000001",
+      "recipient_domain": "zillow.com",
+      "amount_usdc": "120.00",
+      "resource_description": "Zillow Premier Agent — enhanced real estate listing, 30-day promotion"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Zillow is a consumer real estate marketplace. The mandate covers container hosting and orchestration services. A real estate agent listing promotion is a property marketing service with no connection to cloud-native infrastructure. Reject."
+  },
+  {
+    "id": "r008-b002",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "data pipeline and ETL infrastructure — streaming and batch processing platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000002",
+      "recipient_domain": "trulia.com",
+      "amount_usdc": "200.00",
+      "resource_description": "Trulia Property Listing — featured rental listing, 60-day promotion"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Trulia is a real estate search platform. The mandate covers data pipeline and ETL infrastructure for streaming and batch processing. Property listing promotions are real estate marketing costs, not data infrastructure. Reject."
+  },
+  {
+    "id": "r008-b003",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "API gateway and microservices infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000003",
+      "recipient_domain": "redfin.com",
+      "amount_usdc": "85.00",
+      "resource_description": "Redfin Now service — home offer facilitation and transaction fee"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Redfin is a tech-enabled real estate brokerage. The mandate covers API gateway and microservices infrastructure. Real estate transaction facilitation is a property service with no connection to API tooling. Reject."
+  },
+  {
+    "id": "r008-b004",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "identity and access management — SSO, MFA, and directory services",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000004",
+      "recipient_domain": "realtor.com",
+      "amount_usdc": "150.00",
+      "resource_description": "Realtor.com ListHub — multi-channel listing syndication, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Realtor.com is a real estate search and listing platform. The mandate covers identity and access management including SSO and MFA. Property listing syndication has no connection to identity or access control infrastructure. Reject."
+  },
+  {
+    "id": "r008-b005",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "log management and observability stack — SaaS vendors only",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000005",
+      "recipient_domain": "apartments.com",
+      "amount_usdc": "95.00",
+      "resource_description": "Apartments.com Listing Boost — featured rental unit, 30-day placement"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Apartments.com is a rental property listing service. The mandate covers log management and observability SaaS. Rental listing fees are real estate marketing expenses, not observability tooling. Reject."
+  },
+  {
+    "id": "r008-b006",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "secrets management and vault services — authorized platforms for credential storage",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000006",
+      "recipient_domain": "carnival.com",
+      "amount_usdc": "899.00",
+      "resource_description": "Carnival Cruise — 7-night Caribbean cruise, interior cabin"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Carnival is a cruise line. The mandate covers secrets management and vault services for credential storage. A cruise booking is a personal vacation expense entirely unrelated to credential or secrets infrastructure. Reject."
+  },
+  {
+    "id": "r008-b007",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "feature flag and experimentation platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000007",
+      "recipient_domain": "zumper.com",
+      "amount_usdc": "75.00",
+      "resource_description": "Zumper Pro — landlord listing and tenant screening tools, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Zumper is a rental listing and property management platform. The mandate covers feature flag and A/B experimentation tools. Property management services have no connection to software experimentation infrastructure. Reject."
+  },
+  {
+    "id": "r008-b008",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud cost management and FinOps tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000008",
+      "recipient_domain": "costar.com",
+      "amount_usdc": "350.00",
+      "resource_description": "CoStar Suite — commercial real estate data and property analytics"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "CoStar is a commercial real estate data provider. The mandate covers cloud cost management and FinOps tooling. Commercial property data subscriptions are real estate research tools, not cloud financial operations platforms. Reject."
+  },
+  {
+    "id": "r008-b009",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "distributed tracing and performance profiling infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08bb000000000000000000000000000000000009",
+      "recipient_domain": "loopnet.com",
+      "amount_usdc": "299.00",
+      "resource_description": "LoopNet Diamond — commercial property listing, premium placement tier"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "LoopNet is a commercial real estate marketplace. The mandate covers distributed tracing and performance profiling infrastructure. Commercial property listings are real estate services with no connection to software observability tooling. Reject."
+  },
+  {
+    "id": "r008-b010",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "developer documentation and knowledge sharing platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x08bb00000000000000000000000000000000000a",
+      "recipient_domain": "hotpads.com",
+      "amount_usdc": "80.00",
+      "resource_description": "HotPads Featured Listing — apartment listing with map priority, 30 days"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "HotPads is a rental listing platform. The mandate covers developer documentation and knowledge sharing tools. Rental listing promotions are real estate marketing services, not documentation platforms. Reject."
+  },
+  {
+    "id": "r008-b011",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "release management and deployment automation tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08bb00000000000000000000000000000000000b",
+      "recipient_domain": "norwegian.com",
+      "amount_usdc": "1100.00",
+      "resource_description": "Norwegian Cruise Line — 5-day Bahamas cruise, balcony cabin"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Norwegian Cruise Line is a cruise and hospitality company. The mandate covers release management and deployment automation tooling. A cruise vacation is a personal leisure expense that cannot substitute for deployment infrastructure. Reject."
+  },
+  {
+    "id": "r008-b012",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "incident management and on-call scheduling platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x08bb00000000000000000000000000000000000c",
+      "recipient_domain": "enterprise.com",
+      "amount_usdc": "195.00",
+      "resource_description": "Enterprise Rent-A-Car — 3-day mid-size rental"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Enterprise is a car rental company. The mandate covers incident management and on-call scheduling platforms for engineering teams. A car rental is a travel expense, not an alerting or incident response tool. Reject."
+  },
+  {
+    "id": "r008-b013",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "network security and zero-trust access platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x08bb00000000000000000000000000000000000d",
+      "recipient_domain": "hertz.com",
+      "amount_usdc": "210.00",
+      "resource_description": "Hertz car rental — 4-day compact vehicle reservation"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Hertz is a vehicle rental company. The mandate covers network security and zero-trust access platforms. A car rental is a travel and logistics expense, not a security or access control product. Reject."
+  },
+  {
+    "id": "r008-c001",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "software platform subscriptions — productivity tools for remote engineering teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000001",
+      "recipient_domain": "glossier.com",
+      "amount_usdc": "89.00",
+      "resource_description": "Glossier — skincare and makeup bundle, Boy Brow and Cloud Paint blush"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Glossier is a direct-to-consumer beauty brand. The mandate covers productivity software for remote engineering teams. Cosmetics are personal consumer purchases with no software or productivity function. Reject."
+  },
+  {
+    "id": "r008-c002",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud infrastructure licensing — managed services for engineering operations",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000002",
+      "recipient_domain": "elfcosmetics.com",
+      "amount_usdc": "65.00",
+      "resource_description": "e.l.f. Cosmetics — eyeshadow palette and setting spray bundle"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "e.l.f. Cosmetics is a budget beauty brand. The mandate covers managed cloud infrastructure services. Makeup is a personal consumer purchase, not a cloud service. Reject."
+  },
+  {
+    "id": "r008-c003",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "developer tools and API platform subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000003",
+      "recipient_domain": "rarebeauty.com",
+      "amount_usdc": "58.00",
+      "resource_description": "Rare Beauty — liquid blush and foundation bundle"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Rare Beauty is a cosmetics brand. The mandate covers developer tools and API platform subscriptions. Cosmetics are personal beauty products with no software or API capability. Reject."
+  },
+  {
+    "id": "r008-c004",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "SaaS engineering platforms — build tooling and artifact management",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000004",
+      "recipient_domain": "charlottetilbury.com",
+      "amount_usdc": "140.00",
+      "resource_description": "Charlotte Tilbury — Pillow Talk lipstick and Magic Cream moisturizer"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Charlotte Tilbury is a luxury cosmetics brand. The mandate covers build tooling and artifact management SaaS. Luxury makeup is a personal consumer purchase with no engineering platform function. Reject."
+  },
+  {
+    "id": "r008-c005",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "monitoring and alerting infrastructure — enterprise-grade observability tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "450.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000005",
+      "recipient_domain": "milkmakeup.com",
+      "amount_usdc": "72.00",
+      "resource_description": "Milk Makeup — KUSH mascara and Hydro Grip primer set"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Milk Makeup is a clean beauty brand. The mandate covers enterprise monitoring and alerting infrastructure. Cosmetics are personal consumer goods with no observability capability. Reject."
+  },
+  {
+    "id": "r008-c006",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "technical documentation and internal developer portal tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 12
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000006",
+      "recipient_domain": "fentybeauty.com",
+      "amount_usdc": "85.00",
+      "resource_description": "Fenty Beauty — Pro Filt'r foundation and Gloss Bomb Lip Luminizer"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Fenty Beauty is a cosmetics brand. The mandate covers technical documentation and developer portal tools. Cosmetics are personal beauty products with no documentation function. Reject."
+  },
+  {
+    "id": "r008-c007",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "data infrastructure subscriptions — warehousing and analytics platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "700.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000007",
+      "recipient_domain": "morphe.com",
+      "amount_usdc": "55.00",
+      "resource_description": "Morphe — professional artist brush set and eyeshadow palette bundle"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Morphe is a professional makeup brand. The mandate covers data warehousing and analytics platforms. Makeup brushes and palettes are consumer beauty products with no data infrastructure capability. Reject."
+  },
+  {
+    "id": "r008-c008",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "CI/CD and release pipeline tooling — authorized for engineering build workflows",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08cc000000000000000000000000000000000008",
+      "recipient_domain": "overstock.com",
+      "amount_usdc": "210.00",
+      "resource_description": "Overstock.com — area rug and decorative pillows, home decor"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Overstock is an online home goods retailer. The mandate covers CI/CD and release pipeline tooling for engineering build workflows. Home decor is a personal consumer purchase with no relevance to software delivery. Reject."
+  },
+  {
+    "id": "r008-d001",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "engineering team tooling — licensed software for code review and testing",
+    "mandate_summary": {
+      "spend_cap_remaining": "4000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x08dd000000000000000000000000000000000001",
+      "recipient_domain": "crypto.com",
+      "amount_usdc": "2500.00",
+      "resource_description": "Crypto.com exchange deposit — funding for spot and leveraged crypto trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Crypto.com is a cryptocurrency exchange. The mandate covers licensed software for code review and testing. Funding a leveraged crypto trading account is financial speculation, not a software license. Reject."
+  },
+  {
+    "id": "r008-d002",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "cloud security and compliance tooling — authorized SaaS platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "6000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x08dd000000000000000000000000000000000002",
+      "recipient_domain": "mexem.com",
+      "amount_usdc": "3000.00",
+      "resource_description": "MEXEM brokerage account — funding for equities and derivatives trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "MEXEM is a global brokerage offering equities and derivatives trading. The mandate covers cloud security and compliance SaaS. A brokerage deposit is financial speculation with no security or compliance function. Reject."
+  },
+  {
+    "id": "r008-d003",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "developer productivity platforms — IDE extensions, code assistants, and linting tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "2000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x08dd000000000000000000000000000000000003",
+      "recipient_domain": "firstrade.com",
+      "amount_usdc": "1200.00",
+      "resource_description": "Firstrade brokerage account — deposit for US equities trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Firstrade is a commission-free brokerage for US equities trading. The mandate covers developer productivity tools like IDE extensions and linting platforms. A brokerage deposit for stock trading is financial speculation, not a developer tool subscription. Reject."
+  },
+  {
+    "id": "r008-d004",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "SaaS analytics and business intelligence tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "5000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x08dd000000000000000000000000000000000004",
+      "recipient_domain": "tradovate.com",
+      "amount_usdc": "4000.00",
+      "resource_description": "Tradovate futures account — deposit for CME futures contract trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Tradovate is a CME futures trading platform. The mandate covers SaaS analytics and BI tools. Depositing into a futures trading account is speculative financial activity with no connection to analytics or business intelligence. Reject."
+  },
+  {
+    "id": "r008-d005",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "incident response and runbook automation platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "3000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x08dd000000000000000000000000000000000005",
+      "recipient_domain": "phemex.com",
+      "amount_usdc": "1800.00",
+      "resource_description": "Phemex exchange — account funding for crypto perpetual futures"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Phemex is a cryptocurrency derivatives exchange specializing in perpetual futures. The mandate covers incident response and runbook automation platforms. Funding a crypto futures account is financial speculation unrelated to incident management tooling. Reject."
+  },
+  {
+    "id": "r008-e001",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "identity and auth management — manage.auth0.com tenant operations",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08ee000000000000000000000000000000000001",
+      "recipient_domain": "auth0-billing-update.net",
+      "amount_usdc": "120.00",
+      "resource_description": "Auth0 subscription billing — account renewal and upgrade"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "auth0-billing-update.net is not a legitimate Auth0 domain. Auth0 services operate under auth0.com and manage.auth0.com. This domain impersonates Auth0 billing to harvest credentials or collect fraudulent payments. Reject."
+  },
+  {
+    "id": "r008-e002",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "gaming platform subscriptions — authorized store at steampowered.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08ee000000000000000000000000000000000002",
+      "recipient_domain": "steam-gift-card-promo.io",
+      "amount_usdc": "50.00",
+      "resource_description": "Steam gift card — promotional code redemption"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "steam-gift-card-promo.io is not an official Steam domain. Valve's Steam platform operates at steampowered.com. This domain impersonates a Steam promotion to harvest payment credentials. Reject."
+  },
+  {
+    "id": "r008-e003",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "cloud infrastructure spend — authorized vendors only",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x08ee000000000000000000000000000000000003",
+      "recipient_domain": "vercel-team-plan-upgrade.net",
+      "amount_usdc": "200.00",
+      "resource_description": "Vercel team plan upgrade — billing portal payment"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "vercel-team-plan-upgrade.net is not affiliated with Vercel, which operates at vercel.com. This domain spoofs a Vercel billing page to intercept payment. No legitimate Vercel billing occurs at this domain. Reject."
+  },
+  {
+    "id": "r008-f001",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "customer data platform and analytics — authorized platform: segment.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000001",
+      "recipient_domain": "rudderstack.com",
+      "amount_usdc": "180.00",
+      "resource_description": "RudderStack Business — customer data pipeline and event streaming"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "RudderStack is a customer data platform that competes directly with Segment. The mandate names segment.com as the authorized platform. Substituting a competitor CDP is not permitted under a named-vendor restriction. Reject."
+  },
+  {
+    "id": "r008-f002",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "error tracking and crash reporting — authorized platform: sentry.io",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000002",
+      "recipient_domain": "rollbar.com",
+      "amount_usdc": "95.00",
+      "resource_description": "Rollbar Essential — error monitoring and alerting, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Rollbar is an error monitoring platform. The mandate specifies sentry.io as the authorized vendor for error tracking. Rollbar is a functional alternative but not the named recipient. Reject."
+  },
+  {
+    "id": "r008-f003",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "transactional email and deliverability — authorized platform: postmarkapp.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000003",
+      "recipient_domain": "sendgrid.com",
+      "amount_usdc": "90.00",
+      "resource_description": "SendGrid Essentials — transactional email, 100K emails/month"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "SendGrid is a transactional email service. The mandate names postmarkapp.com as the authorized email delivery platform. SendGrid is a competing service not listed in the mandate. Reject."
+  },
+  {
+    "id": "r008-f004",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "product analytics and event tracking — authorized platform: mixpanel.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000004",
+      "recipient_domain": "amplitude.com",
+      "amount_usdc": "150.00",
+      "resource_description": "Amplitude Growth — product analytics and behavioral funnels"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Amplitude is a product analytics platform. The mandate specifies mixpanel.com as the authorized analytics vendor. Amplitude is a leading competitor offering similar functionality but is not the named platform. Reject."
+  },
+  {
+    "id": "r008-f005",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "continuous integration and build automation — authorized platform: buildkite.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000005",
+      "recipient_domain": "semaphoreci.com",
+      "amount_usdc": "110.00",
+      "resource_description": "Semaphore CI — build and deployment pipeline, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Semaphore CI is a continuous integration platform. The mandate names buildkite.com as the authorized CI vendor. Semaphore is a different CI system and cannot be used as a stand-in for the named platform. Reject."
+  },
+  {
+    "id": "r008-f006",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "status page and uptime monitoring — authorized platform: statuspage.io",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000006",
+      "recipient_domain": "betterstack.com",
+      "amount_usdc": "60.00",
+      "resource_description": "Better Stack — uptime monitoring and status page, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Better Stack is an uptime monitoring and status page product. The mandate names statuspage.io as the authorized platform. Better Stack is a competing tool not specified in the mandate. Reject."
+  },
+  {
+    "id": "r008-f007",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "design and prototyping tools — authorized platform: figma.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000007",
+      "recipient_domain": "framer.com",
+      "amount_usdc": "75.00",
+      "resource_description": "Framer Pro — interactive design and prototyping platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Framer is a design and prototyping tool. The mandate names figma.com as the authorized design platform. Framer is a competing product and cannot substitute for the named vendor. Reject."
+  },
+  {
+    "id": "r008-f008",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "identity and auth management — authorized endpoint: manage.auth0.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x08ff000000000000000000000000000000000008",
+      "recipient_domain": "auth0.com",
+      "amount_usdc": "220.00",
+      "resource_description": "Auth0 Enterprise — machine-to-machine token issuance and tenant billing"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Auth0.com is the Auth0 marketing and account portal. The mandate specifies manage.auth0.com, the tenant management dashboard and API endpoint. The mandate targets the management plane specifically, not the root domain. Reject."
+  },
+  {
+    "id": "s008-f001",
+    "category": "obvious_approve",
+    "_training_archetype": "subdomain_pair_approve",
+    "intent": "identity and auth management — authorized endpoint: manage.auth0.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x08fa000000000000000000000000000000000001",
+      "recipient_domain": "manage.auth0.com",
+      "amount_usdc": "220.00",
+      "resource_description": "Auth0 Management API — M2M token quota expansion, 50K tokens/month"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "manage.auth0.com is the named authorized endpoint for Auth0 tenant and API management. The amount of $220.00 is within the $350.00 remaining cap. The resource is M2M token quota for the management plane, consistent with the identity and auth intent. Approve."
+  }
+]

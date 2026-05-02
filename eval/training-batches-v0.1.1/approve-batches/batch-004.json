@@ -1,0 +1,902 @@
+[
+  {
+    "id": "6b4ae2ab-5baf-4936-99c4-521beef5f291",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Weights & Biases Weave LLM observability — $921 for trace logging, evaluation runs, and prompt management",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Weights & Biases Weave",
+    "merchant_description": "LLM observability and evaluation tracking platform",
+    "policy_state": {
+      "max_amount_per_tx": 1349,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Weights & Biases Weave is an LLM observability and evaluation tracking platform — ml-platform category. $921 is within the $1,349 per-transaction limit."
+  },
+  {
+    "id": "795bbd40-b77c-4353-8820-ea61966f54be",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Braintrust AI evaluation platform — $102 for running evals, logging experiments, and tracking model quality over time",
+    "amount": 102.0,
+    "currency": "USD",
+    "merchant": "Braintrust",
+    "merchant_description": "AI evaluation and experiment tracking platform",
+    "policy_state": {
+      "max_amount_per_tx": 198,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Braintrust is an AI evaluation and experiment tracking platform — ml-platform category. $102 is within the $198 per-transaction limit."
+  },
+  {
+    "id": "ee107005-22ac-4078-a50c-45f17ff99f64",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Langfuse LLM observability — 0.52 USDC — trace and prompt analytics for the production AI pipeline",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Langfuse",
+    "merchant_description": "Open-source LLM observability and tracing platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Langfuse is an open-source LLM observability and tracing platform — ml-platform category. 0.52 USDC is within the 2 USDC per-transaction limit."
+  },
+  {
+    "id": "c8ac92f9-7b1f-4e7c-bc5f-65b9fc088105",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Traceloop OpenTelemetry LLM tracing — 1,185 USDT for distributed tracing of all AI model calls in production",
+    "amount": 1185.0,
+    "currency": "USDT",
+    "merchant": "Traceloop",
+    "merchant_description": "OpenTelemetry-based LLM tracing and observability",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Traceloop provides OpenTelemetry-based LLM tracing and observability — ml-platform category. 1,185 USDT is within the 6,000 USDT per-transaction ceiling."
+  },
+  {
+    "id": "48ff8602-9739-4f71-a30a-6060f92be639",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Arize Phoenix AI observability — $204 for model monitoring, drift detection, and LLM evaluation workflows",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "Arize Phoenix",
+    "merchant_description": "AI observability and model performance monitoring",
+    "policy_state": {
+      "max_amount_per_tx": 1990,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Arize Phoenix is an AI observability and model performance monitoring platform — ml-platform category. $204 is within the $1,990 per-transaction limit."
+  },
+  {
+    "id": "4dd37e0c-8afc-42bc-a23a-220349efd81f",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Portkey AI gateway — 52.10 USDC for LLM routing, caching, and cost tracking across multiple providers",
+    "amount": 52.1,
+    "currency": "USDC",
+    "merchant": "Portkey AI",
+    "merchant_description": "AI gateway for LLM routing and observability",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Portkey AI is an AI gateway for LLM routing and observability — ml-platform category. 52.10 USDC is within the 75 USDC per-transaction limit."
+  },
+  {
+    "id": "56595108-5ef4-48ef-a036-3ccb86be190e",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Patronus AI — 0.052 ETH — automated LLM evaluation and hallucination detection platform",
+    "amount": 0.052,
+    "currency": "ETH",
+    "merchant": "Patronus AI",
+    "merchant_description": "Automated LLM evaluation and hallucination detection",
+    "policy_state": {
+      "max_amount_per_tx": 0.1,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Patronus AI provides automated LLM evaluation and hallucination detection — ml-platform category. 0.052 ETH is within the 0.1 ETH per-transaction limit."
+  },
+  {
+    "id": "32e43e85-a1ba-4002-a4bc-5b2dad05c72f",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "ConfidentAI model testing and validation platform — $2,940 for regression testing across AI model releases",
+    "amount": 2940.0,
+    "currency": "USD",
+    "merchant": "ConfidentAI",
+    "merchant_description": "AI model testing and validation platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ConfidentAI is an AI model testing and validation platform — ml-platform category. $2,940 is within the $9,000 per-transaction ceiling."
+  },
+  {
+    "id": "7574d572-a5cc-49f5-bf55-20d04e59a481",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Evidently AI model monitoring — $412 for data drift detection and ML model quality dashboards in production",
+    "amount": 412.0,
+    "currency": "USD",
+    "merchant": "Evidently AI",
+    "merchant_description": "ML model monitoring and data quality platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Evidently AI is an ML model monitoring and data quality platform — ml-platform category. $412 is within the $1,995 per-transaction limit."
+  },
+  {
+    "id": "2c3869ef-cc66-473e-8d12-71e8a54bc4ab",
+    "cluster": "1",
+    "category": "ml-platform",
+    "intent_text": "Humanloop LLM evaluation and prompt management — 26.10 USDC for collaborative prompt versioning and model comparisons",
+    "amount": 26.1,
+    "currency": "USDC",
+    "merchant": "Humanloop",
+    "merchant_description": "LLM evaluation, prompt management, and fine-tuning platform",
+    "policy_state": {
+      "max_amount_per_tx": 250,
+      "allowed_categories": ["ml-platform", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Humanloop provides LLM evaluation and prompt management — ml-platform category. 26.10 USDC is within the 250 USDC per-transaction limit."
+  },
+  {
+    "id": "543ce72b-450e-4cad-84bd-65d67c3bf59c",
+    "cluster": "1",
+    "category": "vector-db",
+    "intent_text": "LanceDB Cloud — $2.05 — serverless vector database storage and query charges for embedding search",
+    "amount": 2.05,
+    "currency": "USD",
+    "merchant": "LanceDB Cloud",
+    "merchant_description": "Serverless vector database for AI applications",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["vector-db", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LanceDB Cloud is a serverless vector database for AI applications — vector-db category. $2.05 is within the $3 per-transaction limit."
+  },
+  {
+    "id": "cb58fe9a-c427-4d7e-bfed-1e0245e0fe59",
+    "cluster": "1",
+    "category": "vector-db",
+    "intent_text": "Turbopuffer high-performance vector database — $9,850 for high-throughput embedding storage and approximate nearest neighbor search",
+    "amount": 9850.0,
+    "currency": "USD",
+    "merchant": "Turbopuffer",
+    "merchant_description": "High-throughput serverless vector database",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["vector-db", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Turbopuffer is a high-throughput serverless vector database — vector-db category. $9,850 is within the $20,000 per-transaction ceiling."
+  },
+  {
+    "id": "0e57d630-1b97-4400-a652-b24aa7e6889d",
+    "cluster": "1",
+    "category": "vector-db",
+    "intent_text": "Marqo Cloud multimodal vector search — 921 USDC for image and text embedding indexing for the product search layer",
+    "amount": 921.0,
+    "currency": "USDC",
+    "merchant": "Marqo Cloud",
+    "merchant_description": "Multimodal vector search and embedding database",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": ["vector-db", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Marqo Cloud is a multimodal vector search and embedding database — vector-db category. 921 USDC is within the 2,697 USDC per-transaction limit."
+  },
+  {
+    "id": "4f3987e1-5da7-45a2-a079-1c684faf465e",
+    "cluster": "1",
+    "category": "vector-db",
+    "intent_text": "MyScale managed vector database — $15.50 for high-performance SQL-compatible vector storage and similarity search",
+    "amount": 15.5,
+    "currency": "USD",
+    "merchant": "MyScale",
+    "merchant_description": "SQL-compatible managed vector database",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["vector-db", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "MyScale is a SQL-compatible managed vector database — vector-db category. $15.50 is within the $75 per-transaction limit."
+  },
+  {
+    "id": "0ff26114-a6c1-4354-bdec-447036eaa95d",
+    "cluster": "1",
+    "category": "vector-db",
+    "intent_text": "Milvus Cloud (Zilliz) — $1.55 — fully managed open-source vector database for production embedding workloads",
+    "amount": 1.55,
+    "currency": "USD",
+    "merchant": "Milvus Cloud (Zilliz)",
+    "merchant_description": "Managed Milvus vector database cloud service",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["vector-db", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Milvus Cloud (Zilliz) is a managed Milvus vector database — vector-db category. $1.55 is within the $15 per-transaction limit."
+  },
+  {
+    "id": "adff812a-42ef-406f-86ef-65ef26dd83e4",
+    "cluster": "1",
+    "category": "integrations",
+    "intent_text": "Merge.dev unified integration API — 1,960 USDC for HRIS, ATS, and CRM data sync across all customer-connected systems",
+    "amount": 1960.0,
+    "currency": "USDC",
+    "merchant": "Merge.dev",
+    "merchant_description": "Unified integrations API for B2B SaaS",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["integrations", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Merge.dev is a unified integrations API for B2B SaaS — integrations category. 1,960 USDC is within the 3,000 USDC per-transaction limit."
+  },
+  {
+    "id": "faaf2d18-89dc-4082-aff4-33476ee1605b",
+    "cluster": "1",
+    "category": "integrations",
+    "intent_text": "Finch API — $204 for employment data and payroll integrations connecting HR systems to our product",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "Finch API",
+    "merchant_description": "Unified employment and payroll data API",
+    "policy_state": {
+      "max_amount_per_tx": 398,
+      "allowed_categories": ["integrations", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Finch API provides unified employment and payroll data integrations — integrations category. $204 is within the $398 per-transaction ceiling."
+  },
+  {
+    "id": "0ddd07e2-89a2-4fd6-b239-808f03bc125c",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Plaid financial data network — $5.15 for bank account connectivity and transaction enrichment API calls",
+    "amount": 5.15,
+    "currency": "USD",
+    "merchant": "Plaid",
+    "merchant_description": "Financial data network and bank connectivity API",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Plaid is a financial data network and bank connectivity API — fintech category. $5.15 is within the $15 per-transaction limit."
+  },
+  {
+    "id": "9752af1b-2a01-4f50-bee4-d4f66f52a34e",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Teller financial API — 1.02 USDC for bank account data access and balance verification calls",
+    "amount": 1.02,
+    "currency": "USDC",
+    "merchant": "Teller",
+    "merchant_description": "Direct bank connectivity and financial data API",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Teller provides direct bank connectivity and financial data API — fintech category. 1.02 USDC is within the 5 USDC per-transaction limit."
+  },
+  {
+    "id": "c0e9e8ba-05c9-4bfb-b8e6-fbab2daaa8dc",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Moov Financial payments infrastructure — 0.52 ETH for payment processing, ACH, and card network API usage",
+    "amount": 0.52,
+    "currency": "ETH",
+    "merchant": "Moov Financial",
+    "merchant_description": "Open-source payments infrastructure and money movement API",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Moov Financial is an open-source payments infrastructure and money movement API — fintech category. 0.52 ETH is within the 5 ETH per-transaction limit."
+  },
+  {
+    "id": "23349f03-1d24-49a8-af47-0c8a3b6cef21",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Modern Treasury payment operations — $412 for money movement orchestration and reconciliation platform charges",
+    "amount": 412.0,
+    "currency": "USD",
+    "merchant": "Modern Treasury",
+    "merchant_description": "Payment operations and money movement orchestration platform",
+    "policy_state": {
+      "max_amount_per_tx": 599,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Modern Treasury provides payment operations and money movement orchestration — fintech category. $412 is within the $599 per-transaction limit."
+  },
+  {
+    "id": "cfeb5f10-3b54-4e80-a697-59e49d946a46",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Column banking infrastructure — $77 for programmatic banking API access and ledger management",
+    "amount": 77.0,
+    "currency": "USD",
+    "merchant": "Column",
+    "merchant_description": "Programmatic banking and ledger infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Column provides programmatic banking and ledger infrastructure — fintech category. $77 is within the $150 per-transaction ceiling."
+  },
+  {
+    "id": "603b4fd8-5b4d-4026-a720-71dfdbd36d80",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Increase banking API — 0.26 ETH for automated bank transfers, ACH origination, and wire disbursements",
+    "amount": 0.26,
+    "currency": "ETH",
+    "merchant": "Increase",
+    "merchant_description": "Banking API for automated money movement",
+    "policy_state": {
+      "max_amount_per_tx": 0.75,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Increase is a banking API for automated money movement — fintech category. 0.26 ETH is within the 0.75 ETH per-transaction limit."
+  },
+  {
+    "id": "777ceb82-757e-49aa-a62c-22c2d1cc12d0",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Treasury Prime embedded banking — $1,175 for banking-as-a-service platform access and account management API",
+    "amount": 1175.0,
+    "currency": "USD",
+    "merchant": "Treasury Prime",
+    "merchant_description": "Banking-as-a-service and embedded finance platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Treasury Prime provides banking-as-a-service and embedded finance — fintech category. $1,175 is within the $6,000 per-transaction ceiling."
+  },
+  {
+    "id": "6307383e-4600-4904-a8cd-c89552ac7e54",
+    "cluster": "1",
+    "category": "fintech",
+    "intent_text": "Bond Financial embedded finance — $921 for card issuing, spend management, and BaaS platform charges",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Bond Financial",
+    "merchant_description": "Embedded finance and card issuing platform",
+    "policy_state": {
+      "max_amount_per_tx": 8990,
+      "allowed_categories": ["fintech", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bond Financial is an embedded finance and card issuing platform — fintech category. $921 is within the $8,990 per-transaction limit."
+  },
+  {
+    "id": "c83481a0-1f24-43df-8490-48305a5bdc78",
+    "cluster": "1",
+    "category": "legal",
+    "intent_text": "Clerky startup legal formations — 41.20 USDC for incorporation documents and standard legal package",
+    "amount": 41.2,
+    "currency": "USDC",
+    "merchant": "Clerky Formations",
+    "merchant_description": "Online legal services for startup formation and documents",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["legal", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Clerky Formations provides online legal services for startup formation — legal category. 41.20 USDC is within the 60 USDC per-transaction limit."
+  },
+  {
+    "id": "47464066-96bd-414b-b5fa-8a5995b54707",
+    "cluster": "1",
+    "category": "legal",
+    "intent_text": "Ironclad contract management — $5.10 for digital contracting workflows and CLM platform charges",
+    "amount": 5.1,
+    "currency": "USD",
+    "merchant": "Ironclad",
+    "merchant_description": "Digital contracting and CLM platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["legal", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ironclad is a digital contracting and contract lifecycle management platform — legal category. $5.10 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "bd97dd49-5dbf-4c75-b478-8de52aaaf5b7",
+    "cluster": "1",
+    "category": "legal",
+    "intent_text": "Contractbook legal operations — $2,940 for automated contract management, e-signing, and template library",
+    "amount": 2940.0,
+    "currency": "USD",
+    "merchant": "Contractbook",
+    "merchant_description": "Contract management and automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["legal", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Contractbook is a contract management and automation platform — legal category. $2,940 is within the $9,000 per-transaction ceiling."
+  },
+  {
+    "id": "10965c74-c7f9-47a8-9f2e-73985f5f2e77",
+    "cluster": "1",
+    "category": "compliance",
+    "intent_text": "Comply SOC 2 automation — 204 USDC for compliance framework management and evidence collection",
+    "amount": 204.0,
+    "currency": "USDC",
+    "merchant": "Comply",
+    "merchant_description": "SOC 2 and compliance automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["compliance", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Comply is a SOC 2 and compliance automation platform — compliance category. 204 USDC is within the 995 USDC per-transaction limit."
+  },
+  {
+    "id": "da2ef5a6-52ed-4b41-b012-a00e15aa3633",
+    "cluster": "1",
+    "category": "compliance",
+    "intent_text": "Secureframe compliance and security certification — $21 for SOC 2 readiness, monitoring, and audit prep tooling",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "Secureframe",
+    "merchant_description": "Security compliance and certification automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 200,
+      "allowed_categories": ["compliance", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Secureframe is a security compliance and certification automation platform — compliance category. $21 is within the $200 per-transaction limit."
+  },
+  {
+    "id": "62e88250-64d7-4bd1-8837-82f3e811f617",
+    "cluster": "1",
+    "category": "compliance",
+    "intent_text": "Laika compliance automation — $2.05 for GRC platform charges covering evidence management and vendor questionnaires",
+    "amount": 2.05,
+    "currency": "USD",
+    "merchant": "Laika",
+    "merchant_description": "GRC and compliance automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["compliance", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Laika is a GRC and compliance automation platform — compliance category. $2.05 is within the $3 per-transaction limit."
+  },
+  {
+    "id": "cdf03025-245c-46e9-ac33-bf89aa6296a5",
+    "cluster": "1",
+    "category": "compliance",
+    "intent_text": "Tugboat Logic security compliance — 9,850 USDC for enterprise GRC management and audit readiness platform",
+    "amount": 9850.0,
+    "currency": "USDC",
+    "merchant": "Tugboat Logic",
+    "merchant_description": "Security compliance and audit readiness platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["compliance", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tugboat Logic is a security compliance and audit readiness platform — compliance category. 9,850 USDC is within the 20,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "617369ab-87ef-4ed4-8188-eb4c2c1cec91",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Rippling HR and payroll platform — 412 EUR for workforce management, payroll, and benefits administration",
+    "amount": 412.0,
+    "currency": "EUR",
+    "merchant": "Rippling",
+    "merchant_description": "HR, payroll, and workforce management platform",
+    "policy_state": {
+      "max_amount_per_tx": 1197,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Rippling is an HR, payroll, and workforce management platform — hr category. 412 EUR is within the 1,197 EUR per-transaction limit."
+  },
+  {
+    "id": "64eb8b71-ce1f-4b07-93c0-f893155f28a4",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Gusto payroll — $10.25 for small team payroll processing and benefits management this period",
+    "amount": 10.25,
+    "currency": "USD",
+    "merchant": "Gusto",
+    "merchant_description": "Payroll, benefits, and HR platform for small businesses",
+    "policy_state": {
+      "max_amount_per_tx": 50,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gusto is a payroll, benefits, and HR platform — hr category. $10.25 is within the $50 per-transaction limit."
+  },
+  {
+    "id": "e817bb74-c0c0-4ac7-b139-6eb27ac08aed",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Deel global contractor payments — $1.55 for international contractor billing and compliance management",
+    "amount": 1.55,
+    "currency": "USD",
+    "merchant": "Deel",
+    "merchant_description": "Global payroll and contractor management platform",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Deel is a global payroll and contractor management platform — hr category. $1.55 is within the $15 per-transaction limit."
+  },
+  {
+    "id": "be720940-2932-4a47-9461-ffa6e6e19e10",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Remote global employment platform — 0.021 ETH for international employment infrastructure and local entity services",
+    "amount": 0.021,
+    "currency": "ETH",
+    "merchant": "Remote",
+    "merchant_description": "Global employment and contractor management platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.03,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Remote is a global employment and contractor management platform — hr category. 0.021 ETH is within the 0.03 ETH per-transaction limit."
+  },
+  {
+    "id": "6ad831e6-2964-4859-a65d-826d91f1c1ba",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Lattice people management platform — $921 for performance reviews, OKR tracking, and engagement surveys",
+    "amount": 921.0,
+    "currency": "USD",
+    "merchant": "Lattice",
+    "merchant_description": "People management and performance platform",
+    "policy_state": {
+      "max_amount_per_tx": 1798,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lattice is a people management and performance platform — hr category. $921 is within the $1,798 per-transaction limit."
+  },
+  {
+    "id": "bbc0c42b-9615-4e59-9507-15b3ee20b954",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Leapsome people enablement — $102 for 360 feedback, goal alignment, and employee engagement platform",
+    "amount": 102.0,
+    "currency": "USD",
+    "merchant": "Leapsome",
+    "merchant_description": "People enablement and performance management platform",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Leapsome is a people enablement and performance management platform — hr category. $102 is within the $297 per-transaction limit."
+  },
+  {
+    "id": "28c56544-6ce6-477e-ac57-58ecbf070c14",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "BambooHR — 1.02 USDC — HR software for employee data, onboarding, and time-off tracking",
+    "amount": 1.02,
+    "currency": "USDC",
+    "merchant": "BambooHR",
+    "merchant_description": "HR software for small and medium businesses",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "BambooHR is an HR software platform for SMBs — hr category. 1.02 USDC is within the 5 USDC per-transaction limit."
+  },
+  {
+    "id": "09fc2a2c-bb64-4d1e-bc0c-3d957000ecf7",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Greenhouse recruiting platform — $4,875 for applicant tracking, structured hiring, and sourcing tools across all open roles",
+    "amount": 4875.0,
+    "currency": "USD",
+    "merchant": "Greenhouse",
+    "merchant_description": "Applicant tracking and recruiting optimization platform",
+    "policy_state": {
+      "max_amount_per_tx": 50000,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Greenhouse is an applicant tracking and recruiting optimization platform — hr category. $4,875 is within the $50,000 per-transaction ceiling."
+  },
+  {
+    "id": "e8fb520e-9872-449a-b1d5-fca99c29ebea",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Ashby recruiting software — $204 for analytics-driven ATS with pipeline management and interview tooling",
+    "amount": 204.0,
+    "currency": "USD",
+    "merchant": "Ashby",
+    "merchant_description": "Analytics-driven applicant tracking system",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ashby is an analytics-driven applicant tracking system — hr category. $204 is within the $299 per-transaction limit."
+  },
+  {
+    "id": "08651e0f-4d85-4a2a-a311-299c94110b87",
+    "cluster": "1",
+    "category": "hr",
+    "intent_text": "Lever talent acquisition suite — 52.10 USDC for ATS and CRM combined recruiting platform features",
+    "amount": 52.1,
+    "currency": "USDC",
+    "merchant": "Lever",
+    "merchant_description": "Talent acquisition suite combining ATS and CRM",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": ["hr", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lever is a talent acquisition suite combining ATS and CRM functionality — hr category. 52.10 USDC is within the 100 USDC per-transaction limit."
+  },
+  {
+    "id": "a21265fe-c7af-43d1-8109-7836cf9e28a3",
+    "cluster": "1",
+    "category": "crm",
+    "intent_text": "HubSpot CRM — $0.52 — inbound CRM platform charges for contact management and deal tracking",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "HubSpot CRM",
+    "merchant_description": "Inbound CRM and marketing platform",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["crm", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "HubSpot CRM is an inbound CRM and marketing platform — crm category. $0.52 is within the $2 per-transaction limit."
+  },
+  {
+    "id": "d3117018-7b6e-465b-ab80-c2a325ca07c5",
+    "cluster": "1",
+    "category": "crm",
+    "intent_text": "Salesforce Starter CRM — $1,175 for sales pipeline management, opportunity tracking, and analytics for the sales team",
+    "amount": 1175.0,
+    "currency": "USD",
+    "merchant": "Salesforce Starter",
+    "merchant_description": "CRM and sales automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": ["crm", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Salesforce Starter is a CRM and sales automation platform — crm category. $1,175 is within the $6,000 per-transaction ceiling."
+  },
+  {
+    "id": "2fd790aa-097f-412d-8b6b-bd29b22515a2",
+    "cluster": "1",
+    "category": "crm",
+    "intent_text": "Apollo.io sales intelligence and outreach — 412 USDC for contact database access and sequencing platform",
+    "amount": 412.0,
+    "currency": "USDC",
+    "merchant": "Apollo.io",
+    "merchant_description": "Sales intelligence, lead data, and engagement platform",
+    "policy_state": {
+      "max_amount_per_tx": 3990,
+      "allowed_categories": ["crm", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Apollo.io is a sales intelligence and engagement platform — crm category. 412 USDC is within the 3,990 USDC per-transaction limit."
+  },
+  {
+    "id": "97cbbafb-4438-4d2f-90eb-47e1331ff6dd",
+    "cluster": "1",
+    "category": "crm",
+    "intent_text": "Outreach sales engagement platform — $26 for sequence automation, call recording, and deal health insights",
+    "amount": 26.0,
+    "currency": "USD",
+    "merchant": "Outreach",
+    "merchant_description": "Sales engagement and revenue intelligence platform",
+    "policy_state": {
+      "max_amount_per_tx": 38,
+      "allowed_categories": ["crm", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Outreach is a sales engagement and revenue intelligence platform — crm category. $26 is within the $38 per-transaction limit."
+  },
+  {
+    "id": "8adcaf39-ab1a-44a8-99ba-348154c70196",
+    "cluster": "1",
+    "category": "crm",
+    "intent_text": "Gong revenue intelligence — $5.10 for call recording analysis and deal risk alerts",
+    "amount": 5.1,
+    "currency": "USD",
+    "merchant": "Gong",
+    "merchant_description": "Revenue intelligence and conversation analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["crm", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gong is a revenue intelligence and conversation analytics platform — crm category. $5.10 is within the $10 per-transaction limit."
+  },
+  {
+    "id": "e28065e0-f028-4f3f-bbb3-f6bea62eea55",
+    "cluster": "1",
+    "category": "crm",
+    "intent_text": "Chorus by ZoomInfo conversation intelligence — 2,940 USDC for call analysis, coaching, and pipeline insights",
+    "amount": 2940.0,
+    "currency": "USDC",
+    "merchant": "Chorus (ZoomInfo)",
+    "merchant_description": "Conversation intelligence and call analytics platform",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["crm", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chorus (ZoomInfo) is a conversation intelligence and call analytics platform — crm category. 2,940 USDC is within the 9,000 USDC per-transaction ceiling."
+  },
+  {
+    "id": "e684c038-54dd-428a-bd11-48f65caee420",
+    "cluster": "1",
+    "category": "accounting",
+    "intent_text": "QuickBooks Online — 0.41 ETH — cloud accounting subscription for bookkeeping, invoicing, and financial reporting",
+    "amount": 0.41,
+    "currency": "ETH",
+    "merchant": "QuickBooks Online",
+    "merchant_description": "Cloud accounting and bookkeeping software",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["accounting", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "QuickBooks Online is a cloud accounting and bookkeeping platform — accounting category. 0.41 ETH is within the 2 ETH per-transaction limit."
+  },
+  {
+    "id": "0ccddb30-4470-4d47-a6a4-bc79ff4d5e37",
+    "cluster": "1",
+    "category": "accounting",
+    "intent_text": "Xero cloud accounting — $15.50 for bank reconciliation, invoicing, and financial reporting for the team",
+    "amount": 15.5,
+    "currency": "USD",
+    "merchant": "Xero",
+    "merchant_description": "Cloud accounting and financial management software",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["accounting", "developer-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Xero is a cloud accounting and financial management platform — accounting category. $15.50 is within the $150 per-transaction limit."
+  }
+]

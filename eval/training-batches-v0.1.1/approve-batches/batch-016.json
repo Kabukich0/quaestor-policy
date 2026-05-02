@@ -1,0 +1,902 @@
+[
+  {
+    "id": "e3c1a5b7-0a1b-4e11-d3c1-a5b7e3c1a5b1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "ZoomInfo SalesOS — 1.64 USD for B2B contact intelligence and prospecting data.",
+    "amount": 1.64,
+    "currency": "USD",
+    "merchant": "ZoomInfo SalesOS",
+    "merchant_description": "B2B sales intelligence platform providing contact and company data for prospecting",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ZoomInfo is a sales intelligence platform — prospecting data subscriptions are a standard operational expense. Policy allows 'operational-expenses'. 1.64 USD within the 3 cap."
+  },
+  {
+    "id": "f5d3b7d9-1b2c-4f22-e5d3-b7d9f5d3b7d2",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Hunter.io — 3312.00 USD for email finder and domain-search tooling for outbound.",
+    "amount": 3312.00,
+    "currency": "USD",
+    "merchant": "Hunter.io",
+    "merchant_description": "Email finder and outreach platform for B2B sales prospecting",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "3312.00 USD for Hunter.io — an email prospecting tool — within the 4500 cap. Outbound sales tooling maps cleanly to 'operational-expenses', which the policy allows. Approve."
+  },
+  {
+    "id": "a7f5d9f1-2c3d-4a33-f7f5-d9f1a7f5d9f3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Authorize ContactOut 437.50 USDC — LinkedIn-integrated email discovery for recruiting ops.",
+    "amount": 437.50,
+    "currency": "USDC",
+    "merchant": "ContactOut",
+    "merchant_description": "Contact discovery tool for sourcing verified emails from LinkedIn profiles",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "ContactOut provides contact enrichment for recruiting and sales ops — an 'operational-expenses' service. No carve-out required; the category is explicitly permitted. 437.50 USDC within the 1995 ceiling."
+  },
+  {
+    "id": "b9a7f1a3-3d4e-4b44-a9a7-f1a3b9a7f1a4",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lusha API — 0.0918 ETH for B2B contact data enrichment via API.",
+    "amount": 0.0918,
+    "currency": "ETH",
+    "merchant": "Lusha API",
+    "merchant_description": "B2B contact enrichment API for pulling verified phone and email data",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lusha is a contact data API — operational enrichment tooling. 'Operational-expenses' is in the allowed list; no explicit allowance needed. 0.0918 ETH within the 0.3 cap."
+  },
+  {
+    "id": "c1b9a3b5-4e5f-4c55-b1b9-a3b5c1b9a3b5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Cal.com Teams — 5.42 USD/mo for scheduling infrastructure across the ops team.",
+    "amount": 5.42,
+    "currency": "USD",
+    "merchant": "Cal.com Teams",
+    "merchant_description": "Open-source scheduling platform for managing team availability and booking",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved. Cal.com is scheduling software for team coordination — a routine operational tool. 5.42 USD within the 10 limit; 'operational-expenses' is an allowed category."
+  },
+  {
+    "id": "d3d1b5d7-5f6a-4d66-c3d1-b5d7d3d1b5d6",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "SavvyCal Pro — 4687.00 USD for team scheduling with time-zone overlap intelligence.",
+    "amount": 4687.00,
+    "currency": "USD",
+    "merchant": "SavvyCal Pro",
+    "merchant_description": "Scheduling tool with time-zone overlapping calendars and polling for teams",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SavvyCal is a scheduling and calendar coordination tool — 'operational-expenses' territory. Policy permits that category; amount 4687.00 USD is within the 7500 cap."
+  },
+  {
+    "id": "e5f3d7f9-6a7b-4e77-d5f3-d7f9e5f3d7f7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Acuity Scheduling — 221.40 USD for client booking and appointment management.",
+    "amount": 221.40,
+    "currency": "USD",
+    "merchant": "Acuity Scheduling",
+    "merchant_description": "Client-facing appointment scheduling platform with intake forms and payments",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Scheduling software is an 'operational-expense'. No explicit allowance required — policy covers the category. 221.40 USD is well within the 995 ceiling."
+  },
+  {
+    "id": "f7a5f9a1-7b8c-4f88-e7a5-f9a1f7a5f9a8",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Chili Piper — 27.80 USDC for inbound scheduling automation and instant-booker routing.",
+    "amount": 27.80,
+    "currency": "USDC",
+    "merchant": "Chili Piper",
+    "merchant_description": "Inbound lead scheduling tool with instant-booking and round-robin routing",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chili Piper ($27.80 USDC within the $75 cap) automates inbound meeting routing — an operational expense. Category is allowed; approve."
+  },
+  {
+    "id": "a9b7a1b3-8c9d-4a99-f9b7-a1b3a9b7a1b9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Cronofy API — 1.07 USD for calendar sync API embedded in scheduling product.",
+    "amount": 1.07,
+    "currency": "USD",
+    "merchant": "Cronofy API",
+    "merchant_description": "Calendar API for reading and writing events across Google, Outlook, and Exchange",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy allows 'developer-tools'; Cronofy is a calendar integration API used by engineers to embed scheduling into products. 1.07 USD within the 2 cap."
+  },
+  {
+    "id": "b1d9b3d5-9d0e-4ba0-a1d9-b3d5b1d9b3d0",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Gainsight CS — 9438.00 USD for customer success platform across the CS org.",
+    "amount": 9438.00,
+    "currency": "USD",
+    "merchant": "Gainsight CS",
+    "merchant_description": "Enterprise customer success platform for health scoring, playbooks, and renewals",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gainsight is a customer success platform — a standard operational expense for post-sales orgs. Policy allows 'operational-expenses'. 9438.00 USD within the 15000 cap."
+  },
+  {
+    "id": "c3f1d5f7-0e1f-4cb1-b3f1-d5f7c3f1d5f1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "ChurnZero — 812.60 USD for real-time customer health and churn-risk analytics.",
+    "amount": 812.60,
+    "currency": "USD",
+    "merchant": "ChurnZero",
+    "merchant_description": "Customer success platform tracking health scores and identifying churn signals",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "812.60 USD to ChurnZero — within the 4495 limit. Customer success tooling is an operational expense; the policy covers the category without needing an explicit carve-out."
+  },
+  {
+    "id": "d5a3f7a9-1f2a-4dc2-c5a3-f7a9d5a3f7a2",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Vitally CS — 53.75 USDC for customer health dashboards and CS workflow automation.",
+    "amount": 53.75,
+    "currency": "USDC",
+    "merchant": "Vitally CS",
+    "merchant_description": "Customer success platform for health tracking, playbooks, and NPS workflows",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved. Vitally CS is customer success software — an 'operational-expenses' tool. 53.75 USDC sits well within the 150 cap."
+  },
+  {
+    "id": "e7b5a9b1-2a3b-4ed3-d7b5-a9b1e7b5a9b3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Totango Spark — 0.2817 ETH for enterprise customer success orchestration platform.",
+    "amount": 0.2817,
+    "currency": "ETH",
+    "merchant": "Totango Spark",
+    "merchant_description": "Composable customer success platform for enterprise account management",
+    "policy_state": {
+      "max_amount_per_tx": 0.5,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Totango is a customer success platform — operational expenses category. Policy allows it without a specific carve-out. 0.2817 ETH within the 0.5 cap."
+  },
+  {
+    "id": "f9d7b1d3-3b4c-4fe4-e9d7-b1d3f9d7b1d4",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Appcues Growth — 1097.50 USD for in-app onboarding flows and product tour tooling.",
+    "amount": 1097.50,
+    "currency": "USD",
+    "merchant": "Appcues Growth",
+    "merchant_description": "No-code in-app onboarding and product tour builder for web applications",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Appcues is a product onboarding SDK — used by engineering and product teams to build in-app experiences. Maps to 'developer-tools', which the policy allows. 1097.50 USD within the 1800 cap."
+  },
+  {
+    "id": "a1f9d3f5-4c5d-4af5-f1f9-d3f5a1f9d3f5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Pendo Analytics — 362.40 USD for product analytics and in-app guidance platform.",
+    "amount": 362.40,
+    "currency": "USD",
+    "merchant": "Pendo Analytics",
+    "merchant_description": "Product analytics and in-app guidance tool for tracking feature adoption",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy allows 'developer-tools'; Pendo provides product analytics and in-app guidance via SDK — clearly developer tooling. 362.40 USD is well within the 1995 ceiling."
+  },
+  {
+    "id": "b3a1f5a7-5d6e-4ba6-a3a1-f5a7b3a1f5a6",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Userflow — 107.65 USDC for in-product user onboarding checklists and tours.",
+    "amount": 107.65,
+    "currency": "USDC",
+    "merchant": "Userflow",
+    "merchant_description": "Codeless user onboarding builder with checklists, tooltips, and flows",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Userflow is an in-product onboarding tool — 'developer-tools'. No explicit allowance needed; the policy covers the category. 107.65 USDC within the 297 cap."
+  },
+  {
+    "id": "c5b3a7b9-6e7f-4cb7-b5b3-a7b9c5b3a7b7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Chameleon Growth — 0.56 USDC for in-app product tours and contextual feature hints.",
+    "amount": 0.56,
+    "currency": "USDC",
+    "merchant": "Chameleon Growth",
+    "merchant_description": "In-app product adoption tool for tooltips, banners, and launchers",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chameleon is a developer-installed product adoption SDK. 'Developer-tools' is allowed; 0.56 USDC is within the 1.00 cap. Approve."
+  },
+  {
+    "id": "d7d5b9d1-7f8a-4dc8-c7d5-b9d1d7d5b9d8",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "DeepL API Pro — 2234.00 USD for neural machine translation API in production.",
+    "amount": 2234.00,
+    "currency": "USD",
+    "merchant": "DeepL API Pro",
+    "merchant_description": "High-accuracy neural translation API for embedding multilingual support",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DeepL API Pro is a translation API integrated by engineers into products — 'developer-tools'. 2234.00 USD within the 3000 cap. No carve-out needed."
+  },
+  {
+    "id": "e9f7d1f3-8a9b-4ed9-d9f7-d1f3e9f7d1f9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Phrase TMS — 184.30 USD for translation management and localization workflow tool.",
+    "amount": 184.30,
+    "currency": "USD",
+    "merchant": "Phrase TMS",
+    "merchant_description": "Translation management system for coordinating localization across content types",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "184.30 USD to Phrase TMS — within the 995 ceiling. Localization workflow management is an operational expense; policy covers the category without a carve-out."
+  },
+  {
+    "id": "f1a9f3a5-9b0c-4fa0-e1a9-f3a5f1a9f3a0",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Lokalise Platform — 11.20 USD for translation API and developer localization toolchain.",
+    "amount": 11.20,
+    "currency": "USD",
+    "merchant": "Lokalise Platform",
+    "merchant_description": "Developer-focused localization platform with API, CLI, and GitHub integration",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lokalise is a developer localization platform with CI/CD integration — 'developer-tools'. Policy allows the category; 11.20 USD within the 30 limit."
+  },
+  {
+    "id": "a3b1f5b7-0c1d-4ab1-f3b1-f5b7a3b1f5b1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Crowdin Enterprise — 1.73 USDC for collaborative localization project management.",
+    "amount": 1.73,
+    "currency": "USDC",
+    "merchant": "Crowdin Enterprise Platform",
+    "merchant_description": "Collaborative localization platform for managing translation projects and contributors",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Crowdin handles localization project workflows — operational expenses. 1.73 USDC is within the 3 cap; the category is explicitly allowed by policy."
+  },
+  {
+    "id": "b5d3a7d9-1d2e-4bc2-a5d3-a7d9b5d3a7d2",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Mux Video — 2746.80 USDT for programmatic video hosting and streaming API.",
+    "amount": 2746.80,
+    "currency": "USDT",
+    "merchant": "Mux Video",
+    "merchant_description": "Developer API for programmatic video upload, encoding, and HLS streaming",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mux is a video infrastructure API — developers integrate it for streaming. 'Developer-tools' is an allowed category. 2746.80 USDT within the 4500 cap."
+  },
+  {
+    "id": "c7f5b9f1-2e3f-4cd3-b7f5-b9f1c7f5b9f3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "api.video — 22.40 USD for cloud video encoding and playback API.",
+    "amount": 22.40,
+    "currency": "USD",
+    "merchant": "api.video",
+    "merchant_description": "API-first video infrastructure for encoding, hosting, and adaptive playback",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "api.video provides cloud video encoding and playback APIs for developer use — squarely 'developer-tools'. 22.40 USD within the 60 cap. Approve."
+  },
+  {
+    "id": "d9a7d1a3-3f4a-4de4-c9a7-d1a3d9a7d1a4",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Wistia Business — 5.37 USDC for B2B video hosting and lead capture analytics.",
+    "amount": 5.37,
+    "currency": "USDC",
+    "merchant": "Wistia Business",
+    "merchant_description": "B2B video hosting platform with heatmaps, lead capture, and CRM integration",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wistia is a marketing-focused video hosting tool — an operational expense. Policy allows the category; 5.37 USDC is within the 10 ceiling."
+  },
+  {
+    "id": "e1b9f3b5-4a5b-4ef5-d1b9-f3b5e1b9f3b5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Vimeo Pro — 0.2183 ETH for professional video hosting and team collaboration.",
+    "amount": 0.2183,
+    "currency": "ETH",
+    "merchant": "Vimeo Pro",
+    "merchant_description": "Professional video hosting platform with team folders and analytics",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vimeo Pro is professional video hosting — an operational expense. 0.2183 ETH within the 0.3 cap; 'operational-expenses' is allowed."
+  },
+  {
+    "id": "f3d1a5d7-5b6c-4fa6-f3d1-a5d7f3d1a5d6",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Vidyard Business — 451.20 USD for sales video creation and engagement tracking.",
+    "amount": 451.20,
+    "currency": "USD",
+    "merchant": "Vidyard Business",
+    "merchant_description": "Sales video platform for personalized outreach recording and viewer analytics",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vidyard Business is a sales enablement video tool — operational expenses. No carve-out needed; policy covers the category. 451.20 USD within the 1995 ceiling."
+  },
+  {
+    "id": "a5f3b7f9-6c7d-4ab7-a5f3-b7f9a5f3b7f7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Ada Support — 0.91 USDC for AI-powered customer support automation chatbot.",
+    "amount": 0.91,
+    "currency": "USDC",
+    "merchant": "Ada Support",
+    "merchant_description": "AI chatbot platform for automated customer support deflection and resolution",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ada Support is customer support automation — a routine operational expense. 0.91 USDC within the 2 cap; policy permits 'operational-expenses' directly."
+  },
+  {
+    "id": "b7a5d9a1-7d8e-4bc8-b7a5-d9a1b7a5d9a8",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Tidio AI — 10747.00 USDC for AI-driven live chat and support automation at scale.",
+    "amount": 10747.00,
+    "currency": "USDC",
+    "merchant": "Tidio AI",
+    "merchant_description": "AI-powered live chat and helpdesk automation platform for customer support teams",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "10747.00 USDC for Tidio AI — within the 15000 cap. AI support chat tools are operational expenses; the policy allows the category without requiring a specific carve-out."
+  },
+  {
+    "id": "c9b7f1b3-8e9f-4cd9-c9b7-f1b3c9b7f1b9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Forethought AI — 228.40 USD for AI triage and auto-resolution for support tickets.",
+    "amount": 228.40,
+    "currency": "USD",
+    "merchant": "Forethought AI",
+    "merchant_description": "AI support platform for ticket classification, routing, and deflection",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Forethought is an AI-powered ticket triage tool — clearly 'operational-expenses'. Policy covers the category. 228.40 USD within the 995 ceiling."
+  },
+  {
+    "id": "d1d9a3d5-9f0a-4de0-d1d9-a3d5d1d9a3d0",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Yuma AI ($82.10 USD, within $225 cap) automates Shopify support replies — operational tool.",
+    "amount": 82.10,
+    "currency": "USD",
+    "merchant": "Yuma AI",
+    "merchant_description": "AI support automation tool for Shopify merchants integrating with Gorgias and Zendesk",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Yuma AI ($82.10 USD within $225 cap) automates customer support responses — an operational expense. 'Operational-expenses' is explicitly allowed; approve."
+  },
+  {
+    "id": "e3f1b5f7-0a1b-4ef1-e3f1-b5f7e3f1b5f1",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "PlanetScale Scale — 1347.60 USDC for serverless MySQL database platform.",
+    "amount": 1347.60,
+    "currency": "USDC",
+    "merchant": "PlanetScale Scale",
+    "merchant_description": "Serverless MySQL-compatible database platform with branching and zero-downtime migrations",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "PlanetScale is a serverless database platform — cloud infrastructure. Policy allows 'cloud-infrastructure'; 1347.60 USDC within the 1800 cap."
+  },
+  {
+    "id": "f5a3d7a9-1b2c-4fa2-f5a3-d7a9f5a3d7a2",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Neon Database Pro — 968.40 USDT for serverless Postgres with branching for dev/staging.",
+    "amount": 968.40,
+    "currency": "USDT",
+    "merchant": "Neon Database Pro",
+    "merchant_description": "Serverless Postgres with instant branching for dev, staging, and preview environments",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Neon is serverless Postgres infrastructure — 'cloud-infrastructure'. Policy allows it; 968.40 USDT is well within the 4495 ceiling."
+  },
+  {
+    "id": "a7b5f9b1-2c3d-4ab3-a7b5-f9b1a7b5f9b3",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Turso Pro — 4.82 USD for distributed SQLite database at the edge.",
+    "amount": 4.82,
+    "currency": "USD",
+    "merchant": "Turso Pro",
+    "merchant_description": "Distributed SQLite-compatible database platform optimized for edge deployments",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Turso provides distributed edge database infrastructure — 'cloud-infrastructure'. 4.82 USD within the 15 cap; the policy covers the category."
+  },
+  {
+    "id": "b9d7a1d3-3d4e-4bd4-b9d7-a1d3b9d7a1d4",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Upstash Pro — 0.58 USD for serverless Redis and Kafka at the edge.",
+    "amount": 0.58,
+    "currency": "USD",
+    "merchant": "Upstash Pro",
+    "merchant_description": "Serverless Redis and Kafka for low-latency edge caching and messaging",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Upstash provides serverless Redis and Kafka — cloud infrastructure. 0.58 USD within the 1 cap; policy allows 'cloud-infrastructure'."
+  },
+  {
+    "id": "c1f9b3f5-4e5f-4cf5-c1f9-b3f5c1f9b3f5",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Railway Pro Tier — 2163.50 USDC for container-based cloud hosting and deployment.",
+    "amount": 2163.50,
+    "currency": "USDC",
+    "merchant": "Railway Pro Tier",
+    "merchant_description": "Container deployment platform for hosting services, databases, and cron jobs",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Railway is container-based cloud hosting — 'cloud-infrastructure'. Policy allows it without a carve-out. 2163.50 USDC within the 3000 ceiling."
+  },
+  {
+    "id": "d3a1d5a7-5f6a-4da6-d3a1-d5a7d3a1d5a6",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Fly.io Pro — 0.1637 ETH for globally distributed app hosting on Fly's edge network.",
+    "amount": 0.1637,
+    "currency": "ETH",
+    "merchant": "Fly.io Pro",
+    "merchant_description": "Edge application hosting platform for deploying containers close to users globally",
+    "policy_state": {
+      "max_amount_per_tx": 0.75,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Fly.io is edge cloud infrastructure for container hosting. 'Cloud-infrastructure' is an allowed category; 0.1637 ETH is within the 0.75 cap."
+  },
+  {
+    "id": "e5b3f7b9-6a7b-4eb7-e5b3-f7b9e5b3f7b7",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Netlify Business — 1.67 USD for frontend hosting and serverless functions platform.",
+    "amount": 1.67,
+    "currency": "USD",
+    "merchant": "Netlify Business",
+    "merchant_description": "Frontend hosting platform with CDN, edge functions, and build automation",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Netlify is cloud hosting for frontends and edge functions — 'cloud-infrastructure'. 1.67 USD within the 3 cap; policy covers the category."
+  },
+  {
+    "id": "f7d5a9d1-7b8c-4fd8-f7d5-a9d1f7d5a9d8",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Sourcegraph Cody Pro — 28.60 USD for AI code search and codebase-aware autocomplete.",
+    "amount": 28.60,
+    "currency": "USD",
+    "merchant": "Sourcegraph Cody Pro",
+    "merchant_description": "AI coding assistant with codebase context via Sourcegraph's universal code search",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sourcegraph Cody is an AI coding assistant — a developer tool. Policy allows 'developer-tools'. 28.60 USD within the 75 limit."
+  },
+  {
+    "id": "a9f7b1f3-8c9d-4af9-a9f7-b1f3a9f7b1f9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Tabnine Enterprise — 5.74 USD for AI code completion integrated into the IDE fleet.",
+    "amount": 5.74,
+    "currency": "USD",
+    "merchant": "Tabnine Enterprise",
+    "merchant_description": "Enterprise AI code completion running on private models for IDE integration",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tabnine Enterprise is an IDE-integrated AI code completion tool — 'developer-tools'. 5.74 USD within the 10 cap. Approve."
+  },
+  {
+    "id": "b1a9d3a5-9d0e-4ba0-b1a9-d3a5b1a9d3a0",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Cursor Pro Team — 5317.00 USD for AI-native code editor across the engineering team.",
+    "amount": 5317.00,
+    "currency": "USD",
+    "merchant": "Cursor Pro Team",
+    "merchant_description": "AI-native code editor with inline completions, chat, and multi-file edits",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "5317.00 USD for Cursor Pro Team — within the 7500 ceiling. Cursor is an AI code editor — 'developer-tools'. Policy explicitly allows that category."
+  },
+  {
+    "id": "c3b1f5b7-0e1f-4cb1-c3b1-f5b7c3b1f5b1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Codeium for Enterprise — 793.40 USDC for AI code generation across engineering seats.",
+    "amount": 793.40,
+    "currency": "USDC",
+    "merchant": "Codeium for Enterprise",
+    "merchant_description": "Enterprise AI code generation and completion platform with SSO and audit logs",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Codeium is enterprise AI code generation — 'developer-tools'. Policy covers the category; 793.40 USDC is well within the 4495 cap."
+  },
+  {
+    "id": "d5d3a7d9-1f2a-4dd2-d5d3-a7d9d5d3a7d2",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Supermaven Pro — 54.20 EUR for ultra-fast AI code completion for the dev team.",
+    "amount": 54.20,
+    "currency": "EUR",
+    "merchant": "Supermaven Pro",
+    "merchant_description": "High-speed AI code completion with large context window for professional developers",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Supermaven is an AI code completion tool for developers — 'developer-tools'. 54.20 EUR within the 150 cap; the policy allows the category."
+  },
+  {
+    "id": "e7f5b9f1-2a3b-4ef3-e7f5-b9f1e7f5b9f3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "IBM watsonx Code Assistant — 376.80 USDC for enterprise AI-assisted code generation.",
+    "amount": 376.80,
+    "currency": "USDC",
+    "merchant": "IBM watsonx Code Assistant",
+    "merchant_description": "Enterprise AI code assistant with COBOL-to-Java modernization and policy compliance",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "IBM watsonx Code Assistant is an enterprise AI development tool — 'developer-tools'. Policy allows it; 376.80 USDC within the 1995 ceiling."
+  },
+  {
+    "id": "f9a7d1a3-3b4c-4fa4-f9a7-d1a3f9a7d1a4",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Codiga — 0.1134 ETH for static code analysis and custom linting rule enforcement.",
+    "amount": 0.1134,
+    "currency": "ETH",
+    "merchant": "Codiga",
+    "merchant_description": "Static code analysis platform with custom rule creation and IDE integration",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Codiga is a static analysis and code quality tool — developer tooling. 'Developer-tools' is in the allowed list; 0.1134 ETH within the 0.3 cap."
+  },
+  {
+    "id": "a1b9f3b5-4c5d-4af5-a1b9-f3b5a1b9f3b5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "New Relic Full Platform — 1293.50 USD for full-stack observability and APM.",
+    "amount": 1293.50,
+    "currency": "USD",
+    "merchant": "New Relic Full Platform",
+    "merchant_description": "Full-stack observability platform covering APM, logs, metrics, and browser monitoring",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "New Relic is an APM and observability platform used by engineers — 'developer-tools'. 1293.50 USD within the 1800 cap; policy covers the category."
+  },
+  {
+    "id": "b3d1a5d7-5d6e-4bd6-b3d1-a5d7b3d1a5d6",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Honeycomb Teams — 174.60 USD for distributed tracing and production observability.",
+    "amount": 174.60,
+    "currency": "USD",
+    "merchant": "Honeycomb Teams",
+    "merchant_description": "Observability platform for distributed tracing and high-cardinality production debugging",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Honeycomb is a developer-facing observability tool for distributed system debugging. 'Developer-tools' is allowed; 174.60 USD within the 995 ceiling."
+  },
+  {
+    "id": "c5f3b7f9-6e7f-4cf7-c5f3-b7f9c5f3b7f7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Grafana Cloud Pro — 10.85 USDC for metrics, logs, and traces on managed Grafana.",
+    "amount": 10.85,
+    "currency": "USDC",
+    "merchant": "Grafana Cloud Pro",
+    "merchant_description": "Managed Grafana for metrics, logs, traces, and alerting across infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Grafana Cloud is an observability and monitoring platform for engineering teams — 'developer-tools'. 10.85 USDC within the 30 limit."
+  },
+  {
+    "id": "d7a5d9a1-7f8a-4da8-d7a5-d9a1d7a5d9a8",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Elastic APM — 0.57 USD for application performance monitoring and error tracing.",
+    "amount": 0.57,
+    "currency": "USD",
+    "merchant": "Elastic APM",
+    "merchant_description": "APM solution from Elastic for tracing requests and diagnosing latency in production",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Elastic APM is application performance monitoring — 'developer-tools'. 0.57 USD within the 1 cap; policy allows the category."
+  },
+  {
+    "id": "e9b7f1b3-8a9b-4ef9-e9b7-f1b3e9b7f1b9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Dynatrace Business — 2278.00 USD for full-stack AIOps and application observability.",
+    "amount": 2278.00,
+    "currency": "USD",
+    "merchant": "Dynatrace Business",
+    "merchant_description": "AIOps and full-stack observability platform for infrastructure and application monitoring",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Dynatrace is a full-stack observability and AIOps tool — 'developer-tools'. 2278.00 USD within the 3000 ceiling. Policy allows the category."
+  },
+  {
+    "id": "f1d9a3d5-9b0c-4fa0-f1d9-a3d5f1d9a3d0",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "AppDynamics — 1007.30 USD for business transaction monitoring and APM at scale.",
+    "amount": 1007.30,
+    "currency": "USD",
+    "merchant": "AppDynamics",
+    "merchant_description": "Enterprise APM and business transaction monitoring platform for production environments",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "AppDynamics is enterprise APM — developer tooling for production monitoring. 'Developer-tools' is allowed by policy; 1007.30 USD within the 4495 cap."
+  }
+]

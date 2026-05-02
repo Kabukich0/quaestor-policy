@@ -1,0 +1,902 @@
+[
+  {
+    "id": "e6c1e3f5-e6c1-4e11-e3f5-e6c1e3f5e6c1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Causal Finance — 0.57 USD for modeling and financial planning tool.",
+    "amount": 0.57,
+    "currency": "USD",
+    "merchant": "Causal Finance",
+    "merchant_description": "Spreadsheet-alternative financial modeling and FP&A tool for startup teams",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Causal is an FP&A modeling tool — 'operational-expenses'. 0.57 USD within the 1 cap; policy allows the category."
+  },
+  {
+    "id": "f8d3f5a7-f8d3-4f22-f5a7-f8d3f5a7f8d3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Fathom HQ — 2183.00 USD for financial reporting and KPI dashboard tooling.",
+    "amount": 2183.00,
+    "currency": "USD",
+    "merchant": "Fathom HQ",
+    "merchant_description": "Financial reporting and analytics platform for automated KPI dashboards and insights",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "2183.00 USD for Fathom HQ — within the 3000 ceiling. Financial reporting tools are operational expenses; the policy covers the category."
+  },
+  {
+    "id": "a0f5a7b9-a0f5-4a33-a7b9-a0f5a7b9a0f5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Cube FP&A — 451.30 USDC for financial planning and analysis platform.",
+    "amount": 451.30,
+    "currency": "USDC",
+    "merchant": "Cube FP&A",
+    "merchant_description": "FP&A platform connecting spreadsheets with financial data for planning and forecasting",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cube is an FP&A platform — a standard financial operations tool. Policy allows 'operational-expenses'; 451.30 USDC within the 1995 ceiling."
+  },
+  {
+    "id": "b2a7b9d1-b2a7-4b44-b9d1-b2a7b9d1b2a7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Drivetrain Finance — 0.0917 ETH for revenue and financial performance management.",
+    "amount": 0.0917,
+    "currency": "ETH",
+    "merchant": "Drivetrain Finance",
+    "merchant_description": "Strategic finance platform for revenue analytics, forecasting, and performance management",
+    "policy_state": {
+      "max_amount_per_tx": 0.3,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Drivetrain is a revenue and finance management tool — 'operational-expenses'. 0.0917 ETH within the 0.3 cap; policy allows the category."
+  },
+  {
+    "id": "c4b9d1f3-c4b9-4c55-d1f3-c4b9d1f3c4b9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Delighted NPS — 1.67 USD for customer satisfaction and NPS survey tool.",
+    "amount": 1.67,
+    "currency": "USD",
+    "merchant": "Delighted NPS",
+    "merchant_description": "NPS and CSAT survey platform for tracking customer satisfaction over time",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Delighted is a customer survey and NPS tool — an operational expense. Policy allows the category; 1.67 USD within the 3 cap."
+  },
+  {
+    "id": "d6d1f3a5-d6d1-4d66-f3a5-d6d1f3a5d6d1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Survicate — 3147.00 USD for in-app survey and product feedback collection.",
+    "amount": 3147.00,
+    "currency": "USD",
+    "merchant": "Survicate",
+    "merchant_description": "In-app survey and feedback SDK for product teams collecting user insights",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Survicate is a product feedback SDK embedded by engineers — 'developer-tools'. 3147.00 USD within the 4500 limit; policy allows the category."
+  },
+  {
+    "id": "e8f3a5b7-e8f3-4e77-a5b7-e8f3a5b7e8f3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Typeform Pro — 184.60 USDC for interactive form and survey creation.",
+    "amount": 184.60,
+    "currency": "USDC",
+    "merchant": "Typeform Pro",
+    "merchant_description": "Interactive form and survey builder for lead capture, research, and feedback",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Typeform is a survey and form tool — 'operational-expenses'. 184.60 USDC well within the 995 ceiling; no carve-out needed."
+  },
+  {
+    "id": "f0a5b7d9-f0a5-4f88-b7d9-f0a5b7d9f0a5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Qualtrics CoreXM — 0.0054 ETH for enterprise survey and experience management.",
+    "amount": 0.0054,
+    "currency": "ETH",
+    "merchant": "Qualtrics CoreXM",
+    "merchant_description": "Enterprise experience management platform for employee and customer surveys",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Qualtrics handles enterprise surveys and XM — a standard operational expense. 0.0054 ETH within the 0.015 cap; 'operational-expenses' is allowed."
+  },
+  {
+    "id": "a1b7d9f1-a1b7-4a99-d9f1-a1b7d9f1a1b7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "SurveyMonkey Team — 5.48 USD for team survey and data collection platform.",
+    "amount": 5.48,
+    "currency": "USD",
+    "merchant": "SurveyMonkey Team",
+    "merchant_description": "Online survey platform for teams conducting research and collecting feedback",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "SurveyMonkey is a survey tool — 'operational-expenses'. 5.48 USD within the 10 cap; the policy covers the category without a carve-out."
+  },
+  {
+    "id": "b3d9f1a3-b3d9-4ba0-f1a3-b3d9f1a3b3d9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Prowly PR — 4723.00 USD for PR management and media outreach platform.",
+    "amount": 4723.00,
+    "currency": "USD",
+    "merchant": "Prowly PR",
+    "merchant_description": "PR platform for media database management, press release distribution, and journalist outreach",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Prowly is a PR management platform — a routine operational expense for marketing and comms teams. Policy allows 'operational-expenses'; 4723.00 USD within the 7500 limit."
+  },
+  {
+    "id": "c5f1a3b5-c5f1-4cb1-a3b5-c5f1a3b5c5f1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Muck Rack — 978.40 USD for journalist database and media monitoring.",
+    "amount": 978.40,
+    "currency": "USD",
+    "merchant": "Muck Rack",
+    "merchant_description": "PR software for journalist relationship management and media monitoring",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Muck Rack is PR software for media monitoring — 'operational-expenses'. 978.40 USD within the 4495 ceiling; policy covers the category."
+  },
+  {
+    "id": "d7a3b5d7-d7a3-4dc2-b5d7-d7a3b5d7d7a3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Cision PR Newswire — 5.62 USDC for press release distribution and media reach.",
+    "amount": 5.62,
+    "currency": "USDC",
+    "merchant": "Cision PR Newswire",
+    "merchant_description": "Press release distribution network with global media reach and analytics",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "5.62 USDC for Cision PR Newswire — within the 15 cap. Press release distribution is a media operations expense; 'operational-expenses' is explicitly allowed."
+  },
+  {
+    "id": "e9b5d7f9-e9b5-4ed3-d7f9-e9b5d7f9e9b5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Mention Media Monitoring — 1.07 USD for brand monitoring and social media tracking.",
+    "amount": 1.07,
+    "currency": "USD",
+    "merchant": "Mention Media Monitoring",
+    "merchant_description": "Real-time brand monitoring tool tracking mentions across social media and news",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mention is a brand monitoring tool — an operational expense for marketing teams. Policy allows the category; 1.07 USD within the 2 limit."
+  },
+  {
+    "id": "f1d7f9a1-f1d7-4fe4-f9a1-f1d7f9a1f1d7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Mintlify Docs — 9347.00 USD for developer documentation platform and API reference hosting.",
+    "amount": 9347.00,
+    "currency": "USD",
+    "merchant": "Mintlify Docs",
+    "merchant_description": "Developer documentation platform for hosting API references, guides, and SDKs",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mintlify hosts developer documentation and API references — 'developer-tools'. 9347.00 USD within the 15000 cap; policy allows the category."
+  },
+  {
+    "id": "a2f9a1b3-a2f9-4af5-a1b3-a2f9a1b3a2f9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Docusaurus Pro — 362.80 USD for developer docs site infrastructure.",
+    "amount": 362.80,
+    "currency": "USD",
+    "merchant": "Docusaurus Pro",
+    "merchant_description": "React-based documentation framework for building developer-facing doc sites",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Docusaurus Pro is a developer documentation framework — 'developer-tools'. Policy allows the category; 362.80 USD within the 1995 ceiling."
+  },
+  {
+    "id": "b4a1b3d5-b4a1-4b06-b3d5-b4a1b3d5b4a1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Storybook Chromatic — 17.30 USDC for UI component visual regression testing.",
+    "amount": 17.30,
+    "currency": "USDC",
+    "merchant": "Storybook Chromatic",
+    "merchant_description": "Cloud service for running Storybook UI tests and visual regression detection",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chromatic provides visual regression testing for UI components — a developer tool. 'Developer-tools' is allowed; 17.30 USDC within the 45 cap."
+  },
+  {
+    "id": "c6b3d5f7-c6b3-4c17-d5f7-c6b3d5f7c6b3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Ladle Dev — 0.0537 ETH for React component development and documentation.",
+    "amount": 0.0537,
+    "currency": "ETH",
+    "merchant": "Ladle Dev",
+    "merchant_description": "Lightweight Storybook alternative for developing and documenting React components",
+    "policy_state": {
+      "max_amount_per_tx": 0.1,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ladle is a React component development tool — 'developer-tools'. 0.0537 ETH within the 0.1 cap; the policy allows the category."
+  },
+  {
+    "id": "d8d5f7a9-d8d5-4d28-f7a9-d8d5f7a9d8d5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Lookbook Pro — 1318.00 USD for Ruby on Rails component preview and design system.",
+    "amount": 1318.00,
+    "currency": "USD",
+    "merchant": "Lookbook Pro",
+    "merchant_description": "Component preview and design system documentation tool for Ruby on Rails applications",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lookbook is a Rails component development tool — 'developer-tools'. 1318.00 USD within the 1800 cap; policy allows the category."
+  },
+  {
+    "id": "e0f7a9b1-e0f7-4e39-a9b1-e0f7a9b1e0f7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Wiz Cloud Security — 213.50 USD for cloud security posture and vulnerability scanning.",
+    "amount": 213.50,
+    "currency": "USD",
+    "merchant": "Wiz Cloud Security",
+    "merchant_description": "Agentless cloud security platform for identifying misconfigurations and vulnerabilities",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wiz provides cloud security scanning used by DevSecOps teams — 'developer-tools'. 213.50 USD within the 995 limit; policy covers the category."
+  },
+  {
+    "id": "f2a9b1d3-f2a9-4f40-b1d3-f2a9b1d3f2a9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Orca Security Platform — 27.60 USDC for cloud workload and risk prioritization scanning.",
+    "amount": 27.60,
+    "currency": "USDC",
+    "merchant": "Orca Security Platform",
+    "merchant_description": "Cloud-native security platform for workload protection and attack path analysis",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Orca Security is a cloud workload scanning platform used by security-aware engineering teams — 'developer-tools'. 27.60 USDC within the 75 cap."
+  },
+  {
+    "id": "a3b1d3f5-a3b1-4a51-d3f5-a3b1d3f5a3b1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Lacework Platform — 0.56 USDC for cloud-native security and anomaly detection.",
+    "amount": 0.56,
+    "currency": "USDC",
+    "merchant": "Lacework Platform",
+    "merchant_description": "AI-driven cloud security platform for detecting anomalies and configuration risks",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lacework is a cloud security monitoring tool — 'developer-tools'. 0.56 USDC within the 1 cap; policy allows the category."
+  },
+  {
+    "id": "b5d3f5a7-b5d3-4b62-f5a7-b5d3f5a7b5d3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Sysdig Secure — 2247.00 USD for container and Kubernetes runtime security.",
+    "amount": 2247.00,
+    "currency": "USD",
+    "merchant": "Sysdig Secure",
+    "merchant_description": "Container security platform for runtime threat detection and Kubernetes compliance",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sysdig Secure monitors container and Kubernetes runtime security — 'developer-tools'. 2247.00 USD within the 3000 ceiling; policy covers the category."
+  },
+  {
+    "id": "c7f5a7b9-c7f5-4c73-a7b9-c7f5a7b9c7f5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Falco Cloud — 826.30 USD for Kubernetes threat detection via open-source Falco rules.",
+    "amount": 826.30,
+    "currency": "USD",
+    "merchant": "Falco Cloud",
+    "merchant_description": "Cloud-hosted Falco runtime security for Kubernetes syscall threat detection",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Falco Cloud provides Kubernetes runtime threat detection — a developer security tool. 'Developer-tools' is allowed; 826.30 USD within the 4495 cap."
+  },
+  {
+    "id": "d9a7b9d1-d9a7-4d84-b9d1-d9a7b9d1d9a7",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Modal Labs Pro — 56.70 USD for serverless GPU compute for ML inference and training.",
+    "amount": 56.70,
+    "currency": "USD",
+    "merchant": "Modal Labs Pro",
+    "merchant_description": "Serverless GPU cloud for running ML inference, training, and batch compute jobs",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Modal Labs provides serverless GPU cloud infrastructure — 'cloud-infrastructure'. Policy allows the category; 56.70 USD within the 150 cap."
+  },
+  {
+    "id": "e1b9d1f3-e1b9-4e95-d1f3-e1b9d1f3e1b9",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "RunPod Cloud GPU — 1.73 USDC for on-demand GPU cloud compute.",
+    "amount": 1.73,
+    "currency": "USDC",
+    "merchant": "RunPod Cloud GPU",
+    "merchant_description": "On-demand GPU cloud platform for AI workloads, fine-tuning, and inference",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "RunPod is on-demand GPU cloud infrastructure — 'cloud-infrastructure'. 1.73 USDC within the 3 cap; policy covers the category."
+  },
+  {
+    "id": "f3d1f3a5-f3d1-4fa6-f3a5-f3d1f3a5f3d1",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Lambda Labs GPU Cloud — 3247.00 USDT for reserved GPU instances for model training.",
+    "amount": 3247.00,
+    "currency": "USDT",
+    "merchant": "Lambda Labs GPU Cloud",
+    "merchant_description": "GPU cloud with reserved and on-demand instances for deep learning and AI model training",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lambda Labs provides GPU cloud infrastructure — 'cloud-infrastructure'. 3247.00 USDT within the 4500 ceiling; policy allows the category."
+  },
+  {
+    "id": "a4f3a5b7-a4f3-4ab7-a5b7-a4f3a5b7a4f3",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Together AI Compute — 437.60 USD for serverless AI model inference hosting.",
+    "amount": 437.60,
+    "currency": "USD",
+    "merchant": "Together AI Compute",
+    "merchant_description": "Decentralized AI inference platform for hosting open-source models at scale",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Together AI provides AI model compute infrastructure — 'cloud-infrastructure'. Policy allows it; 437.60 USD within the 1995 cap."
+  },
+  {
+    "id": "b6a5b7d9-b6a5-4bc8-b7d9-b6a5b7d9b6a5",
+    "cluster": "3",
+    "category": "cloud-infrastructure",
+    "intent_text": "Banana.dev Inference — 107.30 USD for serverless ML model inference at scale.",
+    "amount": 107.30,
+    "currency": "USD",
+    "merchant": "Banana.dev Inference",
+    "merchant_description": "Serverless ML inference platform for deploying custom AI models with auto-scaling",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": ["cloud-infrastructure", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Banana.dev provides serverless ML inference infrastructure — 'cloud-infrastructure'. 107.30 USD within the 297 ceiling; policy covers the category."
+  },
+  {
+    "id": "c8b7d9f1-c8b7-4cd9-d9f1-c8b7d9f1c8b7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Maxio (SaaSOptics) — 0.0217 ETH for SaaS subscription revenue management.",
+    "amount": 0.0217,
+    "currency": "ETH",
+    "merchant": "Maxio (SaaSOptics)",
+    "merchant_description": "SaaS billing and revenue management platform for subscription metrics and reporting",
+    "policy_state": {
+      "max_amount_per_tx": 0.03,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Maxio manages SaaS subscription billing — an operational expense. 0.0217 ETH within the 0.03 cap; 'operational-expenses' is allowed."
+  },
+  {
+    "id": "d0d9f1a3-d0d9-4de0-f1a3-d0d9f1a3d0d9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Ordway Labs — 228.40 USD for revenue automation and billing lifecycle management.",
+    "amount": 228.40,
+    "currency": "USD",
+    "merchant": "Ordway Labs",
+    "merchant_description": "Revenue automation platform handling billing, invoicing, and subscription lifecycle",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ordway handles revenue and billing automation — 'operational-expenses'. 228.40 USD within the 995 ceiling; policy covers the category."
+  },
+  {
+    "id": "e2f1a3b5-e2f1-4ef1-a3b5-e2f1a3b5e2f1",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Chargify (Maxio) — 11.60 USD for subscription billing and recurring payment management.",
+    "amount": 11.60,
+    "currency": "USD",
+    "merchant": "Chargify (Maxio)",
+    "merchant_description": "Subscription management platform for billing, dunning, and recurring revenue",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chargify is subscription billing infrastructure — a standard operational expense. 11.60 USD within the 30 cap; policy allows the category."
+  },
+  {
+    "id": "f4a3b5d7-f4a3-4f02-b5d7-f4a3b5d7f4a3",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Degreed Skills Platform — 1.14 USDC for employee skill development and learning pathways.",
+    "amount": 1.14,
+    "currency": "USDC",
+    "merchant": "Degreed Skills Platform",
+    "merchant_description": "Workforce learning platform for curating skills pathways and employee development",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": ["education", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Degreed is a workforce learning platform — 'education'. Policy allows that category; 1.14 USDC within the 2 cap."
+  },
+  {
+    "id": "a5d5d7f9-a5d5-4a13-d7f9-a5d5d7f9a5d5",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "360Learning Collaborative — 9873.00 USDC for collaborative learning and LMS platform.",
+    "amount": 9873.00,
+    "currency": "USDC",
+    "merchant": "360Learning Collaborative",
+    "merchant_description": "Collaborative learning platform with peer-generated courses and LMS capabilities",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["education", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "9873.00 USDC for 360Learning — within the 15000 cap. It's a collaborative LMS; 'education' is an allowed category. Approve."
+  },
+  {
+    "id": "b7f7f9a1-b7f7-4b24-f9a1-b7f7f9a1b7f7",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Learnerbly Platform — 1047.00 USD for curated learning and upskilling marketplace.",
+    "amount": 1047.00,
+    "currency": "USD",
+    "merchant": "Learnerbly Platform",
+    "merchant_description": "Learning and development marketplace for employee upskilling and course access",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["education", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Learnerbly is an L&D marketplace — 'education'. Policy allows the category; 1047.00 USD within the 4495 ceiling."
+  },
+  {
+    "id": "c9a9a1b3-c9a9-4c35-a1b3-c9a9a1b3c9a9",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Mindtools Business — 22.80 USD for management training and leadership development resources.",
+    "amount": 22.80,
+    "currency": "USD",
+    "merchant": "Mindtools Business",
+    "merchant_description": "Online learning platform for management skills, leadership, and professional development",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["education", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mindtools is a professional development and training platform — 'education'. 22.80 USD within the 60 cap; policy allows the category."
+  },
+  {
+    "id": "d1b1b3d5-d1b1-4d46-b3d5-d1b1b3d5d1b1",
+    "cluster": "3",
+    "category": "education",
+    "intent_text": "Skillsoft Percipio — 2.24 USD for AI-driven employee learning and skills development.",
+    "amount": 2.24,
+    "currency": "USD",
+    "merchant": "Skillsoft Percipio",
+    "merchant_description": "AI-personalized employee learning platform with courses, books, and practice labs",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": ["education", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Skillsoft Percipio is an employee learning platform — 'education'. 2.24 USD within the 4 cap; policy allows the category."
+  },
+  {
+    "id": "e3d3d5f7-e3d3-4e57-d5f7-e3d3d5f7e3d3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Envoy Visitors — 1073.50 USDC for visitor management and office access coordination.",
+    "amount": 1073.50,
+    "currency": "USDC",
+    "merchant": "Envoy Visitors",
+    "merchant_description": "Visitor management platform for office check-in, badges, and host notifications",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Envoy is office visitor management software — 'operational-expenses'. 1073.50 USDC within the 1800 limit; the policy covers the category."
+  },
+  {
+    "id": "f5f5f7a9-f5f5-4f68-f7a9-f5f5f7a9f5f5",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Robin Workspace — 461.20 USDT for hybrid workplace and desk booking management.",
+    "amount": 461.20,
+    "currency": "USDT",
+    "merchant": "Robin Workspace",
+    "merchant_description": "Hybrid workplace platform for desk booking, meeting room management, and space analytics",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Robin is a hybrid workplace management tool — an operational expense. Policy allows 'operational-expenses'; 461.20 USDT within the 1995 ceiling."
+  },
+  {
+    "id": "a6a7a9b1-a6a7-4a79-a9b1-a6a7a9b1a6a7",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Eden Workplace — 43.80 USD for desk and room reservation platform for hybrid teams.",
+    "amount": 43.80,
+    "currency": "USD",
+    "merchant": "Eden Workplace",
+    "merchant_description": "Workplace management platform for desk reservations, office scheduling, and space planning",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Eden is a workplace scheduling tool — 'operational-expenses'. 43.80 USD within the 120 cap; the policy permits the category."
+  },
+  {
+    "id": "b8b9b1d3-b8b9-4b80-b1d3-b8b9b1d3b8b9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Officely — 0.54 USD for lightweight Slack-integrated office scheduling.",
+    "amount": 0.54,
+    "currency": "USD",
+    "merchant": "Officely",
+    "merchant_description": "Slack-native office day scheduling tool for hybrid team coordination",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Officely is office scheduling software — 'operational-expenses'. 0.54 USD within the 1 cap; policy allows the category."
+  },
+  {
+    "id": "c0d1d3f5-c0d1-4c91-d3f5-c0d1d3f5c0d1",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Gitbook Teams — 1847.00 USDC for developer documentation and knowledge base platform.",
+    "amount": 1847.00,
+    "currency": "USDC",
+    "merchant": "Gitbook Teams",
+    "merchant_description": "Documentation platform for developer teams managing API docs, guides, and wikis",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gitbook is a developer documentation platform — 'developer-tools'. 1847.00 USDC within the 3000 cap; policy allows the category."
+  },
+  {
+    "id": "d2f3f5a7-d2f3-4da2-f5a7-d2f3f5a7d2f3",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Docunotions Hosted — 0.0093 ETH for Notion-as-documentation hosted developer docs.",
+    "amount": 0.0093,
+    "currency": "ETH",
+    "merchant": "Docunotions Hosted",
+    "merchant_description": "Hosted developer documentation service powered by Notion pages with custom domains",
+    "policy_state": {
+      "max_amount_per_tx": 0.05,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Docunotions hosts developer documentation from Notion — developer tooling. 'Developer-tools' is allowed; 0.0093 ETH within the 0.05 cap."
+  },
+  {
+    "id": "e4a5a7b9-e4a5-4eb3-a7b9-e4a5a7b9e4a5",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Archbee Docs — 82.40 USD for structured developer documentation and API reference platform.",
+    "amount": 82.40,
+    "currency": "USD",
+    "merchant": "Archbee Docs",
+    "merchant_description": "Developer documentation platform for creating structured API references and technical guides",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Archbee is a developer documentation platform — 'developer-tools'. 82.40 USD within the 225 ceiling; policy covers the category."
+  },
+  {
+    "id": "f6b7b9d1-f6b7-4fc4-b9d1-f6b7b9d1f6b7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Swimm Integration — 1.62 USD for code-coupled documentation and onboarding docs.",
+    "amount": 1.62,
+    "currency": "USD",
+    "merchant": "Swimm Integration",
+    "merchant_description": "Code-coupled documentation tool that keeps developer docs synced with code changes",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Swimm provides code-coupled developer documentation — 'developer-tools'. 1.62 USD within the 3 cap; the policy allows the category."
+  },
+  {
+    "id": "a7d9d1f3-a7d9-4ad5-d1f3-a7d9d1f3a7d9",
+    "cluster": "3",
+    "category": "analytics",
+    "intent_text": "Tableau Cloud — 3214.00 USD for business intelligence and data visualization platform.",
+    "amount": 3214.00,
+    "currency": "USD",
+    "merchant": "Tableau Cloud",
+    "merchant_description": "Cloud BI and data visualization platform for creating dashboards and data stories",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["analytics", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tableau is a BI and analytics platform — 'analytics'. Policy allows the category; 3214.00 USD within the 4500 ceiling."
+  },
+  {
+    "id": "b9f1f3a5-b9f1-4be6-f3a5-b9f1f3a5b9f1",
+    "cluster": "3",
+    "category": "analytics",
+    "intent_text": "Looker Studio Pro — 784.30 USDC for enterprise BI reporting and data exploration.",
+    "amount": 784.30,
+    "currency": "USDC",
+    "merchant": "Looker Studio Pro",
+    "merchant_description": "Google's Looker-powered BI platform for enterprise data exploration and dashboards",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["analytics", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Looker Studio Pro is an enterprise analytics and BI platform — 'analytics'. 784.30 USDC within the 4495 cap; policy allows the category."
+  },
+  {
+    "id": "c1a3a5b7-c1a3-4cf7-a5b7-c1a3a5b7c1a3",
+    "cluster": "3",
+    "category": "analytics",
+    "intent_text": "Power BI Premium — 5.87 USD for enterprise BI and self-service analytics.",
+    "amount": 5.87,
+    "currency": "USD",
+    "merchant": "Power BI Premium",
+    "merchant_description": "Microsoft's enterprise BI platform with self-service analytics and advanced reporting",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": ["analytics", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Power BI Premium is an enterprise analytics platform — 'analytics'. 5.87 USD within the 15 cap; policy covers the category."
+  },
+  {
+    "id": "d3b5b7d9-d3b5-4d08-b7d9-d3b5b7d9d3b5",
+    "cluster": "3",
+    "category": "analytics",
+    "intent_text": "Metabase Pro — 5.43 USD for open-source-style BI and team analytics dashboards.",
+    "amount": 5.43,
+    "currency": "USD",
+    "merchant": "Metabase Pro",
+    "merchant_description": "Business intelligence platform for SQL-based analytics and shareable dashboards",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["analytics", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Metabase is a BI and analytics tool — 'analytics'. Policy allows the category; 5.43 USD within the 10 limit."
+  },
+  {
+    "id": "e5d7d9f1-e5d7-4e19-d9f1-e5d7d9f1e5d7",
+    "cluster": "3",
+    "category": "analytics",
+    "intent_text": "Mode Analytics — 4618.00 USD for collaborative data analysis and SQL notebook platform.",
+    "amount": 4618.00,
+    "currency": "USD",
+    "merchant": "Mode Analytics",
+    "merchant_description": "Collaborative analytics platform for SQL notebooks, visualizations, and reports",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["analytics", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mode Analytics is a collaborative SQL analytics platform — 'analytics'. 4618.00 USD within the 7500 ceiling; policy allows the category."
+  },
+  {
+    "id": "f7f9f1a3-f7f9-4f20-f1a3-f7f9f1a3f7f9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Splice Protocol bridge — 5347.00 USDC for slippage-protected cross-chain USDC bridging.",
+    "amount": 5347.00,
+    "currency": "USDC",
+    "merchant": "Splice Protocol",
+    "merchant_description": "Cross-chain bridge protocol with slippage protection for large USDC transfers",
+    "policy_state": {
+      "max_amount_per_tx": 10000,
+      "allowed_categories": ["defi", "crypto-infrastructure"],
+      "explicit_allowances": ["Splice Protocol bridge allowed for slippage-protected USDC bridging"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Splice Protocol bridge for slippage-protected USDC bridging. 5347.00 USDC within the 10000 ceiling."
+  }
+]

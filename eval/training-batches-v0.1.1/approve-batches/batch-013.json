@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "4aeaad1a-d959-4a7a-a7d6-75f97f59ccf1",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Kaiko Market Data \u2014 5.25 EUR \u2014 institutional-grade crypto market data API for our trading and pricing models",
+    "amount": 5.25,
+    "currency": "EUR",
+    "merchant": "Kaiko Market Data",
+    "merchant_description": "Institutional-grade crypto market data API",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "crypto-analytics",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Kaiko provides institutional crypto market data \u2014 'crypto-analytics' is an allowed category and Kaiko maps directly to it. 5.25 EUR within the 10 limit."
+  },
+  {
+    "id": "12a882de-29dc-41a6-88c3-afa651529764",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "CoinGecko Pro API \u2014 0.52 USD \u2014 crypto price and market data API for real-time token pricing in our dApp",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "CoinGecko Pro API",
+    "merchant_description": "Crypto price and market data API",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "crypto-analytics",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "CoinGecko Pro is a crypto market data API \u2014 'crypto-analytics' is an allowed category; CoinGecko maps to it. 0.52 USD within the 2 limit."
+  },
+  {
+    "id": "d334737e-ea77-4146-94e6-54b4b47cee81",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "Glassnode Studio \u2014 1,260 USD \u2014 on-chain and market intelligence platform for macro crypto research and monitoring",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Glassnode Studio",
+    "merchant_description": "On-chain and market intelligence platform",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "crypto-analytics",
+        "research"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Glassnode Studio provides on-chain analytics and market intelligence \u2014 in the 'crypto-analytics' category which the policy allows. 1,260 USD within the 6,000 limit."
+  },
+  {
+    "id": "39db6b72-ff0a-4163-b813-787d7d156061",
+    "cluster": "1",
+    "category": "crypto-analytics",
+    "intent_text": "CryptoQuant Pro \u2014 0.158 ETH \u2014 on-chain data and quant research platform for exchange flow and miner metrics",
+    "amount": 0.158,
+    "currency": "ETH",
+    "merchant": "CryptoQuant Pro",
+    "merchant_description": "On-chain data and quant research platform",
+    "policy_state": {
+      "max_amount_per_tx": 1.5,
+      "allowed_categories": [
+        "crypto-analytics",
+        "research"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "CryptoQuant Pro provides on-chain quantitative research data \u2014 'crypto-analytics' is an allowed category and this is a direct match. 0.158 ETH within the 1.5 limit."
+  },
+  {
+    "id": "7fb5a9bc-98d6-4cf5-8b45-07390539957d",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Helius RPC (Solana) \u2014 79 USD \u2014 enhanced Solana RPC and webhook provider for our Solana dApp infrastructure",
+    "amount": 79.0,
+    "currency": "USD",
+    "merchant": "Helius RPC (Solana)",
+    "merchant_description": "Enhanced Solana RPC and webhook provider",
+    "policy_state": {
+      "max_amount_per_tx": 113,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Helius provides enhanced Solana RPC infrastructure \u2014 a web3-infra tool in the allowed 'web3-infra' category. 79 USD within the 113 limit."
+  },
+  {
+    "id": "30137fdf-b2ed-4853-89f4-9fee30d499eb",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Triton One (Solana) \u2014 5.24 USD \u2014 high-performance Solana RPC and transaction processing for low-latency operations",
+    "amount": 5.24,
+    "currency": "USD",
+    "merchant": "Triton One (Solana)",
+    "merchant_description": "Solana RPC and transaction processing",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Triton One provides Solana RPC and transaction processing \u2014 'web3-infra' is an allowed category; Triton maps to it. 5.24 USD within the 10 limit."
+  },
+  {
+    "id": "a663e02f-c454-4d59-b680-a617eddd942b",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Ankr RPC \u2014 3,150 USDC \u2014 multi-chain premium RPC provider for Ethereum, BSC, and Polygon node access",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Ankr RPC",
+    "merchant_description": "Multi-chain premium RPC provider",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ankr RPC provides multi-chain node access \u2014 in the 'web3-infra' category which the policy allows. 3,150 USDC within the 9,000 limit."
+  },
+  {
+    "id": "e7633a88-f770-4e84-b14f-ae00d491825b",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "GetBlock RPC \u2014 944 USD \u2014 node-as-a-service for 50+ blockchains supporting our multi-chain infrastructure",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "GetBlock RPC",
+    "merchant_description": "Node-as-a-service for 50+ blockchains",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "GetBlock RPC is a node-as-a-service for multiple blockchains \u2014 'web3-infra' is allowed; this is a direct match. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "e32f182f-0d06-43a5-9c71-7668d041d136",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "NOWNodes \u2014 42 USD \u2014 blockchain node API access for over 50 chains supporting our cross-chain product features",
+    "amount": 42.0,
+    "currency": "USD",
+    "merchant": "NOWNodes",
+    "merchant_description": "Blockchain node API service provider",
+    "policy_state": {
+      "max_amount_per_tx": 400,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "NOWNodes provides blockchain node API access \u2014 in the 'web3-infra' category which the policy allows. 42 USD within the 400 limit."
+  },
+  {
+    "id": "d79d1919-93b4-4c56-89c7-f96bd11c9e93",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Chainstack \u2014 2.10 USDC \u2014 managed blockchain node infrastructure for Ethereum and Polygon development",
+    "amount": 2.1,
+    "currency": "USDC",
+    "merchant": "Chainstack",
+    "merchant_description": "Managed blockchain node infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chainstack provides managed blockchain node infrastructure \u2014 'web3-infra' is an allowed category and Chainstack maps to it. 2.10 USDC within the 3 limit."
+  },
+  {
+    "id": "37f644d3-33e5-4950-9a5c-2450f6c9f51e",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Tatum API \u2014 10,500 USD \u2014 unified blockchain development platform for building cross-chain applications",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Tatum API",
+    "merchant_description": "Unified blockchain development platform",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tatum API provides unified blockchain development infrastructure \u2014 in the 'web3-infra' category which the policy allows. 10,500 USD within the 20,000 limit."
+  },
+  {
+    "id": "d5785c24-4efe-4d96-8efe-9ccc69f3246c",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Moralis Streams \u2014 209 USD \u2014 real-time blockchain event streaming API for on-chain activity monitoring in our dApp",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Moralis Streams",
+    "merchant_description": "Real-time blockchain events streaming API",
+    "policy_state": {
+      "max_amount_per_tx": 597,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Moralis Streams provides real-time blockchain event streaming \u2014 'web3-infra' is an allowed category; this is a direct match. 209 USD within the 597 limit."
+  },
+  {
+    "id": "879d8e53-1adb-41ad-857f-ffd0796d5a2b",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Bitquery \u2014 21 USDC \u2014 blockchain data APIs and GraphQL explorer for on-chain data analysis across 40+ chains",
+    "amount": 21.0,
+    "currency": "USDC",
+    "merchant": "Bitquery",
+    "merchant_description": "Blockchain data APIs and GraphQL explorer",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bitquery provides blockchain data APIs \u2014 in the 'web3-infra' category which the policy allows. 21 USDC within the 100 limit."
+  },
+  {
+    "id": "b33c97af-29ae-40cd-ba3d-b26a9de585b6",
+    "cluster": "1",
+    "category": "web3-infra",
+    "intent_text": "Covalent API \u2014 1.57 USDT \u2014 multi-chain data indexing and query API for our NFT and DeFi analytics dashboard",
+    "amount": 1.57,
+    "currency": "USDT",
+    "merchant": "Covalent API",
+    "merchant_description": "Multi-chain data indexing and query API",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "web3-infra",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Covalent API provides multi-chain data indexing \u2014 'web3-infra' is an allowed category and Covalent maps to it directly. 1.57 USDT within the 15 limit."
+  },
+  {
+    "id": "3a755233-d403-4e98-ba23-250cf4f7fad3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Wanchain Bridge \u2014 2,100 USDC \u2014 cross-chain ETH/USDC transfer via Wanchain's enterprise bridge solution",
+    "amount": 2100.0,
+    "currency": "USDC",
+    "merchant": "Wanchain Bridge",
+    "merchant_description": "Enterprise cross-chain bridge solution",
+    "policy_state": {
+      "max_amount_per_tx": 4000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Wanchain Bridge allowed for cross-chain ETH/USDC transfers"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Wanchain Bridge for cross-chain ETH/USDC transfers. 2,100 USDC within the 4,000 limit."
+  },
+  {
+    "id": "52ff358a-261c-4e1e-8790-fcb951ad88db",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Nomad Bridge \u2014 0.262 ETH \u2014 L1-to-L2 USDC migration via optimistic messaging bridge",
+    "amount": 0.262,
+    "currency": "ETH",
+    "merchant": "Nomad Bridge",
+    "merchant_description": "Optimistic cross-chain messaging bridge",
+    "policy_state": {
+      "max_amount_per_tx": 0.375,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Nomad Bridge allowed for L1-to-L2 USDC migration"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Nomad Bridge covering L1-to-L2 USDC migration. 0.262 ETH within the 0.375 limit."
+  },
+  {
+    "id": "74710495-aab8-4093-937a-7eda742524cb",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Hyphen Bridge (Biconomy) \u2014 10.50 USDC \u2014 instant Polygon USDC bridging for our cross-chain payment flow",
+    "amount": 10.5,
+    "currency": "USDC",
+    "merchant": "Hyphen Bridge (Biconomy)",
+    "merchant_description": "Low-fee instant L2 bridging by Biconomy",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Hyphen Bridge allowed for instant Polygon USDC bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Hyphen Bridge authorized for instant Polygon USDC bridging. 10.50 USDC within the 30 limit."
+  },
+  {
+    "id": "277934d7-0fb8-417f-b30a-9da3188720b6",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Bungee (Socket) bridge aggregator \u2014 419 USDC \u2014 optimal-route USDC bridging across L2s and sidechains",
+    "amount": 419.0,
+    "currency": "USDC",
+    "merchant": "Bungee (Socket)",
+    "merchant_description": "Bridge aggregator with best-route routing",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Bungee bridge aggregator allowed for optimal-route USDC bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Bungee bridge aggregator is listed as a named exception in the policy for optimal-route USDC bridging. 419 USDC within the 798 limit."
+  },
+  {
+    "id": "4db45568-9c01-4407-8cb2-c972b9837966",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Swing XYZ \u2014 5,250 USDC \u2014 cross-chain stablecoin routing for treasury rebalancing across EVM chains",
+    "amount": 5250.0,
+    "currency": "USDC",
+    "merchant": "Swing XYZ",
+    "merchant_description": "Cross-chain swaps and bridging infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Swing XYZ bridge allowed for cross-chain stablecoin routing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Swing XYZ bridge authorized for cross-chain stablecoin routing. 5,250 USDC within the 7,500 limit."
+  },
+  {
+    "id": "066506e0-73f6-494a-b255-ac6842de7376",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "DeBridge Finance \u2014 0.0525 ETH \u2014 cross-chain USDC settlement via DeBridge's interoperability protocol",
+    "amount": 0.0525,
+    "currency": "ETH",
+    "merchant": "DeBridge Finance",
+    "merchant_description": "Cross-chain interoperability and bridging",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "DeBridge Finance allowed for cross-chain USDC settlement"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names DeBridge Finance as permitted for cross-chain USDC settlement. 0.0525 ETH within the 0.15 limit."
+  },
+  {
+    "id": "4d5e35ec-f400-492d-abeb-79df8938b971",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "O3 Swap \u2014 21 USDC \u2014 cross-chain USDT bridge via O3's cross-network swap aggregator",
+    "amount": 21.0,
+    "currency": "USDC",
+    "merchant": "O3 Swap",
+    "merchant_description": "Cross-chain swap aggregator for major assets",
+    "policy_state": {
+      "max_amount_per_tx": 40,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "O3 Swap cross-chain bridge allowed for USDT cross-network moves"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "O3 Swap sits under the mandate's explicit allowance for USDT cross-network moves. 21 USDC within the 40 limit."
+  },
+  {
+    "id": "05380ddf-0b95-468e-854f-d2ebc701baa3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Mayan Finance \u2014 209 USDT \u2014 Solana cross-chain USDC bridge via Wormhole-powered swap protocol",
+    "amount": 209.0,
+    "currency": "USDT",
+    "merchant": "Mayan Finance",
+    "merchant_description": "Cross-chain swap protocol via Wormhole",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Mayan Finance allowed for Solana cross-chain USDC bridge"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Mayan Finance for Solana cross-chain USDC bridge. 209 USDT within the 299 limit."
+  },
+  {
+    "id": "b5b97641-b0c2-4921-87bc-c02123e7b939",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Allbridge Core \u2014 1,260 USDC \u2014 cross-chain stablecoin pool transfer for portfolio rebalancing across networks",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "Allbridge Core",
+    "merchant_description": "Cross-chain stablecoin bridging protocol",
+    "policy_state": {
+      "max_amount_per_tx": 3600,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Allbridge Core allowed for cross-chain stablecoin pool transfers"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants Allbridge Core use for cross-chain stablecoin pool transfers. 1,260 USDC within the 3,600 limit."
+  },
+  {
+    "id": "125194e7-e815-418f-a01b-ef573c4a8d60",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Hashflow Bridge \u2014 0.00105 ETH \u2014 MEV-protected RFQ cross-chain USDC bridge",
+    "amount": 0.00105,
+    "currency": "ETH",
+    "merchant": "Hashflow Bridge",
+    "merchant_description": "Cross-chain RFQ bridge with MEV protection",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Hashflow cross-chain bridge allowed for MEV-protected USDC bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Hashflow cross-chain bridge for MEV-protected USDC bridging. 0.00105 ETH within the 0.002 limit."
+  },
+  {
+    "id": "f6fbfabc-3650-4807-8f38-420427b0128b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Stargate V2 \u2014 42 USDC \u2014 unified liquidity bridge for seamless USDC cross-chain transfers via updated Stargate",
+    "amount": 42.0,
+    "currency": "USDC",
+    "merchant": "Stargate V2",
+    "merchant_description": "Updated Stargate unified liquidity bridge",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Stargate V2 allowed for upgraded unified liquidity bridging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Stargate V2 is authorized for upgraded unified liquidity bridging. 42 USDC within the 60 limit."
+  },
+  {
+    "id": "d79f8dfe-8805-4d36-8a43-bc1bd6bf9c16",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Router Protocol \u2014 944 USDC \u2014 multi-chain USDC routing and cross-chain communication for our DeFi operations",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "Router Protocol",
+    "merchant_description": "Cross-chain routing and communication protocol",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Router Protocol bridge allowed for multi-chain USDC routing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Router Protocol is explicitly carved out by the policy for multi-chain USDC routing. 944 USDC within the 2,697 limit."
+  },
+  {
+    "id": "ef0280d9-c055-4fc4-8008-c1ea4c470432",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Biconomy Hyphen V2 \u2014 3,150 USDC \u2014 gasless L2 USDC transfer via Biconomy's fast liquidity bridge",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Biconomy Hyphen V2",
+    "merchant_description": "Fast L2 liquidity bridge by Biconomy",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Biconomy Hyphen V2 allowed for gasless L2 USDC transfers"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists Biconomy Hyphen V2 as explicitly allowed for gasless L2 USDC transfers. 3,150 USDC within the 6,000 limit."
+  },
+  {
+    "id": "69038741-25b5-4d68-9b49-842e68a91962",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Portal Bridge (Wormhole) \u2014 0.262 ETH \u2014 Wormhole-secured cross-chain asset transfer for treasury USDC rebalancing",
+    "amount": 0.262,
+    "currency": "ETH",
+    "merchant": "Portal Bridge (Wormhole)",
+    "merchant_description": "Wormhole's token bridge UI",
+    "policy_state": {
+      "max_amount_per_tx": 0.375,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Portal Bridge allowed for Wormhole-secured cross-chain asset transfers"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Portal Bridge is authorized for Wormhole-secured cross-chain asset transfers. 0.262 ETH within the 0.375 limit."
+  },
+  {
+    "id": "1eb3b9dd-c2d4-4f2f-8355-f34e639b9925",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Everclear (Connext) \u2014 79 USDT \u2014 clearing-layer cross-chain USDC netting via Connext's settlement protocol",
+    "amount": 79.0,
+    "currency": "USDT",
+    "merchant": "Everclear (Connext)",
+    "merchant_description": "Connext's clearing layer for cross-chain transfers",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Everclear allowed for clearing-layer cross-chain USDC netting"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly permits Everclear for clearing-layer cross-chain USDC netting per the named allowance. 79 USDT within the 225 limit."
+  },
+  {
+    "id": "3dee8314-a85e-4d6b-a9b8-f6f1ddae3a93",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Flux Finance V2 \u2014 419 USDC \u2014 OUSG-collateral USDC borrow position on Flux's permissioned lending market",
+    "amount": 419.0,
+    "currency": "USDC",
+    "merchant": "Flux Finance V2",
+    "merchant_description": "Permissioned lending for RWA-backed tokens",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Flux Finance V2 allowed for OUSG-collateral USDC borrowing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Flux Finance V2 holds a dedicated mandate carve-out for OUSG-collateral USDC borrowing. 419 USDC within the 798 limit."
+  },
+  {
+    "id": "2e0d5d3f-856c-44a2-92a9-aa82e2dfd301",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Spark Finance \u2014 10,500 USDC \u2014 DAI savings rate and USDS lending via MakerDAO's Spark market",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "Spark Finance",
+    "merchant_description": "MakerDAO's Spark lending market for DAI/USDS",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Spark Finance allowed for DAI savings rate and USDS lending"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names Spark Finance specifically for DAI savings rate and USDS lending. 10,500 USDC within the 15,000 limit."
+  },
+  {
+    "id": "7fa50b93-0cb9-4781-b70b-2e15a57e7cd5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Seamless Protocol \u2014 0.0525 ETH \u2014 Base-native USDC lending position for yield on idle capital",
+    "amount": 0.0525,
+    "currency": "ETH",
+    "merchant": "Seamless Protocol",
+    "merchant_description": "Native money market protocol on Base",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Seamless Protocol allowed for Base-native USDC lending"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: Seamless Protocol authorized for Base-native USDC lending. 0.0525 ETH within the 0.15 limit."
+  },
+  {
+    "id": "5d3d256a-6ecf-4d69-a7f9-99638d389cf1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ionic Protocol \u2014 5.25 USDC \u2014 Mode-native USDC collateral deposit for yield on the Ionic money market",
+    "amount": 5.25,
+    "currency": "USDC",
+    "merchant": "Ionic Protocol",
+    "merchant_description": "Money market on Mode Network",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Ionic Protocol allowed for Mode-native USDC collateral yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's named carve-out covers Ionic Protocol for Mode-native USDC collateral yield. 5.25 USDC within the 10 limit."
+  },
+  {
+    "id": "a1cd9681-94c1-466d-b59b-6a8c417d9c80",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Moonwell Finance \u2014 209 USDC \u2014 Base money market USDC yield via Moonwell's open lending protocol",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "Moonwell Finance",
+    "merchant_description": "Open lending protocol on Moonbeam and Base",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Moonwell Finance allowed for Base money market USDC yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's explicit allowance, Moonwell Finance is authorized for Base money market USDC yield. 209 USDC within the 299 limit."
+  },
+  {
+    "id": "83f197a6-0ad5-4a14-b048-40df1bdc0685",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Prime Protocol \u2014 2,100 USDC \u2014 cross-chain USDC unified collateral lending position for treasury yield",
+    "amount": 2100.0,
+    "currency": "USDC",
+    "merchant": "Prime Protocol",
+    "merchant_description": "Cross-chain prime brokerage lending",
+    "policy_state": {
+      "max_amount_per_tx": 6000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Prime Protocol allowed for cross-chain USDC unified collateral"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy specifically carves out Prime Protocol for cross-chain USDC unified collateral. 2,100 USDC within the 6,000 limit."
+  },
+  {
+    "id": "ad6f5654-1348-4a3a-8ca2-0c0e67811854",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Fraxlend \u2014 0.00105 ETH \u2014 FRAX/USDC isolated lending pair position in the Frax ecosystem",
+    "amount": 0.00105,
+    "currency": "ETH",
+    "merchant": "Fraxlend",
+    "merchant_description": "Isolated lending pairs in Frax ecosystem",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Fraxlend isolated pairs allowed for FRAX/USDC leverage positions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit mandate entry authorizes Fraxlend isolated pairs for FRAX/USDC leverage positions. 0.00105 ETH within the 0.002 limit."
+  },
+  {
+    "id": "fccb0564-e157-4871-a52c-f972755bbd13",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Inverse Finance FiRM \u2014 15.75 USDC \u2014 fixed-rate USDC borrowing via Inverse Finance's FiRM protocol",
+    "amount": 15.75,
+    "currency": "USDC",
+    "merchant": "Inverse Finance",
+    "merchant_description": "Decentralized lending with FiRM protocol",
+    "policy_state": {
+      "max_amount_per_tx": 23,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Inverse Finance FiRM allowed for fixed-rate USDC borrowing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Inverse Finance FiRM is explicitly listed in the policy for fixed-rate USDC borrowing. 15.75 USDC within the 23 limit."
+  },
+  {
+    "id": "f0b08be8-d5d3-420d-b713-d15838f26a4a",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Midas Capital \u2014 944 USDC \u2014 isolated pool USDC yield on alt-chain Fuse fork markets",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "Midas Capital",
+    "merchant_description": "Fuse fork with isolated markets on multiple chains",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Midas Capital isolated pools allowed for alt-chain USDC yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's explicit carve-out for Midas Capital covers isolated pool alt-chain USDC yield. 944 USDC within the 2,697 limit."
+  },
+  {
+    "id": "6bf0c42a-f498-4d9a-99ab-e96e89691b00",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Tapioca Finance \u2014 5,250 USDC \u2014 omnichain USDC lending operations via LayerZero-powered money market",
+    "amount": 5250.0,
+    "currency": "USDC",
+    "merchant": "Tapioca Finance",
+    "merchant_description": "Omnichain money market via LayerZero",
+    "policy_state": {
+      "max_amount_per_tx": 10000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Tapioca Finance allowed for omnichain USDC lending operations"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tapioca Finance sits under the named carve-out for omnichain USDC lending operations. 5,250 USDC within the 10,000 limit."
+  },
+  {
+    "id": "35c77e38-4d7e-4076-be19-fb0b0f2796c3",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sentiment Protocol \u2014 0.262 ETH \u2014 under-collateralized USDC working capital position for on-chain treasury operations",
+    "amount": 0.262,
+    "currency": "ETH",
+    "merchant": "Sentiment Protocol",
+    "merchant_description": "Under-collateralized lending for on-chain entities",
+    "policy_state": {
+      "max_amount_per_tx": 0.375,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Sentiment Protocol allowed for under-collateralized USDC working capital"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Sentiment Protocol authorized for under-collateralized USDC working capital. 0.262 ETH within the 0.375 limit."
+  },
+  {
+    "id": "347841eb-54b3-40a7-8d6c-4456f026f86a",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ribbon Lend \u2014 26 USDC \u2014 institutional credit line draw for short-term operational treasury needs",
+    "amount": 26.0,
+    "currency": "USDC",
+    "merchant": "Ribbon Lend",
+    "merchant_description": "Institutional undercollateralized lending by Ribbon",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Ribbon Lend allowed for institutional credit line for operations"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Ribbon Lend for institutional credit line for operations. 26 USDC within the 75 limit."
+  },
+  {
+    "id": "045a959b-8e24-4c3e-969f-d158caa8fd99",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Arca Finance \u2014 419 USDC \u2014 on-chain credit pool working capital draw for crypto treasury operations",
+    "amount": 419.0,
+    "currency": "USDC",
+    "merchant": "Arca Finance",
+    "merchant_description": "Crypto-native credit market",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Arca Finance credit pools allowed for crypto working capital draws"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Arca Finance credit pools covering crypto working capital draws. 419 USDC within the 798 limit."
+  },
+  {
+    "id": "a87a5b82-ff0c-4b0c-8171-30ee54274e91",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "ReHold Protocol \u2014 1,260 USDC \u2014 dual-investment USDC/ETH yield position for treasury yield generation",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "ReHold Protocol",
+    "merchant_description": "Dual investment yield protocol",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "ReHold allowed for dual-investment USDC/ETH yield positions"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, ReHold is authorized for dual-investment USDC/ETH yield positions. 1,260 USDC within the 1,800 limit."
+  },
+  {
+    "id": "09d820a2-f13b-40ab-98bd-bf7a09f8dd73",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Voltz Protocol \u2014 0.0525 ETH \u2014 interest rate swap for fixed-rate USDC yield hedging on variable DeFi rates",
+    "amount": 0.0525,
+    "currency": "ETH",
+    "merchant": "Voltz Protocol",
+    "merchant_description": "Interest rate swap protocol for DeFi yields",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Voltz Protocol IRS positions allowed for fixed-rate USDC yield hedging"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly permits Voltz Protocol IRS positions for fixed-rate USDC yield hedging. 0.0525 ETH within the 0.15 limit."
+  },
+  {
+    "id": "aae23b33-8b9a-47a2-a58b-24ebf4d629ee",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Lido CSM \u2014 52 USDC \u2014 community staking module participation for permissionless Lido validator contribution",
+    "amount": 52.0,
+    "currency": "USDC",
+    "merchant": "Lido CSM (Community Staking)",
+    "merchant_description": "Community staking module for Lido validators",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Lido CSM allowed for permissionless validator participation"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lido CSM holds a specific mandate carve-out for permissionless validator participation. 52 USDC within the 100 limit."
+  },
+  {
+    "id": "eccc3835-71e4-4610-b2a0-7c65543d425d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "P2P.org Staking \u2014 209 USDC \u2014 institutional non-custodial ETH staking for yield on treasury ETH holdings",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "P2P.org Staking",
+    "merchant_description": "Non-custodial institutional ETH staking",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "P2P.org staking allowed for institutional non-custodial ETH yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names P2P.org staking specifically for institutional non-custodial ETH yield. 209 USDC within the 299 limit."
+  },
+  {
+    "id": "5ce38e1c-cb40-496b-8a62-fff73bb0861b",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Chorus One Staking \u2014 3,150 USDC \u2014 multi-chain validator staking rewards across ETH, SOL, and ATOM",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Chorus One Staking",
+    "merchant_description": "Multi-chain institutional validator staking",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Chorus One allowed for multi-chain validator staking rewards"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: Chorus One authorized for multi-chain validator staking rewards. 3,150 USDC within the 9,000 limit."
+  },
+  {
+    "id": "28b87bed-e19c-4cea-80e0-ae32d2763f1d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Blockdaemon Staking \u2014 0.00105 ETH \u2014 institutional ETH staking delegation via Blockdaemon's staking infrastructure",
+    "amount": 0.00105,
+    "currency": "ETH",
+    "merchant": "Blockdaemon Staking",
+    "merchant_description": "Institutional staking infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Blockdaemon allowed for institutional ETH staking delegation"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's named carve-out covers Blockdaemon for institutional ETH staking delegation. 0.00105 ETH within the 0.002 limit."
+  },
+  {
+    "id": "108fd56a-158a-4d2c-b5d7-3cc3c2427ff5",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Figment Staking \u2014 104 USDC \u2014 institutional multi-chain staking across proof-of-stake networks for yield",
+    "amount": 104.0,
+    "currency": "USDC",
+    "merchant": "Figment Staking",
+    "merchant_description": "Institutional staking as a service",
+    "policy_state": {
+      "max_amount_per_tx": 149,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Figment staking allowed for institutional multi-chain staking"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's explicit allowance, Figment staking is authorized for institutional multi-chain staking. 104 USDC within the 149 limit."
+  },
+  {
+    "id": "15d43196-86ee-42f8-9cad-288e870055f2",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Kiln Finance \u2014 944 USDT \u2014 on-chain programmatic ETH staking via Kiln's institutional staking platform",
+    "amount": 944.0,
+    "currency": "USDT",
+    "merchant": "Kiln Finance",
+    "merchant_description": "On-chain institutional staking platform",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Kiln Finance allowed for on-chain programmatic ETH staking"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Kiln Finance is explicitly listed in the policy for on-chain programmatic ETH staking. 944 USDT within the 2,697 limit."
+  }
+]

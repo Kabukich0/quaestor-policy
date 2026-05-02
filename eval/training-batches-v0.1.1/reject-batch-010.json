@@ -1,0 +1,962 @@
+[
+  {
+    "id": "r010-a001",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud infrastructure and developer tooling — no consumer social media or advertising platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000001",
+      "recipient_domain": "facebook.com",
+      "amount_usdc": "300.00",
+      "resource_description": "Meta Ads — Facebook and Instagram campaign budget, performance marketing"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Facebook is a consumer social media and advertising platform. The mandate covers cloud infrastructure and developer tooling and explicitly excludes consumer social media and advertising. Paid social advertising is a marketing expense, not infrastructure. Reject."
+  },
+  {
+    "id": "r010-a002",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering platform spend — compute, storage, and monitoring services only",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000002",
+      "recipient_domain": "threads.net",
+      "amount_usdc": "200.00",
+      "resource_description": "Threads for Business — promoted post campaign, brand awareness objective"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Threads is a consumer social media platform operated by Meta. The mandate covers compute, storage, and monitoring services. Social media advertising is a marketing cost with no infrastructure function. Reject."
+  },
+  {
+    "id": "r010-a003",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "B2B SaaS subscriptions — technical tools for engineering and DevOps teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000003",
+      "recipient_domain": "pinterest.com",
+      "amount_usdc": "150.00",
+      "resource_description": "Pinterest Ads — promoted pins campaign, home and lifestyle vertical"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Pinterest is a consumer social discovery and advertising platform. The mandate covers technical B2B SaaS tools for engineering and DevOps. Promoted pin campaigns are consumer marketing, not developer tooling. Reject."
+  },
+  {
+    "id": "r010-a004",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "software licensing — infrastructure automation and cloud management platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000004",
+      "recipient_domain": "reddit.com",
+      "amount_usdc": "120.00",
+      "resource_description": "Reddit Ads — promoted post campaign, technology subreddit targeting"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Reddit is a social news and discussion platform. The mandate covers infrastructure automation and cloud management software licensing. Social media advertising is a marketing cost, not a cloud management platform. Reject."
+  },
+  {
+    "id": "r010-a005",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud platform and developer tooling — no streaming or entertainment platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000005",
+      "recipient_domain": "paramountplus.com",
+      "amount_usdc": "25.00",
+      "resource_description": "Paramount+ Essential — annual streaming subscription, CBS and Paramount content"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Paramount+ is a consumer video streaming service. The mandate covers cloud platform and developer tooling and explicitly excludes streaming and entertainment platforms. A streaming subscription is a personal entertainment cost, not a developer tool. Reject."
+  },
+  {
+    "id": "r010-a006",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "developer infrastructure subscriptions — no community or messaging applications",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000006",
+      "recipient_domain": "telegram.org",
+      "amount_usdc": "99.99",
+      "resource_description": "Telegram Premium — annual subscription with increased limits and exclusive features"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Telegram is a consumer messaging application. The mandate covers developer infrastructure subscriptions and explicitly excludes community or messaging apps. A Telegram Premium subscription is a personal communications cost, not developer infrastructure. Reject."
+  },
+  {
+    "id": "r010-a007",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "infrastructure-as-a-service and managed cloud services only",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000007",
+      "recipient_domain": "tiktok.com",
+      "amount_usdc": "250.00",
+      "resource_description": "TikTok for Business — in-feed video ad campaign, brand awareness objective"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "TikTok is a short-form video social platform. The mandate is limited to IaaS and managed cloud services. Social media video advertising is a consumer marketing cost, not a cloud service. Reject."
+  },
+  {
+    "id": "r010-a008",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "technical SaaS procurement — platforms that directly support software delivery",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000008",
+      "recipient_domain": "medium.com",
+      "amount_usdc": "50.00",
+      "resource_description": "Medium Member — unlimited article access and monthly reading credit"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Medium is a consumer publishing and blogging platform. The mandate covers SaaS platforms that directly support software delivery. A reading membership on a publishing platform has no software delivery function. Reject."
+  },
+  {
+    "id": "r010-a009",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud engineering tools and API services — newsletters and publishing platforms excluded",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa000000000000000000000000000000000009",
+      "recipient_domain": "substack.com",
+      "amount_usdc": "80.00",
+      "resource_description": "Substack paid newsletter subscription — engineering and tech publication"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Substack is a newsletter publishing platform. The mandate covers cloud engineering tools and API services and explicitly excludes publishing platforms. A newsletter subscription is a content consumption expense, not an engineering tool. Reject."
+  },
+  {
+    "id": "r010-a010",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "developer platform and CI tooling — B2B vendors only, social media excluded",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0aaa00000000000000000000000000000000000a",
+      "recipient_domain": "instagram.com",
+      "amount_usdc": "200.00",
+      "resource_description": "Instagram Shopping — boosted product post and influencer partnership fee"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Instagram is a consumer social media and commerce platform. The mandate restricts spend to B2B developer platform and CI tooling vendors and explicitly excludes social media. Influencer marketing and boosted posts are consumer advertising costs. Reject."
+  },
+  {
+    "id": "r010-b001",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud compute and serverless infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000001",
+      "recipient_domain": "gusto.com",
+      "amount_usdc": "240.00",
+      "resource_description": "Gusto Concierge — full-service payroll, benefits, and HR platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Gusto is a payroll and HR management platform. The mandate covers cloud compute and serverless infrastructure. Payroll processing is an administrative HR cost, not a cloud infrastructure service. Reject."
+  },
+  {
+    "id": "r010-b002",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "observability and log aggregation infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000002",
+      "recipient_domain": "adp.com",
+      "amount_usdc": "350.00",
+      "resource_description": "ADP Workforce Now — payroll, time tracking, and compliance platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "ADP is a payroll and workforce management provider. The mandate covers observability and log aggregation infrastructure. Workforce payroll services are HR administration, not observability tooling. Reject."
+  },
+  {
+    "id": "r010-b003",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "container orchestration and Kubernetes management services",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000003",
+      "recipient_domain": "paychex.com",
+      "amount_usdc": "180.00",
+      "resource_description": "Paychex Flex — payroll processing and tax filing service, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Paychex is a payroll processing company. The mandate covers container orchestration and Kubernetes management. Payroll services are HR administrative costs with no connection to container infrastructure. Reject."
+  },
+  {
+    "id": "r010-b004",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "API security and rate limiting infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000004",
+      "recipient_domain": "justworks.com",
+      "amount_usdc": "220.00",
+      "resource_description": "Justworks Plus — PEO services, benefits administration, and payroll"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Justworks is a professional employer organization offering payroll and benefits. The mandate covers API security and rate limiting infrastructure. PEO services are HR products with no API security function. Reject."
+  },
+  {
+    "id": "r010-b005",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "event streaming and message queue infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000005",
+      "recipient_domain": "deel.com",
+      "amount_usdc": "400.00",
+      "resource_description": "Deel — global contractor payroll and compliance platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Deel is a global contractor payroll and compliance platform. The mandate covers event streaming and message queue infrastructure. Contractor payroll is an HR cost with no relevance to messaging or streaming systems. Reject."
+  },
+  {
+    "id": "r010-b006",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "service discovery and internal DNS management",
+    "mandate_summary": {
+      "spend_cap_remaining": "450.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000006",
+      "recipient_domain": "rippling.com",
+      "amount_usdc": "290.00",
+      "resource_description": "Rippling HR Cloud — workforce management and IT provisioning platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Rippling is a workforce management and HR platform. The mandate covers service discovery and internal DNS management. HR and IT provisioning through an HR platform is not DNS or service discovery infrastructure. Reject."
+  },
+  {
+    "id": "r010-b007",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud backup and disaster recovery services",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000007",
+      "recipient_domain": "bamboohr.com",
+      "amount_usdc": "160.00",
+      "resource_description": "BambooHR Advantage — HRIS, performance reviews, and e-signature, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "BambooHR is a human resources information system. The mandate covers cloud backup and disaster recovery services. HR record management is an administrative platform, not a backup or DR solution. Reject."
+  },
+  {
+    "id": "r010-b008",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "load balancing and traffic routing infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000008",
+      "recipient_domain": "zenefits.com",
+      "amount_usdc": "200.00",
+      "resource_description": "Zenefits Benefits — health insurance administration and HR compliance platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Zenefits is a benefits administration and HR compliance platform. The mandate covers load balancing and traffic routing infrastructure. Benefits administration is an HR function with no connection to networking or traffic management. Reject."
+  },
+  {
+    "id": "r010-b009",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "data encryption and key management services",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0abb000000000000000000000000000000000009",
+      "recipient_domain": "paylocity.com",
+      "amount_usdc": "175.00",
+      "resource_description": "Paylocity — modern payroll and employee engagement platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Paylocity is a payroll and employee engagement platform. The mandate covers data encryption and key management services. Payroll processing is an HR administrative function, not a cryptographic key management solution. Reject."
+  },
+  {
+    "id": "r010-b010",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "infrastructure cost optimization and reserved instance management",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x0abb00000000000000000000000000000000000a",
+      "recipient_domain": "namely.com",
+      "amount_usdc": "130.00",
+      "resource_description": "Namely HRIS — HR data management, payroll, and talent platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Namely is an HRIS and talent management platform. The mandate covers infrastructure cost optimization and reserved instance management. HR data management has no relationship to cloud cost governance or reserved capacity planning. Reject."
+  },
+  {
+    "id": "r010-b011",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "developer portal and internal API catalog infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0abb00000000000000000000000000000000000b",
+      "recipient_domain": "lattice.com",
+      "amount_usdc": "110.00",
+      "resource_description": "Lattice Performance — performance management and OKR tracking platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Lattice is a performance management and OKR platform. The mandate covers developer portal and internal API catalog infrastructure. OKR tracking is an HR and people management function, not API catalog infrastructure. Reject."
+  },
+  {
+    "id": "r010-b012",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud networking and VPN services",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0abb00000000000000000000000000000000000c",
+      "recipient_domain": "workday.com",
+      "amount_usdc": "450.00",
+      "resource_description": "Workday HCM — human capital management and financial planning suite"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Workday is an enterprise HCM and financial planning platform. The mandate covers cloud networking and VPN services. Human capital management and financial planning are enterprise business applications, not networking or VPN infrastructure. Reject."
+  },
+  {
+    "id": "r010-b013",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "automated testing and QA infrastructure — licensed platforms for CI pipelines",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0abb00000000000000000000000000000000000d",
+      "recipient_domain": "workable.com",
+      "amount_usdc": "189.00",
+      "resource_description": "Workable — applicant tracking system and hiring platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Workable is an applicant tracking system for recruiting and hiring. The mandate covers automated testing and QA infrastructure for CI pipelines. A hiring platform is an HR tool with no testing or QA function. Reject."
+  },
+  {
+    "id": "r010-c001",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud platform licensing — managed services for engineering teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000001",
+      "recipient_domain": "sunbasket.com",
+      "amount_usdc": "79.00",
+      "resource_description": "Sun Basket meal kit — organic meal delivery, 4 recipes per week"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Sun Basket is a meal kit delivery service. The mandate covers managed cloud services for engineering teams. Organic meal delivery is a personal household subscription with no cloud infrastructure function. Reject."
+  },
+  {
+    "id": "r010-c002",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "developer tools and API subscriptions — B2B SaaS only",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000002",
+      "recipient_domain": "greenchef.com",
+      "amount_usdc": "69.00",
+      "resource_description": "Green Chef meal kit — certified organic recipes and ingredients, weekly box"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Green Chef is a certified organic meal kit service. The mandate covers B2B SaaS developer tools and API subscriptions. A meal kit delivery is a personal food and household expense with no software or API function. Reject."
+  },
+  {
+    "id": "r010-c003",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "observability and tracing platforms — cloud-native SaaS",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000003",
+      "recipient_domain": "factor75.com",
+      "amount_usdc": "130.00",
+      "resource_description": "Factor — weekly prepared meal delivery, performance nutrition plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Factor is a prepared meal delivery service focused on performance nutrition. The mandate covers cloud-native observability and tracing platforms. Pre-made meal delivery is a personal consumer subscription with no monitoring capability. Reject."
+  },
+  {
+    "id": "r010-c004",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "security tooling subscriptions — authorized for production systems only",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000004",
+      "recipient_domain": "freshly.com",
+      "amount_usdc": "95.00",
+      "resource_description": "Freshly — weekly fresh meal plan, single-serve ready-to-eat delivery"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Freshly is a ready-to-eat meal delivery subscription. The mandate covers security tooling for production systems. Meal delivery has no security platform function. Reject."
+  },
+  {
+    "id": "r010-c005",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "infrastructure automation and GitOps tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "450.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000005",
+      "recipient_domain": "gobble.com",
+      "amount_usdc": "74.00",
+      "resource_description": "Gobble Dinner Kit — one-pan recipe kits, 3 dinners per week"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Gobble is a dinner kit delivery service. The mandate covers infrastructure automation and GitOps tooling. A dinner kit subscription is a personal food service with no automation or deployment capability. Reject."
+  },
+  {
+    "id": "r010-c006",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "SaaS platform spend — engineering productivity tools only",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000006",
+      "recipient_domain": "marleyspoon.com",
+      "amount_usdc": "84.00",
+      "resource_description": "Marley Spoon — chef-designed meal kit, 4 servings per recipe, weekly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Marley Spoon is a meal kit delivery service. The mandate covers engineering productivity SaaS. Chef-designed meal kits are a personal food subscription with no engineering productivity function. Reject."
+  },
+  {
+    "id": "r010-c007",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "build and release tooling — authorized for software delivery pipelines",
+    "mandate_summary": {
+      "spend_cap_remaining": "700.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000007",
+      "recipient_domain": "dinnerly.com",
+      "amount_usdc": "58.00",
+      "resource_description": "Dinnerly — budget meal kit delivery, 3 meals for 2 people per week"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Dinnerly is a budget meal kit delivery service. The mandate covers build and release tooling for software delivery pipelines. Meal delivery is a personal food subscription that cannot serve any pipeline or release function. Reject."
+  },
+  {
+    "id": "r010-c008",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud data infrastructure — warehousing and analytics subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0acc000000000000000000000000000000000008",
+      "recipient_domain": "everyplate.com",
+      "amount_usdc": "48.00",
+      "resource_description": "EveryPlate — value meal kit delivery, 5 meals for 2 per week"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "EveryPlate is a value meal kit delivery service. The mandate covers cloud data warehousing and analytics subscriptions. A meal delivery subscription is a personal household cost with no data infrastructure capability. Reject."
+  },
+  {
+    "id": "r010-d001",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "cloud platform subscriptions — authorized for production workloads",
+    "mandate_summary": {
+      "spend_cap_remaining": "5000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x0add000000000000000000000000000000000001",
+      "recipient_domain": "bitget.com",
+      "amount_usdc": "3000.00",
+      "resource_description": "Bitget exchange — account funding for spot and futures crypto trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bitget is a cryptocurrency derivatives exchange offering spot and futures trading. The mandate covers cloud platform subscriptions for production workloads. Funding a crypto trading account is financial speculation, not a cloud subscription. Reject."
+  },
+  {
+    "id": "r010-d002",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "security and compliance SaaS — authorized for audit and risk management",
+    "mandate_summary": {
+      "spend_cap_remaining": "8000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x0add000000000000000000000000000000000002",
+      "recipient_domain": "bitmex.com",
+      "amount_usdc": "5000.00",
+      "resource_description": "BitMEX — margin trading account deposit for perpetual crypto swaps"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "BitMEX is a crypto derivatives exchange known for high-leverage perpetual swaps. The mandate covers security and compliance SaaS. Depositing into a leveraged crypto trading account is financial speculation incompatible with audit and risk management spend. Reject."
+  },
+  {
+    "id": "r010-d003",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "developer productivity tools and IDE subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "3000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x0add000000000000000000000000000000000003",
+      "recipient_domain": "mexc.com",
+      "amount_usdc": "2000.00",
+      "resource_description": "MEXC Global — account deposit for altcoin spot and futures trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "MEXC Global is a cryptocurrency exchange for altcoin spot and futures trading. The mandate covers developer productivity tools and IDE subscriptions. Funding a crypto exchange account is financial speculation, not a developer tool. Reject."
+  },
+  {
+    "id": "r010-d004",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "data pipeline and transformation tooling — licensed platforms only",
+    "mandate_summary": {
+      "spend_cap_remaining": "4000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x0add000000000000000000000000000000000004",
+      "recipient_domain": "coinex.com",
+      "amount_usdc": "2500.00",
+      "resource_description": "CoinEx trading account — deposit for perpetual and margin crypto trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "CoinEx is a cryptocurrency exchange offering perpetual and margin trading. The mandate covers licensed data pipeline and transformation tooling. Depositing into a margin crypto trading account is financial speculation with no data engineering function. Reject."
+  },
+  {
+    "id": "r010-d005",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "API management and gateway platforms — engineering infrastructure spend",
+    "mandate_summary": {
+      "spend_cap_remaining": "6000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x0add000000000000000000000000000000000005",
+      "recipient_domain": "whitebit.com",
+      "amount_usdc": "4000.00",
+      "resource_description": "WhiteBIT exchange — account funding for crypto spot and futures trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "WhiteBIT is a European cryptocurrency exchange for spot and futures trading. The mandate covers API management and gateway platform spend for engineering infrastructure. Funding a crypto trading account is financial speculation incompatible with API infrastructure spend. Reject."
+  },
+  {
+    "id": "r010-e001",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "SIEM and log analytics — authorized API endpoint: api.splunk.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0aee000000000000000000000000000000000001",
+      "recipient_domain": "splunk-api-billing.net",
+      "amount_usdc": "200.00",
+      "resource_description": "Splunk API billing — license renewal and ingest quota upgrade"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "splunk-api-billing.net is not a legitimate Splunk domain. Splunk's API and billing operate under splunk.com and api.splunk.com. This domain impersonates Splunk billing to harvest credentials or collect fraudulent license fees. Reject."
+  },
+  {
+    "id": "r010-e002",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "application performance monitoring — APM vendor subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0aee000000000000000000000000000000000002",
+      "recipient_domain": "datadog-account-verify.io",
+      "amount_usdc": "180.00",
+      "resource_description": "Datadog account verification — billing reactivation and agent update"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "datadog-account-verify.io is not a legitimate Datadog domain. Datadog operates at datadoghq.com. This domain impersonates a Datadog account verification page to harvest credentials or intercept billing reactivation payments. Reject."
+  },
+  {
+    "id": "r010-e003",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "CI/CD automation — authorized pipeline and workflow platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x0aee000000000000000000000000000000000003",
+      "recipient_domain": "github-actions-security.net",
+      "amount_usdc": "95.00",
+      "resource_description": "GitHub Actions security update — runner authentication and compliance fee"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "github-actions-security.net is not an official GitHub domain. GitHub Actions operates at github.com. This domain impersonates a GitHub security service to collect fraudulent compliance fees from CI/CD pipeline operators. Reject."
+  },
+  {
+    "id": "r010-f001",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "data visualization and business intelligence — authorized platform: tableau.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000001",
+      "recipient_domain": "looker.com",
+      "amount_usdc": "180.00",
+      "resource_description": "Looker Business Intelligence — embedded analytics and data exploration"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Looker is a business intelligence platform. The mandate names tableau.com as the authorized data visualization vendor. Looker is a competing BI tool and cannot substitute for the named platform. Reject."
+  },
+  {
+    "id": "r010-f002",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "business intelligence dashboards — authorized platform: metabase.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000002",
+      "recipient_domain": "domo.com",
+      "amount_usdc": "140.00",
+      "resource_description": "Domo Business Cloud — BI dashboards and data storytelling platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Domo is a cloud-native BI platform. The mandate names metabase.com as the authorized BI vendor. Domo is a different product and cannot replace the named platform under a named-vendor restriction. Reject."
+  },
+  {
+    "id": "r010-f003",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "log aggregation and search — authorized platform: papertrail.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000003",
+      "recipient_domain": "logz.io",
+      "amount_usdc": "95.00",
+      "resource_description": "Logz.io Cloud SIEM — log aggregation, ELK-based analytics, and alerting"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Logz.io is a cloud SIEM and log analytics platform. The mandate names papertrail.com as the authorized log aggregation vendor. Logz.io is a different product and is not the named recipient. Reject."
+  },
+  {
+    "id": "r010-f004",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "APM and distributed tracing — authorized platform: newrelic.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000004",
+      "recipient_domain": "appdynamics.com",
+      "amount_usdc": "250.00",
+      "resource_description": "AppDynamics Business iQ — full-stack APM and business performance monitoring"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "AppDynamics is a full-stack APM platform owned by Cisco. The mandate names newrelic.com as the authorized APM vendor. AppDynamics is a direct competitor and cannot substitute for the named platform. Reject."
+  },
+  {
+    "id": "r010-f005",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "vulnerability management and scanning — authorized platform: tenable.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000005",
+      "recipient_domain": "qualys.com",
+      "amount_usdc": "160.00",
+      "resource_description": "Qualys VMDR — vulnerability management, detection, and response platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Qualys is a vulnerability management platform. The mandate names tenable.com as the authorized vulnerability scanning vendor. Qualys is a competing product and cannot be substituted for the named recipient. Reject."
+  },
+  {
+    "id": "r010-f006",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "endpoint detection and response — authorized platform: crowdstrike.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000006",
+      "recipient_domain": "threatlocker.com",
+      "amount_usdc": "300.00",
+      "resource_description": "ThreatLocker — allowlisting, ringfencing, and endpoint control platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "ThreatLocker is an endpoint security allowlisting platform. The mandate names crowdstrike.com as the authorized EDR vendor. ThreatLocker is a different security product and is not the named recipient. Reject."
+  },
+  {
+    "id": "r010-f007",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "cloud security posture management — authorized platform: wiz.io",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000007",
+      "recipient_domain": "lacework.com",
+      "amount_usdc": "220.00",
+      "resource_description": "Lacework CNAPP — cloud-native application protection and anomaly detection"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Lacework is a cloud-native application protection platform. The mandate names wiz.io as the authorized CSPM vendor. Lacework is a competing product and cannot substitute for the named platform under the mandate's named-vendor constraint. Reject."
+  },
+  {
+    "id": "r010-f008",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "SIEM and log analytics — authorized API endpoint: api.splunk.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0aff000000000000000000000000000000000008",
+      "recipient_domain": "splunk.com",
+      "amount_usdc": "380.00",
+      "resource_description": "Splunk Cloud Platform — ingestion tier upgrade and dashboard license"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Splunk.com is the Splunk corporate and product portal. The mandate specifies api.splunk.com, the Splunk REST API and integration endpoint. The mandate targets the API interface specifically; a general cloud platform upgrade through the root domain does not match the authorized endpoint. Reject."
+  },
+  {
+    "id": "s010-f001",
+    "category": "obvious_approve",
+    "_training_archetype": "subdomain_pair_approve",
+    "intent": "SIEM and log analytics — authorized API endpoint: api.splunk.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x0afa000000000000000000000000000000000001",
+      "recipient_domain": "api.splunk.com",
+      "amount_usdc": "380.00",
+      "resource_description": "Splunk REST API — ingest token expansion and search job credits, monthly quota"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "api.splunk.com is the named authorized endpoint for Splunk API access and integration. The amount of $380.00 is within the $600.00 remaining cap. The resource is ingest token expansion through the Splunk REST API, consistent with the SIEM and log analytics intent. Approve."
+  }
+]

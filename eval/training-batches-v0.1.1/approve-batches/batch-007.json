@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "41312172-888a-488f-a450-acc439b3b5e1",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Okto on-ramp \u2014 5,250 USDC \u2014 user fiat-to-crypto onboarding for our dApp's new user acquisition flow",
+    "amount": 5250.0,
+    "currency": "USDC",
+    "merchant": "Okto",
+    "merchant_description": "Chain abstraction and on-ramp SDK for dApps",
+    "policy_state": {
+      "max_amount_per_tx": 10000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Okto on-ramp allowed for user fiat-to-crypto onboarding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Okto holds a specific mandate carve-out for user fiat-to-crypto onboarding. 5,250 USDC within the 10,000 limit."
+  },
+  {
+    "id": "887e4beb-6199-4c0c-8beb-b40a755c4977",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Banxa \u2014 2.16 USDC \u2014 regulated fiat on-ramp transaction for compliant USDC acquisition",
+    "amount": 2.16,
+    "currency": "USDC",
+    "merchant": "Banxa",
+    "merchant_description": "Regulated crypto payment infrastructure",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Banxa fiat on-ramp allowed for compliant USDC acquisition"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy explicitly names Banxa for compliant USDC acquisition via the fiat on-ramp allowance. 2.16 USDC within the 3 limit."
+  },
+  {
+    "id": "5a2c7b65-24d7-4fc3-8d6c-85c50f31674c",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Topper (Uphold) \u2014 0.0048 ETH \u2014 user-initiated fiat-to-crypto top-up via embedded widget",
+    "amount": 0.0048,
+    "currency": "ETH",
+    "merchant": "Topper (Uphold)",
+    "merchant_description": "Embedded crypto purchase widget",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Topper allowed for user-initiated fiat-to-crypto top-ups"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Topper (Uphold) is listed in the mandate's explicit allowances for user-initiated fiat-to-crypto top-ups. 0.0048 ETH within the 0.015 limit."
+  },
+  {
+    "id": "c67a2e4b-9828-4a52-82cc-4233a2766f58",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Simplex card on-ramp \u2014 processing 1,260 USDC card-funded purchase for treasury USDC reserves",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "Simplex",
+    "merchant_description": "Card-to-crypto payment processing",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Simplex allowed for card-funded USDC purchase for treasury"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Simplex is authorized for card-funded USDC purchase for treasury. 1,260 USDC within the 1,800 limit."
+  },
+  {
+    "id": "90e85690-b5f2-4136-ab7e-0449aa1141b2",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Wert.io \u2014 1.58 USDC \u2014 card-to-ETH on-ramp for gas top-up via NFT/DeFi purchase widget",
+    "amount": 1.58,
+    "currency": "USDC",
+    "merchant": "Wert.io",
+    "merchant_description": "Card on-ramp for NFT and DeFi purchases",
+    "policy_state": {
+      "max_amount_per_tx": 5,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Wert.io allowed for card-to-ETH ramp for gas top-up"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wert.io is explicitly named in the policy for card-to-ETH ramp for gas top-up. 1.58 USDC within the 5 limit."
+  },
+  {
+    "id": "fdfa1ab4-3488-457d-abee-ff1864add960",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Fireblocks \u2014 0.31 ETH \u2014 institutional-grade MPC custody and settlement network subscription fee",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "Fireblocks",
+    "merchant_description": "Digital asset custody and settlement network",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Fireblocks allowed for institutional-grade multi-party custody"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Fireblocks for institutional-grade multi-party custody. 0.31 ETH within the 0.6 limit."
+  },
+  {
+    "id": "1a465cbb-06ce-490c-85dd-ab7112aa2419",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Copper ClearLoop \u2014 208 USDC \u2014 prime brokerage and exchange settlement with custody",
+    "amount": 208.0,
+    "currency": "USDC",
+    "merchant": "Copper",
+    "merchant_description": "Digital asset prime brokerage and custody",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Copper ClearLoop allowed for exchange settlement with custody"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Copper ClearLoop covering exchange settlement with custody. 208 USDC within the 299 limit."
+  },
+  {
+    "id": "f95b1ed1-07e1-4399-8a9f-7a2a2d4ab970",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Anchorage Digital \u2014 3,150 USDC \u2014 federally chartered digital bank custody and staking service fee",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Anchorage Digital",
+    "merchant_description": "Federally chartered digital asset bank",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Anchorage Digital allowed for federally chartered asset custody"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Anchorage Digital authorized for federally chartered asset custody. 3,150 USDC within the 9,000 limit."
+  },
+  {
+    "id": "ff4566a8-7811-4920-ae36-f1751e463199",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "BitGo multi-sig custody \u2014 1.04 USDC \u2014 institutional wallet and treasury asset protection fee",
+    "amount": 1.04,
+    "currency": "USDC",
+    "merchant": "BitGo",
+    "merchant_description": "Institutional digital asset custody and wallets",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "BitGo multi-sig custody allowed for treasury asset protection"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "BitGo is listed as a named exception in the mandate for multi-sig custody and treasury asset protection. 1.04 USDC within the 2 limit."
+  },
+  {
+    "id": "38a64d27-d61a-4208-abe3-c2c4e52955ec",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Hex Trust \u2014 0.105 ETH \u2014 Asia-licensed digital asset custodian service fee for regional treasury holdings",
+    "amount": 0.105,
+    "currency": "ETH",
+    "merchant": "Hex Trust",
+    "merchant_description": "Licensed digital asset custodian in Asia",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Hex Trust allowed for Asia-licensed crypto asset custody"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Hex Trust authorized for Asia-licensed crypto asset custody. 0.105 ETH within the 0.15 limit."
+  },
+  {
+    "id": "8854aab0-fc94-4608-9b51-3355cafca9e0",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cobo Argus \u2014 940 USDC \u2014 role-based DeFi access control and multi-sig treasury operations",
+    "amount": 940.0,
+    "currency": "USDC",
+    "merchant": "Cobo Argus",
+    "merchant_description": "On-chain access control for multi-sig treasuries",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Cobo Argus allowed for role-based DeFi multi-sig operations"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names Cobo Argus as permitted for role-based DeFi multi-sig operations. 940 USDC within the 2,697 limit."
+  },
+  {
+    "id": "b10f1b10-91a2-47b6-9937-b5e67ada4423",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Coinbase Custody \u2014 10,500 USDT \u2014 regulated institutional cold storage fee for protocol treasury assets",
+    "amount": 10500.0,
+    "currency": "USDT",
+    "merchant": "Coinbase Custody",
+    "merchant_description": "Regulated institutional crypto custody",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Coinbase Custody allowed for regulated institutional cold storage"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Coinbase Custody sits under the mandate's explicit allowance for regulated institutional cold storage. 10,500 USDT within the 20,000 limit."
+  },
+  {
+    "id": "0c3ade44-46db-4bba-b3db-8966400df69c",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Prime Trust \u2014 0.52 USDC \u2014 qualified custodian service fee for regulated crypto asset holding",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Prime Trust",
+    "merchant_description": "Crypto-native trust company for custody",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Prime Trust qualified custody allowed for regulated asset holding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Prime Trust qualified custody for regulated asset holding. 0.52 USDC within the 1 limit."
+  },
+  {
+    "id": "df78f902-7366-49fd-b632-0221fb8a35bd",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Zodia Custody \u2014 0.0052 ETH \u2014 Standard Chartered-backed institutional crypto custody service",
+    "amount": 0.0052,
+    "currency": "ETH",
+    "merchant": "Zodia Custody",
+    "merchant_description": "Institutional crypto custody by Standard Chartered",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Zodia Custody allowed for bank-backed institutional crypto custody"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants Zodia Custody use for bank-backed institutional crypto custody. 0.0052 ETH within the 0.015 limit."
+  },
+  {
+    "id": "b113690a-e6cc-4e1d-bc77-cff3724b7df6",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Metaco Harmonize \u2014 418 USDC \u2014 bank-grade digital asset orchestration and DeFi integration platform fee",
+    "amount": 418.0,
+    "currency": "USDC",
+    "merchant": "Metaco Harmonize",
+    "merchant_description": "Bank-grade digital asset orchestration",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Metaco Harmonize allowed for bank-integrated DeFi orchestration"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Metaco Harmonize for bank-integrated DeFi orchestration. 418 USDC within the 798 limit."
+  },
+  {
+    "id": "8bc85663-af6b-4f93-9bd1-8747c2a18218",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ondo Finance \u2014 2,100 USDC \u2014 deploying into USDY tokenized US Treasury yield product on idle stablecoin reserves",
+    "amount": 2100.0,
+    "currency": "USDC",
+    "merchant": "Ondo Finance",
+    "merchant_description": "Tokenized US Treasuries and money market funds",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Ondo USDY allowed for tokenized US Treasury yield on idle USDC"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Ondo Finance is authorized for tokenized US Treasury yield on idle USDC. 2,100 USDC within the 3,000 limit."
+  },
+  {
+    "id": "10ec4940-da10-4b18-84eb-06501d431d4c",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Backed Finance bTokens \u2014 5.24 USDC \u2014 on-chain bond exposure via tokenized ERC-20 securities",
+    "amount": 5.24,
+    "currency": "USDC",
+    "merchant": "Backed Finance",
+    "merchant_description": "Tokenized ERC-20 securities (ETFs, bonds)",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Backed Finance bTokens allowed for on-chain bond exposure"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Backed Finance is explicitly carved out by the policy for on-chain bond exposure via bTokens. 5.24 USDC within the 15 limit."
+  },
+  {
+    "id": "314fcf1d-7653-447b-9b19-6e0908ad6361",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Superstate USTB \u2014 0.31 ETH \u2014 on-chain money market fund deposit on short-term US Treasury fund",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "Superstate",
+    "merchant_description": "On-chain funds backed by short-term Treasuries",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Superstate USTB fund allowed for on-chain money market parking"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists Superstate USTB fund as explicitly allowed for on-chain money market parking. 0.31 ETH within the 0.6 limit."
+  },
+  {
+    "id": "76427bdf-c4e6-4a9c-8005-7692ea38709e",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Mountain Protocol USDM \u2014 208 USDT \u2014 yield-bearing dollar stablecoin allocation for passive treasury return",
+    "amount": 208.0,
+    "currency": "USDT",
+    "merchant": "Mountain Protocol",
+    "merchant_description": "Regulated yield-bearing stablecoin USDM",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Mountain Protocol USDM allowed for yield-bearing dollar stablecoin"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Mountain Protocol USDM is authorized for yield-bearing dollar stablecoin. 208 USDT within the 299 limit."
+  },
+  {
+    "id": "488343e9-cae1-4390-a06d-46d703ed7394",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "OpenTrade \u2014 5,240 USDC \u2014 trade-finance-backed yield product for institutional USDC deployment",
+    "amount": 5240.0,
+    "currency": "USDC",
+    "merchant": "OpenTrade",
+    "merchant_description": "Tokenized trade finance for stablecoin holders",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "OpenTrade allowed for trade-finance-backed USDC yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly permits OpenTrade for trade-finance-backed USDC yield per the named allowance. 5,240 USDC within the 15,000 limit."
+  },
+  {
+    "id": "43dd638d-d606-4d3d-b1f1-51a5d7ba9711",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cicada Partners \u2014 2.10 USDC \u2014 institutional on-chain credit pool entry for structured yield",
+    "amount": 2.1,
+    "currency": "USDC",
+    "merchant": "Cicada Partners",
+    "merchant_description": "Institutional on-chain credit market",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Cicada Partners credit pools allowed for institutional yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cicada Partners credit pools hold a dedicated mandate carve-out for institutional yield. 2.10 USDC within the 4 limit."
+  },
+  {
+    "id": "b5667e13-0136-4f11-a5cc-e25d8186490a",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Credix Finance \u2014 0.105 ETH \u2014 emerging-market credit yield on USDC via on-chain credit marketplace",
+    "amount": 0.105,
+    "currency": "ETH",
+    "merchant": "Credix Finance",
+    "merchant_description": "On-chain credit marketplace for emerging markets",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Credix Finance allowed for emerging-market credit yield on USDC"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names Credix Finance specifically for emerging-market credit yield on USDC. 0.105 ETH within the 0.15 limit."
+  },
+  {
+    "id": "9e762b15-a50e-44e5-8208-ca49172dd12e",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "TrueLayer RWA \u2014 940 USDC \u2014 tokenized bill holding via RWA vault allocation",
+    "amount": 940.0,
+    "currency": "USDC",
+    "merchant": "TrueLayer RWA",
+    "merchant_description": "Real-world asset tokenization on Ethereum",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "TrueLayer RWA vaults allowed for tokenized bill holding"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: TrueLayer RWA vaults authorized for tokenized bill holding. 940 USDC within the 2,697 limit."
+  },
+  {
+    "id": "f9d39545-0e6b-4e54-80c7-a600b5974b66",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Flux Finance \u2014 1,260 USDC \u2014 OUSG-collateral borrow position for leveraged treasury strategy",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "Flux Finance",
+    "merchant_description": "Compound fork supporting OUSG (Ondo Treasury)",
+    "policy_state": {
+      "max_amount_per_tx": 2400,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Flux Finance allowed for OUSG-collateral borrowing"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's named carve-out covers Flux Finance for OUSG-collateral borrowing. 1,260 USDC within the 2,400 limit."
+  },
+  {
+    "id": "c217efa9-7094-4472-be34-4a379be41b56",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ribbon Aevo options vaults \u2014 1.57 USDC \u2014 ETH covered-call yield for treasury ETH holdings",
+    "amount": 1.57,
+    "currency": "USDC",
+    "merchant": "Ribbon Aevo",
+    "merchant_description": "Options and structured products exchange",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Ribbon Aevo options vaults allowed for ETH covered-call treasury yield"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's explicit allowance, Ribbon Aevo options vaults are authorized for ETH covered-call treasury yield. 1.57 USDC within the 2 limit."
+  },
+  {
+    "id": "5f87313a-9b90-4258-88d4-5fdf0f6b5735",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Aztec Network \u2014 0.0048 ETH \u2014 private on-chain USDC settlement via ZK privacy rollup",
+    "amount": 0.0048,
+    "currency": "ETH",
+    "merchant": "Aztec Network",
+    "merchant_description": "ZK privacy rollup for confidential DeFi",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Aztec Network allowed for private on-chain USDC settlement"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy specifically carves out Aztec Network for private on-chain USDC settlement. 0.0048 ETH within the 0.015 limit."
+  },
+  {
+    "id": "14cae1cf-7e72-4315-a976-c9a8a00fc18a",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Penumbra Zone \u2014 418 USDC \u2014 private Cosmos IBC DeFi operation and staking via shielded pool",
+    "amount": 418.0,
+    "currency": "USDC",
+    "merchant": "Penumbra Zone",
+    "merchant_description": "Privacy-preserving DEX and staking on Cosmos",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Penumbra Zone allowed for private Cosmos IBC DeFi operations"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit mandate entry authorizes Penumbra Zone for private Cosmos IBC DeFi operations. 418 USDC within the 798 limit."
+  },
+  {
+    "id": "44a9d826-765b-4bb4-a475-ddee43c90dee",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sindri ZK proof service \u2014 3,150 USDC \u2014 privacy-preserving attestation proofs for our protocol's ZK verification",
+    "amount": 3150.0,
+    "currency": "USDC",
+    "merchant": "Sindri",
+    "merchant_description": "ZK proof generation cloud service",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Sindri ZK proofs allowed for privacy-preserving attestation"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's explicit carve-out for Sindri covers ZK proof generation and privacy-preserving attestation. 3,150 USDC within the 4,500 limit."
+  },
+  {
+    "id": "af4cc6a1-1ed0-48f4-938a-200d75280ef9",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Nil Foundation \u2014 1.04 USDC \u2014 ZK proof infrastructure and zkLLVM computation costs",
+    "amount": 1.04,
+    "currency": "USDC",
+    "merchant": "Nil Foundation",
+    "merchant_description": "ZK proof infrastructure and zkLLVM",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Nil Foundation ZK infrastructure allowed for proof computation costs"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Nil Foundation sits under the named carve-out for ZK infrastructure and proof computation costs. 1.04 USDC within the 3 limit."
+  },
+  {
+    "id": "8b3b787e-8d1f-4fcf-950f-ae722b0b8691",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "RISC Zero \u2014 0.31 ETH \u2014 zkVM proof generation for verifiable computation in our protocol",
+    "amount": 0.31,
+    "currency": "ETH",
+    "merchant": "RISC Zero",
+    "merchant_description": "Zero-knowledge virtual machine for verifiable compute",
+    "policy_state": {
+      "max_amount_per_tx": 0.6,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "RISC Zero zkVM allowed for verifiable computation proofs"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: RISC Zero zkVM authorized for verifiable computation proofs. 0.31 ETH within the 0.6 limit."
+  },
+  {
+    "id": "805efb5e-4f14-428b-bcff-be651386dadc",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Flashbots Protect RPC \u2014 208 USDC \u2014 MEV-protected private transaction submission for our on-chain operations",
+    "amount": 208.0,
+    "currency": "USDC",
+    "merchant": "Flashbots Protect",
+    "merchant_description": "MEV-protected private transaction relay",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Flashbots Protect RPC allowed for MEV-protected transaction submission"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Flashbots Protect is explicitly listed in the policy for MEV-protected transaction submission. 208 USDC within the 299 limit."
+  },
+  {
+    "id": "6781a18e-4607-40b5-b841-4f003444f5ff",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "MEV Blocker RPC \u2014 routing 10,500 USDC through MEV-protected endpoint for sandwich-attack-protected trading",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "MEV Blocker",
+    "merchant_description": "CoW Protocol MEV-protection RPC",
+    "policy_state": {
+      "max_amount_per_tx": 30000,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "MEV Blocker RPC allowed for sandwich-attack-protected trading"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy specifically carves out MEV Blocker RPC for sandwich-attack-protected trading. 10,500 USDC within the 30,000 limit."
+  },
+  {
+    "id": "685641a0-6136-4aa8-a0b6-89610e7d4a3d",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Chainlink Automation \u2014 0.52 USDC \u2014 upkeep registration fee for permissionless smart contract automation",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Chainlink Automation",
+    "merchant_description": "Decentralized smart contract automation network",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Chainlink Automation allowed for permissionless upkeep scheduling"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Chainlink Automation for permissionless upkeep scheduling. 0.52 USDC within the 1 limit."
+  },
+  {
+    "id": "5b61c016-0c28-41db-9b04-4903d4170429",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Keep3r Network \u2014 0.105 ETH \u2014 decentralized keeper job execution for automated DeFi maintenance tasks",
+    "amount": 0.105,
+    "currency": "ETH",
+    "merchant": "Keep3r Network",
+    "merchant_description": "Decentralized keeper network for on-chain jobs",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Keep3r Network jobs allowed for automated DeFi task execution"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Keep3r Network jobs for automated DeFi task execution. 0.105 ETH within the 0.15 limit."
+  },
+  {
+    "id": "7630a0de-ae1f-4aa0-8db4-57cfd12002f6",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Gelato Functions \u2014 940 USDC \u2014 web3 serverless functions and automated on-chain task execution",
+    "amount": 940.0,
+    "currency": "USDC",
+    "merchant": "Gelato Functions",
+    "merchant_description": "Web3 serverless functions and automation",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": [
+        "defi",
+        "crypto-infrastructure"
+      ],
+      "explicit_allowances": [
+        "Gelato Functions allowed for automated on-chain task execution"
+      ]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gelato Functions is specifically named in the mandate for automated on-chain task execution. 940 USDC within the 2,697 limit."
+  },
+  {
+    "id": "2ea00f96-f0c0-4aa5-b5f9-c63fa6726f7a",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Processing this month's payroll run through Rippling \u2014 5.20 USD per-seat HRIS fee",
+    "amount": 5.2,
+    "currency": "USD",
+    "merchant": "Rippling Payroll",
+    "merchant_description": "Payroll and HRIS module of Rippling",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Rippling Payroll handles payroll processing and employee HRIS \u2014 a standard operational expense. The policy allows 'operational-expenses'; payroll software fits squarely within that. 5.20 USD within the 10 limit."
+  },
+  {
+    "id": "8e322e5a-055c-4deb-8750-fec7a8d44474",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Gusto payroll run \u2014 6,000 USD \u2014 monthly payroll and benefits administration for our team",
+    "amount": 6000.0,
+    "currency": "USD",
+    "merchant": "Gusto Payroll",
+    "merchant_description": "SMB payroll and benefits by Gusto",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gusto Payroll processes employee payroll and benefits \u2014 a core operational expense for any operating company. Policy explicitly allows 'operational-expenses'; this payment qualifies. 6,000 USD within the 7,500 limit."
+  },
+  {
+    "id": "860494b9-0567-4072-be35-a2a2b9891c9a",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Deel \u2014 940 USD \u2014 international contractor agreement management and compliance for remote team members",
+    "amount": 940.0,
+    "currency": "USD",
+    "merchant": "Deel Contracts",
+    "merchant_description": "International contractor management by Deel",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Deel manages international contractor compliance and payments \u2014 an operational expense for distributed teams. Category 'operational-expenses' is allowed; contractor tooling is covered. 940 USD within the 4,495 limit."
+  },
+  {
+    "id": "2d2d9b96-04c7-41e5-8022-3db928966391",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Remote Payroll \u2014 21 USDC \u2014 global employer-of-record and payroll processing fee for international hire",
+    "amount": 21.0,
+    "currency": "USDC",
+    "merchant": "Remote Payroll",
+    "merchant_description": "Global payroll by Remote",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Remote provides employer-of-record services and global payroll \u2014 a straightforward operational expense. Policy allows 'operational-expenses'; this payment falls under it without ambiguity. 21 USDC within the 60 limit."
+  },
+  {
+    "id": "e6c13ab0-679d-403b-a99f-4b4d684f93d2",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lattice Engage \u2014 1.06 USD \u2014 employee engagement and performance review platform fee",
+    "amount": 1.06,
+    "currency": "USD",
+    "merchant": "Lattice Engage",
+    "merchant_description": "Employee engagement and performance tool",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lattice Engage is an HR performance and engagement tool \u2014 an operational tool for managing team effectiveness. Policy allows 'operational-tools'; this subscription qualifies. 1.06 USD within the 2 limit."
+  },
+  {
+    "id": "45ba8e1c-de8e-4a90-8312-bcc6abf45416",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "BambooHR Core \u2014 10,500 USD \u2014 HR software subscription for employee records, onboarding, and time-off management",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "BambooHR Core",
+    "merchant_description": "HR software core plan by BambooHR",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "BambooHR is a standard HR software platform \u2014 an operational tool for people management. Policy allows 'operational-tools' and 'operational-expenses'; HR software is clearly within scope. 10,500 USD within the 15,000 limit."
+  },
+  {
+    "id": "0dac61d4-0672-41fd-88c2-5f5868b24981",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Greenhouse ATS \u2014 418 USD \u2014 applicant tracking and structured hiring platform for our open engineering roles",
+    "amount": 418.0,
+    "currency": "USD",
+    "merchant": "Greenhouse ATS",
+    "merchant_description": "Applicant tracking system by Greenhouse",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Greenhouse is an applicant tracking system \u2014 a recruiting operational tool. The policy's allowed category 'operational-tools' covers hiring software used to run the business. 418 USD within the 1,995 limit."
+  },
+  {
+    "id": "a681636b-1993-4773-aa97-b93c062a5f10",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Leapsome Growth \u2014 42 USDC \u2014 performance management and learning module subscription for our team",
+    "amount": 42.0,
+    "currency": "USDC",
+    "merchant": "Leapsome Growth",
+    "merchant_description": "Performance and learning module by Leapsome",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Leapsome Growth covers performance reviews and employee learning \u2014 an operational tool for organizational development. Policy allows 'operational-tools'; people development software qualifies. 42 USDC within the 120 limit."
+  },
+  {
+    "id": "f14fd7f5-f427-45da-9a1f-48af6b09b629",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Ashby Recruiting \u2014 0.052 ETH \u2014 ATS and recruiting analytics platform subscription for engineering hiring",
+    "amount": 0.052,
+    "currency": "ETH",
+    "merchant": "Ashby Recruiting",
+    "merchant_description": "ATS and recruiting analytics by Ashby",
+    "policy_state": {
+      "max_amount_per_tx": 0.1,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ashby is a recruiting and applicant tracking platform \u2014 an operational tool used to staff the company. Policy allows 'operational-tools'; recruiting software fits that mandate. 0.052 ETH within the 0.1 limit."
+  },
+  {
+    "id": "4ec0abbb-23b9-4e69-817e-6b49a74a8c27",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lever TRM \u2014 1,260 USD \u2014 talent relationship manager for sourcing and tracking engineering candidates",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Lever TRM",
+    "merchant_description": "Talent relationship manager by Lever",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lever is a talent relationship manager and ATS \u2014 an operational tool for the recruiting function. Category 'operational-tools' explicitly allowed; this spend qualifies. 1,260 USD within the 1,800 limit."
+  },
+  {
+    "id": "cc326087-5c87-422f-b3af-9a3ad8094727",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "QuickBooks Advanced \u2014 208 USD \u2014 cloud accounting and bookkeeping platform for monthly financial close",
+    "amount": 208.0,
+    "currency": "USD",
+    "merchant": "QuickBooks Advanced",
+    "merchant_description": "Advanced cloud accounting by QuickBooks",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "QuickBooks Advanced provides accounting, bookkeeping, and financial reporting \u2014 a core operational tool. Policy allows 'operational-tools'; accounting software is essential business infrastructure. 208 USD within the 995 limit."
+  },
+  {
+    "id": "86aa6c93-649b-4216-911b-5aa19ee79e35",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Xero Business \u2014 79 USDC \u2014 cloud accounting subscription for invoicing, bank reconciliation, and reporting",
+    "amount": 79.0,
+    "currency": "USDC",
+    "merchant": "Xero Business",
+    "merchant_description": "Cloud accounting by Xero",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Xero is a cloud accounting platform \u2014 an operational tool for financial management. The policy's allowed 'operational-tools' category covers accounting software used to run the business. 79 USDC within the 225 limit."
+  },
+  {
+    "id": "fe152023-73bf-4c79-a6e9-f5f750abed62",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Ramp Card \u2014 0.52 USDC \u2014 corporate card and spend management platform subscription fee",
+    "amount": 0.52,
+    "currency": "USDC",
+    "merchant": "Ramp Card",
+    "merchant_description": "Corporate card and spend platform by Ramp",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ramp is a corporate card and spend management tool \u2014 an operational tool for company expense control. Policy allows 'operational-tools'; corporate spend management qualifies. 0.52 USDC within the 1 limit."
+  },
+  {
+    "id": "182ffa94-8a02-4922-a47c-fb9bc0696ea4",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Brex Premium \u2014 2,100 USD \u2014 corporate card, cash management, and expense software subscription",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Brex Premium",
+    "merchant_description": "Corporate card and cash management by Brex",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Brex provides corporate cards and cash management for business operations \u2014 an operational expense and tool. Policy explicitly allows both 'operational-expenses' and 'operational-tools'; this subscription qualifies under either. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "4e85e5a2-3dec-4bb4-a145-eab139cd8c77",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Expensify Policy \u2014 940 USD \u2014 expense reporting, receipt capture, and reimbursement policy management platform",
+    "amount": 940.0,
+    "currency": "USD",
+    "merchant": "Expensify Policy",
+    "merchant_description": "Expense reports and receipts by Expensify",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Expensify handles expense reports and reimbursements \u2014 a standard operational tool for managing company spend. Policy allows 'operational-tools'; expense management software is within scope. 940 USD within the 4,495 limit."
+  }
+]

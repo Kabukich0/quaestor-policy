@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "5382fa4e-cf4c-4a0f-a969-f1bbfa691517",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Pilot Bookkeeping \u2014 5.25 USD \u2014 automated bookkeeping and financial close service for this month",
+    "amount": 5.25,
+    "currency": "USD",
+    "merchant": "Pilot Bookkeeping",
+    "merchant_description": "Startup bookkeeping and financial operations service",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pilot Bookkeeping provides outsourced bookkeeping \u2014 a standard operational expense for maintaining accurate financials. Policy allows 'operational-expenses'; bookkeeping services fall squarely within that. 5.25 USD within the 15 limit."
+  },
+  {
+    "id": "f4653b0e-f9f9-4c97-9d78-153ce3523a14",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Mercury Banking \u2014 1.55 USDC \u2014 business banking account and treasury management monthly fee",
+    "amount": 1.55,
+    "currency": "USDC",
+    "merchant": "Mercury Banking",
+    "merchant_description": "Business banking and treasury tools for startups",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mercury provides business banking and treasury management \u2014 core operational tools for running a company. Policy allows 'operational-tools'; business banking infrastructure qualifies. 1.55 USDC within the 3 limit."
+  },
+  {
+    "id": "59c1d1ce-cc7c-4554-ae63-272590aa257e",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Airbase \u2014 3,150 USDT \u2014 spend management, AP automation, and corporate card platform subscription",
+    "amount": 3150.0,
+    "currency": "USDT",
+    "merchant": "Airbase",
+    "merchant_description": "Corporate spend management and accounts payable platform",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Airbase covers spend management and accounts payable automation \u2014 an operational tool for financial control. Policy allows 'operational-tools'; procurement and spend management software qualifies. 3,150 USDT within the 4,500 limit."
+  },
+  {
+    "id": "c716072a-2c2e-44aa-98c8-d07ff2e06255",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Spendesk \u2014 419 USD \u2014 corporate cards, expense reports, and invoice management for our finance team",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Spendesk",
+    "merchant_description": "All-in-one spend management for mid-market teams",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Spendesk is a spend management platform covering cards, expenses, and invoices \u2014 an operational tool. Category 'operational-tools' is allowed; expense management software is within scope. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "761dc494-697c-49db-afaa-cac9f3cb2261",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Pleo Business \u2014 15.75 USD \u2014 smart company card and real-time expense management for our remote team",
+    "amount": 15.75,
+    "currency": "USD",
+    "merchant": "Pleo Business",
+    "merchant_description": "Smart corporate cards and expense management",
+    "policy_state": {
+      "max_amount_per_tx": 45,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Pleo provides corporate cards and expense tracking \u2014 an operational tool used to manage company spending. Policy allows 'operational-tools'; corporate expense management qualifies. 15.75 USD within the 45 limit."
+  },
+  {
+    "id": "166735f1-e4d3-42f8-be4e-cc5ddc44949d",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "DocuSign Business \u2014 5.24 USDC \u2014 e-signature platform subscription for contract execution across departments",
+    "amount": 5.24,
+    "currency": "USDC",
+    "merchant": "DocuSign Business",
+    "merchant_description": "E-signature and digital agreement platform",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "DocuSign is an e-signature platform \u2014 an operational tool essential for contract execution. Policy allows 'operational-tools'; e-signature software is core business infrastructure. 5.24 USDC within the 10 limit."
+  },
+  {
+    "id": "ad32d3b3-41d5-4264-9fd9-debcf17a4e0f",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "PandaDoc Business \u2014 0.021 ETH \u2014 proposal, quote, and e-signature platform for sales and legal workflows",
+    "amount": 0.021,
+    "currency": "ETH",
+    "merchant": "PandaDoc Business",
+    "merchant_description": "Document automation and e-signature for sales teams",
+    "policy_state": {
+      "max_amount_per_tx": 0.03,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "PandaDoc handles document automation and e-signatures \u2014 an operational tool for sales and legal workflows. Policy allows 'operational-tools'; document management software qualifies. 0.021 ETH within the 0.03 limit."
+  },
+  {
+    "id": "1de9e4c8-8b7a-448f-8ce2-0392b3871405",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Ironclad CLM \u2014 209 USD \u2014 contract lifecycle management platform for legal and procurement",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Ironclad CLM",
+    "merchant_description": "Contract lifecycle management for enterprise legal teams",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Ironclad manages contracts from drafting through execution \u2014 an operational tool for legal and procurement. Policy allows 'operational-tools'; contract lifecycle management is within scope. 209 USD within the 995 limit."
+  },
+  {
+    "id": "9935115b-2260-4366-86a5-d4a5c0b4033f",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Contractbook Teams \u2014 26 USD \u2014 collaborative contract drafting and management platform",
+    "amount": 26.0,
+    "currency": "USD",
+    "merchant": "Contractbook Teams",
+    "merchant_description": "Contract management and collaboration platform",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Contractbook provides contract drafting and management \u2014 an operational tool for legal operations. Category 'operational-tools' is explicitly allowed; contract management software fits this category. 26 USD within the 75 limit."
+  },
+  {
+    "id": "9349b628-bde1-475d-8ee6-a0747581cfd0",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Clerky Equity \u2014 1.05 USDC \u2014 equity and cap table legal document service for startup compliance",
+    "amount": 1.05,
+    "currency": "USDC",
+    "merchant": "Clerky Equity",
+    "merchant_description": "Startup legal documents and equity management",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Clerky provides equity documentation and startup legal services \u2014 an operational expense for compliance and governance. Policy allows 'operational-expenses'; legal documentation costs qualify. 1.05 USDC within the 2 limit."
+  },
+  {
+    "id": "9405c2b4-1da5-47b3-8784-13ab301c2b32",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Firstbase.io Business \u2014 10,500 USDC \u2014 business registration, compliance, and registered agent service",
+    "amount": 10500.0,
+    "currency": "USDC",
+    "merchant": "Firstbase.io Business",
+    "merchant_description": "Business formation and compliance for remote-first companies",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Firstbase handles business registration and ongoing compliance \u2014 a clear operational expense for maintaining legal entity status. Policy allows 'operational-expenses'; business formation costs fall within it. 10,500 USDC within the 15,000 limit."
+  },
+  {
+    "id": "b37dd1dd-7070-41dc-8582-7fadaba876b8",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Vanta Trust \u2014 944 USD \u2014 automated SOC 2 compliance monitoring and audit readiness platform",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Vanta Trust",
+    "merchant_description": "Automated security compliance and trust management",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Vanta automates security compliance and SOC 2 readiness \u2014 an operational tool for maintaining certifications. Policy allows 'operational-tools'; compliance infrastructure qualifies. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "0d892a08-5a06-4934-9c0a-21108ed24c37",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Secureframe SOC 2 \u2014 52 USD \u2014 security compliance automation and SOC 2 evidence collection",
+    "amount": 52.0,
+    "currency": "USD",
+    "merchant": "Secureframe SOC 2",
+    "merchant_description": "Security and privacy compliance automation",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Secureframe automates SOC 2 compliance evidence collection \u2014 an operational tool for security governance. Category 'operational-tools' is allowed; compliance automation software qualifies. 52 USD within the 150 limit."
+  },
+  {
+    "id": "6dd3433f-dad0-45b9-a21f-5c163eee40b9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Drata Platform \u2014 2.10 USD \u2014 continuous compliance monitoring platform for SOC 2 and ISO 27001",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "Drata Platform",
+    "merchant_description": "Continuous security and compliance automation",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Drata provides continuous compliance monitoring \u2014 an operational tool for security and audit readiness. Policy allows 'operational-tools'; compliance monitoring software is within scope. 2.10 USD within the 4 limit."
+  },
+  {
+    "id": "0fe13ea8-3767-49f9-bd69-6d1a1f496446",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Comply.io \u2014 1,260 USDC \u2014 privacy and data compliance management platform for GDPR and CCPA",
+    "amount": 1260.0,
+    "currency": "USDC",
+    "merchant": "Comply.io",
+    "merchant_description": "Privacy compliance management platform",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Comply.io manages privacy compliance (GDPR, CCPA) \u2014 an operational tool for regulatory compliance. Policy allows 'operational-tools'; privacy compliance software qualifies. 1,260 USDC within the 1,800 limit."
+  },
+  {
+    "id": "5a5577c2-271a-4ece-94bf-c7d0a9087167",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Zendesk Support \u2014 419 USDT \u2014 customer support ticketing and helpdesk platform subscription",
+    "amount": 419.0,
+    "currency": "USDT",
+    "merchant": "Zendesk Support",
+    "merchant_description": "Customer support and ticketing platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Zendesk is a customer support helpdesk \u2014 an operational tool for managing customer interactions. Policy allows 'operational-tools'; customer support software is essential business infrastructure. 419 USDT within the 1,995 limit."
+  },
+  {
+    "id": "a07de009-ed10-44c7-8052-8134168a8bd9",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Freshdesk Growth \u2014 0.52 USD \u2014 helpdesk and ticket management for customer support team",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "Freshdesk Growth",
+    "merchant_description": "Helpdesk and customer support by Freshdesk",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Freshdesk is a helpdesk platform \u2014 a standard operational tool for customer support. Policy allows 'operational-tools'; helpdesk software qualifies. 0.52 USD within the 1 limit."
+  },
+  {
+    "id": "f98752d6-2a5a-4bb7-a043-9cefe83a70ec",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Plain \u2014 2,100 USDC \u2014 customer support and issue management platform for our developer-facing users",
+    "amount": 2100.0,
+    "currency": "USDC",
+    "merchant": "Plain",
+    "merchant_description": "API-first customer support platform for developer products",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Plain provides customer support infrastructure for developer products \u2014 an operational tool for customer service. Category 'operational-tools' is allowed; customer support platforms qualify. 2,100 USDC within the 3,000 limit."
+  },
+  {
+    "id": "532125d8-41bd-4a35-9c22-a5a5eef40dc2",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Kustomer \u2014 0.0105 ETH \u2014 CRM-native customer service platform for high-volume support operations",
+    "amount": 0.0105,
+    "currency": "ETH",
+    "merchant": "Kustomer",
+    "merchant_description": "CRM-based customer service platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.05,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Kustomer is a CRM-native customer service platform \u2014 an operational tool for managing customer relationships. Policy allows 'operational-tools'; customer service software qualifies. 0.0105 ETH within the 0.05 limit."
+  },
+  {
+    "id": "ca8f7405-92db-465b-8bae-4ceb3e6b8c90",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Front App \u2014 10.50 USD \u2014 shared inbox and customer communication hub for our support and sales teams",
+    "amount": 10.5,
+    "currency": "USD",
+    "merchant": "Front App",
+    "merchant_description": "Shared inbox and customer communications platform",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Front provides shared inbox and customer communication \u2014 an operational tool for team collaboration and customer support. Policy allows 'operational-tools'; communication management software is within scope. 10.50 USD within the 30 limit."
+  },
+  {
+    "id": "ee4176d0-cc7e-4d98-b8b2-899339e7f5b8",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Help Scout \u2014 1.57 USD \u2014 customer support inbox and knowledge base platform subscription",
+    "amount": 1.57,
+    "currency": "USD",
+    "merchant": "Help Scout",
+    "merchant_description": "Customer support inbox and docs platform",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Help Scout provides customer support inboxes and documentation \u2014 an operational tool for customer service. Category 'operational-tools' is allowed; support software qualifies. 1.57 USD within the 3 limit."
+  },
+  {
+    "id": "6dde408c-c047-43d7-91e3-69c4d30d86d2",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Gorgias \u2014 3,150 USD \u2014 e-commerce customer support helpdesk and automation platform",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "Gorgias",
+    "merchant_description": "E-commerce helpdesk and customer support automation",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gorgias is a customer support helpdesk specialized for e-commerce \u2014 an operational tool for customer service. Policy allows 'operational-tools'; helpdesk software is within scope. 3,150 USD within the 4,500 limit."
+  },
+  {
+    "id": "d40ab886-fa45-48af-8122-0e77f72af467",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Gladly \u2014 944 USDC \u2014 customer service platform with people-centric support for high-value customers",
+    "amount": 944.0,
+    "currency": "USDC",
+    "merchant": "Gladly",
+    "merchant_description": "People-centric customer service platform",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gladly is a customer service platform \u2014 an operational tool for managing customer support at scale. Policy allows 'operational-tools'; customer service infrastructure qualifies. 944 USDC within the 4,495 limit."
+  },
+  {
+    "id": "5d9540e1-8a86-4d0b-98ae-cc60df65ebf3",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Dixa \u2014 21 USD \u2014 omnichannel customer service platform for unified chat, email, and voice support",
+    "amount": 21.0,
+    "currency": "USD",
+    "merchant": "Dixa",
+    "merchant_description": "Omnichannel customer service platform",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Dixa provides omnichannel customer service \u2014 an operational tool for customer support. Category 'operational-tools' is explicitly allowed; customer service software falls within it. 21 USD within the 60 limit."
+  },
+  {
+    "id": "d5e1fb93-2b59-4646-95c3-57507c5ec708",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "HubSpot Sales Hub \u2014 5.20 USD \u2014 CRM and sales pipeline management for our sales team",
+    "amount": 5.2,
+    "currency": "USD",
+    "merchant": "HubSpot Sales Hub",
+    "merchant_description": "CRM and sales pipeline by HubSpot",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "HubSpot Sales Hub is a CRM and sales tool \u2014 an operational tool for managing customer relationships and revenue. Policy allows 'operational-tools'; CRM software is essential business infrastructure. 5.20 USD within the 10 limit."
+  },
+  {
+    "id": "20f3a13b-15e0-47a9-93e0-4cfc5310a230",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Salesforce Essentials \u2014 5,250 USD \u2014 CRM, sales automation, and customer data platform for our sales operations",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "Salesforce Essentials",
+    "merchant_description": "Small business CRM and sales platform by Salesforce",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Salesforce is a CRM and sales operations platform \u2014 a core operational tool for revenue management. Policy allows 'operational-tools'; CRM software is within scope. 5,250 USD within the 7,500 limit."
+  },
+  {
+    "id": "77faf3c4-c128-452d-bd57-8d67ad715925",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Apollo.io Pro \u2014 419 USDC \u2014 B2B sales intelligence and prospecting platform for outbound pipeline",
+    "amount": 419.0,
+    "currency": "USDC",
+    "merchant": "Apollo.io Pro",
+    "merchant_description": "B2B sales intelligence and outbound platform",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Apollo.io provides sales intelligence and prospecting data \u2014 an operational tool for sales development. Category 'operational-tools' is allowed; sales intelligence software qualifies. 419 USDC within the 1,995 limit."
+  },
+  {
+    "id": "239f8dd1-fc38-48d3-b22a-7c975cb7670b",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Outreach.io Engage \u2014 42 EUR \u2014 sales engagement and sequencing platform for our SDR team",
+    "amount": 42.0,
+    "currency": "EUR",
+    "merchant": "Outreach.io Engage",
+    "merchant_description": "Sales engagement and outbound automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 120,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Outreach.io handles sales engagement and email sequencing \u2014 an operational tool for sales development. Policy allows 'operational-tools'; sales engagement software qualifies. 42 EUR within the 120 limit."
+  },
+  {
+    "id": "29647989-26af-4ce2-a6f1-e9d0740cddfd",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Gong Revenue \u2014 1.05 USD \u2014 revenue intelligence and call analysis platform for sales team coaching",
+    "amount": 1.05,
+    "currency": "USD",
+    "merchant": "Gong Revenue",
+    "merchant_description": "Revenue intelligence and conversation analytics",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gong is a revenue intelligence platform analyzing sales calls \u2014 an operational tool for sales effectiveness. Policy allows 'operational-tools'; revenue analytics software is within scope. 1.05 USD within the 2 limit."
+  },
+  {
+    "id": "c0939436-9f1e-46ac-b029-61d21ea2a205",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Chorus AI \u2014 10,500 USD \u2014 conversation intelligence and deal analytics for our enterprise sales team",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Chorus AI",
+    "merchant_description": "Conversation intelligence and sales analytics by Chorus",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Chorus AI provides sales call intelligence and deal analytics \u2014 an operational tool for sales coaching. Category 'operational-tools' is allowed; conversation intelligence software qualifies. 10,500 USD within the 15,000 limit."
+  },
+  {
+    "id": "f3ef7358-3092-4048-a0a0-4b534e307e2d",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Salesloft Rhythm \u2014 209 USDC \u2014 sales engagement and pipeline management platform subscription",
+    "amount": 209.0,
+    "currency": "USDC",
+    "merchant": "Salesloft Rhythm",
+    "merchant_description": "Sales engagement platform with AI-driven prioritization",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Salesloft is a sales engagement platform \u2014 an operational tool for managing sales workflows. Policy allows 'operational-tools'; sales pipeline management software qualifies. 209 USDC within the 995 limit."
+  },
+  {
+    "id": "2fe9e88a-074f-462a-a45a-5f25ecc0c945",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Attio CRM \u2014 0.0052 ETH \u2014 data-driven CRM and relationship management for our go-to-market team",
+    "amount": 0.0052,
+    "currency": "ETH",
+    "merchant": "Attio CRM",
+    "merchant_description": "Data-centric CRM for modern GTM teams",
+    "policy_state": {
+      "max_amount_per_tx": 0.015,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Attio is a CRM for go-to-market teams \u2014 an operational tool for relationship and pipeline management. Policy allows 'operational-tools'; CRM software is within scope. 0.0052 ETH within the 0.015 limit."
+  },
+  {
+    "id": "e83055b0-65a7-45c5-82b4-d69b93592d24",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Clay Enrichment \u2014 2.10 USD \u2014 data enrichment and prospecting tool for outbound sales",
+    "amount": 2.1,
+    "currency": "USD",
+    "merchant": "Clay Enrichment",
+    "merchant_description": "Data enrichment and go-to-market automation",
+    "policy_state": {
+      "max_amount_per_tx": 4,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Clay provides data enrichment and GTM automation \u2014 an operational tool for sales prospecting. Category 'operational-tools' is allowed; sales data tooling qualifies. 2.10 USD within the 4 limit."
+  },
+  {
+    "id": "d5ce4fc7-6c0f-4147-af21-3229f52b7776",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Instantly.ai \u2014 1,260 USD \u2014 cold email outreach and deliverability platform for demand generation",
+    "amount": 1260.0,
+    "currency": "USD",
+    "merchant": "Instantly.ai",
+    "merchant_description": "AI-powered cold email outreach and sequencing",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Instantly.ai is a cold email outreach platform \u2014 an operational tool for demand generation. Policy allows 'operational-tools'; outbound sales tooling qualifies. 1,260 USD within the 1,800 limit."
+  },
+  {
+    "id": "89a8a034-5d54-4984-82b8-d395f372f3ef",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Productboard Maker \u2014 944 USD \u2014 product management and roadmap prioritization platform for our product team",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Productboard Maker",
+    "merchant_description": "Product management and roadmapping platform",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Productboard is a product management platform \u2014 an operational tool for product and development teams. Policy allows 'developer-tools' and 'operational-tools'; product roadmap software qualifies under either. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "b971b607-9dbe-48bd-bfbc-7133433d78e4",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Canny Business \u2014 5.25 USDC \u2014 feature request tracking and product feedback management platform",
+    "amount": 5.25,
+    "currency": "USDC",
+    "merchant": "Canny Business",
+    "merchant_description": "Product feedback and feature voting board",
+    "policy_state": {
+      "max_amount_per_tx": 15,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Canny manages product feedback and feature requests \u2014 a developer-facing operational tool. Policy allows 'developer-tools'; product feedback tooling qualifies. 5.25 USDC within the 15 limit."
+  },
+  {
+    "id": "f15439c2-a1e3-4d2a-b000-325cba46824d",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "LaunchDarkly Pro \u2014 0.52 USD \u2014 feature flag management and controlled rollout platform for engineering",
+    "amount": 0.52,
+    "currency": "USD",
+    "merchant": "LaunchDarkly Pro",
+    "merchant_description": "Feature flag management and progressive delivery",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "LaunchDarkly is a feature flag management platform \u2014 a standard developer tool for controlled deployments. Policy allows 'developer-tools'; feature flag infrastructure qualifies. 0.52 USD within the 1 limit."
+  },
+  {
+    "id": "c4739b47-79e2-40db-aca0-5b50ba424535",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Statsig Enterprise \u2014 2,100 USD \u2014 feature flagging, A/B testing, and product analytics for engineering and product",
+    "amount": 2100.0,
+    "currency": "USD",
+    "merchant": "Statsig Enterprise",
+    "merchant_description": "Feature gates, A/B testing, and product analytics",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Statsig provides feature flags, experimentation, and analytics \u2014 a developer tool used by engineering and product teams. Policy allows 'developer-tools'; experimentation platforms qualify. 2,100 USD within the 3,000 limit."
+  },
+  {
+    "id": "9d8d9be3-01cc-4e95-98b1-39a4334a6cf9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Flagsmith Pro \u2014 419 USD \u2014 open-core feature flag and remote configuration management platform",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Flagsmith Pro",
+    "merchant_description": "Open-source feature flags and remote config",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Flagsmith provides feature flag and remote configuration management \u2014 a developer tool for engineering teams. Category 'developer-tools' is allowed; feature flag platforms qualify. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "f4bc9610-f9c3-40ab-b842-0ddc0ced741e",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Height App \u2014 1.57 EUR \u2014 project management and issue tracking for our engineering team",
+    "amount": 1.57,
+    "currency": "EUR",
+    "merchant": "Height App",
+    "merchant_description": "Project management tool for product and engineering",
+    "policy_state": {
+      "max_amount_per_tx": 3,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Height is a project management tool for engineering teams \u2014 an operational tool for development workflows. Policy allows 'operational-tools' and 'developer-tools'; project management software for developers qualifies. 1.57 EUR within the 3 limit."
+  },
+  {
+    "id": "1e108ef8-f4b5-4913-bcd9-7917d80bc4a9",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Shortcut Teams \u2014 3,150 USD \u2014 sprint planning, issue tracking, and engineering project management",
+    "amount": 3150.0,
+    "currency": "USD",
+    "merchant": "Shortcut Teams",
+    "merchant_description": "Project management for software teams",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Shortcut is a project management and issue tracking tool for software teams \u2014 a developer tool. Policy allows 'developer-tools'; engineering project management qualifies. 3,150 USD within the 4,500 limit."
+  },
+  {
+    "id": "8e3b6030-2ce4-4f7c-b52b-8391b26ff3e7",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Plane Cloud \u2014 209 USD \u2014 open-source issue tracking and project management for our engineering sprints",
+    "amount": 209.0,
+    "currency": "USD",
+    "merchant": "Plane Cloud",
+    "merchant_description": "Open-source project management and issue tracker",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Plane is an issue tracking and project management platform \u2014 a developer tool for engineering teams. Category 'developer-tools' is allowed; issue tracking software qualifies. 209 USD within the 995 limit."
+  },
+  {
+    "id": "96cf90c2-39e0-4a8f-87e2-55e0c73ef0ff",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Jira Standard \u2014 26 USDC \u2014 issue tracking and agile sprint management for our software development team",
+    "amount": 26.0,
+    "currency": "USDC",
+    "merchant": "Jira Standard",
+    "merchant_description": "Agile project management and issue tracking",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Jira is a standard issue tracking and sprint management tool \u2014 a core developer tool for engineering teams. Policy allows 'developer-tools'; agile project management software is within scope. 26 USDC within the 75 limit."
+  },
+  {
+    "id": "7362df85-0357-4188-ac84-b2a32ef08d8b",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Framer Pro \u2014 5,250 USD \u2014 interactive web design and prototyping platform for our frontend and design team",
+    "amount": 5250.0,
+    "currency": "USD",
+    "merchant": "Framer Pro",
+    "merchant_description": "Interactive design and website builder",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Framer is a web design and prototyping tool \u2014 an operational tool for product and engineering design workflows. Policy allows 'developer-tools' and 'operational-tools'; design tooling for engineering qualifies. 5,250 USD within the 7,500 limit."
+  },
+  {
+    "id": "a516c50f-29c5-4d28-8dab-0a34cdfb380e",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Webflow CMS \u2014 944 USD \u2014 no-code website and CMS platform for our marketing site and documentation",
+    "amount": 944.0,
+    "currency": "USD",
+    "merchant": "Webflow CMS",
+    "merchant_description": "No-code website builder with CMS capabilities",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Webflow is a no-code web builder and CMS \u2014 a developer tool for building and managing web properties. Policy allows 'developer-tools'; website management platforms qualify. 944 USD within the 4,495 limit."
+  },
+  {
+    "id": "43c6d288-ae4c-4728-9050-030cd0d81b48",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Spline Pro \u2014 52 USD \u2014 3D design and animation tool for interactive web experiences and product demos",
+    "amount": 52.0,
+    "currency": "USD",
+    "merchant": "Spline Pro",
+    "merchant_description": "3D design tool for web and product visualization",
+    "policy_state": {
+      "max_amount_per_tx": 150,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Spline is a 3D design tool for web applications \u2014 a developer and design tool for product visualization. Category 'developer-tools' and 'operational-tools' are both allowed; design tooling qualifies. 52 USD within the 150 limit."
+  },
+  {
+    "id": "dd159bd4-96ed-4666-9850-4caffe0fc7b0",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Canva Teams \u2014 1.05 USDC \u2014 collaborative design and brand asset management platform for marketing and ops",
+    "amount": 1.05,
+    "currency": "USDC",
+    "merchant": "Canva Teams",
+    "merchant_description": "Collaborative visual design and brand management",
+    "policy_state": {
+      "max_amount_per_tx": 2,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Canva Teams is a design and brand management tool \u2014 an operational tool for marketing and communications. Policy allows 'operational-tools'; collaborative design platforms qualify. 1.05 USDC within the 2 limit."
+  },
+  {
+    "id": "8e15a554-a776-4518-8307-0bf1c24cc26f",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Adobe Creative Cloud \u2014 10,500 USD \u2014 creative suite subscription for design, video, and marketing asset production",
+    "amount": 10500.0,
+    "currency": "USD",
+    "merchant": "Adobe Creative Cloud",
+    "merchant_description": "Full creative suite by Adobe",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": [
+        "operational-expenses",
+        "operational-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Adobe Creative Cloud is a design and creative production suite \u2014 a standard operational tool for design and marketing teams. Policy allows 'operational-tools'; creative software qualifies. 10,500 USD within the 15,000 limit."
+  },
+  {
+    "id": "7ddaa31c-6abe-44cd-ada0-bd6aa1860b81",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Sketch for Teams \u2014 419 USD \u2014 vector design and prototyping platform for our product design team",
+    "amount": 419.0,
+    "currency": "USD",
+    "merchant": "Sketch for Teams",
+    "merchant_description": "Vector design and prototyping tool for Mac",
+    "policy_state": {
+      "max_amount_per_tx": 1995,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Sketch is a vector design tool used by product designers and engineers \u2014 a developer-adjacent operational tool. Policy allows 'developer-tools' and 'operational-tools'; design software for product teams qualifies. 419 USD within the 1,995 limit."
+  },
+  {
+    "id": "92948f7e-8aa0-4085-8f30-b56217b53268",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Zeplin Business \u2014 104 USD \u2014 design handoff and component annotation platform for designer-developer collaboration",
+    "amount": 104.0,
+    "currency": "USD",
+    "merchant": "Zeplin Business",
+    "merchant_description": "Design handoff and collaboration for designers and engineers",
+    "policy_state": {
+      "max_amount_per_tx": 297,
+      "allowed_categories": [
+        "operational-tools",
+        "developer-tools"
+      ],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Zeplin facilitates design handoff between designers and developers \u2014 a developer tool for product collaboration. Category 'developer-tools' is allowed; design handoff tooling qualifies. 104 USD within the 297 limit."
+  }
+]

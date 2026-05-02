@@ -1,0 +1,962 @@
+[
+  {
+    "id": "r007-a001",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud infrastructure and DevOps tooling — managed services only, no staffing or labor platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000001",
+      "recipient_domain": "monster.com",
+      "amount_usdc": "80.00",
+      "resource_description": "Monster Job Posting — 30-day engineering role listing, East Coast region"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Monster is a job posting platform. The mandate restricts spend to cloud infrastructure and managed services and explicitly carves out staffing and labor platforms. A job listing fee is not an infrastructure cost. Reject."
+  },
+  {
+    "id": "r007-a002",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "software development tools and CI/CD infrastructure — no HR or recruitment vendors",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000002",
+      "recipient_domain": "indeed.com",
+      "amount_usdc": "120.00",
+      "resource_description": "Indeed Sponsored Job — senior backend engineer posting, 14-day boost"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Indeed is a recruitment marketplace. The mandate covers software development tools and CI/CD infrastructure only and explicitly prohibits HR and recruitment vendors. Reject."
+  },
+  {
+    "id": "r007-a003",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering platform subscriptions — authorized categories: observability, deployment, and testing",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000003",
+      "recipient_domain": "glassdoor.com",
+      "amount_usdc": "45.00",
+      "resource_description": "Glassdoor Enhanced Employer Profile, 3-month subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Glassdoor is an employer branding and review platform. The mandate lists observability, deployment, and testing as the only authorized categories. Employer profile management is none of those. Reject."
+  },
+  {
+    "id": "r007-a004",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "SaaS developer tooling — infrastructure, monitoring, and security categories only",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000004",
+      "recipient_domain": "ziprecruiter.com",
+      "amount_usdc": "99.00",
+      "resource_description": "ZipRecruiter 4-day job post, software engineer opening"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "ZipRecruiter is a hiring platform. The mandate covers SaaS developer tooling within infrastructure, monitoring, and security. Posting a job listing is categorically outside every authorized category. Reject."
+  },
+  {
+    "id": "r007-a005",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "developer productivity tools and API services — third-party SaaS only, no labor marketplaces",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 12
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000005",
+      "recipient_domain": "handshake.com",
+      "amount_usdc": "60.00",
+      "resource_description": "Handshake Campus Recruiting Premium — university talent pipeline access"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Handshake is a campus recruiting platform connecting employers with early-career talent. Developer productivity tools and API services are software capabilities, not talent acquisition services. Labor marketplaces are explicitly excluded. Reject."
+  },
+  {
+    "id": "r007-a006",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering infrastructure and cloud services — authorized vendors are managed cloud and DevOps platforms only",
+    "mandate_summary": {
+      "spend_cap_remaining": "1000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-06-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000006",
+      "recipient_domain": "upwork.com",
+      "amount_usdc": "250.00",
+      "resource_description": "Upwork contract — freelance backend engineer, 20-hour engagement"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Upwork is a freelance labor marketplace. The mandate authorizes spend at managed cloud and DevOps platforms. Freelance contractor fees are labor costs, not infrastructure or cloud service expenses. Reject."
+  },
+  {
+    "id": "r007-a007",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "technical platform services — API providers and developer tooling only, no creative or gig labor",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 15
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000007",
+      "recipient_domain": "fiverr.com",
+      "amount_usdc": "35.00",
+      "resource_description": "Fiverr gig — custom API documentation writing, 5 pages"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Fiverr is a gig economy marketplace for freelance and creative services. The mandate covers API providers and developer tooling and explicitly prohibits creative or gig labor. Reject."
+  },
+  {
+    "id": "r007-a008",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "infrastructure SaaS — cloud compute, networking, and storage vendors only",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000008",
+      "recipient_domain": "guru.com",
+      "amount_usdc": "150.00",
+      "resource_description": "Guru Enterprise — freelance tech contractor marketplace, team plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Guru is a freelancer marketplace. The mandate narrows authorized spend to cloud compute, networking, and storage vendors. A contractor marketplace is not among them regardless of whether the work is technical in nature. Reject."
+  },
+  {
+    "id": "r007-a009",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud platform subscriptions and developer tools — no talent or staffing vendors",
+    "mandate_summary": {
+      "spend_cap_remaining": "2000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x07aa000000000000000000000000000000000009",
+      "recipient_domain": "toptal.com",
+      "amount_usdc": "500.00",
+      "resource_description": "Toptal Core Plan — on-demand access to vetted freelance engineers"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Toptal is a premium talent network for freelance engineers and designers. The mandate explicitly excludes talent and staffing vendors and restricts spend to cloud platform subscriptions and developer tools. Reject."
+  },
+  {
+    "id": "r007-a010",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "software and cloud services — B2B SaaS platforms for engineering teams only",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07aa00000000000000000000000000000000000a",
+      "recipient_domain": "99designs.com",
+      "amount_usdc": "299.00",
+      "resource_description": "99designs project — UI design sprint for dashboard redesign"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "99designs is a design marketplace for creative and freelance work. The mandate limits spend to B2B SaaS platforms serving engineering teams. Design freelancing is outside that scope. Reject."
+  },
+  {
+    "id": "r007-b001",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "enterprise software licenses — productivity and collaboration tools for distributed teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000001",
+      "recipient_domain": "planetfitness.com",
+      "amount_usdc": "29.00",
+      "resource_description": "Planet Fitness Black Card membership, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Planet Fitness is a consumer gym chain. The mandate covers enterprise software licenses for distributed team productivity. A personal gym membership is not a software license and has no connection to workplace collaboration. Reject."
+  },
+  {
+    "id": "r007-b002",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "data engineering infrastructure — ETL pipelines and analytics platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000002",
+      "recipient_domain": "equinox.com",
+      "amount_usdc": "180.00",
+      "resource_description": "Equinox All Access membership, monthly subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Equinox is a premium fitness club. The mandate is for data engineering infrastructure including ETL and analytics. A gym membership does not serve that intent in any respect. Reject."
+  },
+  {
+    "id": "r007-b003",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "team communication and project management — authorized SaaS platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000003",
+      "recipient_domain": "orangetheory.com",
+      "amount_usdc": "59.00",
+      "resource_description": "Orangetheory Premier Membership, one month"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Orangetheory is a fitness studio offering interval training classes. The mandate funds team communication and project management SaaS. A fitness class subscription is unrelated to that purpose. Reject."
+  },
+  {
+    "id": "r007-b004",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud-based security tools — vulnerability scanning, SIEM, and endpoint protection",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000004",
+      "recipient_domain": "soulcycle.com",
+      "amount_usdc": "34.00",
+      "resource_description": "SoulCycle class pack — 5 cycling classes, Manhattan studio"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "SoulCycle is an indoor cycling fitness studio. The mandate covers cloud-based security tools including SIEM and endpoint protection. Fitness classes are not a security product. Reject."
+  },
+  {
+    "id": "r007-b005",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "API management and developer gateway services",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 12
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000005",
+      "recipient_domain": "crunch.com",
+      "amount_usdc": "25.00",
+      "resource_description": "Crunch Gym — Peak Results membership, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Crunch is a budget fitness chain. The mandate covers API management and developer gateway services. A gym membership has no relationship to API infrastructure. Reject."
+  },
+  {
+    "id": "r007-b006",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "observability and application performance monitoring — infrastructure vendors only",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000006",
+      "recipient_domain": "24hourfitness.com",
+      "amount_usdc": "36.00",
+      "resource_description": "24 Hour Fitness — Super Sport monthly membership"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "24 Hour Fitness is a consumer gym network. The mandate restricts spend to observability and APM infrastructure vendors. A fitness membership is a personal consumer expense, not a monitoring platform. Reject."
+  },
+  {
+    "id": "r007-b007",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "database hosting and managed data services",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000007",
+      "recipient_domain": "anytimefitness.com",
+      "amount_usdc": "42.00",
+      "resource_description": "Anytime Fitness — standard monthly membership, open gym access"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Anytime Fitness is a 24/7 gym franchise. The mandate covers database hosting and managed data services. Gym membership fees are personal consumer costs entirely outside the mandate. Reject."
+  },
+  {
+    "id": "r007-b008",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "content delivery and edge caching infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000008",
+      "recipient_domain": "ymca.org",
+      "amount_usdc": "50.00",
+      "resource_description": "YMCA Family Membership — monthly, full facility access"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "The YMCA is a nonprofit community services and fitness organization. The mandate covers content delivery and edge caching infrastructure. Community fitness memberships are categorically unrelated to CDN spend. Reject."
+  },
+  {
+    "id": "r007-b009",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "code hosting, version control, and CI/CD pipeline services",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 15
+    },
+    "redemption": {
+      "recipient_address": "0x07bb000000000000000000000000000000000009",
+      "recipient_domain": "blink.com",
+      "amount_usdc": "15.00",
+      "resource_description": "Blink Fitness — Premier membership, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Blink Fitness is a budget gym chain. The mandate covers code hosting, version control, and CI/CD pipelines — software development infrastructure. A gym subscription has nothing to do with code or deployment workflows. Reject."
+  },
+  {
+    "id": "r007-b010",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud object storage and backup services",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x07bb00000000000000000000000000000000000a",
+      "recipient_domain": "cyclebar.com",
+      "amount_usdc": "28.00",
+      "resource_description": "CycleBar classes — 10-ride pack, indoor cycling studio"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "CycleBar is an indoor cycling studio. The mandate covers cloud object storage and backup services. Spin classes are a personal fitness service, not a storage or data backup solution. Reject."
+  },
+  {
+    "id": "r007-b011",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "developer environment tooling — container orchestration and build systems",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07bb00000000000000000000000000000000000b",
+      "recipient_domain": "lifetimefitness.com",
+      "amount_usdc": "189.00",
+      "resource_description": "Life Time monthly membership — access to premium athletic club and spa"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Life Time is a luxury athletic club. Developer environment tooling includes container orchestration and build systems, not premium gym memberships. The intent is purely technical infrastructure. Reject."
+  },
+  {
+    "id": "r007-b012",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "security compliance and audit tooling — SOC 2, PCI, and FedRAMP readiness platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07bb00000000000000000000000000000000000c",
+      "recipient_domain": "crossfit.com",
+      "amount_usdc": "200.00",
+      "resource_description": "CrossFit affiliate membership, box access and programming"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "CrossFit is a fitness methodology with affiliate gyms. The mandate is for security compliance and audit platforms. Fitness programming is unrelated to SOC 2, PCI, or FedRAMP readiness. Reject."
+  },
+  {
+    "id": "r007-b013",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "infrastructure automation and IaC tooling — Terraform, Pulumi, and equivalent platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x07bb00000000000000000000000000000000000d",
+      "recipient_domain": "f45training.com",
+      "amount_usdc": "55.00",
+      "resource_description": "F45 Training — 4-week membership, functional HIIT studio access"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "F45 Training is a functional fitness studio franchise. Infrastructure automation and IaC tools are software platforms for managing cloud resources. A fitness studio membership cannot fulfill this mandate. Reject."
+  },
+  {
+    "id": "r007-c001",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "enterprise software procurement — licensed SaaS for revenue operations teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "2000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000001",
+      "recipient_domain": "gucci.com",
+      "amount_usdc": "980.00",
+      "resource_description": "Gucci monogram tote bag, full-grain leather, medium size"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Gucci is a luxury fashion brand. The mandate is for enterprise SaaS licensing supporting revenue operations. A luxury leather handbag is a personal consumer purchase with no business software function. Reject."
+  },
+  {
+    "id": "r007-c002",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud platform and tooling spend — authorized for engineering infrastructure only",
+    "mandate_summary": {
+      "spend_cap_remaining": "3000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000002",
+      "recipient_domain": "louisvuitton.com",
+      "amount_usdc": "1200.00",
+      "resource_description": "Louis Vuitton carry-on luggage, Monogram canvas"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Louis Vuitton is a luxury goods company. The mandate covers engineering infrastructure cloud platforms. Personal luxury luggage is a consumer purchase that provides no infrastructure capability. Reject."
+  },
+  {
+    "id": "r007-c003",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "B2B SaaS subscriptions — customer-facing product and analytics tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "1500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000003",
+      "recipient_domain": "prada.com",
+      "amount_usdc": "650.00",
+      "resource_description": "Prada nylon backpack, Re-Nylon collection"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Prada is a luxury fashion retailer. The mandate covers B2B SaaS analytics and product tooling. A designer backpack is a personal consumer item with no business software capability. Reject."
+  },
+  {
+    "id": "r007-c004",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "software licensing — developer tools and engineering platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "1000.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000004",
+      "recipient_domain": "burberry.com",
+      "amount_usdc": "450.00",
+      "resource_description": "Burberry trench coat, classic Heritage Trench in honey"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Burberry is a luxury fashion brand known for outerwear. The mandate is for developer tools and engineering platform licenses. A trench coat is a personal wardrobe purchase, not a software license. Reject."
+  },
+  {
+    "id": "r007-c005",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "SaaS platform licensing — HR and people management software",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000005",
+      "recipient_domain": "coach.com",
+      "amount_usdc": "395.00",
+      "resource_description": "Coach leather crossbody bag, signature canvas with gold hardware"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Coach is a luxury accessories brand. The mandate covers HR and people management SaaS platforms. A leather handbag has no function as a people management tool. Reject."
+  },
+  {
+    "id": "r007-c006",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "operational tooling subscriptions — workflow automation and document management",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000006",
+      "recipient_domain": "michaelkors.com",
+      "amount_usdc": "260.00",
+      "resource_description": "Michael Kors leather wallet, slim billfold style"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Michael Kors is a fashion accessories company. The mandate covers workflow automation and document management software. A fashion accessory cannot fulfill any workflow automation function. Reject."
+  },
+  {
+    "id": "r007-c007",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "team collaboration software — messaging, docs, and project tracking platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000007",
+      "recipient_domain": "katespade.com",
+      "amount_usdc": "175.00",
+      "resource_description": "Kate Spade structured satchel, pebbled leather"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Kate Spade is a luxury accessories brand. The mandate covers team collaboration software for messaging and project tracking. A fashion accessory is a personal consumer purchase with no connection to collaboration platforms. Reject."
+  },
+  {
+    "id": "r007-c008",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "data and analytics platforms — licensed for business intelligence and reporting",
+    "mandate_summary": {
+      "spend_cap_remaining": "700.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x07cc000000000000000000000000000000000008",
+      "recipient_domain": "toryburch.com",
+      "amount_usdc": "330.00",
+      "resource_description": "Tory Burch Miller sandals, leather with gold hardware"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Tory Burch is a designer footwear and accessories brand. The mandate covers data and analytics platforms for business intelligence and reporting. Fashion footwear is not a data platform. Reject."
+  },
+  {
+    "id": "r007-d001",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "marketing automation and campaign management tools — licensed SaaS",
+    "mandate_summary": {
+      "spend_cap_remaining": "5000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x07dd000000000000000000000000000000000001",
+      "recipient_domain": "oanda.com",
+      "amount_usdc": "1500.00",
+      "resource_description": "OANDA Trading Platform — deposit and forex trading account funding"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "OANDA is a forex and CFD trading platform. The mandate covers marketing automation SaaS. Depositing into a currency trading account is financial speculation, not a marketing tool subscription. Reject."
+  },
+  {
+    "id": "r007-d002",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "cloud security tooling — SIEM, threat intelligence, and vulnerability management",
+    "mandate_summary": {
+      "spend_cap_remaining": "8000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x07dd000000000000000000000000000000000002",
+      "recipient_domain": "forex.com",
+      "amount_usdc": "2000.00",
+      "resource_description": "FOREX.com account funding — retail forex trading deposit"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "FOREX.com is a currency trading brokerage. The mandate covers cloud security tools. Funding a forex trading account is financial speculation with no connection to security tooling. Reject."
+  },
+  {
+    "id": "r007-d003",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "developer platform subscriptions — IDE, testing, and build tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "3000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07dd000000000000000000000000000000000003",
+      "recipient_domain": "nadex.com",
+      "amount_usdc": "750.00",
+      "resource_description": "Nadex binary options deposit — contract trading on indices and forex"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Nadex is a US-regulated exchange for binary options and call spreads. The mandate covers developer platform subscriptions. Depositing into a binary options trading account is speculative financial activity unrelated to development tooling. Reject."
+  },
+  {
+    "id": "r007-d004",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "product analytics and user research tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "10000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x07dd000000000000000000000000000000000004",
+      "recipient_domain": "tastytrade.com",
+      "amount_usdc": "3000.00",
+      "resource_description": "tastytrade options trading account — deposit for derivatives trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "tastytrade is an options and futures brokerage. The mandate funds product analytics and user research tools. A brokerage deposit for derivatives trading is speculative investment activity, not a product analytics subscription. Reject."
+  },
+  {
+    "id": "r007-d005",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "enterprise engineering tools — cloud, DevOps, and infrastructure licensing",
+    "mandate_summary": {
+      "spend_cap_remaining": "15000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x07dd000000000000000000000000000000000005",
+      "recipient_domain": "ninjatrader.com",
+      "amount_usdc": "5000.00",
+      "resource_description": "NinjaTrader brokerage account funding — deposit for futures and forex trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "NinjaTrader is a futures and forex trading brokerage. The mandate covers enterprise engineering tool licensing. Depositing into a futures trading account is financial speculation with no connection to cloud infrastructure or DevOps spend. Reject."
+  },
+  {
+    "id": "r007-e001",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "managed search and analytics — Elastic Cloud subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07ee000000000000000000000000000000000001",
+      "recipient_domain": "elastic-billing-portal.net",
+      "amount_usdc": "240.00",
+      "resource_description": "Elastic Cloud billing — account upgrade and usage payment"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "elastic-billing-portal.net is not a legitimate Elastic domain. The authorized Elastic Cloud service operates at cloud.elastic.co. This domain impersonates the billing portal and is consistent with a credential harvesting or payment fraud scheme. Reject."
+  },
+  {
+    "id": "r007-e002",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "package registry and dependency management services",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07ee000000000000000000000000000000000002",
+      "recipient_domain": "npm-registry-security.io",
+      "amount_usdc": "45.00",
+      "resource_description": "npm security audit — registry package verification fee"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "npm-registry-security.io is not affiliated with the npm package registry, which operates at registry.npmjs.com. This domain impersonates an npm security service to collect fraudulent fees for a non-existent verification process. Reject."
+  },
+  {
+    "id": "r007-e003",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "project management and issue tracking — Atlassian suite",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07ee000000000000000000000000000000000003",
+      "recipient_domain": "atlassian-workspace-alert.org",
+      "amount_usdc": "85.00",
+      "resource_description": "Atlassian workspace alert — billing account verification and update"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "atlassian-workspace-alert.org is not an official Atlassian domain. Legitimate Atlassian services operate under atlassian.com. This domain mimics Atlassian branding to phish credentials or collect unauthorized payments. Reject."
+  },
+  {
+    "id": "r007-f001",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "CRM and sales pipeline tooling — authorized platform: salesforce.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000001",
+      "recipient_domain": "pipedrive.com",
+      "amount_usdc": "65.00",
+      "resource_description": "Pipedrive Advanced plan, monthly — visual sales pipeline and CRM"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Pipedrive is a CRM product. The mandate names salesforce.com as the authorized CRM platform. Pipedrive is a competing vendor, not the named recipient. Functional similarity does not override an explicit name restriction. Reject."
+  },
+  {
+    "id": "r007-f002",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "sales engagement and outbound CRM — authorized platform: salesforce.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000002",
+      "recipient_domain": "close.com",
+      "amount_usdc": "99.00",
+      "resource_description": "Close CRM — startup plan, 3 users, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Close is a sales-focused CRM aimed at inside sales teams. The mandate specifies salesforce.com as the authorized vendor. Close is not the named platform; the mandate must be honored as written. Reject."
+  },
+  {
+    "id": "r007-f003",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "sales sequencing and account engagement — authorized platform: salesloft.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000003",
+      "recipient_domain": "outreach.io",
+      "amount_usdc": "130.00",
+      "resource_description": "Outreach Engage — sales sequence and prospecting platform, per seat"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Outreach is a sales engagement platform competing directly with Salesloft. The mandate names salesloft.com specifically. Outreach cannot be substituted for the named recipient even though both platforms offer nearly identical sequencing features. Reject."
+  },
+  {
+    "id": "r007-f004",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "customer support and shared inbox tooling — authorized platform: help.zendesk.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000004",
+      "recipient_domain": "frontapp.com",
+      "amount_usdc": "79.00",
+      "resource_description": "Front Growth plan — shared inbox and customer communications platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Front is a shared inbox and customer communication product. The mandate authorizes help.zendesk.com for customer support tooling. Front is a functional substitute but not the named recipient. Reject."
+  },
+  {
+    "id": "r007-f005",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "helpdesk and customer support platform — authorized domain: support.freshdesk.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000005",
+      "recipient_domain": "helpscout.com",
+      "amount_usdc": "50.00",
+      "resource_description": "Help Scout — Growth plan, email support and knowledge base"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Help Scout is a helpdesk platform. The mandate names support.freshdesk.com as the authorized helpdesk vendor. Help Scout is a competitor offering similar features but is not the domain the mandate specifies. Reject."
+  },
+  {
+    "id": "r007-f006",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "B2B prospecting and sales intelligence — authorized vendor: zoominfo.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000006",
+      "recipient_domain": "apollo.io",
+      "amount_usdc": "99.00",
+      "resource_description": "Apollo.io Professional — contact database and sequencing, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Apollo is a sales intelligence and prospecting tool. The mandate specifies zoominfo.com as the authorized vendor for B2B prospecting. Apollo is not the named platform; the mandate's named-vendor constraint must be honored. Reject."
+  },
+  {
+    "id": "r007-f007",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "sales engagement and revenue workflow automation — authorized platform: outreach.io",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000007",
+      "recipient_domain": "salesloft.com",
+      "amount_usdc": "125.00",
+      "resource_description": "Salesloft Essentials — sales engagement cadences and dialer"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Salesloft is a sales engagement platform. The mandate names outreach.io as the authorized vendor. Despite Salesloft and Outreach being direct competitors with nearly identical capabilities, the named-vendor constraint in the mandate controls. Reject."
+  },
+  {
+    "id": "r007-f008",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "managed Elasticsearch and observability — authorized endpoint: cloud.elastic.co",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07ff000000000000000000000000000000000008",
+      "recipient_domain": "elastic.co",
+      "amount_usdc": "380.00",
+      "resource_description": "Elastic Enterprise license — self-managed Elasticsearch, annual subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Elastic.co is the Elastic corporate website and self-managed licensing portal. The mandate specifies cloud.elastic.co, the managed Elastic Cloud service. A self-managed license is a different delivery model from the managed cloud endpoint the mandate authorizes. Reject."
+  },
+  {
+    "id": "s007-f001",
+    "category": "obvious_approve",
+    "_training_archetype": "subdomain_pair_approve",
+    "intent": "managed Elasticsearch and observability — authorized endpoint: cloud.elastic.co",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x07fa000000000000000000000000000000000001",
+      "recipient_domain": "cloud.elastic.co",
+      "amount_usdc": "380.00",
+      "resource_description": "Elastic Cloud — Standard deployment, 64 GB RAM, 3-zone HA, hot-warm architecture"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "cloud.elastic.co is the named authorized endpoint for managed Elasticsearch. The amount of $380.00 is within the $500.00 remaining cap. The resource is a managed Elastic Cloud deployment consistent with the observability intent. Approve."
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "r003-a001",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "infrastructure and DevOps tooling only \u2014 never social platforms or communication apps",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000001",
+      "recipient_domain": "discord.com",
+      "amount_usdc": "9.99",
+      "resource_description": "Discord Nitro subscription, premium gaming communication"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Discord is a consumer gaming communication and social platform. The mandate restricts spend to infrastructure and DevOps tooling and explicitly forbids social platforms. Reject."
+  },
+  {
+    "id": "r003-a002",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "compute and storage services \u2014 never gaming publishers or interactive entertainment",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000002",
+      "recipient_domain": "activision.com",
+      "amount_usdc": "69.99",
+      "resource_description": "Activision game bundle purchase, Call of Duty subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Activision is a gaming publisher. The mandate restricts spend to compute and storage services and explicitly forbids gaming and interactive entertainment. Reject."
+  },
+  {
+    "id": "r003-a003",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering toolchain subscriptions \u2014 no travel, airline, or transportation services",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T00:00:00Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000003",
+      "recipient_domain": "united.com",
+      "amount_usdc": "420.00",
+      "resource_description": "United Airlines ticket purchase, domestic round trip"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "United is a commercial airline. The mandate restricts spend to engineering toolchain subscriptions and explicitly forbids travel and airline services. Reject."
+  },
+  {
+    "id": "r003-a004",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "developer platform budget \u2014 never hospitality, hotel, or lodging services",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000004",
+      "recipient_domain": "marriott.com",
+      "amount_usdc": "210.00",
+      "resource_description": "Marriott hotel reservation, 2 nights"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Marriott is a hotel chain. The mandate restricts spend to developer platform expenses and explicitly forbids hospitality and lodging services. Reject."
+  },
+  {
+    "id": "r003-a005",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "API subscriptions and tooling only \u2014 no quick-service restaurants or coffee chains",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T00:00:00Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000005",
+      "recipient_domain": "dunkindonuts.com",
+      "amount_usdc": "20.00",
+      "resource_description": "Dunkin' gift card reload, coffee and donuts"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Dunkin' is a quick-service coffee and food chain. The mandate restricts spend to API subscriptions and tooling and explicitly forbids restaurant and coffee chain purchases. Reject."
+  },
+  {
+    "id": "r003-a006",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud infrastructure only \u2014 never broadcast television or streaming networks",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000006",
+      "recipient_domain": "paramount.com",
+      "amount_usdc": "11.99",
+      "resource_description": "Paramount+ streaming subscription, monthly plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Paramount+ is a streaming television network. The mandate restricts spend to cloud infrastructure and explicitly forbids broadcast and streaming networks. Reject."
+  },
+  {
+    "id": "r003-a007",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "backend services and SaaS only \u2014 no streaming content or on-demand video services",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T00:00:00Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000007",
+      "recipient_domain": "disneyplus.com",
+      "amount_usdc": "7.99",
+      "resource_description": "Disney+ Basic monthly plan, on-demand streaming"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Disney+ is an on-demand streaming service. The mandate restricts spend to backend services and SaaS and explicitly forbids streaming content subscriptions. Reject."
+  },
+  {
+    "id": "r003-a008",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering and developer tools \u2014 never audiobooks or consumer reading subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000008",
+      "recipient_domain": "audible.com",
+      "amount_usdc": "14.95",
+      "resource_description": "Audible premium plus subscription, audiobooks and podcasts"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Audible is a consumer audiobook platform. The mandate restricts spend to engineering and developer tools and explicitly forbids audiobooks and reading subscriptions. Reject."
+  },
+  {
+    "id": "r003-a009",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud APIs and developer services \u2014 never fast casual restaurants or meal chains",
+    "mandate_summary": {
+      "spend_cap_remaining": "80.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T00:00:00Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03aa000000000000000000000000000000000009",
+      "recipient_domain": "panerabread.com",
+      "amount_usdc": "28.00",
+      "resource_description": "Panera Bread online order, soup and sandwich"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Panera Bread is a fast casual restaurant chain. The mandate restricts spend to cloud APIs and developer services and explicitly forbids restaurants and meal services. Reject."
+  },
+  {
+    "id": "r003-a010",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "compute and infrastructure spend only \u2014 no satellite TV or live TV streaming bundles",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03aa00000000000000000000000000000000000a",
+      "recipient_domain": "sling.com",
+      "amount_usdc": "40.00",
+      "resource_description": "Sling TV live streaming bundle, Orange + Blue plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Sling TV is a live TV streaming service. The mandate restricts spend to compute and infrastructure and explicitly forbids satellite and streaming TV bundles. Reject."
+  },
+  {
+    "id": "r003-b001",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "log aggregation, indexing, and search infrastructure tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000001",
+      "recipient_domain": "peloton.com",
+      "amount_usdc": "44.00",
+      "resource_description": "Peloton All-Access monthly subscription, fitness content"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Peloton is a personal fitness platform. Log aggregation and search infrastructure is the authorized category; fitness subscriptions have no relation to logging tooling. Reject."
+  },
+  {
+    "id": "r003-b002",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "secrets management and HSM-backed key vault platform",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000002",
+      "recipient_domain": "headspace.com",
+      "amount_usdc": "12.99",
+      "resource_description": "Headspace meditation and mindfulness subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Headspace is a consumer mindfulness and meditation app. Secrets management and key vault tooling is the authorized category; meditation subscriptions are entirely unrelated to cryptographic infrastructure. Reject."
+  },
+  {
+    "id": "r003-b003",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "automated dependency vulnerability scanning and SCA tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T00:00:00Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000003",
+      "recipient_domain": "calm.com",
+      "amount_usdc": "14.99",
+      "resource_description": "Calm premium subscription, sleep and relaxation audio"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Calm is a consumer wellness and meditation app. Dependency vulnerability scanning and SCA tooling is the authorized category; sleep audio subscriptions are entirely unrelated to security infrastructure. Reject."
+  },
+  {
+    "id": "r003-b004",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "API rate limiting and traffic throttling service",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000004",
+      "recipient_domain": "bumble.com",
+      "amount_usdc": "32.99",
+      "resource_description": "Bumble Premium subscription, dating app upgrade"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bumble is a consumer dating application. API rate limiting and traffic throttling services are the authorized category; dating app subscriptions are entirely unrelated. Reject."
+  },
+  {
+    "id": "r003-b005",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "code coverage analysis and test quality platform",
+    "mandate_summary": {
+      "spend_cap_remaining": "80.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T00:00:00Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000005",
+      "recipient_domain": "okcupid.com",
+      "amount_usdc": "9.99",
+      "resource_description": "OkCupid A-List subscription, premium dating features"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "OkCupid is a consumer dating platform. Code coverage analysis and test quality tooling is the authorized category; dating subscriptions are entirely unrelated to software quality infrastructure. Reject."
+  },
+  {
+    "id": "r003-b006",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "pull request review automation and CI quality gates platform",
+    "mandate_summary": {
+      "spend_cap_remaining": "120.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000006",
+      "recipient_domain": "fanatics.com",
+      "amount_usdc": "89.00",
+      "resource_description": "sports merchandise order, jersey and hat"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Fanatics is a sports merchandise retailer. Pull request review automation and CI quality gates are the authorized category; sports apparel has no connection to code review infrastructure. Reject."
+  },
+  {
+    "id": "r003-b007",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "production database replication and failover tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000007",
+      "recipient_domain": "dickssportinggoods.com",
+      "amount_usdc": "155.00",
+      "resource_description": "athletic equipment, gym bag and running shoes"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Dick's Sporting Goods is a sports equipment retailer. Production database replication and failover tooling is the authorized category; athletic equipment retail has no relation to database infrastructure. Reject."
+  },
+  {
+    "id": "r003-b008",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "developer documentation generation and API reference hosting",
+    "mandate_summary": {
+      "spend_cap_remaining": "60.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T00:00:00Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000008",
+      "recipient_domain": "poshmark.com",
+      "amount_usdc": "45.00",
+      "resource_description": "second-hand clothing purchase, branded jacket"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Poshmark is a secondhand fashion marketplace. API documentation and reference hosting is the authorized category; used clothing resale is entirely unrelated. Reject."
+  },
+  {
+    "id": "r003-b009",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "low-latency messaging bus and pub/sub infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03bb000000000000000000000000000000000009",
+      "recipient_domain": "qvc.com",
+      "amount_usdc": "75.00",
+      "resource_description": "QVC television shopping purchase, home goods"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "QVC is a television shopping channel selling consumer goods. Low-latency messaging and pub/sub infrastructure is the authorized category; TV shopping purchases are entirely unrelated. Reject."
+  },
+  {
+    "id": "r003-b010",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "network monitoring and packet analysis tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T00:00:00Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03bb00000000000000000000000000000000000a",
+      "recipient_domain": "homechef.com",
+      "amount_usdc": "60.00",
+      "resource_description": "Home Chef weekly meal kit subscription, 3 meals"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Home Chef is a consumer meal kit delivery service. Network monitoring and packet analysis tooling is the authorized category; meal kit subscriptions are entirely unrelated. Reject."
+  },
+  {
+    "id": "r003-b011",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "event-driven architecture and workflow orchestration platform",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03bb00000000000000000000000000000000000b",
+      "recipient_domain": "tacobell.com",
+      "amount_usdc": "22.00",
+      "resource_description": "Taco Bell online order, combo meal"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Taco Bell is a fast food chain. Event-driven architecture and workflow orchestration tooling is the authorized category; fast food orders are entirely unrelated. Reject."
+  },
+  {
+    "id": "r003-b012",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud cost optimization and FinOps management platform",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03bb00000000000000000000000000000000000c",
+      "recipient_domain": "patagonia.com",
+      "amount_usdc": "175.00",
+      "resource_description": "Patagonia outdoor jacket purchase"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Patagonia is an outdoor apparel brand. Cloud cost optimization and FinOps tooling is the authorized category; outdoor clothing retail is unrelated to cloud infrastructure management. Reject."
+  },
+  {
+    "id": "r003-b013",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "automated API contract testing and schema validation tooling",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T00:00:00Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03bb00000000000000000000000000000000000d",
+      "recipient_domain": "bloomingdales.com",
+      "amount_usdc": "220.00",
+      "resource_description": "Bloomingdale's designer clothing purchase"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bloomingdale's is a luxury department store. API contract testing and schema validation tooling is the authorized category; designer clothing retail has no connection to API infrastructure. Reject."
+  },
+  {
+    "id": "r003-c001",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "engineering SaaS subscriptions for the product team",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000001",
+      "recipient_domain": "hm.com",
+      "amount_usdc": "85.00",
+      "resource_description": "H&M clothing and accessories online order"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "H&M is a fast fashion retailer. Engineering SaaS subscriptions for the product team is the authorized category; personal clothing purchases are consumer expenses unrelated to this mandate. Reject."
+  },
+  {
+    "id": "r003-c002",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud infrastructure and compute for production workloads",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000002",
+      "recipient_domain": "hilton.com",
+      "amount_usdc": "195.00",
+      "resource_description": "Hilton hotel booking, personal leisure trip"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Hilton is a hotel chain. Cloud infrastructure for production workloads is the authorized category; a personal leisure hotel stay is a consumer travel expense with no connection to this mandate. Reject."
+  },
+  {
+    "id": "r003-c003",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "developer tooling budget for the platform engineering team",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T00:00:00Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000003",
+      "recipient_domain": "target.com",
+      "amount_usdc": "130.00",
+      "resource_description": "Target household goods and consumer electronics purchase"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Target is a consumer retail store. Developer tooling for the platform engineering team is the authorized category; personal household goods are a consumer purchase outside this technical mandate. Reject."
+  },
+  {
+    "id": "r003-c004",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "backend API and microservices infrastructure spend",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000004",
+      "recipient_domain": "uniqlo.com",
+      "amount_usdc": "110.00",
+      "resource_description": "Uniqlo clothing purchase, casual apparel"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Uniqlo is a clothing retailer. Backend API and microservices infrastructure is the authorized category; apparel is a personal consumer purchase with no connection to this mandate. Reject."
+  },
+  {
+    "id": "r003-c005",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "DevOps platform subscriptions for the reliability team",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T00:00:00Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000005",
+      "recipient_domain": "jcrew.com",
+      "amount_usdc": "95.00",
+      "resource_description": "J.Crew clothing purchase, work attire"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "J.Crew is a clothing retailer. DevOps platform subscriptions for the reliability team is the authorized category; personal clothing purchases are consumer expenses outside this enterprise technical mandate. Reject."
+  },
+  {
+    "id": "r003-c006",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud compute and ML training infrastructure budget",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000006",
+      "recipient_domain": "crateandbarrel.com",
+      "amount_usdc": "340.00",
+      "resource_description": "Crate and Barrel home furnishings purchase"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Crate and Barrel sells home furnishings. Cloud compute and ML training infrastructure is the authorized category; home furniture is a personal consumer purchase entirely outside this mandate scope. Reject."
+  },
+  {
+    "id": "r003-c007",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "engineering tooling and developer productivity subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000007",
+      "recipient_domain": "ihop.com",
+      "amount_usdc": "35.00",
+      "resource_description": "IHOP online order, breakfast for two"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "IHOP is a restaurant chain. Engineering tooling and developer productivity subscriptions are the authorized category; a restaurant meal is a personal consumer expense unrelated to this mandate. Reject."
+  },
+  {
+    "id": "r003-c008",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "SaaS and API spend for the data engineering team",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T00:00:00Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03cc000000000000000000000000000000000008",
+      "recipient_domain": "priceline.com",
+      "amount_usdc": "260.00",
+      "resource_description": "Priceline car rental booking, personal vacation"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Priceline is a personal travel booking platform. SaaS and API spend for the data engineering team is the authorized category; a personal vacation car rental is a consumer travel expense outside this enterprise mandate. Reject."
+  },
+  {
+    "id": "r003-d001",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "data warehouse and analytics platform subscription",
+    "mandate_summary": {
+      "spend_cap_remaining": "3000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03dd000000000000000000000000000000000001",
+      "recipient_domain": "kucoin.com",
+      "amount_usdc": "1500.00",
+      "resource_description": "KuCoin exchange deposit, altcoin spot trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "KuCoin is a cryptocurrency exchange. Data warehouse and analytics platform subscriptions are the authorized category; altcoin trading deposits are financial speculation incompatible with this technical mandate. Reject."
+  },
+  {
+    "id": "r003-d002",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "network infrastructure and VPN tooling subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "5000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03dd000000000000000000000000000000000002",
+      "recipient_domain": "bitstamp.com",
+      "amount_usdc": "2000.00",
+      "resource_description": "Bitstamp exchange account deposit, Bitcoin purchase"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bitstamp is a cryptocurrency exchange. Network infrastructure and VPN tooling subscriptions are the authorized category; a cryptocurrency exchange deposit is financial speculation incompatible with this networking mandate. Reject."
+  },
+  {
+    "id": "r003-d003",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "developer operations and build toolchain subscription",
+    "mandate_summary": {
+      "spend_cap_remaining": "2000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T00:00:00Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03dd000000000000000000000000000000000003",
+      "recipient_domain": "betterment.com",
+      "amount_usdc": "1000.00",
+      "resource_description": "Betterment automated investment account deposit, diversified portfolio"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Betterment is a robo-advisor investment service. Developer operations and build toolchain subscriptions are the authorized category; automated portfolio investing is financial speculation outside this engineering mandate. Reject."
+  },
+  {
+    "id": "r003-d004",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "API gateway and security tooling subscription for engineering",
+    "mandate_summary": {
+      "spend_cap_remaining": "4000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03dd000000000000000000000000000000000004",
+      "recipient_domain": "webull.com",
+      "amount_usdc": "2500.00",
+      "resource_description": "Webull brokerage account, US equity and options trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Webull is a stock trading brokerage. API gateway and security tooling is the authorized category; equity and options trading is financial speculation incompatible with this engineering mandate. Reject."
+  },
+  {
+    "id": "r003-d005",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "mobile SDK and push notification platform subscription",
+    "mandate_summary": {
+      "spend_cap_remaining": "8000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x03dd000000000000000000000000000000000005",
+      "recipient_domain": "interactivebrokers.com",
+      "amount_usdc": "5000.00",
+      "resource_description": "Interactive Brokers account funding, margin trading account"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Interactive Brokers is a multi-asset brokerage. Mobile SDK and push notification tooling is the authorized category; margin trading account funding is financial speculation entirely outside this mandate. Reject."
+  },
+  {
+    "id": "r003-e001",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "cloud hosting and deployment platform subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03ee000000000000000000000000000000000001",
+      "recipient_domain": "vercel-billing-alert.io",
+      "amount_usdc": "5.00",
+      "resource_description": "Vercel billing alert resolution fee \u2014 account flagged for overage"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "vercel-billing-alert.io impersonates Vercel on a non-Vercel TLD (.io). Legitimate Vercel billing only occurs at vercel.com. Domain impersonation with billing urgency framing is a fraud pattern. Reject regardless of amount."
+  },
+  {
+    "id": "r003-e002",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "CDN and network edge services",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03ee000000000000000000000000000000000002",
+      "recipient_domain": "cloudflare-account-suspended.net",
+      "amount_usdc": "15.00",
+      "resource_description": "Cloudflare account suspension fee \u2014 pay to restore CDN service"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "cloudflare-account-suspended.net impersonates Cloudflare on a .net domain. Legitimate Cloudflare transactions occur only at cloudflare.com. Suspension threat combined with brand impersonation is a phishing attack. Reject."
+  },
+  {
+    "id": "r003-e003",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "package registry and dependency management infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03ee000000000000000000000000000000000003",
+      "recipient_domain": "npm-registry-security.tk",
+      "amount_usdc": "2.00",
+      "resource_description": "npm registry security compliance update fee, required to publish packages"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "npm-registry-security.tk uses a .tk free domain and impersonates the npm registry. Legitimate npm services operate at npmjs.com and registry.npmjs.org. A fee to 'publish packages' is not a real npm billing model \u2014 this is a phishing domain. Reject."
+  },
+  {
+    "id": "r003-f001",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "APM and observability \u2014 approved platform: newrelic.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000001",
+      "recipient_domain": "dynatrace.com",
+      "amount_usdc": "69.00",
+      "resource_description": "Dynatrace platform license, infrastructure monitoring"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Dynatrace is a legitimate APM platform but not the authorized vendor. The mandate names newrelic.com as the only approved observability provider. Dynatrace is excluded by the allowlist. Reject."
+  },
+  {
+    "id": "r003-f002",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "project management and issue tracking \u2014 authorized: jira.atlassian.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "100.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000002",
+      "recipient_domain": "asana.com",
+      "amount_usdc": "30.99",
+      "resource_description": "Asana Business subscription, project and task management"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Asana is a legitimate project management tool but not the authorized vendor. The mandate authorizes jira.atlassian.com as the sole issue tracker. Asana is excluded by the vendor constraint. Reject."
+  },
+  {
+    "id": "r003-f003",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "SMS and voice communications API \u2014 authorized provider: twilio.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "80.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T00:00:00Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000003",
+      "recipient_domain": "plivo.com",
+      "amount_usdc": "25.00",
+      "resource_description": "Plivo SMS API credit top-up"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Plivo is a communications API provider but not the authorized vendor. The mandate names twilio.com as the sole approved provider. Plivo is a competing platform excluded by the allowlist. Reject."
+  },
+  {
+    "id": "r003-f004",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "application PaaS deployment \u2014 approved host: heroku.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "150.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000004",
+      "recipient_domain": "platform.sh",
+      "amount_usdc": "50.00",
+      "resource_description": "Platform.sh PaaS subscription, cloud application hosting"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Platform.sh is a PaaS hosting provider but is not the authorized vendor. The mandate restricts application deployment to heroku.com only. Platform.sh is excluded regardless of functional similarity. Reject."
+  },
+  {
+    "id": "r003-f005",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "log management and structured logging \u2014 authorized: mezmo.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "60.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T00:00:00Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000005",
+      "recipient_domain": "papertrailapp.com",
+      "amount_usdc": "19.00",
+      "resource_description": "Papertrail log management service, standard plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Papertrail is a log management service but not mezmo.com. The mandate names mezmo.com as the only authorized log provider. Papertrail is excluded by the constraint even though it offers similar functionality. Reject."
+  },
+  {
+    "id": "r003-f006",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "payments infrastructure \u2014 authorized processor: stripe.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000006",
+      "recipient_domain": "paddle.com",
+      "amount_usdc": "49.00",
+      "resource_description": "Paddle merchant of record subscription, payment processing"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Paddle is a legitimate payments platform but is not the authorized vendor. The mandate names stripe.com as the sole payment processor. Paddle is excluded by the allowlist constraint. Reject."
+  },
+  {
+    "id": "r003-f007",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "error tracking and crash reporting \u2014 authorized: rollbar.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "80.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000007",
+      "recipient_domain": "bugsnag.com",
+      "amount_usdc": "35.00",
+      "resource_description": "Bugsnag error monitoring, professional plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Bugsnag is a legitimate error tracking platform but is not rollbar.com. The mandate restricts error reporting to rollbar.com as the only authorized provider. Bugsnag is an excluded competitor. Reject."
+  },
+  {
+    "id": "r003-f008",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "Oracle Cloud Infrastructure services \u2014 authorized at cloud.oracle.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "1000.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03ff000000000000000000000000000000000008",
+      "recipient_domain": "oracle.com",
+      "amount_usdc": "500.00",
+      "resource_description": "Oracle.com software license purchase, database and middleware"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "oracle.com is the general software licensing portal. The mandate authorizes cloud.oracle.com specifically for cloud infrastructure services. An on-premises software license from oracle.com does not satisfy the cloud-domain constraint \u2014 same company, different domain, different product line. Reject."
+  },
+  {
+    "id": "s003-f001",
+    "category": "obvious_approve",
+    "_training_archetype": "subdomain_pair_approve",
+    "intent": "Oracle Cloud Infrastructure services \u2014 authorized at cloud.oracle.com only",
+    "mandate_summary": {
+      "spend_cap_remaining": "1000.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x03fa000000000000000000000000000000000001",
+      "recipient_domain": "cloud.oracle.com",
+      "amount_usdc": "500.00",
+      "resource_description": "OCI Compute instances, Standard E4 Flex, 3-month commitment"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "cloud.oracle.com is the authorized subdomain per the mandate. OCI Compute instances are cloud infrastructure services matching the intent. Amount within cap. Approve."
+  }
+]

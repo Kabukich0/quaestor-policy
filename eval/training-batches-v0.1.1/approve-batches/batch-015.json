@@ -1,0 +1,902 @@
+[
+  {
+    "id": "b0e1a3d5-0e3f-4b4a-c0e1-3f2a0e1a3d51",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Provide 82.40 USDC to Merlin DEX for Bitcoin L2 USDT LP management.",
+    "amount": 82.40,
+    "currency": "USDC",
+    "merchant": "Merlin DEX",
+    "merchant_description": "Bitcoin L2 native AMM for USDT and BTC liquidity provisioning",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Merlin DEX allowed for Bitcoin L2 USDT LP management"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Merlin DEX authorized for Bitcoin L2 USDT LP management. 82.40 USDC within the 225 cap."
+  },
+  {
+    "id": "c2f3b5e7-1f4a-4c5b-d1f2-4a3b2f3b5e72",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Nile Exchange — 356.70 USDC for Linea-native LP and bribe farming positions.",
+    "amount": 356.70,
+    "currency": "USDC",
+    "merchant": "Nile Exchange",
+    "merchant_description": "Linea-native ve(3,3) AMM with LP bribe and emission farming",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Nile Exchange allowed for Linea-native USDC LP and bribe farming"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Nile Exchange covering Linea-native USDC LP and bribe farming. 356.70 USDC within the 798 limit."
+  },
+  {
+    "id": "d4a5d7f9-2a5b-4d6c-e2a3-5b4c4a5d7f93",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "FenixFinance — 1318.50 USDC for Blast-native ETH/USDB LP management.",
+    "amount": 1318.50,
+    "currency": "USDC",
+    "merchant": "FenixFinance",
+    "merchant_description": "Blast-native AMM for ETH/USDB concentrated liquidity and LP farming",
+    "policy_state": {
+      "max_amount_per_tx": 1800,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["FenixFinance allowed for Blast-native ETH/USDB LP management"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "FenixFinance is listed as a named exception in the policy for Blast-native ETH/USDB LP management. 1318.50 USDC within the 1800 ceiling."
+  },
+  {
+    "id": "e6b7f9a1-3b6c-4e7d-f3b4-6c5d6b7f9a14",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Blasterswap — 0.0587 ETH for Blast-native concentrated LP yield farming.",
+    "amount": 0.0587,
+    "currency": "ETH",
+    "merchant": "Blasterswap",
+    "merchant_description": "Blast-native concentrated liquidity AMM with native yield on deposits",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Blasterswap allowed for Blast-native concentrated LP yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Blasterswap authorized for Blast-native concentrated LP yield. 0.0587 ETH within the 0.15 cap."
+  },
+  {
+    "id": "f8c9a1b3-4c7d-4f8e-a4c5-7d6e8c9a1b35",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Purchase 4.73 USDC of Nexus Mutual coverage for smart contract exploit insurance.",
+    "amount": 4.73,
+    "currency": "USDC",
+    "merchant": "Nexus Mutual",
+    "merchant_description": "Decentralized smart contract exploit insurance via mutual coverage model",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Nexus Mutual coverage allowed for smart contract exploit insurance"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names Nexus Mutual coverage as permitted for smart contract exploit insurance. 4.73 USDC within the 10 cap."
+  },
+  {
+    "id": "a0d1b3c5-5d8e-4a9f-b5d6-8e7f0d1b3c56",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Pay 231.60 USDT to InsurAce Protocol for cross-chain DeFi coverage premiums.",
+    "amount": 231.60,
+    "currency": "USDT",
+    "merchant": "InsurAce Protocol",
+    "merchant_description": "Multi-chain DeFi coverage protocol for smart contract and peg risk",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["InsurAce Protocol allowed for cross-chain DeFi coverage premiums"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "InsurAce Protocol sits under the mandate's explicit allowance for cross-chain DeFi coverage premiums. 231.60 USDT within the 299 limit."
+  },
+  {
+    "id": "b2e3c5d7-6e9f-4ba0-c6e7-9f8a2e3c5d77",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Uno Re — 2758.25 USDC for DeFi position reinsurance coverage.",
+    "amount": 2758.25,
+    "currency": "USDC",
+    "merchant": "Uno Re",
+    "merchant_description": "Decentralized reinsurance protocol for DeFi smart contract risk",
+    "policy_state": {
+      "max_amount_per_tx": 9000,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Uno Re allowed for DeFi position reinsurance coverage"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Uno Re for DeFi position reinsurance coverage. 2758.25 USDC within the 9000 ceiling."
+  },
+  {
+    "id": "c4f5d7e9-7f0a-4cb1-d7f8-0a9b4f5d7e98",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Unslashed Finance — 0.00109 ETH for validator slashing insurance premium.",
+    "amount": 0.00109,
+    "currency": "ETH",
+    "merchant": "Unslashed Finance",
+    "merchant_description": "Decentralized insurance protocol covering validator slashing and staking risk",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Unslashed Finance allowed for validator slashing insurance"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants Unslashed Finance use for validator slashing insurance. 0.00109 ETH within the 0.002 cap."
+  },
+  {
+    "id": "d6a7e9f1-8a1b-4dc2-e8a9-1b0c6a7e9f19",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Risk Harbor — 13.45 USDC for stablecoin depeg insurance coverage.",
+    "amount": 13.45,
+    "currency": "USDC",
+    "merchant": "Risk Harbor",
+    "merchant_description": "Automated parametric depeg insurance for stablecoin holders",
+    "policy_state": {
+      "max_amount_per_tx": 23,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Risk Harbor allowed for stablecoin depeg insurance coverage"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Risk Harbor for stablecoin depeg insurance coverage. 13.45 USDC within the 23 limit."
+  },
+  {
+    "id": "e8b9f1a3-9b2c-4ed3-f9b0-2c1d8b9f1a30",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sherlock Protocol — 967.30 USDC for smart contract audit and insurance coverage.",
+    "amount": 967.30,
+    "currency": "USDC",
+    "merchant": "Sherlock Protocol",
+    "merchant_description": "Audit and insurance marketplace for on-chain smart contract coverage",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Sherlock Protocol allowed for smart contract audit insurance"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Sherlock Protocol is authorized for smart contract audit insurance. 967.30 USDC within the 2697 ceiling."
+  },
+  {
+    "id": "f0d1a3b5-0c3d-4fe4-a0c1-3d2e0d1a3b51",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Neptune Mutual — 11423.00 USDC for DeFi hack parametric insurance cover.",
+    "amount": 11423.00,
+    "currency": "USDC",
+    "merchant": "Neptune Mutual",
+    "merchant_description": "Parametric DeFi hack insurance with guaranteed payout mechanism",
+    "policy_state": {
+      "max_amount_per_tx": 20000,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Neptune Mutual covers allowed for DeFi hack parametric insurance"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Neptune Mutual covers are explicitly carved out by the policy for DeFi hack parametric insurance. 11423.00 USDC within the 20000 cap."
+  },
+  {
+    "id": "a1e3b5d7-1d4e-4af5-b1d2-4e3f1e3b5d72",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Bright Union — 0.2207 ETH for aggregated DeFi cover across multiple protocols.",
+    "amount": 0.2207,
+    "currency": "ETH",
+    "merchant": "Bright Union",
+    "merchant_description": "DeFi insurance aggregator combining coverage from multiple protocols",
+    "policy_state": {
+      "max_amount_per_tx": 0.375,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Bright Union allowed for aggregated DeFi cover across protocols"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists Bright Union as explicitly allowed for aggregated DeFi cover across protocols. 0.2207 ETH within the 0.375 limit."
+  },
+  {
+    "id": "b3f5c7e9-2e5f-4ba6-c2e3-5f4a3f5c7e93",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Ease Finance — 27.35 USDT for DeFi protocol exposure coverage subscription.",
+    "amount": 27.35,
+    "currency": "USDT",
+    "merchant": "Ease Finance",
+    "merchant_description": "Subscription-based DeFi coverage for smart contract protocol exposure",
+    "policy_state": {
+      "max_amount_per_tx": 75,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Ease Finance allowed for DeFi protocol exposure coverage"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Ease Finance is authorized for DeFi protocol exposure coverage. 27.35 USDT within the 75 cap."
+  },
+  {
+    "id": "c5a7d9f1-3f6a-4cb7-d3f4-6a5b5a7d9f14",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cozy Finance — 416.80 USDC for automated smart contract protection policy.",
+    "amount": 416.80,
+    "currency": "USDC",
+    "merchant": "Cozy Finance",
+    "merchant_description": "Automated protection market for smart contract and DeFi risk",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Cozy Finance allowed for automated smart contract protection"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Cozy Finance holds a specific mandate carve-out for automated smart contract protection. 416.80 USDC within the 798 limit."
+  },
+  {
+    "id": "d7b9e1a3-4a7b-4dc8-e4a5-7b6c7b9e1a35",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Koinly Pro — 1847.00 USDC subscription for crypto portfolio tax reporting.",
+    "amount": 1847.00,
+    "currency": "USDC",
+    "merchant": "Koinly Pro",
+    "merchant_description": "Automated crypto tax reporting and portfolio tracking platform",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Koinly Pro allowed for crypto portfolio tax reporting subscriptions"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names Koinly Pro specifically for crypto portfolio tax reporting subscriptions. 1847.00 USDC within the 3000 cap."
+  },
+  {
+    "id": "e9d1f3b5-5b8c-4ed9-f5b6-8c7d9d1f3b56",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "TokenTax — 0.0453 ETH for crypto tax filing and DeFi transaction reconciliation.",
+    "amount": 0.0453,
+    "currency": "ETH",
+    "merchant": "TokenTax",
+    "merchant_description": "Crypto tax filing service with DeFi and NFT transaction support",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["TokenTax allowed for crypto tax filing and reconciliation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: TokenTax authorized for crypto tax filing and reconciliation. 0.0453 ETH within the 0.15 ceiling."
+  },
+  {
+    "id": "f1e3a5c7-6c9d-4fe0-a6c7-9d8e1e3a5c77",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "CoinTracker Pro — 56.70 USDC for real-time crypto portfolio and tax reporting.",
+    "amount": 56.70,
+    "currency": "USDC",
+    "merchant": "CoinTracker Pro",
+    "merchant_description": "Real-time crypto portfolio tracking and automated tax report generation",
+    "policy_state": {
+      "max_amount_per_tx": 100,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["CoinTracker Pro allowed for real-time crypto portfolio and tax reporting"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names CoinTracker Pro for real-time crypto portfolio and tax reporting. 56.70 USDC within the 100 limit."
+  },
+  {
+    "id": "a2f4b6d8-7d0e-4af1-b7d8-0e9f2f4b6d98",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "TaxBit Enterprise — 177.40 USDC for institutional-grade crypto tax reporting.",
+    "amount": 177.40,
+    "currency": "USDC",
+    "merchant": "TaxBit Enterprise",
+    "merchant_description": "Enterprise crypto tax automation and reporting for institutional DeFi operations",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["TaxBit Enterprise allowed for institutional-grade crypto tax reporting"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy's named carve-out covers TaxBit Enterprise for institutional-grade crypto tax reporting. 177.40 USDC within the 299 cap."
+  },
+  {
+    "id": "b4a6c8f0-8e1f-4ba2-c8e9-1f0a4a6c8f09",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Accointing — 5438.00 USDC for comprehensive crypto tax report generation.",
+    "amount": 5438.00,
+    "currency": "USDC",
+    "merchant": "Accointing",
+    "merchant_description": "Crypto tax report generator supporting DeFi, NFT, and staking activity",
+    "policy_state": {
+      "max_amount_per_tx": 15000,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Accointing allowed for crypto tax report generation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's explicit allowance, Accointing is authorized for crypto tax report generation. 5438.00 USDC within the 15000 ceiling."
+  },
+  {
+    "id": "c6b8d0a2-9f2a-4cb3-d9f0-2a1b6b8d0a20",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "CryptoTaxCalculator — 0.00097 ETH for DeFi-aware crypto tax computation.",
+    "amount": 0.00097,
+    "currency": "ETH",
+    "merchant": "CryptoTaxCalculator",
+    "merchant_description": "DeFi-native crypto tax engine with LP, yield, and bridge transaction support",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["CryptoTaxCalculator allowed for DeFi-aware crypto tax computation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants CryptoTaxCalculator use for DeFi-aware crypto tax computation. 0.00097 ETH within the 0.002 cap."
+  },
+  {
+    "id": "d8d0e2b4-0a3b-4dc4-ea1-3b2c8d0e2b41",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Blockpit — 91.50 USDC for European crypto tax report generation and filing.",
+    "amount": 91.50,
+    "currency": "USDC",
+    "merchant": "Blockpit",
+    "merchant_description": "European crypto tax reporting tool with country-specific compliance support",
+    "policy_state": {
+      "max_amount_per_tx": 149,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Blockpit allowed for European crypto tax report generation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Blockpit authorized for European crypto tax report generation. 91.50 USDC within the 149 limit."
+  },
+  {
+    "id": "e0f2f4d6-1b4c-4ed5-fb2-4c3d0f2f4d62",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Gilded Finance — 843.60 USDC for automated crypto invoicing and accounts payable.",
+    "amount": 843.60,
+    "currency": "USDC",
+    "merchant": "Gilded Finance",
+    "merchant_description": "Crypto-native AP automation with multi-sig invoice and payment workflows",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Gilded Finance allowed for automated crypto invoicing and AP"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Gilded Finance is listed as a named exception in the policy for automated crypto invoicing and AP. 843.60 USDC within the 2697 cap."
+  },
+  {
+    "id": "f2a4a6e8-2c5d-4fe6-ac3-5d4e2a4a6e83",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Request Finance — 1291.75 USDC for crypto-native invoice and payroll payment.",
+    "amount": 1291.75,
+    "currency": "USDC",
+    "merchant": "Request Finance",
+    "merchant_description": "Crypto invoicing and payroll platform supporting multi-chain USDC disbursements",
+    "policy_state": {
+      "max_amount_per_tx": 2400,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Request Finance allowed for crypto-native invoice and payroll payments"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for Request Finance covering crypto-native invoice and payroll payments. 1291.75 USDC within the 2400 ceiling."
+  },
+  {
+    "id": "a3b5b7f9-3d6e-4af7-bd4-6e5f3b5b7f94",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Utopia Labs — 0.2934 ETH for DAO treasury outflow automation and payroll.",
+    "amount": 0.2934,
+    "currency": "ETH",
+    "merchant": "Utopia Labs",
+    "merchant_description": "DAO treasury management and contributor payroll automation platform",
+    "policy_state": {
+      "max_amount_per_tx": 0.375,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Utopia Labs allowed for DAO treasury outflow automation"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: Utopia Labs authorized for DAO treasury outflow automation. 0.2934 ETH within the 0.375 cap."
+  },
+  {
+    "id": "b5d7d9a1-4e7f-4ba8-ce5-7f6a5d7d9a15",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Kamino Finance — 9.60 USDC for Solana-native USDC concentrated LP position.",
+    "amount": 9.60,
+    "currency": "USDC",
+    "merchant": "Kamino Finance",
+    "merchant_description": "Solana concentrated liquidity manager with automated LP rebalancing",
+    "policy_state": {
+      "max_amount_per_tx": 30,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Kamino Finance allowed for Solana-native USDC concentrated LP"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names Kamino Finance as permitted for Solana-native USDC concentrated LP. 9.60 USDC within the 30 limit."
+  },
+  {
+    "id": "c7f9f1b3-5f8a-4cb9-df6-8a7b7f9f1b36",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Hawksight Finance — 464.30 USDC for automated Solana farm yield compounding.",
+    "amount": 464.30,
+    "currency": "USDC",
+    "merchant": "Hawksight Finance",
+    "merchant_description": "Solana DeFi automation for yield farm compounding across protocols",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Hawksight Finance allowed for automated Solana farm yield compounding"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Hawksight Finance sits under the mandate's explicit allowance for automated Solana farm yield compounding. 464.30 USDC within the 798 ceiling."
+  },
+  {
+    "id": "d9a1a3d5-6a9b-4dca-e07-9b8c9a1a3d57",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Cega Finance — 3187.50 USDC for downside-protected yield via exotic options vault.",
+    "amount": 3187.50,
+    "currency": "USDC",
+    "merchant": "Cega Finance",
+    "merchant_description": "Exotic structured options vaults with principal protection and yield",
+    "policy_state": {
+      "max_amount_per_tx": 4500,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Cega Finance exotic options vaults allowed for downside-protected yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Cega Finance exotic options vaults for downside-protected yield. 3187.50 USDC within the 4500 cap."
+  },
+  {
+    "id": "e1b3b5f7-7b0c-4edb-f18-0c9d1b3b5f78",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Friktion Labs volt strategies — 0.0518 ETH for Solana options yield harvesting.",
+    "amount": 0.0518,
+    "currency": "ETH",
+    "merchant": "Friktion Labs",
+    "merchant_description": "Solana-native structured options vaults for volatility yield harvesting",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Friktion Labs volt strategies allowed for Solana options yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Friktion Labs volt strategies are explicitly listed in the policy for Solana options yield. 0.0518 ETH within the 0.15 limit."
+  },
+  {
+    "id": "f3d5d7a9-8c1d-4fec-a29-1d0e3d5d7a99",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Katana Finance — 21.85 USDC for Solana SOL covered-call yield vault.",
+    "amount": 21.85,
+    "currency": "USDC",
+    "merchant": "Katana Finance",
+    "merchant_description": "Solana covered-call options vault for automated SOL yield generation",
+    "policy_state": {
+      "max_amount_per_tx": 40,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Katana Finance allowed for Solana SOL covered-call yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the named allowance, Katana Finance is authorized for Solana SOL covered-call yield. 21.85 USDC within the 40 cap."
+  },
+  {
+    "id": "a4e7f9b1-9d2e-4aed-b3a0-2e1f4e7f9b10",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Francium DeFi — 204.60 USDC for Solana stablecoin leveraged yield farming.",
+    "amount": 204.60,
+    "currency": "USDC",
+    "merchant": "Francium DeFi",
+    "merchant_description": "Solana leveraged yield farming with stablecoin pairs and automated loops",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Francium DeFi allowed for Solana stablecoin yield farming"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The policy carve-out explicitly names Francium DeFi for Solana stablecoin yield farming. 204.60 USDC within the 299 ceiling."
+  },
+  {
+    "id": "b6f9a1c3-0e3f-4bfe-c4b1-3f2a6f9a1c31",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Tulip Protocol — 9314.00 USDC for Solana auto-compounding yield position.",
+    "amount": 9314.00,
+    "currency": "USDC",
+    "merchant": "Tulip Protocol",
+    "merchant_description": "Solana yield aggregator with automatic compounding across farms",
+    "policy_state": {
+      "max_amount_per_tx": 30000,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Tulip Protocol allowed for Solana auto-compounding yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Tulip Protocol is explicitly carved out by the policy for Solana auto-compounding yield. 9314.00 USDC within the 30000 cap."
+  },
+  {
+    "id": "c8a1b3e5-1f4a-4cff-d5c2-4a3b8a1b3e52",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Apricot Finance — 0.00116 ETH for Solana collateral-efficient USDC yield strategy.",
+    "amount": 0.00116,
+    "currency": "ETH",
+    "merchant": "Apricot Finance",
+    "merchant_description": "Solana lending protocol with cross-collateral USDC yield optimization",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Apricot Finance allowed for Solana collateral-efficient USDC yield"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the explicit allowance in the policy, Apricot Finance is authorized for Solana collateral-efficient USDC yield. 0.00116 ETH within the 0.002 cap."
+  },
+  {
+    "id": "d0b3d5f7-2a5b-4d10-e6d3-5b4c0b3d5f73",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Solend Protocol — 44.30 USDC as collateral for borrowing on Solana.",
+    "amount": 44.30,
+    "currency": "USDC",
+    "merchant": "Solend Protocol",
+    "merchant_description": "Solana algorithmic lending market for USDC collateral and borrowing",
+    "policy_state": {
+      "max_amount_per_tx": 60,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Solend Protocol allowed for Solana USDC collateral borrowing"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Solend Protocol holds a specific mandate carve-out for Solana USDC collateral borrowing. 44.30 USDC within the 60 limit."
+  },
+  {
+    "id": "e2d5f7a9-3b6c-4e21-f7e4-6c5d2d5f7a94",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "MarginFi — 784.20 USDT for Solana cross-margin USDC yield position.",
+    "amount": 784.20,
+    "currency": "USDT",
+    "merchant": "MarginFi",
+    "merchant_description": "Solana risk engine for cross-margin lending and borrowing with yield",
+    "policy_state": {
+      "max_amount_per_tx": 2697,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["MarginFi allowed for Solana cross-margin USDC yield positions"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate lists MarginFi as explicitly allowed for Solana cross-margin USDC yield positions. 784.20 USDT within the 2697 ceiling."
+  },
+  {
+    "id": "f4f7a9b1-4c7d-4f32-a8f5-7d6e4f7a9b15",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Sudoswap AMM — 2276.00 USDC for NFT floor liquidity provisioning.",
+    "amount": 2276.00,
+    "currency": "USDC",
+    "merchant": "Sudoswap AMM",
+    "merchant_description": "NFT AMM protocol for providing floor liquidity and automated NFT trading",
+    "policy_state": {
+      "max_amount_per_tx": 4000,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Sudoswap AMM allowed for NFT floor liquidity provisioning"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The allowance names Sudoswap AMM specifically for NFT floor liquidity provisioning. 2276.00 USDC within the 4000 cap."
+  },
+  {
+    "id": "a5a9b1d3-5d8e-4a43-b9a6-8e7f5a9b1d36",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "NFTX Protocol — 0.2643 ETH for NFT-backed token liquidity farming vault.",
+    "amount": 0.2643,
+    "currency": "ETH",
+    "merchant": "NFTX Protocol",
+    "merchant_description": "NFT liquidity protocol converting collections into ERC-20 tokens for farming",
+    "policy_state": {
+      "max_amount_per_tx": 0.375,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["NFTX vaults allowed for NFT-backed token liquidity farming"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Mandate carve-out applies: NFTX vaults authorized for NFT-backed token liquidity farming. 0.2643 ETH within the 0.375 limit."
+  },
+  {
+    "id": "b7b1c3f5-6e9f-4b54-ca7-9f8a7b1c3f57",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Blur Blend — 70.80 USDC for NFT-collateral ETH borrowing position.",
+    "amount": 70.80,
+    "currency": "USDC",
+    "merchant": "Blur Marketplace",
+    "merchant_description": "NFT trading platform with Blend peer-to-peer ETH lending against NFT collateral",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Blur Blend lending allowed for NFT-collateral ETH borrowing"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy carve-out explicitly names Blur Blend lending for NFT-collateral ETH borrowing. 70.80 USDC within the 225 ceiling."
+  },
+  {
+    "id": "c9d3e5a7-7f0a-4c65-db8-0a9b9d3e5a78",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Arcade.xyz — 441.50 USDC for ETH loans against NFT collateral.",
+    "amount": 441.50,
+    "currency": "USDC",
+    "merchant": "Arcade.xyz",
+    "merchant_description": "NFT-backed lending marketplace for ETH collateral loans against PFP collections",
+    "policy_state": {
+      "max_amount_per_tx": 798,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Arcade.xyz allowed for ETH loans against NFT collateral"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per explicit allowance: Arcade.xyz authorized for ETH loans against NFT collateral. 441.50 USDC within the 798 cap."
+  },
+  {
+    "id": "d1f5f7b9-8a1b-4d76-ec9-1b0c1f5f7b99",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "BendDAO — 5241.00 USDC for instant ETH liquidity from NFT collateral.",
+    "amount": 5241.00,
+    "currency": "USDC",
+    "merchant": "BendDAO",
+    "merchant_description": "NFT liquidity protocol providing instant ETH loans against blue-chip NFTs",
+    "policy_state": {
+      "max_amount_per_tx": 7500,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["BendDAO allowed for instant ETH liquidity from NFT collateral"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate has an explicit entry for BendDAO covering instant ETH liquidity from NFT collateral. 5241.00 USDC within the 7500 limit."
+  },
+  {
+    "id": "e3a7a9d1-9b2c-4e87-fd0-2c1d3a7a9d10",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "LayerZero V2 OFT — 0.0476 ETH for omnichain token bridging operation.",
+    "amount": 0.0476,
+    "currency": "ETH",
+    "merchant": "LayerZero V2",
+    "merchant_description": "Omnichain interoperability protocol for seamless cross-chain token transfers",
+    "policy_state": {
+      "max_amount_per_tx": 0.15,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["LayerZero V2 OFT allowed for omnichain token bridging"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Per the mandate's carve-out: LayerZero V2 OFT authorized for omnichain token bridging. 0.0476 ETH within the 0.15 cap."
+  },
+  {
+    "id": "f5b9b1f3-0c3d-4f98-ae1-3d2e5b9b1f31",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Wormhole Connect — 5.60 USDT for embedded cross-chain USDC bridging.",
+    "amount": 5.60,
+    "currency": "USDT",
+    "merchant": "Wormhole Connect",
+    "merchant_description": "Embedded bridge widget for cross-chain USDC transfers via Wormhole protocol",
+    "policy_state": {
+      "max_amount_per_tx": 10,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Wormhole Connect allowed for embedded cross-chain USDC bridging"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Wormhole Connect is explicitly listed in the policy for embedded cross-chain USDC bridging. 5.60 USDT within the 10 ceiling."
+  },
+  {
+    "id": "a6d1d3a5-1d4e-4aa9-bf2-4e3f6d1d3a52",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Axelar Satellite — 221.80 USDC for cross-chain token bridging via Axelar network.",
+    "amount": 221.80,
+    "currency": "USDC",
+    "merchant": "Axelar Satellite",
+    "merchant_description": "Axelar network bridge UI for cross-chain USDC and multi-token transfers",
+    "policy_state": {
+      "max_amount_per_tx": 299,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Axelar Satellite allowed for cross-chain token bridging via Axelar"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy explicitly names Axelar Satellite as permitted for cross-chain token bridging via Axelar. 221.80 USDC within the 299 limit."
+  },
+  {
+    "id": "b8f3f5b7-2e5f-4bba-ca3-5f4a8f3f5b73",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "Hyperlane Deploy — 1063.40 USDC for permissionless cross-chain messaging setup.",
+    "amount": 1063.40,
+    "currency": "USDC",
+    "merchant": "Hyperlane Deploy",
+    "merchant_description": "Permissionless cross-chain messaging protocol deployment and operation",
+    "policy_state": {
+      "max_amount_per_tx": 3600,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["Hyperlane allowed for permissionless cross-chain messaging setup"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "The mandate explicitly authorizes Hyperlane for permissionless cross-chain messaging setup. 1063.40 USDC within the 3600 cap."
+  },
+  {
+    "id": "c0a5a7d9-3f6a-4ccb-db4-6a5b0a5a7d94",
+    "cluster": "2",
+    "category": "defi",
+    "intent_text": "IBC Protocol (Cosmos) — 0.00083 ETH for cross-chain USDC transfer within Cosmos ecosystem.",
+    "amount": 0.00083,
+    "currency": "ETH",
+    "merchant": "IBC Protocol (Cosmos)",
+    "merchant_description": "Inter-blockchain communication protocol for Cosmos ecosystem cross-chain transfers",
+    "policy_state": {
+      "max_amount_per_tx": 0.002,
+      "allowed_categories": ["defi"],
+      "explicit_allowances": ["IBC transfers allowed for Cosmos ecosystem cross-chain USDC moves"]
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Explicit allowance grants IBC transfers use for Cosmos ecosystem cross-chain USDC moves. 0.00083 ETH within the 0.002 ceiling."
+  },
+  {
+    "id": "d2b7b9f1-4a7b-4ddc-ec5-7b6c2b7b9f15",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Approved. 213.70 USDC to UserTesting Panel — moderated user research sessions for product team.",
+    "amount": 213.70,
+    "currency": "USDC",
+    "merchant": "UserTesting Panel",
+    "merchant_description": "Moderated remote user research and usability testing panel platform",
+    "policy_state": {
+      "max_amount_per_tx": 995,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Approved. UserTesting Panel is a user research platform — squarely 'operational-expenses'. Policy allows that category, no carve-out needed. 213.70 USDC within the 995 limit."
+  },
+  {
+    "id": "e4d9f1a3-5b8c-4eed-fd6-8c7d4d9f1a36",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "84.30 USD → Maze Research — survey and prototype testing tool for UX workflows.",
+    "amount": 84.30,
+    "currency": "USD",
+    "merchant": "Maze Research",
+    "merchant_description": "No-code UX testing tool for prototype validation and user surveys",
+    "policy_state": {
+      "max_amount_per_tx": 225,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "84.30 USD for Maze Research — a UX survey tool — within the 225 cap. UX research tooling maps to 'operational-expenses', which the policy allows. Approve."
+  },
+  {
+    "id": "f6f1a3b5-6c9d-4ffe-ae7-9d8e6f1a3b57",
+    "cluster": "3",
+    "category": "developer-tools",
+    "intent_text": "Sprig Platform — 0.47 USD for in-product user feedback and micro-survey tooling.",
+    "amount": 0.47,
+    "currency": "USD",
+    "merchant": "Sprig Platform",
+    "merchant_description": "In-product survey and replay platform embedded in web and mobile apps",
+    "policy_state": {
+      "max_amount_per_tx": 1,
+      "allowed_categories": ["developer-tools", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy allows 'developer-tools'; Sprig is an SDK-embedded user research tool used by engineering and product teams — fits that category. 0.47 USD within the 1.00 limit."
+  },
+  {
+    "id": "a7a3b5d7-7d0e-4a0f-bf8-0e9f7a3b5d78",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Pay 2147.00 USD to Dovetail Research for centralized research repository and insight management.",
+    "amount": 2147.00,
+    "currency": "USD",
+    "merchant": "Dovetail Research",
+    "merchant_description": "Collaborative research repository for storing and tagging qualitative insights",
+    "policy_state": {
+      "max_amount_per_tx": 3000,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Dovetail is a research ops platform — not a named allowance, but research tooling clearly falls under 'operational-expenses', which the policy permits. 2147.00 USD within the 3000 ceiling."
+  },
+  {
+    "id": "b9b5d7f9-8e1f-4b10-ca9-1f0a9b5d7f99",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Lookback.io ($952.40 USDC, within $4495 cap) handles moderated user research sessions — operational expense.",
+    "amount": 952.40,
+    "currency": "USDC",
+    "merchant": "Lookback.io",
+    "merchant_description": "Moderated remote user research platform with session recording and live observation",
+    "policy_state": {
+      "max_amount_per_tx": 4495,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Lookback.io ($952.40 USDC within the $4495 cap) is a moderated user research tool. Research tooling maps to 'operational-expenses' — an allowed category. Approve."
+  },
+  {
+    "id": "c1d7f9a1-9f2a-4c21-db0-2a1b1d7f9a10",
+    "cluster": "3",
+    "category": "operational-expenses",
+    "intent_text": "Route 0.3192 ETH to Clearbit Enrich for real-time B2B data enrichment API.",
+    "amount": 0.3192,
+    "currency": "ETH",
+    "merchant": "Clearbit Enrich",
+    "merchant_description": "Real-time B2B data enrichment API for company and contact intelligence",
+    "policy_state": {
+      "max_amount_per_tx": 0.9,
+      "allowed_categories": ["operational-expenses", "operational-tools"],
+      "explicit_allowances": []
+    },
+    "label": "OBVIOUS_APPROVE",
+    "expected_decision": "approve",
+    "reasoning": "Policy allows 'operational-expenses'; Clearbit Enrich is a data enrichment API — a standard go-to-market operational tool that maps cleanly to that category. 0.3192 ETH within the 0.9 cap."
+  }
+]

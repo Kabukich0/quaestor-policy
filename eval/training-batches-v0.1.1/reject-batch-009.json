@@ -1,0 +1,962 @@
+[
+  {
+    "id": "r009-a001",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud infrastructure and managed services — no education or training platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000001",
+      "recipient_domain": "codecademy.com",
+      "amount_usdc": "40.00",
+      "resource_description": "Codecademy Pro — full course catalog access, monthly subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Codecademy is an interactive coding education platform. The mandate covers cloud infrastructure and managed services and explicitly excludes education and training platforms. A coding course subscription is a personal learning expense, not a cloud service. Reject."
+  },
+  {
+    "id": "r009-a002",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering tooling subscriptions — DevOps and developer platform spend only",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000002",
+      "recipient_domain": "pluralsight.com",
+      "amount_usdc": "99.00",
+      "resource_description": "Pluralsight Skills — technology skills platform, annual license"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Pluralsight is a technology training platform. The mandate covers DevOps and developer tooling only. A skills training subscription is an education cost, not a DevOps or infrastructure platform. Reject."
+  },
+  {
+    "id": "r009-a003",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "SaaS platform spend — B2B software for product and engineering operations",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000003",
+      "recipient_domain": "coursera.org",
+      "amount_usdc": "59.00",
+      "resource_description": "Coursera Plus — unlimited access to all courses and professional certificates"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Coursera is an online learning platform offering courses and certificates. The mandate covers B2B software for product and engineering operations. An online education subscription is not a business operations platform. Reject."
+  },
+  {
+    "id": "r009-a004",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "infrastructure licensing — compute, networking, and storage platforms only",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000004",
+      "recipient_domain": "edx.org",
+      "amount_usdc": "178.00",
+      "resource_description": "edX Professional Certificate — cloud architecture program, 4-course series"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "edX is a nonprofit MOOC platform. The mandate covers compute, networking, and storage infrastructure licensing. An online certificate program is an academic purchase, not infrastructure. Reject."
+  },
+  {
+    "id": "r009-a005",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "technical platform subscriptions — authorized for engineering workflows only, not self-study",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000005",
+      "recipient_domain": "khanacademy.org",
+      "amount_usdc": "20.00",
+      "resource_description": "Khan Academy donation — annual supporter contribution"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Khan Academy is a free nonprofit educational platform. The mandate covers engineering workflow platforms and explicitly excludes self-study. A charitable donation to an education nonprofit is not a technical platform subscription. Reject."
+  },
+  {
+    "id": "r009-a006",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "cloud and developer tooling — managed services and software platforms only",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000006",
+      "recipient_domain": "skillshare.com",
+      "amount_usdc": "168.00",
+      "resource_description": "Skillshare Premium — annual membership, creative and tech courses"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Skillshare is an online creative learning platform. The mandate covers managed cloud services and software platforms. An annual course membership is a personal education expense, not a developer or cloud tool. Reject."
+  },
+  {
+    "id": "r009-a007",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "engineering platform procurement — no personal development or training vendors",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000007",
+      "recipient_domain": "udacity.com",
+      "amount_usdc": "249.00",
+      "resource_description": "Udacity Nanodegree — Cloud DevOps Engineer program, 4-month enrollment"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Udacity is a skills training platform offering nanodegree programs. The mandate covers engineering platform procurement and explicitly prohibits personal development and training vendors. A nanodegree enrollment is an education purchase. Reject."
+  },
+  {
+    "id": "r009-a008",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "B2B SaaS licensing — software tools that directly serve production infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000008",
+      "recipient_domain": "duolingo.com",
+      "amount_usdc": "84.00",
+      "resource_description": "Duolingo Super — ad-free language learning, annual subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Duolingo is a language learning app. The mandate covers B2B SaaS tools that directly serve production infrastructure. Language learning has no production infrastructure function. Reject."
+  },
+  {
+    "id": "r009-a009",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "developer tooling and cloud operations platforms — education and courseware excluded",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09aa000000000000000000000000000000000009",
+      "recipient_domain": "brilliant.org",
+      "amount_usdc": "149.00",
+      "resource_description": "Brilliant Premium — interactive STEM and CS courses, annual subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Brilliant is an interactive STEM learning platform. The mandate covers developer tooling and cloud operations platforms and explicitly excludes education and courseware. An interactive course subscription is a personal learning cost. Reject."
+  },
+  {
+    "id": "r009-a010",
+    "category": "obvious_reject",
+    "_training_archetype": "explicit_prohibition",
+    "intent": "infrastructure and analytics tooling — SaaS products for data and platform engineers",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x09aa00000000000000000000000000000000000a",
+      "recipient_domain": "datacamp.com",
+      "amount_usdc": "139.00",
+      "resource_description": "DataCamp Premium — data science and engineering track, annual subscription"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "DataCamp is an online data science training platform. The mandate covers SaaS products for data and platform engineers — meaning production tooling, not courses about those topics. A training subscription is an education expense. Reject."
+  },
+  {
+    "id": "r009-b001",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud storage and file synchronization services",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000001",
+      "recipient_domain": "apartmentlist.com",
+      "amount_usdc": "99.00",
+      "resource_description": "Apartment List Boost — featured rental listing with priority placement"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Apartment List is a rental marketplace. The mandate covers cloud storage and file synchronization services. A rental listing promotion is a real estate marketing cost with no storage or sync function. Reject."
+  },
+  {
+    "id": "r009-b002",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "application performance monitoring and metrics infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000002",
+      "recipient_domain": "crexi.com",
+      "amount_usdc": "250.00",
+      "resource_description": "Crexi Pro — commercial real estate search and analytics platform"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Crexi is a commercial real estate marketplace and analytics platform. The mandate covers application performance monitoring and infrastructure metrics. Commercial property analytics is a real estate research tool, not an APM platform. Reject."
+  },
+  {
+    "id": "r009-b003",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "developer workflow automation — CI/CD, testing, and deployment pipelines",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000003",
+      "recipient_domain": "rentcafe.com",
+      "amount_usdc": "75.00",
+      "resource_description": "RentCafe listing subscription — apartment community page, 30 days"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "RentCafe is a property management and rental listing platform. The mandate covers CI/CD, testing, and deployment pipelines. Rental listing subscriptions are real estate marketing expenses unrelated to developer workflow tooling. Reject."
+  },
+  {
+    "id": "r009-b004",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "network monitoring and traffic analysis tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-07-31T23:59:59Z",
+      "use_counter_remaining": 10
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000004",
+      "recipient_domain": "rent.com",
+      "amount_usdc": "80.00",
+      "resource_description": "Rent.com featured listing — apartment search promotion, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Rent.com is a rental property marketplace. The mandate covers network monitoring and traffic analysis tools. Featured rental listing placements are property advertising, not network monitoring infrastructure. Reject."
+  },
+  {
+    "id": "r009-b005",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud database services — relational and NoSQL managed platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "800.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000005",
+      "recipient_domain": "homeadvisor.com",
+      "amount_usdc": "150.00",
+      "resource_description": "HomeAdvisor Pro — contractor service lead generation, monthly plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "HomeAdvisor is a home improvement contractor marketplace. The mandate covers managed cloud database services. Contractor lead generation is a home services product with no database or cloud function. Reject."
+  },
+  {
+    "id": "r009-b006",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "service mesh and API communication infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000006",
+      "recipient_domain": "angieslist.com",
+      "amount_usdc": "89.00",
+      "resource_description": "Angi Leads — home service contractor membership, annual plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Angi's List is a home services marketplace connecting homeowners with contractors. The mandate covers service mesh and API communication infrastructure. Home contractor leads are not API or networking tools. Reject."
+  },
+  {
+    "id": "r009-b007",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "code quality and static analysis platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000007",
+      "recipient_domain": "thumbtack.com",
+      "amount_usdc": "110.00",
+      "resource_description": "Thumbtack Pro — local service professional listing and lead plan"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Thumbtack is a platform for finding local home service professionals. The mandate covers code quality and static analysis platforms. A local services listing plan has no code analysis function. Reject."
+  },
+  {
+    "id": "r009-b008",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "developer sandbox environments and preview deployment services",
+    "mandate_summary": {
+      "spend_cap_remaining": "450.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000008",
+      "recipient_domain": "taskrabbit.com",
+      "amount_usdc": "95.00",
+      "resource_description": "TaskRabbit — furniture assembly and handyman task booking"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "TaskRabbit is an on-demand home services marketplace for tasks like furniture assembly and cleaning. The mandate covers developer sandbox environments and preview deployment services. Booking a handyman is a personal home service, not a deployment environment. Reject."
+  },
+  {
+    "id": "r009-b009",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "infrastructure provisioning and IaC automation",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x09bb000000000000000000000000000000000009",
+      "recipient_domain": "handy.com",
+      "amount_usdc": "120.00",
+      "resource_description": "Handy Home Services — house cleaning and appliance installation booking"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Handy is a home cleaning and handyman services platform. The mandate covers infrastructure provisioning and IaC automation. Home cleaning bookings are personal household services that cannot fulfill an infrastructure automation mandate. Reject."
+  },
+  {
+    "id": "r009-b010",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "container registry and artifact storage services",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x09bb00000000000000000000000000000000000a",
+      "recipient_domain": "angi.com",
+      "amount_usdc": "65.00",
+      "resource_description": "Angi Ads — home improvement business advertising placement"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Angi is a home improvement marketplace. The mandate covers container registry and artifact storage services. Home improvement advertising is a consumer services cost, not a container or artifact platform. Reject."
+  },
+  {
+    "id": "r009-b011",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "software composition analysis and dependency scanning tools",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09bb00000000000000000000000000000000000b",
+      "recipient_domain": "houzz.com",
+      "amount_usdc": "299.00",
+      "resource_description": "Houzz Pro — home design and remodeling software for contractors"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Houzz is a home design and remodeling platform. The mandate covers software composition analysis and dependency scanning. Home design software for contractors is not a security or dependency tooling product. Reject."
+  },
+  {
+    "id": "r009-b012",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "cloud cost allocation and resource tagging infrastructure",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09bb00000000000000000000000000000000000c",
+      "recipient_domain": "buildzoom.com",
+      "amount_usdc": "180.00",
+      "resource_description": "BuildZoom Pro — contractor vetting and home renovation project management"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "BuildZoom is a contractor vetting and renovation project platform. The mandate covers cloud cost allocation and resource tagging infrastructure. Renovation project management is a home improvement service with no cloud resource management capability. Reject."
+  },
+  {
+    "id": "r009-b013",
+    "category": "obvious_reject",
+    "_training_archetype": "intent_mismatch",
+    "intent": "secrets rotation and certificate lifecycle management",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x09bb00000000000000000000000000000000000d",
+      "recipient_domain": "porch.com",
+      "amount_usdc": "95.00",
+      "resource_description": "Porch Pro — home services network membership for contractors"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Porch is a home services network connecting contractors with homeowners. The mandate covers secrets rotation and certificate lifecycle management. Home services network membership has no relationship to PKI or secrets management tooling. Reject."
+  },
+  {
+    "id": "r009-c001",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "developer platform subscriptions — tooling and workflow automation SaaS",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000001",
+      "recipient_domain": "tartecosmetics.com",
+      "amount_usdc": "78.00",
+      "resource_description": "Tarte Cosmetics — shape tape concealer and amazonian clay blush set"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Tarte Cosmetics is a beauty brand. The mandate covers developer platform subscriptions for tooling and workflow automation. Cosmetics are personal consumer products with no software platform function. Reject."
+  },
+  {
+    "id": "r009-c002",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "observability and monitoring infrastructure — licensed platforms only",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000002",
+      "recipient_domain": "hourglasscosmetics.com",
+      "amount_usdc": "115.00",
+      "resource_description": "Hourglass Cosmetics — Ambient lighting powder and Confession lipstick"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Hourglass Cosmetics is a luxury makeup brand. The mandate covers licensed observability and monitoring infrastructure. Luxury cosmetics are personal beauty purchases with no monitoring capability. Reject."
+  },
+  {
+    "id": "r009-c003",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud engineering tools and API services — B2B SaaS only",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000003",
+      "recipient_domain": "toofaced.com",
+      "amount_usdc": "62.00",
+      "resource_description": "Too Faced — Better Than Sex mascara and Born This Way foundation"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Too Faced is a cosmetics brand. The mandate covers cloud engineering tools and B2B API services. Cosmetics are personal beauty purchases with no engineering or API function. Reject."
+  },
+  {
+    "id": "r009-c004",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "security scanning and compliance platforms for engineering teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "600.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000004",
+      "recipient_domain": "urbandecay.com",
+      "amount_usdc": "95.00",
+      "resource_description": "Urban Decay — All Nighter setting spray and Naked eyeshadow palette"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Urban Decay is a cosmetics company. The mandate covers security scanning and compliance platforms. Makeup products are personal consumer items that have nothing to do with security tooling. Reject."
+  },
+  {
+    "id": "r009-c005",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "IaC and configuration management tooling — Terraform, Ansible, and equivalents",
+    "mandate_summary": {
+      "spend_cap_remaining": "450.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000005",
+      "recipient_domain": "narscosmetics.com",
+      "amount_usdc": "88.00",
+      "resource_description": "NARS Cosmetics — Radiant Creamy Concealer and Sheer Glow foundation"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "NARS Cosmetics is a luxury beauty brand. The mandate covers IaC and configuration management tooling. Cosmetics are personal care products with no infrastructure automation capability. Reject."
+  },
+  {
+    "id": "r009-c006",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "data warehousing and BI platform subscriptions",
+    "mandate_summary": {
+      "spend_cap_remaining": "700.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000006",
+      "recipient_domain": "benefitcosmetics.com",
+      "amount_usdc": "55.00",
+      "resource_description": "Benefit Cosmetics — Brow Zings eyebrow shaping kit and BADgal BANG mascara"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Benefit Cosmetics is a beauty brand. The mandate covers data warehousing and BI platform subscriptions. Eyebrow kits and mascaras are personal consumer goods with no data platform function. Reject."
+  },
+  {
+    "id": "r009-c007",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "engineering collaboration tools — code review and documentation platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "verified",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 9
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000007",
+      "recipient_domain": "covergirl.com",
+      "amount_usdc": "32.00",
+      "resource_description": "CoverGirl — Simply Ageless foundation and Lash Blast mascara bundle"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "CoverGirl is a mass-market cosmetics brand. The mandate covers code review and documentation platforms for engineering collaboration. Cosmetics are personal beauty products entirely unrelated to developer tooling. Reject."
+  },
+  {
+    "id": "r009-c008",
+    "category": "obvious_reject",
+    "_training_archetype": "personal_consumer",
+    "intent": "cloud-native monitoring and alerting — licensed SaaS for on-call teams",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09cc000000000000000000000000000000000008",
+      "recipient_domain": "maybelline.com",
+      "amount_usdc": "28.00",
+      "resource_description": "Maybelline — Fit Me foundation and Sky High mascara set"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Maybelline is a consumer cosmetics brand. The mandate covers cloud-native monitoring and alerting SaaS for on-call teams. Makeup products have no monitoring or alerting function. Reject."
+  },
+  {
+    "id": "r009-d001",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "cloud platform spend — compute and networking for product engineering",
+    "mandate_summary": {
+      "spend_cap_remaining": "5000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x09dd000000000000000000000000000000000001",
+      "recipient_domain": "questrade.com",
+      "amount_usdc": "3000.00",
+      "resource_description": "Questrade self-directed account — deposit for equities and ETF trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Questrade is a Canadian self-directed brokerage. The mandate covers compute and networking cloud spend for product engineering. Depositing into a brokerage for equities trading is financial speculation, not a cloud service. Reject."
+  },
+  {
+    "id": "r009-d002",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "SaaS tooling for engineering and DevOps — no financial services",
+    "mandate_summary": {
+      "spend_cap_remaining": "8000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x09dd000000000000000000000000000000000002",
+      "recipient_domain": "degiro.com",
+      "amount_usdc": "4500.00",
+      "resource_description": "DEGIRO brokerage account — deposit for European equities trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "DEGIRO is a European discount brokerage. The mandate covers SaaS tooling for engineering and DevOps and explicitly excludes financial services. A brokerage account deposit is financial speculation. Reject."
+  },
+  {
+    "id": "r009-d003",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "developer productivity and build tooling — licensed software only",
+    "mandate_summary": {
+      "spend_cap_remaining": "3000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x09dd000000000000000000000000000000000003",
+      "recipient_domain": "saxo.com",
+      "amount_usdc": "2000.00",
+      "resource_description": "Saxo Bank trading account — deposit for FX, stocks, and CFD trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Saxo Bank is a multi-asset trading platform for FX and CFDs. The mandate covers licensed developer productivity and build tooling. Opening and funding a CFD trading account is financial speculation, not a software license. Reject."
+  },
+  {
+    "id": "r009-d004",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "observability and error monitoring platforms — cloud-hosted SaaS",
+    "mandate_summary": {
+      "spend_cap_remaining": "6000.00 USDC",
+      "recipient_policy": "category",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 2
+    },
+    "redemption": {
+      "recipient_address": "0x09dd000000000000000000000000000000000004",
+      "recipient_domain": "lightspeedtrading.com",
+      "amount_usdc": "5000.00",
+      "resource_description": "Lightspeed Trading — account funding for active equities and options trading"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Lightspeed Trading is an active trading platform for equities and options. The mandate covers cloud-hosted observability and error monitoring SaaS. Funding a trading account for active speculation is not a monitoring platform subscription. Reject."
+  },
+  {
+    "id": "r009-d005",
+    "category": "obvious_reject",
+    "_training_archetype": "financial_speculation",
+    "intent": "security and compliance tooling — authorized vendors for audit and risk platforms",
+    "mandate_summary": {
+      "spend_cap_remaining": "10000.00 USDC",
+      "recipient_policy": "any",
+      "expiry_iso": "2026-08-31T23:59:59Z",
+      "use_counter_remaining": 1
+    },
+    "redemption": {
+      "recipient_address": "0x09dd000000000000000000000000000000000005",
+      "recipient_domain": "swissquote.com",
+      "amount_usdc": "7500.00",
+      "resource_description": "Swissquote trading account — deposit for forex and structured products"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Swissquote is a Swiss online bank and trading platform for forex and structured products. The mandate covers security and compliance audit platforms. Funding a forex trading account at a Swiss bank is financial speculation incompatible with security tooling spend. Reject."
+  },
+  {
+    "id": "r009-e001",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "infrastructure tooling binaries — authorized download endpoint: releases.hashicorp.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09ee000000000000000000000000000000000001",
+      "recipient_domain": "hashicorp-releases-verify.net",
+      "amount_usdc": "150.00",
+      "resource_description": "HashiCorp release verification — Terraform binary authenticity check and license"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "hashicorp-releases-verify.net is not a legitimate HashiCorp domain. Official HashiCorp releases are served at releases.hashicorp.com. This domain impersonates a HashiCorp release verification service to collect fraudulent license fees. Reject."
+  },
+  {
+    "id": "r009-e002",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "cloud infrastructure tooling — authorized platforms for IaC and secrets management",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x09ee000000000000000000000000000000000002",
+      "recipient_domain": "terraform-cloud-billing.io",
+      "amount_usdc": "120.00",
+      "resource_description": "Terraform Cloud billing portal — workspace upgrade and run credit"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "terraform-cloud-billing.io is not an official HashiCorp or Terraform domain. Terraform Cloud billing is handled through app.terraform.io and hashicorp.com. This domain impersonates Terraform Cloud billing to intercept payment. Reject."
+  },
+  {
+    "id": "r009-e003",
+    "category": "obvious_reject",
+    "_training_archetype": "scam_fraud",
+    "intent": "secrets and credential management — Vault Enterprise deployment",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 3
+    },
+    "redemption": {
+      "recipient_address": "0x09ee000000000000000000000000000000000003",
+      "recipient_domain": "vault-enterprise-renewal.org",
+      "amount_usdc": "280.00",
+      "resource_description": "Vault Enterprise license renewal — annual seat count and cluster fee"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "vault-enterprise-renewal.org is not a legitimate HashiCorp domain. Vault Enterprise licenses are sold and renewed through hashicorp.com. This domain spoofs a Vault renewal portal to collect fraudulent license payments. Reject."
+  },
+  {
+    "id": "r009-f001",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "task management and team coordination — authorized vendor: monday.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000001",
+      "recipient_domain": "trello.com",
+      "amount_usdc": "130.00",
+      "resource_description": "Trello Premium — Kanban boards and task tracking, per-seat monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Trello is a Kanban-based task management tool. The mandate names monday.com as the authorized vendor for task and team coordination. Trello is a different platform and cannot substitute for the named vendor. Reject."
+  },
+  {
+    "id": "r009-f002",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "project and sprint tracking — authorized vendor: jira.atlassian.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "500.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 4
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000002",
+      "recipient_domain": "clickup.com",
+      "amount_usdc": "99.00",
+      "resource_description": "ClickUp Business — all-in-one productivity platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "ClickUp is a productivity and project management platform. The mandate specifies jira.atlassian.com as the authorized project tracking vendor. ClickUp is a different product and cannot replace the named vendor. Reject."
+  },
+  {
+    "id": "r009-f003",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "spreadsheet-based workflow and project planning — authorized vendor: monday.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "350.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000003",
+      "recipient_domain": "smartsheet.com",
+      "amount_usdc": "115.00",
+      "resource_description": "Smartsheet Business — spreadsheet-based project management, per seat"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Smartsheet is a spreadsheet-based project management tool. The mandate names monday.com as the authorized vendor for workflow and project planning. Smartsheet is not the named platform. Reject."
+  },
+  {
+    "id": "r009-f004",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "team project and resource management — authorized vendor: teamwork.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-11-30T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000004",
+      "recipient_domain": "wrike.com",
+      "amount_usdc": "95.00",
+      "resource_description": "Wrike Business — project and resource management platform, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Wrike is a project and resource management platform. The mandate specifies teamwork.com as the authorized vendor. Wrike is a direct competitor but not the named recipient. Reject."
+  },
+  {
+    "id": "r009-f005",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "visual diagramming and technical architecture tooling — authorized vendor: lucidchart.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "250.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 7
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000005",
+      "recipient_domain": "mural.co",
+      "amount_usdc": "70.00",
+      "resource_description": "MURAL Team plan — collaborative visual workspace and diagramming"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "MURAL is a collaborative visual workspace. The mandate names lucidchart.com as the authorized diagramming vendor. MURAL serves a similar function but is not the specified platform. Reject."
+  },
+  {
+    "id": "r009-f006",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "team graphic design and visual content creation — authorized vendor: canva.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "200.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-09-30T23:59:59Z",
+      "use_counter_remaining": 8
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000006",
+      "recipient_domain": "adobe.com",
+      "amount_usdc": "80.00",
+      "resource_description": "Adobe Express — quick-start graphic design and social content tool, monthly"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Adobe Express is a graphic design tool. The mandate names canva.com as the authorized visual content creation platform. Adobe Express is a competing product not listed in the mandate. Reject."
+  },
+  {
+    "id": "r009-f007",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "collaborative online whiteboard — authorized vendor: miro.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "300.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-10-31T23:59:59Z",
+      "use_counter_remaining": 6
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000007",
+      "recipient_domain": "jamboard.google.com",
+      "amount_usdc": "0.00",
+      "resource_description": "Google Jamboard — collaborative whiteboard workspace, free tier"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "Google Jamboard is a collaborative whiteboard tool. The mandate names miro.com as the authorized whiteboard vendor. Jamboard is a different product from a different vendor; the named-vendor constraint prohibits substitution. Reject."
+  },
+  {
+    "id": "r009-f008",
+    "category": "obvious_reject",
+    "_training_archetype": "recipient_constraint",
+    "intent": "infrastructure tooling binaries — authorized download endpoint: releases.hashicorp.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09ff000000000000000000000000000000000008",
+      "recipient_domain": "hashicorp.com",
+      "amount_usdc": "250.00",
+      "resource_description": "HashiCorp Terraform Cloud — Business tier, managed workspace and run credits"
+    },
+    "expected_verdict": "reject",
+    "expected_reasoning": "HashiCorp.com is the HashiCorp corporate and product portal. The mandate specifies releases.hashicorp.com, the official binary and release distribution endpoint. The mandate targets the release download infrastructure specifically, not the corporate domain or SaaS dashboard. Reject."
+  },
+  {
+    "id": "s009-f001",
+    "category": "obvious_approve",
+    "_training_archetype": "subdomain_pair_approve",
+    "intent": "infrastructure tooling binaries — authorized download endpoint: releases.hashicorp.com",
+    "mandate_summary": {
+      "spend_cap_remaining": "400.00 USDC",
+      "recipient_policy": "named",
+      "expiry_iso": "2026-12-31T23:59:59Z",
+      "use_counter_remaining": 5
+    },
+    "redemption": {
+      "recipient_address": "0x09fa000000000000000000000000000000000001",
+      "recipient_domain": "releases.hashicorp.com",
+      "amount_usdc": "250.00",
+      "resource_description": "HashiCorp releases — Terraform v1.9 binary download and enterprise license validation"
+    },
+    "expected_verdict": "approve",
+    "expected_reasoning": "releases.hashicorp.com is the named authorized endpoint for HashiCorp binary distribution. The amount of $250.00 is within the $400.00 remaining cap. The resource is a Terraform binary and license validation consistent with the infrastructure tooling intent. Approve."
+  }
+]
