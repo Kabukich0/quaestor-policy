@@ -1,20 +1,21 @@
 /**
  * The single entry point used by quaestor-core: evaluateRedemption.
  *
+ * Goldseel v0.2.0 changes from v0.1.0:
+ *   - Input redemption is enriched with recipient_categories + recipient_name
+ *     from @quaestor/vendor-registry. If a caller passes a raw redemption
+ *     (no recipient_categories), we enrich on the fly so callers don't have
+ *     to change.
+ *   - Model emits plain-text VERDICT/REASONING instead of JSON. No grammar.
+ *
  * Privacy invariants enforced here:
  *   - Intent is read once into the prompt and never returned to the caller
- *     except as part of the model's reasoning string (which the user already
- *     authored; surfacing the model's gloss back to them is fine).
- *   - We never log the intent. The only stderr writes are model-load progress.
- *   - The model handle stays in this module's closure; consumers cannot
- *     inspect KV cache or reach into the underlying llama.cpp session.
- *
- * Performance:
- *   - First call lazy-loads the model (~5–30s on cold disk).
- *   - Subsequent calls reuse the same LlamaModel + LlamaContext.
- *   - Each evaluation creates a fresh chat session (no cross-call leakage).
+ *     except as part of the model's reasoning string.
+ *   - We never log the intent.
+ *   - The model handle stays in this module's closure.
  */
 import { z } from 'zod';
+import { enrichRedemption as enrich } from '@quaestor/vendor-registry';
 import {
   ModelMissingError,
   QWEN_2_5_3B_Q4KM,
@@ -29,28 +30,34 @@ import {
 } from './enforcement.js';
 import { parseModelOutput } from './parse.js';
 import {
+  type EnrichedRedemption,
   type MandateSummary,
   type PromptInput,
-  type RedemptionContext,
-  RESPONSE_SCHEMA,
   SYSTEM_PROMPT,
   buildRetryPrompt,
   buildUserPrompt,
 } from './prompt.js';
 
+/**
+ * Caller can pass either a raw redemption or a pre-enriched one. If
+ * recipient_categories is missing, we look it up via the vendor registry.
+ */
 export const EvaluateInputSchema = z.object({
   intent: z.string(),
   mandate_summary: z.object({
     spend_cap_remaining: z.string(),
     recipient_policy: z.string(),
     expiry_iso: z.string(),
-    use_counter_remaining: z.number().int().nonnegative(),
+    use_counter_remaining: z.number().int().nonnegative().nullable(),
   }),
   redemption: z.object({
-    recipient_address: z.string(),
+    recipient_address: z.string().nullable().optional(),
     recipient_domain: z.string().optional(),
     amount_usdc: z.string(),
     resource_description: z.string().optional(),
+    recipient_categories: z.array(z.string()).optional(),
+    recipient_name: z.string().nullable().optional(),
+    vendor_known: z.boolean().optional(),
   }),
 });
 
@@ -65,59 +72,66 @@ export interface EvaluateResult {
   model_id: string;
 }
 
-/**
- * What the daemon dynamically imports. Held as a module singleton so the
- * 2GB model is loaded exactly once per daemon process.
- */
 interface ModelHandle {
   spec: ModelSpec;
-  // node-llama-cpp types — kept opaque here so the rest of the file isn't
-  // coupled to its public types (which moved twice in the 3.x line).
   // biome-ignore lint/suspicious/noExplicitAny: external typed loosely on purpose
   llama: any;
   // biome-ignore lint/suspicious/noExplicitAny: external typed loosely on purpose
   model: any;
-  // biome-ignore lint/suspicious/noExplicitAny: external typed loosely on purpose
-  grammar: any;
 }
 
 let cached: Promise<ModelHandle> | null = null;
 
 async function loadHandle(spec: ModelSpec = QWEN_2_5_3B_Q4KM): Promise<ModelHandle> {
-  if (!(await modelExists(spec))) throw new ModelMissingError(spec);
+  // QUAESTOR_MODEL_PATH overrides everything: useful for evaluating a
+  // specific Goldseel GGUF without overwriting the production install.
+  const override = process.env.QUAESTOR_MODEL_PATH;
+  const effectivePath = override ?? modelPath(spec);
+  if (!override && !(await modelExists(spec))) throw new ModelMissingError(spec);
   // biome-ignore lint/suspicious/noExplicitAny: node-llama-cpp dynamic import
   const llamaMod: any = await import('node-llama-cpp');
   const llama = await llamaMod.getLlama();
-  const model = await llama.loadModel({ modelPath: modelPath(spec) });
-  const grammar = await llama.createGrammarForJsonSchema(RESPONSE_SCHEMA);
-  return { spec, llama, model, grammar };
+  const model = await llama.loadModel({ modelPath: effectivePath });
+  return { spec: override ? { ...spec, id: `override:${override}` } : spec, llama, model };
 }
 
-/**
- * Pre-warm the model. Useful for daemons that want to amortise the load cost
- * before the first request arrives. Idempotent.
- */
 export async function preload(spec: ModelSpec = QWEN_2_5_3B_Q4KM): Promise<void> {
   if (!cached) cached = loadHandle(spec);
   await cached;
 }
 
-/**
- * Evaluate a redemption against the mandate's intent. Returns a structured
- * verdict + enforcement decision. Never throws on a bad model output — falls
- * back to soft_warn so a flaky model can't deny legitimate payments.
- *
- * Throws:
- *   - ModelMissingError if the GGUF isn't installed.
- *   - Other errors only for genuine system failures (OOM, disk gone, etc.).
- */
+function ensureEnriched(red: EvaluateInput['redemption']): EnrichedRedemption {
+  if (
+    red.recipient_categories !== undefined &&
+    red.recipient_name !== undefined &&
+    red.vendor_known !== undefined
+  ) {
+    return {
+      recipient_address: red.recipient_address ?? null,
+      recipient_domain: red.recipient_domain ?? '',
+      amount_usdc: red.amount_usdc,
+      resource_description: red.resource_description ?? '',
+      recipient_categories: red.recipient_categories,
+      recipient_name: red.recipient_name,
+      vendor_known: red.vendor_known,
+    };
+  }
+  const e = enrich({ recipient_domain: red.recipient_domain ?? '' });
+  return {
+    recipient_address: red.recipient_address ?? null,
+    recipient_domain: red.recipient_domain ?? '',
+    amount_usdc: red.amount_usdc,
+    resource_description: red.resource_description ?? '',
+    recipient_categories: e.recipient_categories,
+    recipient_name: e.recipient_name,
+    vendor_known: e.recipient_categories.length > 0,
+  };
+}
+
 export async function evaluateRedemption(input: EvaluateInput): Promise<EvaluateResult> {
   const parsed = EvaluateInputSchema.parse(input);
   const start = Date.now();
 
-  // Empty-intent fast path — the daemon also short-circuits this, but be
-  // defensive. The model would correctly approve at confidence 1.0; we just
-  // skip the inference entirely.
   if (parsed.intent.trim().length === 0) {
     return {
       verdict: 'approve',
@@ -132,18 +146,26 @@ export async function evaluateRedemption(input: EvaluateInput): Promise<Evaluate
   if (!cached) cached = loadHandle();
   const handle = await cached;
 
-  const userPrompt = buildUserPrompt(parsed as PromptInput);
+  const enrichedRedemption = ensureEnriched(parsed.redemption);
+  const promptInput: PromptInput = {
+    intent: parsed.intent,
+    mandate_summary: {
+      ...parsed.mandate_summary,
+      use_counter_remaining: parsed.mandate_summary.use_counter_remaining ?? Number.POSITIVE_INFINITY,
+    } as MandateSummary,
+    redemption: enrichedRedemption,
+  };
+
+  const userPrompt = buildUserPrompt(promptInput);
   const first = await runOnce(handle, userPrompt);
   let parsedOut = parseModelOutput(first);
 
   if (!parsedOut.ok) {
-    const retry = await runOnce(handle, buildRetryPrompt(parsed as PromptInput, first));
+    const retry = await runOnce(handle, buildRetryPrompt(promptInput, first));
     parsedOut = parseModelOutput(retry);
   }
 
   if (!parsedOut.ok || !parsedOut.verdict) {
-    // Fail-safe: soft warn, NOT hard reject. A confused model must not block
-    // a payment whose structured policy has already cleared.
     return {
       verdict: 'reject',
       confidence: 0.5,
@@ -165,8 +187,6 @@ export async function evaluateRedemption(input: EvaluateInput): Promise<Evaluate
 }
 
 async function runOnce(handle: ModelHandle, userPrompt: string): Promise<string> {
-  // 2048 fits the system prompt (~1100 tokens) + per-request body (~400 tokens) +
-  // headroom for the 256-token output. Halving from 4096 nets ~30% latency on M-series.
   const ctx = await handle.model.createContext({ contextSize: 2048 });
   try {
     // biome-ignore lint/suspicious/noExplicitAny: node-llama-cpp dynamic import
@@ -176,7 +196,6 @@ async function runOnce(handle: ModelHandle, userPrompt: string): Promise<string>
       systemPrompt: SYSTEM_PROMPT,
     });
     const out = await session.prompt(userPrompt, {
-      grammar: handle.grammar,
       maxTokens: 200,
       temperature: 0.1,
       topP: 0.9,
@@ -187,10 +206,9 @@ async function runOnce(handle: ModelHandle, userPrompt: string): Promise<string>
   }
 }
 
-/** Reset the cached model — used by tests + when reloading config. */
 export function resetForTesting(): void {
   cached = null;
 }
 
-export type { Enforcement, MandateSummary, RedemptionContext };
+export type { Enforcement, EnrichedRedemption, MandateSummary };
 export { HARD_REJECT_THRESHOLD };

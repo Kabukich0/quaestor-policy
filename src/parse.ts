@@ -1,6 +1,13 @@
 /**
- * Pure parser for the model's structured output. Lives in its own module so
- * unit tests cover every malformed-output branch without spinning up llama.cpp.
+ * Pure parser for the model's structured output (Goldseel v0.2.0).
+ *
+ * The v0.2.0 fine-tune emits plain text:
+ *   VERDICT: approve|reject
+ *   REASONING: <one sentence>
+ *
+ * For backward compat, the parser also accepts the old JSON shape
+ * ({verdict, confidence, reasoning}) so the old v0.1.0 GGUF can still
+ * be smoke-tested through the harness without a code change.
  */
 import { z } from 'zod';
 
@@ -18,37 +25,50 @@ export interface ParseResult {
   error?: string;
 }
 
-/**
- * Try to parse the model's raw text into a Verdict.
- *
- * The model is supposed to emit JSON only thanks to grammar constraints, but
- * we still defensively strip ``` fences and surrounding prose because:
- *   - Some quantized models leak a leading newline before the JSON.
- *   - Adapters in node-llama-cpp occasionally include a trailing eos string.
- */
+const VERDICT_LINE = /VERDICT\s*[:=]\s*(approve|reject)\b/i;
+const REASONING_LINE = /REASONING\s*[:=]\s*([\s\S]*?)(?:\n\s*VERDICT|\n\s*REASONING|\n\s*$|$)/i;
+
 export function parseModelOutput(raw: string): ParseResult {
-  const trimmed = extractJson(raw);
-  if (!trimmed) return { ok: false, error: 'no_json_object_found' };
-  let parsed: unknown;
-  try {
-    parsed = JSON.parse(trimmed);
-  } catch (e) {
-    return { ok: false, error: `json_parse_failed: ${(e as Error).message}` };
+  const text = raw.trim();
+  if (!text) return { ok: false, error: 'empty_output' };
+
+  // 1. Plain-text VERDICT/REASONING (Goldseel v0.2.0 format)
+  const verdictMatch = text.match(VERDICT_LINE);
+  if (verdictMatch?.[1]) {
+    const verdict = verdictMatch[1].toLowerCase() as 'approve' | 'reject';
+    const reasoningMatch = text.match(REASONING_LINE);
+    const reasoning = (reasoningMatch?.[1] ?? '').trim() || `(no reasoning given for ${verdict})`;
+    const result = VerdictSchema.safeParse({
+      verdict,
+      confidence: 1.0, // v0.2.0 model doesn't emit confidence; fix at 1.0
+      reasoning: reasoning.slice(0, 2000),
+    });
+    if (!result.success) return { ok: false, error: `schema_violation: ${result.error.message}` };
+    return { ok: true, verdict: result.data };
   }
-  const result = VerdictSchema.safeParse(parsed);
-  if (!result.success) {
-    return { ok: false, error: `schema_violation: ${result.error.message}` };
+
+  // 2. JSON envelope (legacy v0.1.0 format)
+  const json = extractJson(text);
+  if (json) {
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(json);
+    } catch (e) {
+      return { ok: false, error: `json_parse_failed: ${(e as Error).message}` };
+    }
+    const result = VerdictSchema.safeParse(parsed);
+    if (!result.success) return { ok: false, error: `schema_violation: ${result.error.message}` };
+    return { ok: true, verdict: result.data };
   }
-  return { ok: true, verdict: result.data };
+
+  return { ok: false, error: 'no_verdict_found' };
 }
 
 function extractJson(raw: string): string | null {
   const stripped = raw.trim();
   if (stripped.startsWith('{') && stripped.endsWith('}')) return stripped;
-  // Strip ``` fences.
   const fence = stripped.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
   if (fence?.[1]) return fence[1];
-  // Last-resort: first { … last }. Bracket-balanced match avoids nested-brace issues.
   const first = stripped.indexOf('{');
   const last = stripped.lastIndexOf('}');
   if (first >= 0 && last > first) return stripped.slice(first, last + 1);

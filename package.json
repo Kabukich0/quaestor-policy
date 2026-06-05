@@ -29,6 +29,7 @@
     "prepare": "[ -f tsconfig.json ] && tsc -p tsconfig.json || true"
   },
   "dependencies": {
+    "@quaestor/vendor-registry": "file:../quaestor-vendor-registry",
     "node-llama-cpp": "^3.4.0",
     "zod": "^3.23.0"
   },

@@ -12,30 +12,25 @@
  *   - writes eval/results/<timestamp>.json
  *   - writes eval/results/latest.json (for README auto-section)
  */
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { evaluateRedemption } from '../src/evaluate.js';
+import type { EnrichedCase } from './schema.js';
 
-interface Case {
-  id: string;
-  category: 'obvious_approve' | 'obvious_reject' | 'edge';
-  intent: string;
-  mandate_summary: {
-    spend_cap_remaining: string;
-    recipient_policy: string;
-    expiry_iso: string;
-    use_counter_remaining: number;
-  };
-  redemption: {
-    recipient_address: string;
-    recipient_domain?: string;
-    amount_usdc: string;
-    resource_description?: string;
-  };
-  expected_verdict: 'approve' | 'reject' | '';
-  expected_reasoning: string;
+// Parse --model flag BEFORE importing evaluate.js so QUAESTOR_MODEL_PATH is set
+// in time for the lazy model handle to pick it up.
+{
+  const args = process.argv.slice(2);
+  const idx = args.indexOf('--model');
+  if (idx >= 0 && args[idx + 1]) {
+    const p = path.resolve(args[idx + 1] as string);
+    process.env.QUAESTOR_MODEL_PATH = p;
+    process.stderr.write(`[eval] using model override: ${p}\n`);
+  }
 }
+const { evaluateRedemption } = await import('../src/evaluate.js');
+
+type Case = EnrichedCase & { category: 'obvious_approve' | 'obvious_reject' | 'edge' };
 
 interface CaseResult {
   id: string;
@@ -52,17 +47,22 @@ interface CaseResult {
 const here = path.dirname(fileURLToPath(import.meta.url));
 
 async function main() {
-  const casesPath = path.join(here, 'cases.json');
+  // Prefer the v0.2.0 enriched cases (recipient_categories pre-attached).
+  // Fall back to the legacy cases.json — evaluateRedemption() will enrich
+  // on the fly via @quaestor/vendor-registry.
+  const enrichedPath = path.join(here, 'cases-v0.2.0-enriched.json');
+  const casesPath = existsSync(enrichedPath) ? enrichedPath : path.join(here, 'cases.json');
   let cases: Case[];
   try {
     cases = JSON.parse(readFileSync(casesPath, 'utf8'));
   } catch {
     process.stderr.write(
-      `eval/cases.json not found. Copy eval/cases.template.json to eval/cases.json and fill in expected_verdict for each case.\n`,
+      `${path.basename(casesPath)} not found. Run training/enrich.ts to generate eval/cases-v0.2.0-enriched.json.\n`,
     );
     process.exit(2);
     return;
   }
+  process.stderr.write(`[eval] using ${path.basename(casesPath)}\n`);
 
   const unlabeled = cases.filter((c) => c.expected_verdict !== 'approve' && c.expected_verdict !== 'reject');
   if (unlabeled.length > 0) {

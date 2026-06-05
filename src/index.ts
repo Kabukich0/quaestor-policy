@@ -10,7 +10,7 @@ export {
   resetForTesting,
 } from './evaluate.js';
 export type { EvaluateInput, EvaluateResult, Enforcement } from './evaluate.js';
-export type { MandateSummary, RedemptionContext, PromptInput } from './prompt.js';
+export type { MandateSummary, EnrichedRedemption, PromptInput } from './prompt.js';
 export {
   downloadModel,
   modelExists,
